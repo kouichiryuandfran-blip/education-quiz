@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>教育クイズ</title>
+  <meta name="theme-color" content="#1976d2">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="教育クイズ">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="topbar">
+      <button class="small-btn" onclick="location.href='index.html'">← 戻る</button>
+      <div id="groupTitle" class="group-title"></div>
+    </div>
+
+    <div id="menu" class="menu-card"></div>
+
+    <div id="quiz" class="hidden">
+      <div id="counter" class="counter"></div>
+      <div id="type" class="type-label"></div>
+      <div id="question" class="card question-card"></div>
+
+      <button id="showAnswerBtn" onclick="showAnswer()" class="main-btn">答えを見る</button>
+
+      <div id="answer" class="answer hidden"></div>
+
+      <div id="judge" class="judge-area hidden">
+        <button onclick="mark(true)" class="ok">○ 正解</button>
+        <button onclick="mark(false)" class="ng">× 不正解</button>
+      </div>
+
+      <button onclick="nextQuestion()" id="nextBtn" class="next hidden">次の問題へ</button>
+
+      <div id="stats" class="stats"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

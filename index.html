@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>教育クイズ</title>
+  <meta name="theme-color" content="#1976d2">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="教育クイズ">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📘 教育クイズ</h1>
+    <p class="subtext">学習する分野を選択してください</p>
+    <div id="groupList"></div>
+  </div>
+
+  <script>
+    const groups = [
+      "01_管理一般",
+      "02_建築学",
+      "03_建築工事",
+      "04_建築改修工事",
+      "05_不具合・劣化事象",
+      "06_施工管理技士(1建施)",
+      "07_施工管理技士(2建施)"
+    ];
+
+    const list = document.getElementById("groupList");
+
+    groups.forEach(group => {
+      const btn = document.createElement("button");
+      btn.className = "card-btn";
+      btn.textContent = group;
+      btn.onclick = () => {
+        location.href = "app.html?group=" + encodeURIComponent(group);
+      };
+      list.appendChild(btn);
+    });
+
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./service-worker.js")
+          .then(() => console.log("Service Worker registered"))
+          .catch(err => console.error("Service Worker registration failed:", err));
+      });
+    }
+  </script>
+</body>
+</html>
