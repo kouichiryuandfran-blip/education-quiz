@@ -148,12 +148,28 @@ function loadQuestion() {
     throw new Error("問題データが見つかりません。");
   }
 
-  setText("counter", `${index + 1} / ${questions.length}`);
-  setText("type", `【${q.type || q.format || "問題"}】`);
-  setText("question", q.question || q.quiz || q.title || "");
+  const grade = q.grade || "";
+  const category = q.category || "";
+  const id = q.id || "";
 
-  const answerText = q.answer || q.correct_answer || "";
-  const explanationText = q.explanation || q.commentary || q.note || "";
+  let label = "";
+  if (category && grade) {
+    label = `【${category} / ${grade}】`;
+  } else if (category) {
+    label = `【${category}】`;
+  } else if (grade) {
+    label = `【${grade}】`;
+  } else {
+    label = "【問題】";
+  }
+
+  setText("counter", `${index + 1} / ${questions.length}`);
+  setText("type", label);
+  setText("questionId", id ? `問題番号: ${id}` : "");
+  setText("question", q.question || "");
+
+  const answerText = q.answer || "";
+  const explanationText = q.explanation || "";
 
   const answerHtml =
     `<b>解答</b><br>${escapeHtml(answerText).replace(/\n/g, "<br>")}` +
