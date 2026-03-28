@@ -1,0 +1,153 @@
+{
+  "menu_name": "01_管理一般",
+  "quiz_count": 21,
+  "quizzes": [
+    {
+      "file_name": "個人情報保護(建築改修工事)_中級.json",
+      "file_stem": "個人情報保護(建築改修工事)_中級",
+      "title": "個人情報保護(建築改修工事)_中級",
+      "question_count": 0,
+      "relative_path": "01_管理一般/個人情報保護(建築改修工事)_中級.json"
+    },
+    {
+      "file_name": "個人情報保護(建築改修工事)_初級.json",
+      "file_stem": "個人情報保護(建築改修工事)_初級",
+      "title": "個人情報保護(建築改修工事)_初級",
+      "question_count": 0,
+      "relative_path": "01_管理一般/個人情報保護(建築改修工事)_初級.json"
+    },
+    {
+      "file_name": "化学物質管理_初級.json",
+      "file_stem": "化学物質管理_初級",
+      "title": "化学物質管理_初級",
+      "question_count": 0,
+      "relative_path": "01_管理一般/化学物質管理_初級.json"
+    },
+    {
+      "file_name": "品質管理(建築改修工事)_中級.json",
+      "file_stem": "品質管理(建築改修工事)_中級",
+      "title": "品質管理(建築改修工事)_中級",
+      "question_count": 0,
+      "relative_path": "01_管理一般/品質管理(建築改修工事)_中級.json"
+    },
+    {
+      "file_name": "品質管理(建築改修工事)_初級.json",
+      "file_stem": "品質管理(建築改修工事)_初級",
+      "title": "品質管理(建築改修工事)_初級",
+      "question_count": 0,
+      "relative_path": "01_管理一般/品質管理(建築改修工事)_初級.json"
+    },
+    {
+      "file_name": "品質管理_初級(2建施過去問).json",
+      "file_stem": "品質管理_初級(2建施過去問)",
+      "title": "品質管理_初級(2建施過去問)",
+      "question_count": 0,
+      "relative_path": "01_管理一般/品質管理_初級(2建施過去問).json"
+    },
+    {
+      "file_name": "外国人建設労働者管理_中級.json",
+      "file_stem": "外国人建設労働者管理_中級",
+      "title": "外国人建設労働者管理_中級",
+      "question_count": 0,
+      "relative_path": "01_管理一般/外国人建設労働者管理_中級.json"
+    },
+    {
+      "file_name": "外国人建設労働者管理_初級.json",
+      "file_stem": "外国人建設労働者管理_初級",
+      "title": "外国人建設労働者管理_初級",
+      "question_count": 0,
+      "relative_path": "01_管理一般/外国人建設労働者管理_初級.json"
+    },
+    {
+      "file_name": "安全衛生管理(労働災害事例・防止対策)_初級.json",
+      "file_stem": "安全衛生管理(労働災害事例・防止対策)_初級",
+      "title": "安全衛生管理(労働災害事例・防止対策)_初級",
+      "question_count": 0,
+      "relative_path": "01_管理一般/安全衛生管理(労働災害事例・防止対策)_初級.json"
+    },
+    {
+      "file_name": "安全衛生管理(建築改修工事)_中級.json",
+      "file_stem": "安全衛生管理(建築改修工事)_中級",
+      "title": "安全衛生管理(建築改修工事)_中級",
+      "question_count": 0,
+      "relative_path": "01_管理一般/安全衛生管理(建築改修工事)_中級.json"
+    },
+    {
+      "file_name": "安全衛生管理(建築改修工事)_初級.json",
+      "file_stem": "安全衛生管理(建築改修工事)_初級",
+      "title": "安全衛生管理(建築改修工事)_初級",
+      "question_count": 0,
+      "relative_path": "01_管理一般/安全衛生管理(建築改修工事)_初級.json"
+    },
+    {
+      "file_name": "安全衛生管理_中級.json",
+      "file_stem": "安全衛生管理_中級",
+      "title": "安全衛生管理_中級",
+      "question_count": 0,
+      "relative_path": "01_管理一般/安全衛生管理_中級.json"
+    },
+    {
+      "file_name": "安全衛生管理_初級(2建施過去問).json",
+      "file_stem": "安全衛生管理_初級(2建施過去問)",
+      "title": "安全衛生管理_初級(2建施過去問)",
+      "question_count": 0,
+      "relative_path": "01_管理一般/安全衛生管理_初級(2建施過去問).json"
+    },
+    {
+      "file_name": "安全衛生管理_初級.json",
+      "file_stem": "安全衛生管理_初級",
+      "title": "安全衛生管理_初級",
+      "question_count": 0,
+      "relative_path": "01_管理一般/安全衛生管理_初級.json"
+    },
+    {
+      "file_name": "工程管理_中級(1建施).json",
+      "file_stem": "工程管理_中級(1建施)",
+      "title": "工程管理_中級(1建施)",
+      "question_count": 0,
+      "relative_path": "01_管理一般/工程管理_中級(1建施).json"
+    },
+    {
+      "file_name": "工程管理_初級(2建施過去問).json",
+      "file_stem": "工程管理_初級(2建施過去問)",
+      "title": "工程管理_初級(2建施過去問)",
+      "question_count": 0,
+      "relative_path": "01_管理一般/工程管理_初級(2建施過去問).json"
+    },
+    {
+      "file_name": "建築法規(建築改修工事)_中級.json",
+      "file_stem": "建築法規(建築改修工事)_中級",
+      "title": "建築法規(建築改修工事)_中級",
+      "question_count": 0,
+      "relative_path": "01_管理一般/建築法規(建築改修工事)_中級.json"
+    },
+    {
+      "file_name": "施工管理(工程•品質)_中級.json",
+      "file_stem": "施工管理(工程•品質)_中級",
+      "title": "施工管理(工程•品質)_中級",
+      "question_count": 0,
+      "relative_path": "01_管理一般/施工管理(工程•品質)_中級.json"
+    },
+    {
+      "file_name": "施工計画・施工管理_中級(1建施).json",
+      "file_stem": "施工計画・施工管理_中級(1建施)",
+      "title": "施工計画・施工管理_中級(1建施)",
+      "question_count": 0,
+      "relative_path": "01_管理一般/施工計画・施工管理_中級(1建施).json"
+    },
+    {
+      "file_name": "石綿管理_中級.json",
+      "file_stem": "石綿管理_中級",
+      "title": "石綿管理_中級",
+      "question_count": 0,
+      "relative_path": "01_管理一般/石綿管理_中級.json"
+    },
+    {
+      "file_name": "石綿管理_初級.json",
+      "file_stem": "石綿管理_初級",
+      "title": "石綿管理_初級",
+      "question_count": 0,
+      "relative_path": "01_管理一般/石綿管理_初級.json"
+    }
+  ]
+}
