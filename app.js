@@ -1,10 +1,10 @@
-let db = {};
+let menuData = {};
 let questions = [];
 let index = 0;
 let correct = 0;
 let total = 0;
-let currentCategory = "";
 let currentGroup = "";
+let currentQuizTitle = "";
 
 const params = new URLSearchParams(location.search);
 const group = params.get("group");
@@ -22,11 +22,15 @@ if (!group) {
 }
 
 currentGroup = group;
-document.getElementById("groupTitle").textContent = currentGroup;
 
-const jsonPath = `./data/${group}.json`;
+const groupTitleEl = document.getElementById("groupTitle");
+if (groupTitleEl) {
+  groupTitleEl.textContent = currentGroup;
+}
 
-fetch(jsonPath)
+const groupJsonPath = `./${group}.json`;
+
+fetch(groupJsonPath)
   .then(res => {
     if (!res.ok) {
       throw new Error(`JSON読込失敗: ${res.status} ${res.statusText}`);
@@ -34,7 +38,7 @@ fetch(jsonPath)
     return res.json();
   })
   .then(data => {
-    db = data;
+    menuData = data;
     initMenu();
   })
   .catch(err => {
@@ -44,7 +48,7 @@ fetch(jsonPath)
         <div class="error-card">
           <h2>読込エラー</h2>
           <p>${escapeHtml(err.message)}</p>
-          <p>読込先: ${escapeHtml(jsonPath)}</p>
+          <p>読込先: ${escapeHtml(groupJsonPath)}</p>
           <p><a href="index.html">戻る</a></p>
         </div>
       </div>
@@ -57,43 +61,92 @@ function initMenu() {
     throw new Error("app.html に id='menu' がありません。");
   }
 
-  const categories = Object.keys(db);
+  const quizzes = Array.isArray(menuData.quizzes) ? menuData.quizzes : [];
 
-  if (categories.length === 0) {
+  if (quizzes.length === 0) {
     menu.innerHTML = "<p>この分類には問題がありません。</p>";
     return;
   }
 
-  let html = `<h2 class="menu-title">${escapeHtml(currentGroup)}</h2>`;
+  let html = `<h2 class="menu-title">${escapeHtml(menuData.menu_name || currentGroup)}</h2>`;
   html += `<p class="subtext">テーマを選択してください</p>`;
   menu.innerHTML = html;
 
-  categories.forEach(cat => {
+  quizzes.forEach(quiz => {
     const btn = document.createElement("button");
     btn.className = "card-btn";
-    btn.textContent = `${cat} (${db[cat].length}問)`;
-    btn.onclick = () => startQuiz(cat);
+    btn.textContent = `${quiz.title || quiz.file_stem || "無題"}${typeof quiz.question_count === "number" ? ` (${quiz.question_count}問)` : ""}`;
+    btn.onclick = () => loadQuizFile(quiz);
     menu.appendChild(btn);
   });
 }
 
-function startQuiz(category) {
-  currentCategory = category;
-  questions = [...db[category]];
-
-  for (let i = questions.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [questions[i], questions[j]] = [questions[j], questions[i]];
+function loadQuizFile(quiz) {
+  if (!quiz || !quiz.relative_path) {
+    alert("クイズファイル情報が不足しています。");
+    return;
   }
 
-  index = 0;
-  correct = 0;
-  total = 0;
+  currentQuizTitle = quiz.title || quiz.file_stem || "";
 
-  document.getElementById("menu").classList.add("hidden");
-  document.getElementById("quiz").classList.remove("hidden");
+  fetch(`./${quiz.relative_path}`)
+    .then(res => {
+      if (!res.ok) {
+        throw new Error(`クイズJSON読込失敗: ${res.status} ${res.statusText}`);
+      }
+      return res.json();
+    })
+    .then(data => {
+      questions = normalizeQuestions(data);
 
-  loadQuestion();
+      if (!questions.length) {
+        throw new Error("問題データが0件です。");
+      }
+
+      shuffleArray(questions);
+
+      index = 0;
+      correct = 0;
+      total = 0;
+
+      const menuEl = document.getElementById("menu");
+      const quizEl = document.getElementById("quiz");
+
+      if (menuEl) menuEl.classList.add("hidden");
+      if (quizEl) quizEl.classList.remove("hidden");
+
+      const groupTitleEl = document.getElementById("groupTitle");
+      if (groupTitleEl) {
+        groupTitleEl.textContent = `${menuData.menu_name || currentGroup} / ${currentQuizTitle}`;
+      }
+
+      setText("stats", "今回の成績: 0% (0/0)");
+      loadQuestion();
+    })
+    .catch(err => {
+      console.error(err);
+      alert(`読込エラー\n${err.message}\n\n対象: ${quiz.relative_path}`);
+    });
+}
+
+function normalizeQuestions(data) {
+  if (Array.isArray(data)) {
+    return data;
+  }
+
+  if (Array.isArray(data.questions)) {
+    return data.questions;
+  }
+
+  if (Array.isArray(data.quizzes)) {
+    return data.quizzes;
+  }
+
+  if (Array.isArray(data.items)) {
+    return data.items;
+  }
+
+  return [];
 }
 
 function loadQuestion() {
@@ -103,12 +156,15 @@ function loadQuestion() {
   }
 
   setText("counter", `${index + 1} / ${questions.length}`);
-  setText("type", `【${q.type || "問題"}】`);
-  setText("question", q.question || "");
+  setText("type", `【${q.type || q.format || "問題"}】`);
+  setText("question", q.question || q.quiz || q.title || "");
+
+  const answerText = q.answer || q.correct_answer || "";
+  const explanationText = q.explanation || q.commentary || q.note || "";
 
   const answerHtml =
-    `<b>解答</b><br>${escapeHtml(q.answer || "").replace(/\n/g, "<br>")}` +
-    `<br><br><b>解説</b><br>${escapeHtml(q.explanation || "").replace(/\n/g, "<br>")}`;
+    `<b>解答</b><br>${escapeHtml(answerText).replace(/\n/g, "<br>")}` +
+    `<br><br><b>解説</b><br>${escapeHtml(explanationText).replace(/\n/g, "<br>")}`;
 
   setHTML("answer", answerHtml);
 
@@ -137,13 +193,30 @@ function mark(ok) {
 
 function nextQuestion() {
   index++;
+
   if (index >= questions.length) {
     const rate = total > 0 ? Math.round((correct / total) * 100) : 0;
     alert(`全問終了しました\n正解率: ${rate}% (${correct}/${total})`);
-    location.href = "app.html?group=" + encodeURIComponent(currentGroup);
+
+    document.getElementById("quiz").classList.add("hidden");
+    document.getElementById("menu").classList.remove("hidden");
+
+    const groupTitleEl = document.getElementById("groupTitle");
+    if (groupTitleEl) {
+      groupTitleEl.textContent = menuData.menu_name || currentGroup;
+    }
+
     return;
   }
+
   loadQuestion();
+}
+
+function shuffleArray(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
 }
 
 function setText(id, text) {

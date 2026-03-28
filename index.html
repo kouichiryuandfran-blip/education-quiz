@@ -20,29 +20,37 @@
   </div>
 
   <script>
-    const groups = [
-      "01_管理一般",
-      "02_建築学",
-      "03_建築工事",
-      "04_建築改修工事",
-      "05_維持管理・点検・調査診断",
-      "06_不具合・劣化事象・補修・補強",
-      "21_1級施工管理技士(1建施)"
-      "22_２級施工管理技士(2建施)"
-      "99_建築用語"
-    ];
-
     const list = document.getElementById("groupList");
 
-    groups.forEach(group => {
-      const btn = document.createElement("button");
-      btn.className = "card-btn";
-      btn.textContent = group;
-      btn.onclick = () => {
-        location.href = "app.html?group=" + encodeURIComponent(group);
-      };
-      list.appendChild(btn);
-    });
+    fetch("./all_menus.json")
+      .then(res => {
+        if (!res.ok) {
+          throw new Error(`all_menus.json 読込失敗: ${res.status} ${res.statusText}`);
+        }
+        return res.json();
+      })
+      .then(data => {
+        const menus = Array.isArray(data.menus) ? data.menus : [];
+
+        if (menus.length === 0) {
+          list.innerHTML = "<p>メニューがありません。</p>";
+          return;
+        }
+
+        menus.forEach(menu => {
+          const btn = document.createElement("button");
+          btn.className = "card-btn";
+          btn.textContent = `${menu.menu_name} (${menu.quiz_count}テーマ)`;
+          btn.onclick = () => {
+            location.href = "app.html?group=" + encodeURIComponent(menu.menu_name);
+          };
+          list.appendChild(btn);
+        });
+      })
+      .catch(err => {
+        console.error(err);
+        list.innerHTML = `<p>読込エラー: ${escapeHtml(err.message)}</p>`;
+      });
 
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => {
@@ -50,6 +58,15 @@
           .then(() => console.log("Service Worker registered"))
           .catch(err => console.error("Service Worker registration failed:", err));
       });
+    }
+
+    function escapeHtml(str) {
+      return String(str)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
     }
   </script>
 </body>

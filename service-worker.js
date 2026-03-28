@@ -1,4 +1,4 @@
-const CACHE_NAME = "education-quiz-cache-v2";
+const CACHE_NAME = "education-quiz-cache-v3";
 
 const CORE_FILES = [
   "./",
@@ -7,6 +7,7 @@ const CORE_FILES = [
   "./app.js",
   "./style.css",
   "./manifest.json",
+  "./all_menus.json",
   "./icons/icon-192.png",
   "./icons/icon-512.png"
 ];
@@ -34,24 +35,23 @@ self.addEventListener("activate", event => {
 });
 
 self.addEventListener("fetch", event => {
-  const requestUrl = new URL(event.request.url);
+  const request = event.request;
+  const url = new URL(request.url);
 
-  if (requestUrl.pathname.includes("/data/")) {
+  if (url.pathname.endsWith(".json")) {
     event.respondWith(
-      fetch(event.request)
+      fetch(request)
         .then(response => {
-          const responseClone = response.clone();
-          caches.open(CACHE_NAME).then(cache => cache.put(event.request, responseClone));
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(request, copy));
           return response;
         })
-        .catch(() => caches.match(event.request))
+        .catch(() => caches.match(request))
     );
     return;
   }
 
   event.respondWith(
-    caches.match(event.request).then(cached => {
-      return cached || fetch(event.request);
-    })
+    caches.match(request).then(cached => cached || fetch(request))
   );
 });
