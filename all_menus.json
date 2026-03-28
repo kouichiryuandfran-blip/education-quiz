@@ -1,4 +1,50 @@
 {
-  "menu_count": 0,
-  "menus": []
+  "menu_count": 9,
+  "menus": [
+    {
+      "menu_name": "01_管理一般",
+      "quiz_count": 15,
+      "output_file": "01_管理一般.json"
+    },
+    {
+      "menu_name": "02_建築学",
+      "quiz_count": 0,
+      "output_file": "02_建築学.json"
+    },
+    {
+      "menu_name": "03_建築工事",
+      "quiz_count": 14,
+      "output_file": "03_建築工事.json"
+    },
+    {
+      "menu_name": "04_建築改修工事",
+      "quiz_count": 13,
+      "output_file": "04_建築改修工事.json"
+    },
+    {
+      "menu_name": "05_維持管理・点検・調査診断",
+      "quiz_count": 10,
+      "output_file": "05_維持管理・点検・調査診断.json"
+    },
+    {
+      "menu_name": "06_不具合・劣化事象・補修・補強",
+      "quiz_count": 24,
+      "output_file": "06_不具合・劣化事象・補修・補強.json"
+    },
+    {
+      "menu_name": "21_1級施工管理技士(1建施)",
+      "quiz_count": 20,
+      "output_file": "21_1級施工管理技士(1建施).json"
+    },
+    {
+      "menu_name": "22_2級施工管理技士(2建施)",
+      "quiz_count": 22,
+      "output_file": "22_2級施工管理技士(2建施).json"
+    },
+    {
+      "menu_name": "99_建築用語",
+      "quiz_count": 19,
+      "output_file": "99_建築用語.json"
+    }
+  ]
 }
