@@ -75,7 +75,11 @@ function initMenu() {
   quizzes.forEach(quiz => {
     const btn = document.createElement("button");
     btn.className = "card-btn";
-    btn.textContent = `${quiz.title || quiz.file_stem || "無題"}${typeof quiz.question_count === "number" ? ` (${quiz.question_count}問)` : ""}`;
+
+    const title = quiz.title || quiz.file_stem || "無題";
+    const count = Number.isFinite(quiz.question_count) ? quiz.question_count : 0;
+
+    btn.textContent = `${title} (${count}問)`;
     btn.onclick = () => loadQuizFile(quiz);
     menu.appendChild(btn);
   });
@@ -115,9 +119,9 @@ function loadQuizFile(quiz) {
       if (menuEl) menuEl.classList.add("hidden");
       if (quizEl) quizEl.classList.remove("hidden");
 
-      const groupTitleEl = document.getElementById("groupTitle");
-      if (groupTitleEl) {
-        groupTitleEl.textContent = `${menuData.menu_name || currentGroup} / ${currentQuizTitle}`;
+      const titleEl = document.getElementById("groupTitle");
+      if (titleEl) {
+        titleEl.textContent = `${menuData.menu_name || currentGroup} / ${currentQuizTitle}`;
       }
 
       setText("stats", "今回の成績: 0% (0/0)");
@@ -130,22 +134,11 @@ function loadQuizFile(quiz) {
 }
 
 function normalizeQuestions(data) {
-  if (Array.isArray(data)) {
-    return data;
-  }
-
-  if (Array.isArray(data.questions)) {
-    return data.questions;
-  }
-
-  if (Array.isArray(data.quizzes)) {
-    return data.quizzes;
-  }
-
-  if (Array.isArray(data.items)) {
-    return data.items;
-  }
-
+  if (Array.isArray(data)) return data;
+  if (Array.isArray(data.questions)) return data.questions;
+  if (Array.isArray(data.quizzes)) return data.quizzes;
+  if (Array.isArray(data.items)) return data.items;
+  if (Array.isArray(data.data)) return data.data;
   return [];
 }
 
@@ -201,11 +194,10 @@ function nextQuestion() {
     document.getElementById("quiz").classList.add("hidden");
     document.getElementById("menu").classList.remove("hidden");
 
-    const groupTitleEl = document.getElementById("groupTitle");
-    if (groupTitleEl) {
-      groupTitleEl.textContent = menuData.menu_name || currentGroup;
+    const titleEl = document.getElementById("groupTitle");
+    if (titleEl) {
+      titleEl.textContent = menuData.menu_name || currentGroup;
     }
-
     return;
   }
 
