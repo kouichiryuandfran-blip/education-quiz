@@ -19,55 +19,66 @@
     <div id="groupList"></div>
   </div>
 
-  <script>
-    const list = document.getElementById("groupList");
+<script>
+  const list = document.getElementById("groupList");
 
-    fetch("./all_menus.json")
-      .then(res => {
-        if (!res.ok) {
-          throw new Error(`all_menus.json 読込失敗: ${res.status} ${res.statusText}`);
-        }
-        return res.json();
-      })
-      .then(data => {
-        const menus = Array.isArray(data.menus) ? data.menus : [];
+  fetch("./all_menus.json")
+    .then(res => {
+      if (!res.ok) {
+        throw new Error(`all_menus.json 読込失敗: ${res.status} ${res.statusText}`);
+      }
+      return res.json();
+    })
+    .then(data => {
+      const menus = Array.isArray(data.menus) ? data.menus : [];
 
-        if (menus.length === 0) {
-          list.innerHTML = "<p>メニューがありません。</p>";
-          return;
-        }
+      if (menus.length === 0) {
+        list.innerHTML = "<p>メニューがありません。</p>";
+        return;
+      }
 
-        menus.forEach(menu => {
-          const btn = document.createElement("button");
-          btn.className = "card-btn";
-          btn.textContent = `${menu.menu_name} (${menu.quiz_count}テーマ)`;
-          btn.onclick = () => {
-            location.href = "app.html?group=" + encodeURIComponent(menu.menu_name);
-          };
-          list.appendChild(btn);
-        });
-      })
-      .catch(err => {
-        console.error(err);
-        list.innerHTML = `<p>読込エラー: ${escapeHtml(err.message)}</p>`;
+      menus.forEach(menu => {
+        const btn = document.createElement("button");
+        btn.className = "card-btn";
+        btn.textContent = `${menu.menu_name} (${menu.quiz_count}テーマ)`;
+        btn.onclick = () => {
+          location.href = "app.html?group=" + encodeURIComponent(menu.menu_name);
+        };
+        list.appendChild(btn);
       });
+    })
+    .catch(err => {
+      console.error(err);
+      list.innerHTML = `<p>読込エラー: ${escapeHtml(err.message)}</p>`;
+    });
+</script>
 
-    if ("serviceWorker" in navigator) {
-      window.addEventListener("load", () => {
-        navigator.serviceWorker.register("./service-worker.js")
-          .then(() => console.log("Service Worker registered"))
-          .catch(err => console.error("Service Worker registration failed:", err));
-      });
-    }
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("./service-worker.js")
+        .then(() => console.log("Service Worker registered"))
+        .catch(err => console.error("Service Worker registration failed:", err));
+    });
+  }
+</script>
 
-    function escapeHtml(str) {
-      return String(str)
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;")
-        .replace(/"/g, "&quot;")
-        .replace(/'/g, "&#39;");
-    }
-  </script>
+<script>
+  function escapeHtml(str) {
+    return String(str)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+</script>
+
+<!-- ここから別タグにする -->
+<script src="consent.js"></script>
+<script>
+  checkConsent();
+</script>
+
 </body>
 </html>

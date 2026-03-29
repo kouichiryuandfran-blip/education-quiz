@@ -1,10 +1,15 @@
 let menuData = {};
+let allQuestions = [];
 let questions = [];
 let index = 0;
 let correct = 0;
 let total = 0;
 let currentGroup = "";
 let currentQuizTitle = "";
+let currentMode = "normal"; // normal / weak
+
+const WEAK_KEY = "education_quiz_weak_questions_v1";
+const REPORT_EMAIL = "yourmail@example.com"; // ← 必ず変更してください
 
 const params = new URLSearchParams(location.search);
 const group = params.get("group");
@@ -73,25 +78,41 @@ function initMenu() {
   menu.innerHTML = html;
 
   quizzes.forEach(quiz => {
-    const btn = document.createElement("button");
-    btn.className = "card-btn";
+    const wrapper = document.createElement("div");
+    wrapper.style.marginBottom = "12px";
 
     const title = quiz.title || quiz.file_stem || "無題";
     const count = Number.isFinite(quiz.question_count) ? quiz.question_count : 0;
+    const weakCount = getWeakCountForQuiz(quiz);
 
-    btn.textContent = `${title} (${count}問)`;
-    btn.onclick = () => loadQuizFile(quiz);
-    menu.appendChild(btn);
+    const normalBtn = document.createElement("button");
+    normalBtn.className = "card-btn";
+    normalBtn.textContent = `${title} (${count}問)`;
+    normalBtn.onclick = () => loadQuizFile(quiz, "normal");
+
+    wrapper.appendChild(normalBtn);
+
+    const weakBtn = document.createElement("button");
+    weakBtn.className = "small-btn";
+    weakBtn.style.width = "100%";
+    weakBtn.style.marginTop = "6px";
+    weakBtn.textContent = `苦手問題を復習 (${weakCount}問)`;
+    weakBtn.onclick = () => loadQuizFile(quiz, "weak");
+
+    wrapper.appendChild(weakBtn);
+
+    menu.appendChild(wrapper);
   });
 }
 
-function loadQuizFile(quiz) {
+function loadQuizFile(quiz, mode = "normal") {
   if (!quiz || !quiz.relative_path) {
     alert("クイズファイル情報が不足しています。");
     return;
   }
 
   currentQuizTitle = quiz.title || quiz.file_stem || "";
+  currentMode = mode;
 
   fetch(`./${quiz.relative_path}`)
     .then(res => {
@@ -101,13 +122,23 @@ function loadQuizFile(quiz) {
       return res.json();
     })
     .then(data => {
-      questions = normalizeQuestions(data);
+      allQuestions = normalizeQuestions(data);
 
-      if (!questions.length) {
+      if (!allQuestions.length) {
         throw new Error("問題データが0件です。");
       }
 
-      shuffleArray(questions);
+      if (mode === "weak") {
+        questions = filterWeakQuestions(allQuestions, quiz.relative_path);
+
+        if (!questions.length) {
+          alert("このテーマには保存された苦手問題がありません。");
+          return;
+        }
+      } else {
+        questions = [...allQuestions];
+        shuffleArray(questions);
+      }
 
       index = 0;
       correct = 0;
@@ -121,7 +152,8 @@ function loadQuizFile(quiz) {
 
       const titleEl = document.getElementById("groupTitle");
       if (titleEl) {
-        titleEl.textContent = `${menuData.menu_name || currentGroup} / ${currentQuizTitle}`;
+        const modeLabel = mode === "weak" ? "苦手問題復習" : "通常学習";
+        titleEl.textContent = `${menuData.menu_name || currentGroup} / ${currentQuizTitle} / ${modeLabel}`;
       }
 
       setText("stats", "今回の成績: 0% (0/0)");
@@ -180,6 +212,7 @@ function loadQuestion() {
   document.getElementById("answer").classList.add("hidden");
   document.getElementById("judge").classList.add("hidden");
   document.getElementById("nextBtn").classList.add("hidden");
+  document.getElementById("reportArea").classList.remove("hidden");
   document.getElementById("showAnswerBtn").classList.remove("hidden");
 }
 
@@ -190,8 +223,15 @@ function showAnswer() {
 }
 
 function mark(ok) {
+  const q = questions[index];
+
   total++;
-  if (ok) correct++;
+  if (ok) {
+    correct++;
+    removeWeakQuestion(q, getCurrentQuizPath());
+  } else {
+    saveWeakQuestion(q, getCurrentQuizPath());
+  }
 
   const rate = Math.round((correct / total) * 100);
   setText("stats", `今回の成績: ${rate}% (${correct}/${total})`);
@@ -214,10 +254,110 @@ function nextQuestion() {
     if (titleEl) {
       titleEl.textContent = menuData.menu_name || currentGroup;
     }
+
+    initMenu();
     return;
   }
 
   loadQuestion();
+}
+
+function reportIssue() {
+  const q = questions[index];
+  if (!q) return;
+
+  const subject = `[教育クイズ 誤り報告] ${q.id || currentQuizTitle}`;
+  const body = [
+    "下記問題について確認をお願いします。",
+    "",
+    `分類: ${menuData.menu_name || currentGroup}`,
+    `テーマ: ${currentQuizTitle}`,
+    `問題番号: ${q.id || ""}`,
+    `カテゴリー: ${q.category || ""}`,
+    `グレード: ${q.grade || ""}`,
+    "",
+    "問題文:",
+    q.question || "",
+    "",
+    "解答:",
+    q.answer || "",
+    "",
+    "解説:",
+    q.explanation || "",
+    "",
+    "報告内容:",
+    "（ここに入力してください）"
+  ].join("\n");
+
+  const mailto = `mailto:${encodeURIComponent(REPORT_EMAIL)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  location.href = mailto;
+}
+
+function getWeakStorage() {
+  try {
+    return JSON.parse(localStorage.getItem(WEAK_KEY) || "{}");
+  } catch {
+    return {};
+  }
+}
+
+function setWeakStorage(data) {
+  localStorage.setItem(WEAK_KEY, JSON.stringify(data));
+}
+
+function makeWeakKey(quizPath, question) {
+  const id = question.id || "";
+  const text = question.question || "";
+  return `${quizPath}__${id}__${text}`;
+}
+
+function saveWeakQuestion(question, quizPath) {
+  const storage = getWeakStorage();
+  const key = makeWeakKey(quizPath, question);
+
+  storage[key] = {
+    quizPath: quizPath,
+    id: question.id || "",
+    question: question.question || ""
+  };
+
+  setWeakStorage(storage);
+}
+
+function removeWeakQuestion(question, quizPath) {
+  const storage = getWeakStorage();
+  const key = makeWeakKey(quizPath, question);
+
+  if (storage[key]) {
+    delete storage[key];
+    setWeakStorage(storage);
+  }
+}
+
+function filterWeakQuestions(questionList, quizPath) {
+  const storage = getWeakStorage();
+  return questionList.filter(q => storage[makeWeakKey(quizPath, q)]);
+}
+
+function getWeakCountForQuiz(quiz) {
+  if (!quiz || !quiz.relative_path) return 0;
+
+  const storage = getWeakStorage();
+  let count = 0;
+
+  Object.values(storage).forEach(item => {
+    if (item && item.quizPath === quiz.relative_path) {
+      count++;
+    }
+  });
+
+  return count;
+}
+
+function getCurrentQuizPath() {
+  const quizzes = Array.isArray(menuData.quizzes) ? menuData.quizzes : [];
+  const target = quizzes.find(q => (q.title || q.file_stem || "") === currentQuizTitle);
+  return target ? target.relative_path : "";
 }
 
 function shuffleArray(arr) {
