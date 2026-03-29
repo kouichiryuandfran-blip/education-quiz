@@ -1,4 +1,4 @@
-const CACHE_NAME = "education-quiz-cache-v4";
+const CACHE_NAME = "education-quiz-cache-v5";
 
 const CORE_FILES = [
   "./",
@@ -8,6 +8,8 @@ const CORE_FILES = [
   "./style.css",
   "./manifest.json",
   "./all_menus.json",
+  "./consent.js",
+  "./教育クイズ利用ルール.pdf",
   "./icons/icon-192.png",
   "./icons/icon-512.png"
 ];
@@ -38,7 +40,27 @@ self.addEventListener("fetch", event => {
   const request = event.request;
   const url = new URL(request.url);
 
+  // JSONは常に最新優先
   if (url.pathname.endsWith(".json")) {
+    event.respondWith(
+      fetch(request)
+        .then(response => {
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(request, copy));
+          return response;
+        })
+        .catch(() => caches.match(request))
+    );
+    return;
+  }
+
+  // HTML / JS / CSS / PDF も最新優先
+  if (
+    url.pathname.endsWith(".html") ||
+    url.pathname.endsWith(".js") ||
+    url.pathname.endsWith(".css") ||
+    url.pathname.endsWith(".pdf")
+  ) {
     event.respondWith(
       fetch(request)
         .then(response => {
