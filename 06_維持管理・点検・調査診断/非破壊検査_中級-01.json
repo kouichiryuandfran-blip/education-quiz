@@ -1,0 +1,2006 @@
+{
+  "title": "非破壊検査_中級-01",
+  "count": 100,
+  "questions": [
+    {
+      "id": "NDT_I-0001",
+      "display_id": "非破壊検査_中級-001",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "公共建築工事標準仕様書において、コンクリートの強度推定（反発度法）は、1ロットにつき20点打撃して平均値を求める。",
+      "answer": "○",
+      "explanation": "打撃点ごとのばらつきを抑えるため、規定の打撃数と平均化処理が必須です。",
+      "explanation2": "非破壊検査では検査目的に応じた手法選定が重要であり、欠陥の種類・位置・材料特性を総合的に考慮する必要がある。適切な手法を選ばないと検出精度が低下するため、事前の検討と試験条件の設定が品質確保の鍵となる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0002",
+      "display_id": "非破壊検査_中級-002",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "溶接部の超音波探傷試験（UT）において、キズからの反射波の高さが「L線」を超え「M線」以下の場合、そのエコーは（　）領域に分類される。",
+      "answer": "Ⅱ",
+      "explanation": "日本非破壊検査協会の規格（WES等）に基づき、エコー高さによって評価領域を分類します。",
+      "explanation2": "放射線透過試験においては、線源エネルギーと被写体厚さの関係が画質に大きく影響する。エネルギーが不適切であるとコントラストが低下し、欠陥の識別が困難となるため、条件設定が重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0003",
+      "display_id": "非破壊検査_中級-003",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "Q&A",
+      "question": "浸透探傷試験（PT）において、水洗性浸透液を使用した場合の「洗浄工程」で注意すべき点は",
+      "answer": "過洗浄（洗いすぎ）に注意する",
+      "explanation": "洗いすぎるとキズの中の液まで流れてしまい、指示模様が出なくなります。",
+      "explanation2": "超音波探傷では反射波の解析により欠陥の位置と大きさを推定するが、材料内部の不均一性や減衰の影響を受けるため、結果の解釈には経験と知識が必要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0004",
+      "display_id": "非破壊検査_中級-004",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "コンクリートの鉄筋探査（電磁波レーダ法）で、反射波の形が（　）状に現れる頂点が鉄筋の真上の位置を示す。",
+      "answer": "山（または双曲線）",
+      "explanation": "電磁波の広がりにより、鉄筋に近づくにつれ反応が強くなるため山型の波形になります。",
+      "explanation2": "磁粉探傷では磁化方向と欠陥方向の関係が検出感度を左右するため、複数方向からの磁化が推奨される。これにより検出漏れのリスクを低減できる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0005",
+      "display_id": "非破壊検査_中級-005",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "磁粉探傷試験（MT）の「極間法」では、2つの磁極を結ぶ線に対して並行な方向のキズが最も検出しやすい。",
+      "answer": "×",
+      "explanation": "磁力線に対して「垂直」な方向のキズが、漏洩磁束を最大にするため最も見つけやすくなります。",
+      "explanation2": "浸透探傷では前処理の品質が検査精度に直結する。油分や汚れが残っていると浸透液の浸透が阻害されるため、十分な清掃が必要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0006",
+      "display_id": "非破壊検査_中級-006",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "Q&A",
+      "question": "放射線透過試験（RT）において、写真のコントラストや解像度を確認するために試験体と一緒に写す「針金状の指標」は",
+      "answer": "透過度計（IQI）",
+      "explanation": "針金の太さが見える限界を確認し、検査の有効性を証明します。",
+      "explanation2": "渦流探傷は電磁誘導を利用するため、材料の電気伝導率や磁気特性の影響を受ける。対象材料に応じた校正と補正が重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0007",
+      "display_id": "非破壊検査_中級-007",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "Q&A",
+      "question": "赤外線サーモグラフィ法による外壁調査において、タイルとモルタルの間に「浮き」がある場合、日中の受熱時には健南部より温度はどうなるか。",
+      "answer": "高くなる",
+      "explanation": "浮き部の空気層が断熱材のような役割を果たし、表面の熱が内部へ逃げにくいため温度が上昇します。",
+      "explanation2": "非破壊検査では欠陥の検出だけでなく、その評価が重要であり、欠陥の進展性や構造安全性への影響を総合的に判断する必要がある。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0008",
+      "display_id": "非破壊検査_中級-008",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "渦流探傷試験（ECT）において、試験体とコイルの距離が離れることで信号が変化する現象を（　）という。",
+      "answer": "リフトオフ",
+      "explanation": "この変化はノイズとなるため、一定に保つか装置で補正する必要があります。",
+      "explanation2": "検査結果の信頼性を確保するためには、機器の校正と定期的な点検が不可欠である。適切な維持管理により安定した検査精度を維持できる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0009",
+      "display_id": "非破壊検査_中級-009",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "超音波探傷において、材料の厚さが非常に薄い（数mm以下）場合、表面反射と底面反射が重なり、測定が困難になることがある。",
+      "answer": "○",
+      "explanation": "これを「近距離不感帯」と呼び、特殊な探触子（分割型など）が必要になります。",
+      "explanation2": "非破壊検査は施工段階だけでなく維持管理にも重要であり、定期的な検査により劣化の進行を把握し、適切な補修計画を立案できる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0010",
+      "display_id": "非破壊検査_中級-010",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "用語",
+      "question": "コンクリートの中性化深さの測定において、ドリルで穴を開けて粉末を回収し、試薬で判定する方法を何というか。",
+      "answer": "ドリル削孔法（ドリル粉末法）",
+      "explanation": "構造物を大きく壊さずに中性化の進行を段階的に確認できる手法です。",
+      "explanation2": "検査結果の記録とトレーサビリティの確保は品質保証の基本であり、後工程や将来の維持管理において重要な役割を果たす。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0011",
+      "display_id": "非破壊検査_中級-011",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "鉄筋の腐食状況を調べる「自然電位法」は、コンクリート表面と鉄筋の間の（　）を測定してサビの可能性を判定する。",
+      "answer": "電位差",
+      "explanation": "腐食反応が起きていると電位がマイナス側に大きくシフトします。",
+      "explanation2": "放射線透過試験では散乱線の影響が像コントラストを低下させるため、コリメータや遮へい材を用いた対策が必要である。散乱線を抑制することで、欠陥の識別性を高め、より精度の高い検査結果を得ることができる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0012",
+      "display_id": "非破壊検査_中級-012",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "放射線透過試験（RT）において、線源（X線発生装置など）とフィルムの距離を遠ざけるほど、像のボケは少なくなる。",
+      "answer": "○",
+      "explanation": "幾何学的ズレが小さくなるため鮮明になりますが、露出時間は長くなります。",
+      "explanation2": "超音波探傷におけるビーム特性は探触子の形状や周波数に依存し、焦点距離や分解能に影響を与える。対象部材の厚さや欠陥の位置に応じて適切な条件設定を行うことが重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0013",
+      "display_id": "非破壊検査_中級-013",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "用語",
+      "question": "超音波探傷の「斜角探傷」で、音波が材料の角で反射して戻ってくる現象を何というか。",
+      "answer": "端部反射",
+      "explanation": "欠陥エコーと見間違えやすいため、位置計算（ビーム路程）による確認が不可欠です。",
+      "explanation2": "磁粉探傷では直流磁化と交流磁化で検出特性が異なり、直流は深部欠陥、交流は表面欠陥の検出に適している。欠陥の位置に応じて使い分けることで検査精度を向上できる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0014",
+      "display_id": "非破壊検査_中級-014",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "浸透探傷試験（PT）の現像工程において、現像剤を塗った後に指示模様がはっきり現れるまで待つ時間を（　）時間という。",
+      "answer": "現像",
+      "explanation": "規定の時間を守らないと、キズが小さく見えたり逆に滲んだりします。",
+      "explanation2": "浸透探傷では蛍光法と染色法があり、蛍光法は高感度で微細欠陥の検出に優れるが、暗室環境が必要となる。検査条件や目的に応じた方法選定が重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0015",
+      "display_id": "非破壊検査_中級-015",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "磁粉探傷試験（MT）で「残留磁気法」を用いる場合、磁化させた後、電流を切ってから磁粉を散布する。",
+      "answer": "○",
+      "explanation": "磁力を保持しやすい材料（硬鋼など）に適用される手法です。",
+      "explanation2": "渦流探傷ではリフトオフや表面粗さが信号に影響を与えるため、安定した測定条件の確保が重要である。これにより検査の再現性と信頼性を向上させることができる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0016",
+      "display_id": "非破壊検査_中級-016",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "Q&A",
+      "question": "コンクリートのひび割れ内に「導電性の液体」を流し、電気の通りやすさで貫通を調べる検査は",
+      "answer": "通電法（電気抵抗法）",
+      "explanation": "ひび割れが裏まで通っているかを確認する際に有効です。",
+      "explanation2": "非破壊検査では検査条件の標準化が重要であり、手順書に基づいた実施により結果のばらつきを抑えることができる。標準化は品質管理の基本である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0017",
+      "display_id": "非破壊検査_中級-017",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "Q&A",
+      "question": "超音波厚さ計で、測定値が実際の半分（または2倍）と表示されるエラーの原因は",
+      "answer": "倍音（またはハーフエコー）への同調",
+      "explanation": "表面や底面の状態、設定ミスにより反射回数を誤認することで発生します。",
+      "explanation2": "検査機器は定期的な校正により性能を維持する必要があり、校正不良は誤検出や見落としの原因となる。適切な管理体制の構築が重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0018",
+      "display_id": "非破壊検査_中級-018",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "電磁波レーダによる探査において、コンクリートが「湿潤（濡れている）」状態だと、電磁波の（　）が大きくなり、探査深さが浅くなる。",
+      "answer": "減衰",
+      "explanation": "水分は電磁波を吸収・散乱させるため、深い場所まで届きにくくなります。",
+      "explanation2": "非破壊検査は複数手法を組み合わせることで検査精度が向上する。各手法の特性を理解し、相互補完的に活用することが重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0019",
+      "display_id": "非破壊検査_中級-019",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "赤外線サーモグラフィ法において、光沢のある金属面（サッシ等）は放射率が極めて低いため、測定に適さない。",
+      "answer": "○",
+      "explanation": "周囲の熱を鏡のように反射してしまい、自身の温度を正しく測れません。",
+      "explanation2": "検査対象の形状や材質は検査方法の適用性に影響するため、事前の評価が不可欠である。不適切な方法選定は検査精度の低下につながる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0020",
+      "display_id": "非破壊検査_中級-020",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "Q&A",
+      "question": "構造物の劣化診断において、目視（VT）で発見された「白華現象（エフロレッセンス）」は何を示唆しているか。",
+      "answer": "内部への雨水の浸入と成分の溶け出し",
+      "explanation": "ひび割れを通じて水が通り、コンクリートの成分が表面で結晶化したものです。",
+      "explanation2": "非破壊検査では安全管理も重要であり、特に放射線や電気を扱う場合は法令遵守と適切な防護措置が必要である。安全確保が前提となる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0021",
+      "display_id": "非破壊検査_中級-021",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "公共建築工事標準仕様書では、鉄骨溶接部のUT検査において、不合格となった箇所は（　）して再検査しなければならない。",
+      "answer": "完全除去（はつり取り）",
+      "explanation": "キズを完全に無くしてから再溶接し、再度同じ検査で合格を確認します。",
+      "explanation2": "放射線透過試験では幾何学的不鮮明さを抑えるため、線源サイズや被写体との距離設定が重要となる。適切な配置により像の鮮明度が向上し、微細欠陥の識別が可能となるため、撮影条件の最適化が必要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0022",
+      "display_id": "非破壊検査_中級-022",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "浸透探傷試験（PT）において、溶剤除去性浸透液を使用する場合、洗浄液を直接試験体に吹きかけて拭き取る。",
+      "answer": "×",
+      "explanation": "キズの中の液まで落としてしまうため、布に洗浄液を染み込ませて拭くのが正解です。",
+      "explanation2": "超音波探傷では材料内部での音波減衰や散乱が検出精度に影響するため、対象材質に応じた周波数選定が重要である。高周波は分解能に優れるが減衰が大きく、用途に応じた使い分けが求められる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0023",
+      "display_id": "非破壊検査_中級-023",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "用語",
+      "question": "超音波探傷で、探触子を細かく揺らしながら移動させる操作を何というか。",
+      "answer": "振揺走査（スウィング走査）",
+      "explanation": "キズの傾きに対して最も反射が強くなる角度を探す重要なテクニックです。",
+      "explanation2": "磁粉探傷では欠陥部に生じる漏洩磁束を可視化するため、磁化電流の適正管理が必要である。過大電流はノイズ増加、過小電流は検出不足につながるため、適切な設定が重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0024",
+      "display_id": "非破壊検査_中級-024",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "コンクリートの配合や密度を精密に測る「RI法（ラジオアイソトープ法）」では、（　）線や中性子線を使用する。",
+      "answer": "ガンマ",
+      "explanation": "水分量や密度の測定に用いられ、土木工事の締固め管理などで活躍します。",
+      "explanation2": "浸透探傷では浸透時間や現像時間の管理が検査結果に影響する。時間が不適切だと欠陥の見落としや誤判定が発生するため、規定条件の遵守が必要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0025",
+      "display_id": "非破壊検査_中級-025",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "磁粉探傷試験（MT）において、蛍光磁粉を使用するメリットは、暗所でコントラストが非常に高くなり微小なキズを発見しやすいことである。",
+      "answer": "○",
+      "explanation": "暗い現場や複雑な形状の部品検査で非常に有効です。",
+      "explanation2": "渦流探傷では周波数設定により検査深さが変化し、表面欠陥と内部欠陥で適用範囲が異なる。対象欠陥に応じた設定が精度確保に重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0026",
+      "display_id": "非破壊検査_中級-026",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "用語",
+      "question": "鉄筋コンクリートの中の鉄筋が錆びて体積が増えることで、コンクリートを外側に押し出す力を何というか。",
+      "answer": "膨張圧",
+      "explanation": "これによりひび割れや爆裂（コンクリートの剥落）が発生します。",
+      "explanation2": "非破壊検査では欠陥の位置や形状だけでなく、進展性や応力状態も考慮した評価が必要である。単なる検出にとどまらず、構造安全性への影響を判断することが重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0027",
+      "display_id": "非破壊検査_中級-027",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "用語",
+      "question": "放射線透過試験（RT）で、厚みの違う部品を一度に撮影する場合に用いる「厚みを調整するブロック」を何というか。",
+      "answer": "補償体（フィルタ）",
+      "explanation": "透過量の差を抑えて、写真全体の濃度を均一にするために使用します。",
+      "explanation2": "検査結果の判定には規格や基準が用いられ、客観的な評価が求められる。判定基準を明確にすることで、結果のばらつきを抑えることができる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0028",
+      "display_id": "非破壊検査_中級-028",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "赤外線サーモグラフィ調査では、（　）の影響を避けるため、通常は風速5m/s以上の時は測定を控える。",
+      "answer": "対流による冷却",
+      "explanation": "風が強いと表面温度が均一化されてしまい、内部欠陥による温度差が消えてしまいます。",
+      "explanation2": "非破壊検査は工程管理の一環として計画的に実施される必要があり、適切なタイミングでの検査が品質確保に寄与する。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0029",
+      "display_id": "非破壊検査_中級-029",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "超音波探傷試験（UT）において、キズからのエコーが全く戻ってこない場合でも、底面エコーが消失していれば欠陥があると判断することがある。",
+      "answer": "○",
+      "explanation": "キズの傾きにより音波が明後日の方向へ反射した場合、エコーは出ませんが底面からの反射が遮られます。",
+      "explanation2": "検査環境の影響を考慮し、温度や照明条件を適切に管理することが重要である。環境条件の違いは検査結果に影響を与える可能性がある。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0030",
+      "display_id": "非破壊検査_中級-030",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "Q&A",
+      "question": "非破壊検査の現場で、検査員が「JIS Z 2305」に基づいた資格を持っていることを確認する書類は",
+      "answer": "技術者証明書（サーティフィケート）",
+      "explanation": "適切な教育と試験を受けたプロであることを証明するカードや書類です。",
+      "explanation2": "非破壊検査は予防保全の観点からも重要であり、早期に欠陥を検出することで重大な事故を防止することができる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0031",
+      "display_id": "非破壊検査_中級-031",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "公共建築工事標準仕様書によるコンクリートの強度推定では、1回の検査につき（　）箇所（テストエリア）以上の測定を行うことが一般的である。",
+      "answer": "3",
+      "explanation": "1箇所だけでは偶然の誤差があるため、複数のエリアを測定して総合判定します。",
+      "explanation2": "放射線透過試験では像質指標（IQI）を用いて画像品質を確認する。これにより撮影条件の適否を客観的に評価でき、欠陥検出能力の担保につながる。適切なIQIの選定と配置が重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0032",
+      "display_id": "非破壊検査_中級-032",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "浸透探傷試験（PT）は、多孔質な材料（レンガや未研磨の鋳物など）には適用できない。",
+      "answer": "○",
+      "explanation": "全体が液を吸い込んでしまい、洗浄ができず指示模様が判別不能になります。",
+      "explanation2": "超音波探傷ではDAC曲線やTCGを用いて距離減衰を補正し、欠陥エコーの評価精度を高める。補正を適切に行うことで、位置や深さによる信号差の影響を低減できる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0033",
+      "display_id": "非破壊検査_中級-033",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "Q&A",
+      "question": "コンクリートの鉄筋探査において、電磁誘導法が電磁波レーダ法よりも優れている点は",
+      "answer": "「かぶり厚さ」の測定精度が高い",
+      "explanation": "比較的浅い位置（10cm程度まで）であれば、ミリ単位の精度で厚さを測れます。",
+      "explanation2": "磁粉探傷では連続法と残留法があり、連続法は磁化中に観察するため感度が高い。一方、残留法は作業性に優れるが感度が低下する場合があるため、目的に応じた選定が必要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0034",
+      "display_id": "非破壊検査_中級-034",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "超音波探傷において、探触子と試験体の間に隙間がある場合に発生する、入り口付近の大きなエコーを（　）エコーという。",
+      "answer": "送信（表面）",
+      "explanation": "このエコーの幅（不感帯）の中にあるキズは見つけることができません。",
+      "explanation2": "浸透探傷では表面粗さや塗膜が結果に影響するため、適用前に前処理で除去することが重要である。不適切な前処理は偽指示や見落としの原因となる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0035",
+      "display_id": "非破壊検査_中級-035",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "磁粉探傷試験（MT）は、直流電流を用いるよりも交流電流を用いるほうが、表面の微細なキズの検出に適している。",
+      "answer": "○",
+      "explanation": "交流は「表皮効果」により表面に磁束が集中するため、表面キズへの感度が高まります。",
+      "explanation2": "渦流探傷では基準試験片による校正が不可欠であり、材質・形状が近似した標準体で感度設定を行う。これにより実検査での信号解釈の信頼性が向上する。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0036",
+      "display_id": "非破壊検査_中級-036",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "用語",
+      "question": "コンクリート構造物の劣化因子である「塩化物イオン」が、鉄筋の位置まで届く速さを表す数値を何というか。",
+      "answer": "拡散係数",
+      "explanation": "この値が大きいほど、塩分が奥へ浸透しやすい（劣化が早い）ことを意味します。",
+      "explanation2": "非破壊検査の手順書は作業の再現性確保に重要であり、検査条件・機器設定・判定基準を明確に記載する必要がある。標準化により品質のばらつきを抑制できる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0037",
+      "display_id": "非破壊検査_中級-037",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "Q&A",
+      "question": "外壁のタイル打診調査において、最も「浮き」と間違えやすい健南部の構造は",
+      "answer": "伸縮調整目地やサッシの周辺",
+      "explanation": "構造的に振動が響きやすいため、熟練した耳での聞き分けが必要です。",
+      "explanation2": "検査機器のトレーサブルな校正は測定の信頼性確保に不可欠である。国家標準に遡れる校正体系を維持することで、結果の客観性が担保される。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0038",
+      "display_id": "非破壊検査_中級-038",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "放射線透過試験（RT）において、線源と試験体の間に置く、散乱線をカットするための金属板を（　）という。",
+      "answer": "鉛箔増感紙",
+      "explanation": "像を鮮明にする（増感効果）とともに、余計な放射線を吸収する役割があります。",
+      "explanation2": "複合的な検査計画では、各手法の長所短所を踏まえた配置が重要である。例えばUTで内部、PT/MTで表面を補完し、見落としリスクを低減する。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0039",
+      "display_id": "非破壊検査_中級-039",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "渦流探傷試験（ECT）は、材料の「導電率」や「硬さ」の変化を調べるためにも使われる。",
+      "answer": "○",
+      "explanation": "キズだけでなく、熱処理の状態や材質の混入確認にも応用されます。",
+      "explanation2": "検査員の判定ばらつきを低減するため、ブラインドテストや相互レビューを導入することが有効である。教育と評価の継続により技能水準を維持できる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0040",
+      "display_id": "非破壊検査_中級-040",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "数値",
+      "question": "超音波探傷で、キズの大きさを「エコー高さ」だけでなく「探触子の移動距離」で測る方法を何というか。",
+      "answer": "端部ピーク法（または6dBダウン法）",
+      "explanation": "キズの「長さ」を定量的に測るための基本的な手法です。",
+      "explanation2": "非破壊検査結果は設計・施工・維持管理の意思決定に直結するため、記録の完全性と改ざん防止が重要である。デジタル記録の管理体制整備が求められる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0041",
+      "display_id": "非破壊検査_中級-041",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "コンクリートのひび割れ調査において、幅が（　）mm以上のものは「構造的に有害なひび割れ」として詳細調査の対象になることが多い。",
+      "answer": "0.3",
+      "explanation": "一般的な基準ですが、環境条件（塩害地域など）によってはもっと厳しく制限されます。",
+      "explanation2": "放射線透過試験ではコントラスト感度を高めるため、適切なフィルムやデジタル検出器の選定が重要である。材料厚や線源条件に応じた組合せにより、欠陥の識別性を向上させることができる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0042",
+      "display_id": "非破壊検査_中級-042",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "浸透探傷試験（PT）において、現像剤を厚く塗りすぎるほうが、小さなキズを吸い出しやすくなり感度が上がる。",
+      "answer": "×",
+      "explanation": "厚すぎると浸透液が埋もれてしまい、逆に小さなキズが見えなくなります。「うっすら白く」が基本です。",
+      "explanation2": "超音波探傷では表面粗さやカップリング状態が信号伝達に影響するため、前処理と適切なカップリング材の使用が重要である。接触条件の管理が精度確保の鍵となる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0043",
+      "display_id": "非破壊検査_中級-043",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "用語",
+      "question": "超音波探傷の「斜角探傷」で、音波が材料の底面で反射して表面に戻り、さらに反射して進む経路を何というか。",
+      "answer": "1フルスキップ（2回反射）",
+      "explanation": "板厚の2倍の距離（路程）まで音波を追いかけ、広い範囲を検査します。",
+      "explanation2": "磁粉探傷では検査後に残留磁化が問題となる場合があり、必要に応じて脱磁処理を行う。これにより後工程や使用時の影響を防止できる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0044",
+      "display_id": "非破壊検査_中級-044",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "コンクリートの中性化深さ測定で、フェノールフタレイン溶液が反応して赤紫色になるのは（　）性が保たれている部分である。",
+      "answer": "強アルカリ",
+      "explanation": "pH10以上の未中性化領域が鮮やかに発色します。",
+      "explanation2": "浸透探傷では蛍光観察時の照度や紫外線強度が検出精度に影響するため、適切な観察環境を確保することが重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0045",
+      "display_id": "非破壊検査_中級-045",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "磁粉探傷試験（MT）において、検査後に試験体に残った磁気を取り除く作業を「脱磁」という。",
+      "answer": "○",
+      "explanation": "磁気が残っていると、その後の加工や計器の動作に悪影響を与えるため必須の工程です。",
+      "explanation2": "渦流探傷ではプローブの形状や配置が検査範囲に影響するため、対象部材に適したプローブ選定が必要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0046",
+      "display_id": "非破壊検査_中級-046",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "Q&A",
+      "question": "構造物の中に加速度計を設置し、交通振動や地震に対する「揺れ方」から損傷を探る手法は",
+      "answer": "振動モニタリング",
+      "explanation": "固有振動数の変化などから、目に見えない剛性の低下を推定します。",
+      "explanation2": "非破壊検査では検査範囲の設定が重要であり、重要部位を優先的に検査することで効率的な品質管理が可能となる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0047",
+      "display_id": "非破壊検査_中級-047",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "用語",
+      "question": "放射線透過試験（RT）で、デジタルカメラのようにセンサーで直接画像を撮る手法を何というか。",
+      "answer": "FPD法（フラットパネルディテクタ）",
+      "explanation": "フィルム現像の手間がなく、リアルタイムで検査結果を確認できます。",
+      "explanation2": "検査結果の判定には設計基準や規格を参照し、許容範囲内かどうかを判断する。客観的な基準に基づく評価が重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0048",
+      "display_id": "非破壊検査_中級-048",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "赤外線サーモグラフィで、冬の夜間に外壁の「浮き」を見つける手法を（　）法という。",
+      "answer": "放熱（冷却）",
+      "explanation": "日中に蓄えた熱が、夜間に浮き部だけ残る（冷えにくい）現象を利用します。",
+      "explanation2": "非破壊検査は施工後の維持管理にも活用され、定期点検により劣化の進行状況を把握することができる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0049",
+      "display_id": "非破壊検査_中級-049",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "超音波探傷試験（UT）において、鍛造品などの結晶粒が粗い材料は、音波が散乱しやすいため探傷が難しい。",
+      "answer": "○",
+      "explanation": "「林状エコー」と呼ばれるノイズが発生し、キズのエコーを隠してしまいます。",
+      "explanation2": "検査作業では安全管理が不可欠であり、特に放射線や電気を扱う場合は厳格な管理体制が必要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0050",
+      "display_id": "非破壊検査_中級-050",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "用語",
+      "question": "非破壊検査の「精度」を示す指標で、キズがあるのに「ない」と判定してしまうミスを何というか。",
+      "answer": "見逃し（偽陰性）",
+      "explanation": "安全に直結するため、最も防がなければならないエラーです。",
+      "explanation2": "非破壊検査の適切な実施は構造物の信頼性向上に寄与し、事故防止や長寿命化に重要な役割を果たす。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0051",
+      "display_id": "非破壊検査_中級-051",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "超音波探傷において、感度調整のために用いる標準的な穴（横穴など）が開いたブロックを「対比試片」という。",
+      "answer": "○",
+      "explanation": "現場でエコー高さの基準（DAC曲線など）を作るために不可欠です。",
+      "explanation2": "放射線透過試験ではデジタルラジオグラフィの活用により、画像の即時確認や濃度補正が可能となり、検査効率と精度が向上する。適切な画像処理により微細欠陥の識別性も高まる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0052",
+      "display_id": "非破壊検査_中級-052",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "浸透探傷試験（PT）において、洗浄後に表面を乾かす工程を（　）という。",
+      "answer": "乾燥",
+      "explanation": "水分が残っていると、現像剤がうまく塗れなかったり指示模様がぼけたりします。",
+      "explanation2": "超音波探傷ではフェーズドアレイ技術によりビームの角度や焦点を電子的に制御でき、複雑な形状の検査や高精度な欠陥評価が可能となる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0053",
+      "display_id": "非破壊検査_中級-053",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "Q&A",
+      "question": "コンクリートの鉄筋探査で、電磁波レーダ法の「水平分解能」を上げるために有効な手段は",
+      "answer": "高周波のアンテナを使用する",
+      "explanation": "周波数が高いほど波長が短くなり、隣り合う鉄筋を個別に識別しやすくなります。",
+      "explanation2": "磁粉探傷では磁束密度の均一化が重要であり、均一でない場合は検出感度にばらつきが生じる。適切な磁化条件の設定が必要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0054",
+      "display_id": "非破壊検査_中級-054",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "放射線透過試験（RT）において、放射線の強さが半分になる物質の厚さを（　）という。",
+      "answer": "半価層",
+      "explanation": "遮蔽壁の厚さを計算したり、露出時間を決めたりする際の重要な指標です。",
+      "explanation2": "浸透探傷では表面温度が浸透液の挙動に影響するため、規定温度範囲内での実施が求められる。温度管理が検査精度に直結する。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0055",
+      "display_id": "非破壊検査_中級-055",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "磁粉探傷試験（MT）の「軸通電法」は、ボルトや軸のような細長い試験体の「円周方向」のキズを見つけるのに適している。",
+      "answer": "×",
+      "explanation": "電流と平行な（軸方向の）キズを見つけるのに適しています。",
+      "explanation2": "渦流探傷では信号解析により材料特性の変化も評価可能であり、腐食や熱影響部の検出にも利用される。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0056",
+      "display_id": "非破壊検査_中級-056",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "用語",
+      "question": "非破壊検査において、装置の電源を入れてから安定するまでの待ち時間を何というか。",
+      "answer": "ウォーミングアップ時間",
+      "explanation": "精密な電子機器（特にRTやUT）では、熱変化による誤差を防ぐために必要です。",
+      "explanation2": "非破壊検査では検査計画の段階でリスク評価を行い、重要度に応じた検査範囲と方法を設定することが重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0057",
+      "display_id": "非破壊検査_中級-057",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "用語",
+      "question": "赤外線サーモグラフィ法で、隣の建物の窓ガラスが反射して壁に写り込むノイズを何というか。",
+      "answer": "ゴースト（反射指示）",
+      "explanation": "欠陥と見間違えやすいため、撮影角度を変えて確認する必要があります。",
+      "explanation2": "検査機器の定期点検と保守は検査精度維持の基本であり、不具合があると誤判定の原因となる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0058",
+      "display_id": "非破壊検査_中級-058",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "コンクリートの中性化深さを測定する際、コアを抜かずに表面をハツって試薬を塗る方法を（　）法という。",
+      "answer": "はつり法",
+      "explanation": "現場で迅速に確認できますが、補修（埋め戻し）が必ずセットになります。",
+      "explanation2": "非破壊検査結果は品質保証資料として保存され、施工履歴や維持管理において重要な役割を果たす。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0059",
+      "display_id": "非破壊検査_中級-059",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "渦流探傷試験（ECT）は、材料の表面に薄い絶縁被膜（薄い塗装など）があっても、そのまま検査可能である。",
+      "answer": "○",
+      "explanation": "電磁誘導による磁界の変化をみるため、電気が通らない薄膜なら透過します。",
+      "explanation2": "検査結果の評価には専門的知識と経験が必要であり、適切な教育と資格制度が重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0060",
+      "display_id": "非破壊検査_中級-060",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "Q&A",
+      "question": "超音波探傷で、探触子の角度が規定（例：70度）からずれると、キズの判定にどう影響するか。",
+      "answer": "キズの「深さ」の計算値が大きく狂う",
+      "explanation": "角度が1度ずれるだけで、深い場所での位置特定には数センチの誤差が出ます。",
+      "explanation2": "非破壊検査は予防保全において有効であり、早期に異常を検出することで構造物の安全性と経済性を確保できる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0061",
+      "display_id": "非破壊検査_中級-061",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "溶接部の欠陥のうち、溶接金属と母材がうまく融合していない状態を（　）という。",
+      "answer": "融合不良",
+      "explanation": "強度低下の主因であり、UTやRTで厳重にチェックされる項目です。",
+      "explanation2": "放射線透過試験ではデジタル画像処理によりコントラスト強調やノイズ低減が可能であり、欠陥の視認性を向上できる。ただし過度な処理は誤判定の原因となるため、原画像との比較確認が重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0062",
+      "display_id": "非破壊検査_中級-062",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "浸透探傷試験（PT）において、現像剤をスプレーする際は、試験体から30cm程度離して「ムラなく薄く」吹くのが鉄則である。",
+      "answer": "○",
+      "explanation": "近すぎると液だれし、遠すぎると粉が乗らず、どちらも感度低下を招きます。",
+      "explanation2": "超音波探傷では多重反射やノイズエコーが誤判定の原因となるため、信号の識別能力が重要である。経験に基づく波形解析が精度向上に寄与する。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0063",
+      "display_id": "非破壊検査_中級-063",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "Q&A",
+      "question": "コンクリートの「インパクト・エコー法」は、何を解析して厚みや内部欠陥を調べるか。",
+      "answer": "弾性波の反射周波数",
+      "explanation": "打撃によって生じた波が底面で往復する周期（周波数）をFFT解析して厚さを算出します。",
+      "explanation2": "磁粉探傷では表面処理状態や塗装の有無が検出性に影響するため、必要に応じて塗膜除去などの前処理を行うことが重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0064",
+      "display_id": "非破壊検査_中級-064",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "放射線透過試験（RT）で、放射線を透過させにくい（密度が高い）材料ほど、フィルムは（　）写る。",
+      "answer": "白く（明るく）",
+      "explanation": "放射線があまり届かないため、フィルムの感光が抑えられます。",
+      "explanation2": "浸透探傷では微細欠陥の検出に優れるが、粗面や多孔質材料では誤指示が発生しやすい。適用条件を正しく理解する必要がある。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0065",
+      "display_id": "非破壊検査_中級-065",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "磁粉探傷試験（MT）で、乾式磁粉は大型の構造物や高温の試験体の検査に向いている。",
+      "answer": "○",
+      "explanation": "水や油を使わないため、屋外の橋梁検査や熱い溶接直後の検査で重宝されます。",
+      "explanation2": "渦流探傷では材料の導電率や磁気特性の変化を検出できるため、腐食や熱処理状態の評価にも利用される。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0066",
+      "display_id": "非破壊検査_中級-066",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "用語",
+      "question": "非破壊検査で、合格基準ギリギリの反応に対して、より詳細に調べ直すことを何というか。",
+      "answer": "精査",
+      "explanation": "別の手法を組み合わせたり、角度を変えて再測定したりして慎重に判断します。",
+      "explanation2": "非破壊検査では検査条件の再現性を確保することが重要であり、同一条件での実施により経時変化の比較が可能となる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0067",
+      "display_id": "非破壊検査_中級-067",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "Q&A",
+      "question": "外壁タイルの浮き調査で、赤外線法において「日陰」の部分はどう対応すべきか。",
+      "answer": "打診調査を併用する（または夜間の放熱を利用する）",
+      "explanation": "太陽による熱供給がないため、赤外線法だけでは浮きが映らないからです。",
+      "explanation2": "検査データの記録と管理は品質保証の基本であり、データの一貫性と信頼性を確保することが求められる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0068",
+      "display_id": "非破壊検査_中級-068",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "コンクリート中の塩化物イオン濃度を測定するための「速効性」の試験紙を（　）という。",
+      "answer": "カンタブ",
+      "explanation": "現場でドリル粉末と水を混ぜた液に浸すだけで、簡易的に塩分量を確認できます。",
+      "explanation2": "非破壊検査では対象物の形状やアクセス条件が検査方法の選定に影響するため、現場条件を考慮した計画が必要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0069",
+      "display_id": "非破壊検査_中級-069",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "超音波探傷試験（UT）において、音波の波長がキズのサイズよりも大きい場合、キズを素通りしてしまい検出できない。",
+      "answer": "○",
+      "explanation": "周波数を高く（波長を短く）しないと、微細なキズは捉えられません。",
+      "explanation2": "検査作業では安全管理が重要であり、特に高所や狭所での作業では十分な対策が必要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0070",
+      "display_id": "非破壊検査_中級-070",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "用語",
+      "question": "非破壊検査報告書に必ず添付すべき、検査箇所を示した図面を何というか。",
+      "answer": "検査マップ（またはキズ位置図）",
+      "explanation": "第三者が補修箇所を迷わず特定できるようにするための重要な書類です。",
+      "explanation2": "非破壊検査は構造物の安全性確保に不可欠な技術であり、適切な実施により事故防止と品質向上に寄与する。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0071",
+      "display_id": "非破壊検査_中級-071",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "公共建築工事標準仕様書による「構造体コンクリートの強度推定」は、原則として（　）ごとにロットを構成する。",
+      "answer": "各階（または各打設日）",
+      "explanation": "品質が一定であると考えられる単位ごとに検査を行う決まりです。",
+      "explanation2": "非破壊検査には検出限界があり、欠陥の大きさや形状、方向によっては検出が困難な場合がある。このため検査結果を過信せず、他の検査手法や設計条件と併せて総合的に評価することが重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0072",
+      "display_id": "非破壊検査_中級-072",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "浸透探傷試験（PT）で、浸透液を塗った後に試験体を加熱すると、浸透速度が上がり感度が向上する。",
+      "answer": "×",
+      "explanation": "液が乾燥（固着）してしまい、洗浄ができなくなるため加熱は厳禁です。",
+      "explanation2": "超音波探傷では欠陥の方向と音波の入射角が一致しない場合、反射が弱くなり見落としが発生する可能性がある。複数角度からの探傷により検出精度を高めることができる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0073",
+      "display_id": "非破壊検査_中級-073",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "リストアップ",
+      "question": "コンクリートの鉄筋探査において、鉄筋が「二重（ダブル配筋）」になっている場合、深い方の鉄筋を測る際の注意点は",
+      "answer": "手前の鉄筋の影響でエコーが弱まり、位置がずれやすい",
+      "explanation": "電磁波や磁力が手前で遮られるため、深い方の精度は格段に落ちます。",
+      "explanation2": "磁粉探傷では磁化方向が不適切だと欠陥が検出されないことがあるため、複数方向からの磁化を行うことが推奨される。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0074",
+      "display_id": "非破壊検査_中級-074",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "放射線透過試験（RT）で、作業者の被ばく量をリアルタイムで監視する小型の計器を（　）という。",
+      "answer": "電子式個人線量計（アラームメータ）",
+      "explanation": "設定値を超えると音で知らせ、安全を確保します。",
+      "explanation2": "浸透探傷では表面開口欠陥のみが対象であり、内部欠陥の検出には適さない。検査目的に応じた手法選定が必要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0075",
+      "display_id": "非破壊検査_中級-075",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "磁粉探傷試験（MT）は、試験体の「表面」のキズだけでなく、表面から数ミリ以内の「表面直下」のキズも検出できる。",
+      "answer": "○",
+      "explanation": "漏洩磁束が表面まで届けば、直下のキズも指示模様として現れます。",
+      "explanation2": "渦流探傷では表皮効果により検査深さが制限されるため、深部欠陥の検出には他の方法を併用する必要がある。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0076",
+      "display_id": "非破壊検査_中級-076",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "用語",
+      "question": "超音波探傷で、探触子の内部にある「電気を音に変える素子」を何というか。",
+      "answer": "圧電素子（振動子）",
+      "explanation": "電圧を加えると伸び縮みする性質（圧電効果）を利用しています。",
+      "explanation2": "非破壊検査では検査結果の標準化と共有が重要であり、統一フォーマットでの記録が品質管理の効率化につながる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0077",
+      "display_id": "非破壊検査_中級-077",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "Q&A",
+      "question": "赤外線サーモグラフィ法において、タイルの浮きだけでなく「漏水」の特定にも使える理由は",
+      "answer": "水が蒸発する際の「気化熱」で温度が下がるから",
+      "explanation": "濡れている部分は周囲より温度が低く（青く）表示されるため特定可能です。",
+      "explanation2": "検査計画では重要度に応じた検査範囲の設定が必要であり、リスクに基づく優先順位付けが重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0078",
+      "display_id": "非破壊検査_中級-078",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "コンクリートの「アルカリ骨材反応（ASR）」を非破壊で調査する場合、表面の（　）ひび割れを観察する。",
+      "answer": "亀甲状",
+      "explanation": "内部からの膨張により、網目のような独特なひび割れパターンが発生します。",
+      "explanation2": "非破壊検査結果は維持管理計画に反映され、補修や更新の判断に活用される。継続的なデータ蓄積が重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0079",
+      "display_id": "非破壊検査_中級-079",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "渦流探傷試験（ECT）は、材料の形状（曲面など）が変化する場所では、信号が乱れやすいため検査に工夫が必要である。",
+      "answer": "○",
+      "explanation": "形状変化による信号とキズの信号を区別するための「位相解析」技術が重要になります。",
+      "explanation2": "検査時の安全確保は最優先事項であり、適切な保護具の使用と作業手順の遵守が求められる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0080",
+      "display_id": "非破壊検査_中級-080",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "Q&A",
+      "question": "非破壊検査の現場で、雨天時に最も注意すべき「電気的な事故」は何に関するものか。",
+      "answer": "装置（特にRTやAC電源のMT）の漏電",
+      "explanation": "屋外検査では防水対策と、絶縁性の高い作業手順が求められます。",
+      "explanation2": "非破壊検査技術は進歩しており、新しい機器や解析技術の導入により検査精度が向上している。継続的な技術習得が重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0081",
+      "display_id": "非破壊検査_中級-081",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "公共建築工事標準仕様書において、鉄筋探査（電磁波レーダ法）を行う場合、1つの測定スパンの長さは通常（　）m程度以上とする。",
+      "answer": "1",
+      "explanation": "配筋のピッチを正しく読み取るために必要な最低限の走査距離です。",
+      "explanation2": "非破壊検査では感度設定が結果の信頼性に大きく影響する。感度を高くしすぎるとノイズが増え誤検出の原因となり、低すぎると欠陥を見逃す可能性があるため、適切なバランス設定が重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0082",
+      "display_id": "非破壊検査_中級-082",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "浸透探傷試験（PT）において、現像後に現れた指示模様の大きさが「キズの実際の大きさ」である。",
+      "answer": "×",
+      "explanation": "指示模様はキズから液が吸い出されて「拡大」されたものなので、実際のキズより大きく見えます。",
+      "explanation2": "超音波探傷では分解能と透過力のトレードオフがあり、高周波は分解能に優れるが減衰が大きくなる。検査対象の厚さや欠陥サイズに応じた周波数選定が必要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0083",
+      "display_id": "非破壊検査_中級-083",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "用語",
+      "question": "超音波探傷で、板厚が厚い場合に、音波を1回反射させずに直接キズに当てる方法を何というか。",
+      "answer": "直射法（0.5スキップ）",
+      "explanation": "音の減衰を最小限に抑え、深い場所のキズを高感度に捉える方法です。",
+      "explanation2": "磁粉探傷では欠陥方向と磁化方向の関係により検出感度が変化するため、複数方向からの磁化を行うことで検出漏れを防ぐことができる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0084",
+      "display_id": "非破壊検査_中級-084",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "放射線透過試験（RT）において、撮影したフィルムの黒さの度合いを数値化したものを（　）という。",
+      "answer": "濃度（光学濃度）",
+      "explanation": "濃度計で測定し、規定の範囲内（2.0〜4.0など）であることを確認します。",
+      "explanation2": "浸透探傷では洗浄工程が不適切だと欠陥内の浸透液が除去され、見落としにつながる。一方、洗浄不足は背景ノイズ増加の原因となるため、適切な処理が重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0085",
+      "display_id": "非破壊検査_中級-085",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "磁粉探傷試験（MT）は、溶接の「余盛」が残った状態でも、そのまま高精度な検査が可能である。",
+      "answer": "×",
+      "explanation": "余盛の段差に磁粉が溜まって「擬似指示」が出やすいため、滑らかに仕上げるのが望ましいです。",
+      "explanation2": "渦流探傷では材料の電気特性の変化も検出対象となるため、欠陥と材質変化の区別が必要である。基準試験片による校正が重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0086",
+      "display_id": "非破壊検査_中級-086",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "Q&A",
+      "question": "コンクリート構造物の健康診断として、AE（アコースティック・エミッション）法は何を聴いているか。",
+      "answer": "内部でひび割れが発生する際に出る「微細な破壊音」",
+      "explanation": "材料が壊れる瞬間に出すエネルギー波を検知し、劣化の進行度を監視します。",
+      "explanation2": "非破壊検査では標準試験片を用いた感度確認により、検査条件の妥当性を確保することが重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0087",
+      "display_id": "非破壊検査_中級-087",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "Q&A",
+      "question": "赤外線サーモグラフィ法で、測定中にカメラを大きく動かす（手ブレ）とどのような悪影響があるか。",
+      "answer": "画像がボケて、温度のピーク値が低く表示される",
+      "explanation": "正確な温度コントラストを測るため、三脚固定や高速シャッターの設定が推奨されます。",
+      "explanation2": "検査結果の評価では欠陥の位置や進展性を考慮する必要があり、単純な大きさ評価だけでは不十分である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0088",
+      "display_id": "非破壊検査_中級-088",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "コンクリートの鉄筋腐食診断において、分極抵抗法は、鉄筋が「現在進行形」で錆びている（　）を測定できる。",
+      "answer": "腐食速度",
+      "explanation": "単なるサビの有無だけでなく、あと何年で危険な状態になるかを予測するのに役立ちます。",
+      "explanation2": "非破壊検査は品質保証体系の中で他の試験と連携して実施されるため、統合的な管理が重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0089",
+      "display_id": "非破壊検査_中級-089",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "超音波探傷試験（UT）において、音波の進む方向とキズの面が「垂直」に近いほど、反射波は強く戻ってくる。",
+      "answer": "○",
+      "explanation": "鏡のように音波が跳ね返るため、最も検出しやすい理想的な状態です。",
+      "explanation2": "検査データのデジタル化により解析や共有が容易になり、品質管理の効率化と高度化が進んでいる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0090",
+      "display_id": "非破壊検査_中級-090",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "リストアップ",
+      "question": "非破壊検査における「再現性」とはどういう意味か。",
+      "answer": "同じ箇所を、同じ条件で、別の人が検査しても同じ結果になること",
+      "explanation": "検査データの客観性と信頼性を担保するための基本性能です。",
+      "explanation2": "非破壊検査は構造物の安全性と耐久性の評価に不可欠な技術であり、適切な運用により信頼性の高い品質確保が可能となる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0091",
+      "display_id": "非破壊検査_中級-091",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "公共建築工事標準仕様書において、鉄骨溶接部のUT合格基準は、特記がない限り（　）種以上の品質を確保すること。",
+      "answer": "B（または3）",
+      "explanation": "建物の重要度に応じて、許容される欠陥のランクが決まっています。",
+      "explanation2": "非破壊検査では各手法の特性と限界を理解し、目的に応じて適切に組み合わせることが重要である。単一手法では検出できない欠陥もあるため、複合的な検査により信頼性を向上させることができる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0092",
+      "display_id": "非破壊検査_中級-092",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "浸透探傷試験（PT）において、浸透液を洗い流した後の拭き取りには、毛羽立たない（ホコリの出ない）布を使用すべきである。",
+      "answer": "○",
+      "explanation": "布の繊維が残ると、それが現像剤を吸い取ってキズに見える「擬似指示」になるからです。",
+      "explanation2": "検査結果の信頼性は試験条件の再現性に依存するため、手順の標準化と記録管理が重要である。同一条件での比較により劣化の進行状況を把握できる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0093",
+      "display_id": "非破壊検査_中級-093",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "用語",
+      "question": "コンクリートの超音波法において、音波を出す探触子と受ける探触子を「対面」に配置する方法を何というか。",
+      "answer": "透過法",
+      "explanation": "コンクリートの厚みを通り抜ける時間を測り、内部の平均的な品質を評価します。",
+      "explanation2": "欠陥の評価では大きさだけでなく位置や進展性を考慮し、構造安全性への影響を総合的に判断する必要がある。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0094",
+      "display_id": "非破壊検査_中級-094",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "放射線透過試験（RT）において、散乱線を防ぐためにフィルムの裏側に置く厚い金属板は（　）板である。",
+      "answer": "鉛",
+      "explanation": "背後からの散乱放射線（バックバッタ）をカットし、画質を安定させます。",
+      "explanation2": "環境条件や使用状況の変化は構造物の劣化に影響を与えるため、定期的な非破壊検査により経時変化を把握することが重要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0095",
+      "display_id": "非破壊検査_中級-095",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "磁粉探傷試験（MT）は、水中（海中の橋脚など）でも専用の磁粉と装置を使えば実施可能である。",
+      "answer": "○",
+      "explanation": "水中磁粉探傷として、海洋構造物の点検などで実際に行われています。",
+      "explanation2": "現場観察による情報は検査結果を補完する重要な要素であり、ひび割れや変形状況を含めた総合判断が求められる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0096",
+      "display_id": "非破壊検査_中級-096",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "用語",
+      "question": "非破壊検査データの「S/N比」とは何の比率のことか。",
+      "answer": "信号（Signal）とノイズ（Noise）の比率",
+      "explanation": "この値が高いほど、キズの反応が背景の雑音に紛れず、はっきり判別できることを意味します。",
+      "explanation2": "非破壊検査は予防保全において重要な役割を果たし、早期発見により補修コスト低減と事故防止につながる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0097",
+      "display_id": "非破壊検査_中級-097",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "リストアップ",
+      "question": "赤外線サーモグラフィ法で、外壁の「タイル」と「石材」が混在している場合の注意点は",
+      "answer": "材質ごとに「放射率」が異なるため、温度表示に誤差が出る",
+      "explanation": "材質に合わせて補正を加えるか、それぞれのエリアを分けて評価する必要があります。",
+      "explanation2": "検査作業では安全管理が最優先であり、特に放射線や電気設備を扱う場合は法令遵守と適切な防護措置が必要である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0098",
+      "display_id": "非破壊検査_中級-098",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "穴埋め",
+      "question": "コンクリートの「配合（水セメント比）」を非破壊で推定するため、コンクリートの（　）を測定する手法が研究されている。",
+      "answer": "中性子水分量",
+      "explanation": "コンクリート内部の水素原子（水分）の量を直接捉えることで、強度や耐久性を予測します。",
+      "explanation2": "デジタル技術やAIの活用により非破壊検査の精度と効率は向上しており、今後の発展が期待される分野である。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0099",
+      "display_id": "非破壊検査_中級-099",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "〇×",
+      "question": "超音波探傷試験（UT）において、デジタル探傷器の「ゲート」とは、画面上の特定の範囲にあるエコーだけを監視・測定する枠のことである。",
+      "answer": "○",
+      "explanation": "この枠の中に入った波の高さを自動で計測し、キズの判定を補助します。",
+      "explanation2": "検査データの蓄積と分析により、構造物の劣化傾向を把握し、合理的な維持管理計画を立案することが可能となる。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    },
+    {
+      "id": "NDT_I-0100",
+      "display_id": "非破壊検査_中級-100",
+      "category": "非破壊検査",
+      "grade": "中級",
+      "question_type": "Q&A",
+      "question": "非破壊検査の管理者が、最後に「検査合格」のハンコを突く前に必ず確認すべき「現場の証拠」は",
+      "answer": "検査箇所のマーキング（合い印）と写真",
+      "explanation": "実際にその場所が、いつ、誰によって検査されたかを証明する最終的な証拠です。",
+      "explanation2": "非破壊検査は品質確保と安全確保の両面で重要な技術であり、適切な実施により構造物の信頼性向上と長寿命化に大きく寄与する。",
+      "importance": 1,
+      "main_id_category": "非破壊検査",
+      "sub_id_category": "検査",
+      "past_exam_info": "",
+      "tags": [
+        "非破壊検査",
+        "検査"
+      ],
+      "remarks": ""
+    }
+  ]
+}
