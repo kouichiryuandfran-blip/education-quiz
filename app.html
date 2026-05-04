@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>教育クイズ</title>
+  <meta name="theme-color" content="#1976d2">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="topbar">
+      <button class="small-btn" onclick="location.href='index.html'">← 戻る</button>
+      <div id="groupTitle" class="group-title"></div>
+    </div>
+
+    <div id="menu" class="menu-card"></div>
+
+    <div id="quiz" class="hidden">
+      <div id="counter" class="counter"></div>
+      <div id="type" class="type-label"></div>
+
+      <!-- ★追加：問題番号 -->
+      <div id="questionId" class="counter"></div>
+
+      <!-- ★追加：問題形式 -->
+      <div id="questionFormat" class="counter"></div>
+
+      <div id="question" class="card question-card"></div>
+
+      <!-- 答え -->
+      <button id="showAnswerBtn" onclick="showAnswer()" class="main-btn">
+        答えを見る
+      </button>
+
+      <div id="answer" class="answer hidden"></div>
+
+      <!-- ★追加：解説2ボタン -->
+      <button id="showExplanation2Btn" onclick="showExplanation2()" class="main-btn hidden">
+        解説2を見る
+      </button>
+
+      <!-- ★追加：解説2表示 -->
+      <div id="explanation2" class="answer hidden"></div>
+
+      <!-- 判定 -->
+      <div id="judge" class="judge-area hidden">
+        <button onclick="mark(true)" class="ok">○ 正解</button>
+        <button onclick="mark(false)" class="ng">× 不正解</button>
+      </div>
+
+      <!-- 誤り報告 -->
+      <div id="reportArea" class="hidden" style="margin-top:12px;">
+        <button onclick="reportIssue()" class="small-btn" style="width:100%;">
+          誤り報告
+        </button>
+      </div>
+
+      <button onclick="nextQuestion()" id="nextBtn" class="next hidden">
+        次の問題へ
+      </button>
+
+      <div id="stats" class="stats"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+  <script src="consent.js"></script>
+  <script>
+    checkConsent();
+  </script>
+</body>
+</html>
