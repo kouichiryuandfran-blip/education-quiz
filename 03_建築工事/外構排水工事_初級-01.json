@@ -3,804 +3,2004 @@
   "count": 100,
   "questions": [
     {
-      "id": "外構排水工事_初級-001",
+      "id": "Exterior drainage W_B-0001",
+      "display_id": "外構排水工事_初級-001",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "公共建築工事標準仕様書において、屋外排水本管の内径は原則として（　）mm以上とする。",
       "answer": "100",
-      "explanation": "排水本管の内径は100mmを原則とする。ただし、距離3m以下の短い枝管等に限り、75mmとすることができる 。"
+      "explanation": "排水本管の内径は100mmを原則とする。ただし、距離3m以下の短い枝管等に限り、75mmとすることができる 。",
+      "explanation2": "排水本管の内径は100mm以上が標準ですが、短い枝管では75mmも許容されます。実務では流量計算を的確に行い、詰まりや逆流のリスクを防ぐことが重要です。特に枝管の場合は詰まりやすいため勾配と清掃口設置の検討を怠らないよう注意しましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-002",
+      "id": "Exterior drainage W_B-0002",
+      "display_id": "外構排水工事_初級-002",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "屋外排水管の内径が100mmの場合、標準勾配は100分の1（1.0%）とする。",
       "answer": "×",
-      "explanation": "標準勾配は100分の2（2.0%）である。1.0%は、やむを得ない場合の許容最小勾配である 。"
+      "explanation": "標準勾配は100分の2（2.0%）である。1.0%は、やむを得ない場合の許容最小勾配である 。",
+      "explanation2": "標準勾配は2.0%で設計し、これにより流速を維持し自己洗浄作用を促進します。1.0%は最小勾配であり、施工精度が甘いと堆積物が留まりやすくなるため、現場管理では勾配測量を確実に行うことが不可欠です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-003(2建施-R3-15)",
+      "id": "Exterior drainage W_B-0003",
+      "display_id": "外構排水工事_初級-003(2建施-R3-15)",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "Q&Ａ",
       "question": "屋外排水管の直線部において、桝を設置する間隔は、最大で管の内径の何倍を超えない範囲内とするか",
       "answer": "120倍",
-      "explanation": "管径の120倍以内（100mm管なら12m以内）に桝を設ける。清掃用ワイヤー等が届く限界に基づいている。"
+      "explanation": "管径の120倍以内（100mm管なら12m以内）に桝を設ける。清掃用ワイヤー等が届く限界に基づいている。",
+      "explanation2": "桝設置間隔は管径の120倍以内で決まっており、これは清掃用ワイヤーの届く範囲を基準にしています。設置が遠すぎると清掃困難となり詰まりの原因となるため、配置計画時は適切な間隔と点検のしやすさを両立させることが肝要です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-004(2建施-H29-15)",
+      "id": "Exterior drainage W_B-0004",
+      "display_id": "外構排水工事_初級-004(2建施-H29-15)",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "雨水用排水桝の底部には、土砂を沈殿させるため、深さ50mmの泥だめを設ける。",
       "answer": "×",
-      "explanation": "泥だめの深さは15cm（150mm）以上が必要である。50mmは過去問でよく使われる誤答ポイント 。"
+      "explanation": "泥だめの深さは15cm（150mm）以上が必要である。50mmは過去問でよく使われる誤答ポイント 。",
+      "explanation2": "泥だめの深さは150mm以上が必要であり、短すぎると土砂が流下して管内に堆積しやすくなります。定期的な清掃も重要で、施工では底面の均一な深さ確保や、勾配調整を確実にして堆積防止を意識しましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-005",
+      "id": "Exterior drainage W_B-0005",
+      "display_id": "外構排水工事_初級-005",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "宅地内の一般敷地における排水管の埋設深さ（土かぶり）は、（　）mm以上を標準とする。",
       "answer": "300",
-      "explanation": "一般敷地では300mm以上を確保する。歩行や軽微な作業荷重での破損を防ぐ 。"
+      "explanation": "一般敷地では300mm以上を確保する。歩行や軽微な作業荷重での破損を防ぐ 。",
+      "explanation2": "排水管の埋設深さは300mm以上が基準で、浅すぎると歩行などの荷重で管が損傷します。実務では土質を考慮し、必要に応じて更なるかぶり厚を設けると管の安定性が向上し、トラブルを減らせます。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-006(2建施-H23-11)",
+      "id": "Exterior drainage W_B-0006",
+      "display_id": "外構排水工事_初級-006(2建施-H23-11)",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "車両が通行する通路の下に排水管を埋設する場合、埋設深さは600mm以上とする。",
       "answer": "○",
-      "explanation": "車両荷重がかかる場所では、荷重分散のため600mm以上の土かぶりが必要となる 。"
+      "explanation": "車両荷重がかかる場所では、荷重分散のため600mm以上の土かぶりが必要となる 。",
+      "explanation2": "車両通行部の埋設深さは600mm以上で、土かぶりが荷重を分散して管の破損を防ぎます。施工時は層厚を均一にし、転圧を十分行うことが重要です。また重機通行経路の設計も適切に管理しましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-007(2建施-R4-3)",
+      "id": "Exterior drainage W_B-0007",
+      "display_id": "外構排水工事_初級-007(2建施-R4-3)",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "比較",
       "question": "給水管と排水管が地中で交差する場合、衛生上の観点から「上側」に配置すべきなのはどちらの管か",
       "answer": "給水管",
-      "explanation": "給水管を上、排水管を下にする。万一の排水漏洩時に給水管を汚染するリスクを避けるため 。"
+      "explanation": "給水管を上、排水管を下にする。万一の排水漏洩時に給水管を汚染するリスクを避けるため 。",
+      "explanation2": "給水管を上に配置することで、万一排水管から漏水があっても給水管の汚染を防止します。設置時は上下管の間隔に余裕を持たせ、配管保温や点検のしやすさにも配慮することが望ましいです。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-008",
+      "id": "Exterior drainage W_B-0008",
+      "display_id": "外構排水工事_初級-008",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "用語",
       "question": "汚水桝の底部に設けられる、汚水の停滞や堆積を防ぐための滑らかな半円状の溝を何というか",
       "answer": "インバート",
-      "explanation": "インバートは汚水をスムーズに流下させ、腐敗や詰まりを防ぐ。"
+      "explanation": "インバートは汚水をスムーズに流下させ、腐敗や詰まりを防ぐ。",
+      "explanation2": "インバートは底部の半円状溝で、汚水を滞留させずスムーズに流す役割を果たします。施工では溝の形状を正確に形成し、表面の滑らかさを保持することで、流速維持とメンテナンス性が向上します。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-009(2建施-H27-11)",
+      "id": "Exterior drainage W_B-0009",
+      "display_id": "外構排水工事_初級-009(2建施-H27-11)",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "配管の施工順序は、勾配の精度を確保するため、原則として「上流側」から「下流側」に向かって進める。",
       "answer": "×",
-      "explanation": "配管は「下流側（放流側）」から上流に向かって進めるのが原則である 。"
+      "explanation": "配管は「下流側（放流側）」から上流に向かって進めるのが原則である 。",
+      "explanation2": "配管は下流側から上流側に施工するのが基本で、これにより勾配を正確に調整できます。上流側から始めると勾配ズレが生じやすく、水の流れが阻害されるため、施工計画をしっかりと立てることが重要です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-010",
+      "id": "Exterior drainage W_B-0010",
+      "display_id": "外構排水工事_初級-010",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "排水管内の流速は、自己洗浄作用を働かせるため、0.6m/秒から（　）m/秒の範囲内とすることが適切である。",
       "answer": "1.5",
-      "explanation": "0.6m/s未満は沈殿、1.5m/s超は管壁摩耗の原因となるため。"
+      "explanation": "0.6m/s未満は沈殿、1.5m/s超は管壁摩耗の原因となるため。",
+      "explanation2": "流速は0.6m/s～1.5m/sの範囲が望ましく、速すぎると管壁が摩耗し遅すぎると堆積を招きます。施工時には勾配設計と管材選定により適切な流速を確保し、長期的な配管耐久性を重視することが必要です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-011",
+      "id": "Exterior drainage W_B-0011",
+      "display_id": "外構排水工事_初級-011",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "雨水浸透施設を設置する場合、基礎から（　）cm以上の離隔を確保する。",
       "answer": "30",
-      "explanation": "建物基礎から30cm以上、または掘削深さに相当する距離を離す。"
+      "explanation": "建物基礎から30cm以上、または掘削深さに相当する距離を離す。",
+      "explanation2": "基礎から雨水浸透施設まで30cm以上距離をとるのは、基礎の支持力低下や水の影響を避けるためです。掘削深さに相当する距離も考慮し、建物に悪影響が及ばない施工計画が重要です。近接は基礎のひび割れや沈下を招くため、設置場所の地盤状態も確認しましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-012",
+      "id": "Exterior drainage W_B-0012",
+      "display_id": "外構排水工事_初級-012",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "雨水浸透桝の施工において、浸透面は重機等で十分に締め固める。",
       "answer": "×",
-      "explanation": "浸透面を転圧してはならない。土壌が圧密されると透水能力が低下するため 。"
+      "explanation": "浸透面を転圧してはならない。土壌が圧密されると透水能力が低下するため 。",
+      "explanation2": "浸透面の締め固めは透水性を損なうため避けます。実務では、重機の重量が地盤の圧密を招き微細孔が閉塞し浸透性能が低下することを理解し、締め固め不要の指示を厳守することが必要です。施工中は踏み固めや転圧が起きないよう注意しましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-013",
+      "id": "Exterior drainage W_B-0013",
+      "display_id": "外構排水工事_初級-013",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "比較",
       "question": "圧力がかからない排水用に使用される薄肉の塩化ビニル管はどちらか",
       "answer": "VU管",
-      "explanation": "VUは排水・通気用、VPは給水など圧力管用である。"
+      "explanation": "VUは排水・通気用、VPは給水など圧力管用である。",
+      "explanation2": "VU管は薄肉で圧力に耐えないため、排水・通気用としてのみ使用されます。給水など内圧がかかる場所にはVP管を使い、材質や形状の違いから適材適所の選定が施工品質に直結します。配管設計時は用途を正確に見極めましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-014",
+      "id": "Exterior drainage W_B-0014",
+      "display_id": "外構排水工事_初級-014",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "リストアップ",
       "question": "浸透型雨水桝を設置してはいけない土地を2つ挙げよ。",
       "answer": "・地下水位が高い土地 ・急傾斜地",
-      "explanation": "その他、隣地への溢水の恐れがある場所も不可 。"
+      "explanation": "その他、隣地への溢水の恐れがある場所も不可 。",
+      "explanation2": "地下水位が高い土地では浸透が逆流し、不安定土壌により構造物が破損しやすいです。急傾斜地は土砂流出や浸透水で斜面崩壊の危険が増すため設置禁止です。周囲環境や地形を十分調査し、安全性を確保することが重要です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-015(2建施-H24-11)",
+      "id": "Exterior drainage W_B-0015",
+      "display_id": "外構排水工事_初級-015(2建施-H24-11)",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "接着接合において、接着剤は受口と差口の両面に塗布する。",
       "answer": "○",
-      "explanation": "両面塗布により確実な強度が得られる。片塗りは接着不良の原因。"
+      "explanation": "両面塗布により確実な強度が得られる。片塗りは接着不良の原因。",
+      "explanation2": "接着剤の両面塗布は溶剤が均等に硬化し、化学結合を最大化させます。片塗りで接触面が不均一だと剥離や漏水の原因となるため、施工前に塗布面の清掃も徹底し、確実な乾燥時間を確保しましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-016",
+      "id": "Exterior drainage W_B-0016",
+      "display_id": "外構排水工事_初級-016",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "用語",
       "question": "埋戻し前に、管の接合部から漏水がないかを確認する試験を何というか",
       "answer": "満水試験",
-      "explanation": "埋戻し後の不具合修正はコストが大きいため、事前に必ず実施する 。"
+      "explanation": "埋戻し後の不具合修正はコストが大きいため、事前に必ず実施する 。",
+      "explanation2": "満水試験は管路の漏水を早期に発見し、埋設後の再施工を防ぐ施工管理の要です。試験中の水圧管理や管路の遮断確認も併せて行い、漏れがあれば即時補修・再試験を徹底してください。記録保持も実務上必須です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-017(2建施-H27-11)",
+      "id": "Exterior drainage W_B-0017",
+      "display_id": "外構排水工事_初級-017(2建施-H27-11)",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "配管の周囲の埋戻しには、石や礫を含まない（　）を使用する。",
       "answer": "山砂（砂）",
-      "explanation": "管に点荷重がかからないよう保護するため。管頂100mmまで使用する。"
+      "explanation": "管に点荷重がかからないよう保護するため。管頂100mmまで使用する。",
+      "explanation2": "山砂は細粒で均質なため配管周囲の荷重分散に効果的です。礫や石を含むと点荷重で管が破損しやすいため避け、管頂100mmまで均一に埋戻しすることが管の耐久性向上のポイントです。層ごとの突き固めも適切に行います。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-018",
+      "id": "Exterior drainage W_B-0018",
+      "display_id": "外構排水工事_初級-018",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "リストアップ",
       "question": "桝を設置すべき箇所を3つ挙げよ。",
       "answer": "・管路の起点 ・屈曲点 ・合流点",
-      "explanation": "その他、管径の変化点や直線部の規定距離ごとにも設ける 。"
+      "explanation": "その他、管径の変化点や直線部の規定距離ごとにも設ける 。",
+      "explanation2": "桝は管の維持点検の要所であり、起点・屈曲点・合流点などで設置すると詰まりや水流異常の早期発見が可能です。管径変化点や長距離直線部でも設置基準に沿って設けることで、長期的な排水効率維持に繋がります。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-019(2建施-R4-15)",
+      "id": "Exterior drainage W_B-0019",
+      "display_id": "外構排水工事_初級-019(2建施-R4-15)",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "防臭トラップの封水深は（　）mm以上、（　）mm以下とする。",
       "answer": "50100",
-      "explanation": "50mm未満は封水切れ、100mm超は排水抵抗過大となる 。"
+      "explanation": "50mm未満は封水切れ、100mm超は排水抵抗過大となる 。",
+      "explanation2": "封水深50mm未満は臭気の漏れを招き、100mm超は水の排出抵抗が大きく逆流リスク増大です。実務では封水の適正維持を点検時に確認し、異常時は清掃や部品交換を速やかに実施し周囲への悪臭発生を防ぎます。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-020",
+      "id": "Exterior drainage W_B-0020",
+      "display_id": "外構排水工事_初級-020",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "測量器具に衝撃を与えた場合、使用前に必ず校正を行う。",
       "answer": "○",
-      "explanation": "器具の狂いは全ての勾配不良の元となるため厳守する。"
+      "explanation": "器具の狂いは全ての勾配不良の元となるため厳守する。",
+      "explanation2": "測量器具の衝撃は内部機構に微細なズレを生じさせ、勾配の誤差を引き起こします。現場では必ず校正を実施し、計測値の信頼性を確保することが肝要です。定期点検と取り扱い時の慎重な取扱いも併せて徹底してください。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-021",
+      "id": "Exterior drainage W_B-0021",
+      "display_id": "外構排水工事_初級-021",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "リストアップ",
       "question": "桝蓋に表示すべき種別を3つ挙げよ。",
       "answer": "・汚水 ・雨水 ・浸透",
-      "explanation": "メンテナンス時の誤認を防ぐための義務的表示である 。"
+      "explanation": "メンテナンス時の誤認を防ぐための義務的表示である 。",
+      "explanation2": "桝蓋の種別表示は、作業時の誤配管や誤接続を防ぐために必須です。特に現場が多機能化すると混線リスクが増加するため、表示の視認性・耐久性にも配慮が必要です。文字の色や大きさ、耐候性のある表示方法を選ぶことで将来のメンテナンスがスムーズになります。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-022(2建施-R4-15)",
+      "id": "Exterior drainage W_B-0022",
+      "display_id": "外構排水工事_初級-022(2建施-R4-15)",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "寒冷地では、配管を（　）深度より深い位置に配置する。",
       "answer": "凍結",
-      "explanation": "凍結による管の浮き上がりや破損を防ぐため。"
+      "explanation": "凍結による管の浮き上がりや破損を防ぐため。",
+      "explanation2": "寒冷地の配管は凍結深度より深く埋設しますが、地盤の凍結深度は地域・季節で異なるため最新データで確認が必須です。また、配管の材質や断熱措置も考慮しないと凍結・破損リスクは軽減できません。施工時は掘削時の排水管理も重要です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-023",
+      "id": "Exterior drainage W_B-0023",
+      "display_id": "外構排水工事_初級-023",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "排水管掘削の最小幅は（　）cmを基準とする。",
       "answer": "30",
-      "explanation": "作業スペース確保のため。不陸のないよう直線状に掘る。"
+      "explanation": "作業スペース確保のため。不陸のないよう直線状に掘る。",
+      "explanation2": "掘削幅は作業性を確保するため30cmが基準ですが、重機の種類や配管サイズで拡張も検討します。不陸対策には一定勾配を保持し、土砂の締固めを適切に行う事が施工のコツ。狭幅掘削の際は墜落など安全管理にも注意が必要です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-024",
+      "id": "Exterior drainage W_B-0024",
+      "display_id": "外構排水工事_初級-024",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "比較",
       "question": "給排水管の並行埋設時、建物側に配置するのはどちらか",
       "answer": "排水管",
-      "explanation": "排水管を建物側、給水管を外側にするのが一般的 。"
+      "explanation": "排水管を建物側、給水管を外側にするのが一般的 。",
+      "explanation2": "給排水管の配置は耐震・漏水防止の観点からも重要です。排水管を建物側に置くと漏水時の被害を抑えやすい一方、断熱や振動対策を怠ると劣化リスクが増加します。管径や接続システムの整理も施工品質に直結します。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-025",
+      "id": "Exterior drainage W_B-0025",
+      "display_id": "外構排水工事_初級-025",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "軟弱地盤への埋設では、底面を十分に突き固める。",
       "answer": "○",
-      "explanation": "沈下による逆勾配を防止するため、地耐力を確保する 。"
+      "explanation": "沈下による逆勾配を防止するため、地耐力を確保する 。",
+      "explanation2": "軟弱地盤での突き固めは深層まで均一に実施することが重要です。不十分だと沈下して逆勾配になり、排水不良を招きます。施工段階で適切な締固め試験と観察を行い、必要なら補強材や地盤改良を採用してください。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-026",
+      "id": "Exterior drainage W_B-0026",
+      "display_id": "外構排水工事_初級-026",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "桝の深さが（　）cmを超える場合は人孔（マンホール）とする。",
       "answer": "155",
-      "explanation": "作業員が入れる構造にする必要があり、規定で定められている 。"
+      "explanation": "作業員が入れる構造にする必要があり、規定で定められている 。",
+      "explanation2": "深さ155cm超の桝は作業員の出入りを考慮し、人孔と呼ばれます。見た目だけでなく換気や照明の設置、内部構造の安全設計も欠かせません。清掃や点検時の安全装備の使用も徹底しましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-027",
+      "id": "Exterior drainage W_B-0027",
+      "display_id": "外構排水工事_初級-027",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "用語",
       "question": "測量の起点となる、動かない構造物に設定する基準点を何というか",
       "answer": "ベンチマーク(BM)",
-      "explanation": "建築物の基礎などを利用し、工事中の基準とする。"
+      "explanation": "建築物の基礎などを利用し、工事中の基準とする。",
+      "explanation2": "ベンチマークは測量の基準点であり、動かないことが絶対条件です。コンクリート基礎や特殊な杭などを利用し、施工中・維持管理での変位監視が重要。正確な標高・位置をもとに全体の配管勾配も調整されます。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-028",
+      "id": "Exterior drainage W_B-0028",
+      "display_id": "外構排水工事_初級-028",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "トラップ付き排水管の先に、さらにトラップ付き桝を設けてもよい。",
       "answer": "×",
-      "explanation": "二重トラップは排水不良を招くため禁止である 。"
+      "explanation": "二重トラップは排水不良を招くため禁止である 。",
+      "explanation2": "トラップは排水の臭気防止装置ですが、二重に設置すると排水抵抗が増し、流れが滞るため不良の原因に。設計段階でトラップ数を最小化し、必要なら異物詰まり防止や清掃しやすさを考慮した構造を選びましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-029",
+      "id": "Exterior drainage W_B-0029",
+      "display_id": "外構排水工事_初級-029",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "比較",
       "question": "浸透施設と他の地下埋設物の離隔は何cm以上か",
       "answer": "30cm",
-      "explanation": "影響を避けるため、原則として30cm以上の距離を保つ 。"
+      "explanation": "影響を避けるため、原則として30cm以上の距離を保つ 。",
+      "explanation2": "浸透施設と地下埋設物の最低離隔30cmは、相互影響防止のためです。間隔が狭いと、浸透排水の影響で他構造物の腐食や変形が起こることがあります。施工時は埋設深度・材質の選定とともに慎重な計画を行う必要があります。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-030",
+      "id": "Exterior drainage W_B-0030",
+      "display_id": "外構排水工事_初級-030",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "雨水桝には、汚水管を接続してはならない。",
       "answer": "○",
-      "explanation": "公衆衛生上、最も基本的な禁止事項である 。"
+      "explanation": "公衆衛生上、最も基本的な禁止事項である 。",
+      "explanation2": "雨水桝への汚水接続禁止は衛生面の基礎中の基礎で、感染症や悪臭防止に直結します。施工後の誤接続防止には配管標示、検査の強化が求められます。万が一混入が判明した場合は迅速な浄化設備設置や管路改修を行いましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-031(2建施-H28-11)",
+      "id": "Exterior drainage W_B-0031",
+      "display_id": "外構排水工事_初級-031(2建施-H28-11)",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "管の切断は、管軸に対して直角に行う。",
       "answer": "○",
-      "explanation": "斜め切りは接合不良や漏水の直接原因となる。"
+      "explanation": "斜め切りは接合不良や漏水の直接原因となる。",
+      "explanation2": "管の切断が斜めになると、接合面に隙間が生じ、シール不良や漏水が発生します。切断時は切断工具の刃を正確に管軸に直角に合わせ、ガイドを使用することが効果的です。加工精度を保つことで接合時の密閉性が向上し、長期的な耐久性が確保できます。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-032(2建施-H24-11)",
+      "id": "Exterior drainage W_B-0032",
+      "display_id": "外構排水工事_初級-032(2建施-H24-11)",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "接着接合では、受口と差口の両面に塗布する。",
       "answer": "○",
-      "explanation": "確実な強度を得るため。片塗りは厳禁である。"
+      "explanation": "確実な強度を得るため。片塗りは厳禁である。",
+      "explanation2": "受口と差口の両面に接着剤を塗布することで、接着剤の浸透と硬化が安定し強靭な接合部が得られます。片面のみの塗布は密着不足により剥離や漏水リスクが高く、施工ミスの原因となるため必ず両面塗布を徹底してください。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-033",
+      "id": "Exterior drainage W_B-0033",
+      "display_id": "外構排水工事_初級-033",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "接合後、はみ出した接着剤は（　）で直ちに拭き取る。",
       "answer": "ウエス",
-      "explanation": "溶剤成分による管の劣化（亀裂）を防ぐため。"
+      "explanation": "溶剤成分による管の劣化（亀裂）を防ぐため。",
+      "explanation2": "接着剤がはみ出した箇所は、溶剤成分が管材に残存すると微細な亀裂を誘発し、劣化を加速させます。施工直後にウエスで速やかに拭き取り、溶剤が管体内部に浸透しないよう注意が必要です。乾燥後は除去が困難となります。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-034",
+      "id": "Exterior drainage W_B-0034",
+      "display_id": "外構排水工事_初級-034",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "管を挿入する際、ハンマー等で叩き込む。",
       "answer": "×",
-      "explanation": "管の破損を招くため厳禁。手で一気に押し込み保持する。"
+      "explanation": "管の破損を招くため厳禁。手で一気に押し込み保持する。",
+      "explanation2": "ハンマーなど硬い工具で管を叩くと外壁にひび割れが入り、強度が低下します。管の挿入は手の感覚で一定の圧力をかけながら、ゆっくり奥まで押し込むことが大切です。破損防止と接合精度確保のための基本操作です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-035",
+      "id": "Exterior drainage W_B-0035",
+      "display_id": "外構排水工事_初級-035",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "浸透施設は、斜面角度（　）度以上の傾斜地近傍には設置しない。",
       "answer": "30",
-      "explanation": "斜面崩壊を誘発する恐れがあるため制限される。"
+      "explanation": "斜面崩壊を誘発する恐れがあるため制限される。",
+      "explanation2": "斜面傾斜が30度を超える場所では、浸透施設による土壌の保水や流水の変動で斜面崩壊のリスクが高まります。設置前に地盤調査を行い、適正な場所選定と補強対策が必要です。安全第一の設計監理を心掛けてください。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-036",
+      "id": "Exterior drainage W_B-0036",
+      "display_id": "外構排水工事_初級-036",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "工事中に発生した泥水を浸透施設に流し込んでもよい。",
       "answer": "×",
-      "explanation": "目詰まりを起こし、施設が機能しなくなるため厳禁 。"
+      "explanation": "目詰まりを起こし、施設が機能しなくなるため厳禁 。",
+      "explanation2": "泥水は細粒分が多く、浸透施設の穴や層間を封鎖し目詰まりを誘発します。施工中は泥水を直接流入させず、排水を別途確保するか洗浄で除去し、施設の機能維持を徹底してください。維持管理も重要です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-037",
+      "id": "Exterior drainage W_B-0037",
+      "display_id": "外構排水工事_初級-037",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "リストアップ",
       "question": "撮影すべき不可視部分の項目を2つ挙げよ。",
       "answer": "・接合状況 ・配管勾配",
-      "explanation": "その他、埋戻し材料や床付け状況も重要。"
+      "explanation": "その他、埋戻し材料や床付け状況も重要。",
+      "explanation2": "不可視部分の撮影では、接合状況は接着剤の塗布ムラや隙間、配管勾配は排水機能の良否に直結します。これらを記録することで品質管理に役立ち、問題発生時の原因解明も迅速になります。埋戻し状況も検査対象に。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-038",
+      "id": "Exterior drainage W_B-0038",
+      "display_id": "外構排水工事_初級-038",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "比較",
       "question": "ゴム輪接合時、滑剤に食用油を使用してもよいか",
       "answer": "使用してはならない",
-      "explanation": "油はゴムや塩ビを劣化させる。専用の滑剤を用いる。"
+      "explanation": "油はゴムや塩ビを劣化させる。専用の滑剤を用いる。",
+      "explanation2": "食用油はゴム部材に浸透し柔軟性を損ない、ひび割れを起こします。専用滑剤は成分が安全で接合部材の劣化を防止し、滑りも良好です。滑剤の選定は施工品質と耐久性維持の重要ポイントです。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-039",
+      "id": "Exterior drainage W_B-0039",
+      "display_id": "外構排水工事_初級-039",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "接着前に、水分やホコリを拭き取る。",
       "answer": "○",
-      "explanation": "異物は接着不良の最大の原因である。"
+      "explanation": "異物は接着不良の最大の原因である。",
+      "explanation2": "水分やホコリは接着剤の付着を阻害し、接合強度低下の最大要因です。接着前に必ず乾燥した清潔な布で拭き取り、施工環境も埃を抑えることが成功の鍵。養生や屋外作業時の風対策も有効です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-040",
+      "id": "Exterior drainage W_B-0040",
+      "display_id": "外構排水工事_初級-040",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "夏期の高温時は乾燥が早いため、（　）名以上で作業するのが望ましい。",
       "answer": "2",
-      "explanation": "迅速な塗布と挿入を確実にするための体制。"
+      "explanation": "迅速な塗布と挿入を確実にするための体制。",
+      "explanation2": "高温期は接着剤の硬化が早まるため、塗布と管挿入作業を迅速に連携して行うことが重要です。2名以上で分担作業を行えば、作業効率と接合品質が向上し、クラックや接合不良防止につながります。人数体制の確保を。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-041",
+      "id": "Exterior drainage W_B-0041",
+      "display_id": "外構排水工事_初級-041",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "内法600mm超、深さ（　）m超の桝には足掛け金物を設ける。",
       "answer": "1.2",
-      "explanation": "維持管理のための昇降用設備としての規定。"
+      "explanation": "維持管理のための昇降用設備としての規定。",
+      "explanation2": "足掛け金物は昇降の安全性を確保し、事故防止に直結します。設置時は取り付け強度と耐食性を重視し、定期点検で緩みや腐食をチェックしましょう。昇降が頻繁な現場では特に厳密な管理が求められます。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-042",
+      "id": "Exterior drainage W_B-0042",
+      "display_id": "外構排水工事_初級-042",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "現場打ち桝の底部には、砂利等による地業を行う。",
       "answer": "○",
-      "explanation": "沈下を防ぐための基礎工事として不可欠である。"
+      "explanation": "沈下を防ぐための基礎工事として不可欠である。",
+      "explanation2": "砂利による地業は沈下防止だけでなく、排水性も高めます。均一に敷き均すことが重要で、不均一だと局所的に沈下して桝の変形や漏水につながります。専用転圧機を用いて十分な締固めを行うのがコツです。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-043",
+      "id": "Exterior drainage W_B-0043",
+      "display_id": "外構排水工事_初級-043",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "管と桝の接合部は、（　）を詰めて仕上げる。",
       "answer": "モルタル",
-      "explanation": "水密性を確保し、漏水を防ぐための標準仕様。"
+      "explanation": "水密性を確保し、漏水を防ぐための標準仕様。",
+      "explanation2": "モルタル詰めは漏水を防ぎ耐久性を向上させますが、水セメント比が高すぎるとひび割れの原因に。適正な配合と完全な締固めを行うことが必要です。また固定後は養生時間を確保し、強度発現を促しましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-044",
+      "id": "Exterior drainage W_B-0044",
+      "display_id": "外構排水工事_初級-044",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "用語",
       "question": "乗用車のみ通行する場所の蓋規格（2t荷重）は",
       "answer": "T-2",
-      "explanation": "通行車両に応じた蓋の選定が必要。"
+      "explanation": "通行車両に応じた蓋の選定が必要。",
+      "explanation2": "蓋の規格選定は荷重条件の正確な把握が肝心です。設計時にトラフィック調査を行い、安全率を考慮した余裕ある仕様を選定しましょう。設置後は走行による損傷の早期発見が重要です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-045",
+      "id": "Exterior drainage W_B-0045",
+      "display_id": "外構排水工事_初級-045",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "比較",
       "question": "大型トラックが通る場所に設置すべき鉄蓋規格は",
       "answer": "MHD (T-20)",
-      "explanation": "T-20以上でないと荷重で破損する恐れがある。"
+      "explanation": "T-20以上でないと荷重で破損する恐れがある。",
+      "explanation2": "大型トラック対応の鉄蓋は高荷重に耐える設計ですが、設置時の設置姿勢や周辺の支持地盤の締固め不足が破損を招くこともあります。精度高い据付と定期的な点検を欠かさないことが長寿命化のポイントです。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-046",
+      "id": "Exterior drainage W_B-0046",
+      "display_id": "外構排水工事_初級-046",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "用語",
       "question": "油の流入を阻止するための装置を何というか",
       "answer": "オイル阻集器",
-      "explanation": "爆発防止や環境保護のために駐車場等に設ける。"
+      "explanation": "爆発防止や環境保護のために駐車場等に設ける。",
+      "explanation2": "オイル阻集器は油分分離性能だけでなく定期的な清掃・メンテナンスが不可欠です。油の蓄積による目詰まりが爆発や環境汚染のリスクを高めるため、管理計画を立てて着実に実施しましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-047",
+      "id": "Exterior drainage W_B-0047",
+      "display_id": "外構排水工事_初級-047",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "桝の内径は、深さが深いほど大きくする。",
       "answer": "○",
-      "explanation": "点検作業スペースを確保するため、深度に比例させる。"
+      "explanation": "点検作業スペースを確保するため、深度に比例させる。",
+      "explanation2": "内径を大きくすることで作業員の安全と作業性が向上しますが、コスト増加もあるため適正なバランスが必要です。設計時は点検作業内容を精査し、最小限のサイズ設定も検討しましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-048",
+      "id": "Exterior drainage W_B-0048",
+      "display_id": "外構排水工事_初級-048",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "側溝の継手部には（　）を詰める。",
       "answer": "モルタル",
-      "explanation": "漏水防止のため。水下から順に据え付ける。"
+      "explanation": "漏水防止のため。水下から順に据え付ける。",
+      "explanation2": "側溝継手におけるモルタル詰めは漏水防止の生命線です。施工順序で水下から仕上げることで重力での落下を防ぎ、気泡の混入を抑えます。施工後は養生期間の確保も水密性向上に寄与します。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-049",
+      "id": "Exterior drainage W_B-0049",
+      "display_id": "外構排水工事_初級-049",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "やむを得ない場合、流速は最大3.0m/秒まで許容される。",
       "answer": "○",
-      "explanation": "原則は1.5m/sまでだが、特例として認められる。"
+      "explanation": "原則は1.5m/sまでだが、特例として認められる。",
+      "explanation2": "流速の許容は過大になると管路や桝の内壁に侵食や摩耗が発生し、設備の劣化を加速させます。特例の場合も定期的な目視確認や測定を行い、状態維持を図ることが不可欠です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-050",
+      "id": "Exterior drainage W_B-0050",
+      "display_id": "外構排水工事_初級-050",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "リストアップ",
       "question": "コンクリート桝の型枠確認事項を2つ挙げよ。",
       "answer": "・堅固な固定 ・内部の清掃",
-      "explanation": "側圧による変形や異物混入を防ぐ基本確認。"
+      "explanation": "側圧による変形や異物混入を防ぐ基本確認。",
+      "explanation2": "型枠の堅固な固定はコンクリートの型崩れ防止に必須です。また内部清掃は巻き込み異物による空洞や気泡の発生を防ぎます。両者が不十分だと強度不足や漏水トラブルに直結するため、慎重な準備が求められます。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-051",
+      "id": "Exterior drainage W_B-0051",
+      "display_id": "外構排水工事_初級-051",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "内径60cm以上の大型雨水桝にはインバートを設置する。",
       "answer": "○",
-      "explanation": "一定規模以上の雨水桝には流下を助ける構造が求められる 。"
+      "explanation": "一定規模以上の雨水桝には流下を助ける構造が求められる 。",
+      "explanation2": "大型雨水桝にインバートを設置することで、雨水の流速を一定に保ち、堆積物の蓄積や逆流を防ぎます。施工時はインバートの勾配や表面仕上げに注意し、流れの抵抗を減らすことがポイントです。水理計算を元に適切な形状設計を行うことが不可欠です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-052",
+      "id": "Exterior drainage W_B-0052",
+      "display_id": "外構排水工事_初級-052",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "既設設備への連結時は、既設側に支障なく取り付け（　）を補修する。",
       "answer": "接合部",
-      "explanation": "標準仕様書に定められた接続時の基本工程。"
+      "explanation": "標準仕様書に定められた接続時の基本工程。",
+      "explanation2": "既設設備と接続する際は、接合部の漏水やずれを防ぐために、現場の状況に応じた補修が重要です。接合材の種類や設置方法を標準仕様書と照合し、シール剤や保護コーティングを適切に使用することで耐久性を高めます。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-053",
+      "id": "Exterior drainage W_B-0053",
+      "display_id": "外構排水工事_初級-053",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "排水管の末端は、桝の内面に少し突き出るようにする。",
       "answer": "○",
-      "explanation": "モルタル固定のための標準的な取り付け方法。"
+      "explanation": "モルタル固定のための標準的な取り付け方法。",
+      "explanation2": "排水管を桝内面に突き出すことで、モルタル固定時の密着性が向上し、漏水防止や管のずれを抑制します。切断面のバリ取りと管端の清掃を徹底し、均一な固定ができるように心掛けることが施工のコツです。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-054",
+      "id": "Exterior drainage W_B-0054",
+      "display_id": "外構排水工事_初級-054",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "管径50mmの横枝管の勾配は、（　）分の1以上とする。",
       "answer": "50",
-      "explanation": "管径が細いほど、閉塞防止のため急勾配が必要。"
+      "explanation": "管径が細いほど、閉塞防止のため急勾配が必要。",
+      "explanation2": "管径が小さい横枝管は閉塞のリスクが高くなるため、50分の1以上の急勾配が必要です。この勾配を確保するために配管ルートの高低差や支持構造を綿密に検討し、勾配不足による排水不良を防ぎましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-055",
+      "id": "Exterior drainage W_B-0055",
+      "display_id": "外構排水工事_初級-055",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "用語",
       "question": "累積誤差を防ぐために器械を移動させる作業は",
       "answer": "器械移転",
-      "explanation": "長距離測量での精度維持に不可欠な手順。"
+      "explanation": "長距離測量での精度維持に不可欠な手順。",
+      "explanation2": "累積誤差を防ぐために器械移転は必須で、途中地点で再度基準点を設定し測量精度を保ちます。器械の設置・固定時は水平を十分に確認し、地盤や気象条件による影響を最小限に抑えることが重要です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-056",
+      "id": "Exterior drainage W_B-0056",
+      "display_id": "外構排水工事_初級-056",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "風の強い日は、水準器の読み取り精度が低下する。",
       "answer": "○",
-      "explanation": "気泡が安定しないため。天候を見て判断する。"
+      "explanation": "気泡が安定しないため。天候を見て判断する。",
+      "explanation2": "風が強いと水準器の気泡が安定せず読み取りが不正確になります。こうした日には風の影響を避けるために風除けを設置するか、可能なら測量作業を延期し、常に精度を重視します。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-057",
+      "id": "Exterior drainage W_B-0057",
+      "display_id": "外構排水工事_初級-057",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "VU管のVUは、Vinyl（　）に由来する。",
       "answer": "Usuniku (薄肉)",
-      "explanation": "排水・通気用であることを示す呼称。"
+      "explanation": "排水・通気用であることを示す呼称。",
+      "explanation2": "VU管のVUは薄肉を意味し、耐圧性より柔軟性を重視した軽量素材です。排水・通気管として水密性よりも施工性向上を目的とするため、接合部のシール管理を怠らないよう注意が必要です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-058",
+      "id": "Exterior drainage W_B-0058",
+      "display_id": "外構排水工事_初級-058",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "比較",
       "question": "擁壁のり肩からの浸透施設の離隔は、高低差の何倍以上か",
       "answer": "2倍以上",
-      "explanation": "斜面の安定性を損なわないための安全基準。"
+      "explanation": "斜面の安定性を損なわないための安全基準。",
+      "explanation2": "擁壁の安定確保のため、のり肩から浸透施設までは高低差の2倍以上の離隔を取ります。浸透水による土壌の飽和を防ぎ、滑動や崩壊を防止するため現地地質と水理特性を十分評価し設計すべきです。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-059",
+      "id": "Exterior drainage W_B-0059",
+      "display_id": "外構排水工事_初級-059",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "管の切断には自動丸のこ機などを用い、直角に切断する。",
       "answer": "○",
-      "explanation": "接合品質確保のため。バリ取りも同時に行う 。"
+      "explanation": "接合品質確保のため。バリ取りも同時に行う 。",
+      "explanation2": "管の切断は直角を保つことで接合部の面密着が良くなり、水密性や強度が向上します。自動丸のこ使用後はバリ取りを確実に行い、接合不良や破損の原因となる微細欠損を除去することが施工精度向上のポイントです。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-060(2建施-H29-15)",
+      "id": "Exterior drainage W_B-0060",
+      "display_id": "外構排水工事_初級-060(2建施-H29-15)",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "桝の設置間隔は、管径の（　）倍以内とする。",
       "answer": "120",
-      "explanation": "維持管理（清掃）を考慮した距離の基準。"
+      "explanation": "維持管理（清掃）を考慮した距離の基準。",
+      "explanation2": "桝の設置間隔を管径の120倍以内にすることで、管内の堆積物の蓄積や閉塞を抑えられ、清掃作業も効率的となります。設置距離は施工中の勾配維持とメンテナンス計画を絡めて検討し、長期的な排水性能を確保しましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-061",
+      "id": "Exterior drainage W_B-0061",
+      "display_id": "外構排水工事_初級-061",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "掘削の最小幅は（　）cmを基準とする。",
       "answer": "30",
-      "explanation": "施工品質と作業効率のための最小寸法。"
+      "explanation": "施工品質と作業効率のための最小寸法。",
+      "explanation2": "掘削の最小幅を30cmとすることは、作業員の安全確保や適切な掘削・設置作業のため必須です。狭すぎると道具の操作や作業ミスが増え、埋め戻し時の締固め不良が起こりやすいので注意が必要です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-062(2建施-H29-15)",
+      "id": "Exterior drainage W_B-0062",
+      "display_id": "外構排水工事_初級-062(2建施-H29-15)",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "給排水管の並行埋設時、水平間隔は（　）mm以上とする。",
       "answer": "500",
-      "explanation": "相互汚染防止と作業スペースの確保 。"
+      "explanation": "相互汚染防止と作業スペースの確保 。",
+      "explanation2": "給排水管の水平間隔500mm以上は、管間の熱や化学物質の影響を避けるだけでなく、将来のメンテナンスや緊急時の管の取替えを容易にします。作業スペースの確保も重要なポイントです。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-063",
+      "id": "Exterior drainage W_B-0063",
+      "display_id": "外構排水工事_初級-063",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "比較",
       "question": "ソケット管の受口は上流と下流のどちらに向けるか",
       "answer": "上流",
-      "explanation": "土砂流入を防ぐため、水下から上流へ向けて配置。"
+      "explanation": "土砂流入を防ぐため、水下から上流へ向けて配置。",
+      "explanation2": "ソケット管の受口を上流側に向けるのは、汚泥や異物の堆積を防ぎ水の流れを妨げないためです。現場では流向の確認を徹底し不具合発生を防ぎましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-064",
+      "id": "Exterior drainage W_B-0064",
+      "display_id": "外構排水工事_初級-064",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "管頂から（　）mmまでは砂で埋め戻す。",
       "answer": "100",
-      "explanation": "管の保護層としての標準的な厚み。"
+      "explanation": "管の保護層としての標準的な厚み。",
+      "explanation2": "管頂から100mmの砂埋戻しは配管の衝撃緩衝と地下圧力分散に有効です。砂の粒度にも注意し、過大な重機作業での管破損防止に努めてください。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-065",
+      "id": "Exterior drainage W_B-0065",
+      "display_id": "外構排水工事_初級-065",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "擁壁のり肩からの離隔は、高低差の（　）倍以上とする。",
       "answer": "2",
-      "explanation": "構造的安全性（のり崩れ防止）のための基準。"
+      "explanation": "構造的安全性（のり崩れ防止）のための基準。",
+      "explanation2": "擁壁のり肩から離隔を高低差の2倍とることで、斜面の安定性を保ち施工中や完成後の崩壊リスクを低減します。設計時に地盤調査を基に安全率を確保することが大切です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-066(2建施-R4-15)",
+      "id": "Exterior drainage W_B-0066",
+      "display_id": "外構排水工事_初級-066(2建施-R4-15)",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "トラップの封水深は150mm以上とする。",
       "answer": "×",
-      "explanation": "50mm以上100mm以下が適切。深すぎると詰まる 。"
+      "explanation": "50mm以上100mm以下が適切。深すぎると詰まる 。",
+      "explanation2": "封水深は50〜100mmが適正で、150mm以上だと排水が滞り詰まりの原因になります。施工時は封水深を正確に管理し、トラップ機能を最大限に活かしましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-067",
+      "id": "Exterior drainage W_B-0067",
+      "display_id": "外構排水工事_初級-067",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "リストアップ",
       "question": "浸透施設を設置不可な地質条件を1つ挙げよ。",
       "answer": "地下水位が高い土地",
-      "explanation": "浸透機能が働かないため不可とされる 。"
+      "explanation": "浸透機能が働かないため不可とされる 。",
+      "explanation2": "地下水位が高い地盤では水が排水路に逆流し浸透施設の機能を阻害します。こうした地質では透水性土質への変更や代替排水工法を検討する必要があります。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-068",
+      "id": "Exterior drainage W_B-0068",
+      "display_id": "外構排水工事_初級-068",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "器具トラップがある管の先に、トラップ桝を設ける（二重トラップ）。",
       "answer": "×",
-      "explanation": "排水の流れが極端に悪くなるため禁止。"
+      "explanation": "排水の流れが極端に悪くなるため禁止。",
+      "explanation2": "器具トラップ後にさらにトラップ桝を設けると排水抵抗が増し水が滞留、悪臭や詰まりを招きます。二重トラップは原則禁止で、設計時に配管経路を入念に確認してください。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-069",
+      "id": "Exterior drainage W_B-0069",
+      "display_id": "外構排水工事_初級-069",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "排水・通気用の薄肉塩ビ管を（　）管という。",
       "answer": "VU",
-      "explanation": "圧力がかからない用途の呼称。"
+      "explanation": "圧力がかからない用途の呼称。",
+      "explanation2": "VU管は耐圧を必要としない排水・通気用の薄肉塩ビ管で、軽量で施工が容易ですが過剰な荷重に注意。埋設時は埋戻しと支持方法にも気を配りましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-070",
+      "id": "Exterior drainage W_B-0070",
+      "display_id": "外構排水工事_初級-070",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "流速は0.6m/秒から1.5m/秒の範囲内とする。",
       "answer": "○",
-      "explanation": "自己洗浄作用維持と管の摩耗防止の最適範囲。"
+      "explanation": "自己洗浄作用維持と管の摩耗防止の最適範囲。",
+      "explanation2": "流速0.6〜1.5m/sは管内の自己洗浄作用を維持し沈殿やスケール付着を防ぐ最適範囲。速度が遅すぎると詰まり、速すぎると管損傷や騒音になるので設計精度が求められます。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-071",
+      "id": "Exterior drainage W_B-0071",
+      "display_id": "外構排水工事_初級-071",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "接着剤の塗りすぎはソルベントクラック（亀裂）を誘発する。",
       "answer": "○",
-      "explanation": "溶剤成分が管を侵食するため。適量塗布を徹底する。"
+      "explanation": "溶剤成分が管を侵食するため。適量塗布を徹底する。",
+      "explanation2": "溶剤成分が管表面の樹脂を軟化させ割れを引き起こします。過剰な接着剤は蒸発時に内部応力となり亀裂発生の原因です。適量塗布と均一な塗布が重要で、施工前の管表面清掃も欠かせません。若手は、薄く広く塗ることを意識しましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-072",
+      "id": "Exterior drainage W_B-0072",
+      "display_id": "外構排水工事_初級-072",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "滑剤の代用として食用油を使用した。",
       "answer": "×",
-      "explanation": "油はゴムや塩ビを著しく劣化させるため厳禁。"
+      "explanation": "油はゴムや塩ビを著しく劣化させるため厳禁。",
+      "explanation2": "食用油は成分が塩ビやゴムの可塑剤を溶解し、材質の劣化や膨潤、ひび割れを引き起こします。滑剤には専用のシリコーン系や石鹸系製品を使用し、安全面や素材適合性の確認が施工管理の要です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-073",
+      "id": "Exterior drainage W_B-0073",
+      "display_id": "外構排水工事_初級-073",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "内法600mm超かつ深さ（　）m超の桝に足掛け金物を設ける。",
       "answer": "1.2",
-      "explanation": "安全な昇降のための標準仕様。"
+      "explanation": "安全な昇降のための標準仕様。",
+      "explanation2": "内法600mm以上かつ深さ1.2mを超える桝への足掛け金物設置は、墜落防止と安全な昇降のため必須です。設置高さや強度は設計基準に準じ、施工時の固定状態も入念に点検・確認してください。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-074",
+      "id": "Exterior drainage W_B-0074",
+      "display_id": "外構排水工事_初級-074",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "管頂から（　）mmまで砂で保護する。",
       "answer": "100",
-      "explanation": "点荷重による管の破損を防ぐ。"
+      "explanation": "点荷重による管の破損を防ぐ。",
+      "explanation2": "管頂部から100mmの砂で覆うのは、点荷重集中を回避し管破損を防止します。砂は粒度が均一で締固めが行き届いていることが重要で、不均一な埋戻しは沈下や管の変形原因になります。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-075",
+      "id": "Exterior drainage W_B-0075",
+      "display_id": "外構排水工事_初級-075",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "ハンマー等で叩き込んで挿入した。",
       "answer": "×",
-      "explanation": "管の破損・割れを招く不適切な施工方法。"
+      "explanation": "管の破損・割れを招く不適切な施工方法。",
+      "explanation2": "ハンマーなどの硬い工具で叩き込むと管に局所応力が加わり亀裂や破損の要因になります。適切なはめあいと相手材の調整、また滑剤の使用を行い、手作業または専用工具で挿入することが望ましいです。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-076",
+      "id": "Exterior drainage W_B-0076",
+      "display_id": "外構排水工事_初級-076",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "比較",
       "question": "擁壁のり肩からの離隔は、高低差の何倍以上か",
       "answer": "2倍",
-      "explanation": "擁壁の安全性を損なわないための距離。"
+      "explanation": "擁壁の安全性を損なわないための距離。",
+      "explanation2": "擁壁のり肩からの離隔距離は地盤の安定性を考慮し高低差の2倍以上必要です。これにより擁壁への影響を抑え、土圧変動による損傷を防ぎます。設計時は現場地形に応じた厳密な測量も重要です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-077(2建施-H23-11)",
+      "id": "Exterior drainage W_B-0077",
+      "display_id": "外構排水工事_初級-077(2建施-H23-11)",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "用語",
       "question": "埋戻し前に行う、水密性を確認する試験は",
       "answer": "満水試験",
-      "explanation": "施工の確実性を担保するための必須工程 。"
+      "explanation": "施工の確実性を担保するための必須工程 。",
+      "explanation2": "満水試験は設置した管路全体の水密性を確認し、微細な漏れも検出します。試験は高圧でなく一定の静圧を保持し、試験時間を確保し漏水判定を厳格に行うことで施工の信頼性が向上します。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-078",
+      "id": "Exterior drainage W_B-0078",
+      "display_id": "外構排水工事_初級-078",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "管の末端は桝の内面に少し突き出させる。",
       "answer": "○",
-      "explanation": "モルタルで確実に水密性を確保するための作法。"
+      "explanation": "モルタルで確実に水密性を確保するための作法。",
+      "explanation2": "管端を桝内面に突き出すことでモルタル詰め時に充填が確実になり、水漏れのリスクを低減します。突き出し長さは適正に設定し過剰な突出は桝蓋の設置に支障が出るため注意が必要です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-079",
+      "id": "Exterior drainage W_B-0079",
+      "display_id": "外構排水工事_初級-079",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "接着前に、塗布面を（　）で清掃する。",
       "answer": "ウエス",
-      "explanation": "異物による接着不良を防ぐための基本。"
+      "explanation": "異物による接着不良を防ぐための基本。",
+      "explanation2": "接着面の油脂やほこりをウエスで清掃しないと接着剤が十分に馴染まず、接着力低下による漏水や剥離を招きます。清掃は乾燥した清潔な布を使い、拭き残しがないか確認する工程が重要です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-080",
+      "id": "Exterior drainage W_B-0080",
+      "display_id": "外構排水工事_初級-080",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "接着剤を塗布後は速やかに挿入し、一定時間保持する。",
       "answer": "○",
-      "explanation": "溶剤の乾燥による接着不良を防ぐため。"
+      "explanation": "溶剤の乾燥による接着不良を防ぐため。",
+      "explanation2": "接着剤塗布後は溶剤の揮発が始まるため、迅速に管材を挿入・保持しなければ接着不良となります。保持時間は製品指示に従い、環境温度や湿度も考慮して施工しましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-081",
+      "id": "Exterior drainage W_B-0081",
+      "display_id": "外構排水工事_初級-081",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "架空・壁面配管時は、金具で堅固に固定する。",
       "answer": "○",
-      "explanation": "たるみによる逆勾配を防止するため 。"
+      "explanation": "たるみによる逆勾配を防止するため 。",
+      "explanation2": "壁面配管時の金具固定は、たるみを防ぐだけでなく施工後の振動や温度変化によるズレ防止にも重要です。不十分な固定は逆勾配の形成と水漏れリスクを高めるため、金具の間隔や強度を現場状況に合わせて適正に設計・施工しましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-082",
+      "id": "Exterior drainage W_B-0082",
+      "display_id": "外構排水工事_初級-082",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "壁貫通部には（　）を設け、隙間を適切に充填する。",
       "answer": "スリーブ",
-      "explanation": "建物の伸縮や防火性能に対応するための部材 。"
+      "explanation": "建物の伸縮や防火性能に対応するための部材 。",
+      "explanation2": "スリーブの設置は建物の伸縮を吸収し配管の破損を防ぐほか、防火区画の安全性維持にも役立ちます。隙間の充填材は耐熱性・耐久性のあるものを選定し、充填不良が生じないよう施工管理を徹底することが重要です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-083",
+      "id": "Exterior drainage W_B-0083",
+      "display_id": "外構排水工事_初級-083",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "長さ（　）m以下の短い枝管等は、内径75mmにできる。",
       "answer": "3",
-      "explanation": "状況に応じた最小管径の緩和規定。"
+      "explanation": "状況に応じた最小管径の緩和規定。",
+      "explanation2": "枝管の内径緩和は排水速度を保ちつつコスト低減を図るための規定ですが、勾配や流量に影響しやすいため配管設計時は詰まりやすさにも注意を。勾配不足が起こらないよう施工時の水平確認を欠かさないことがポイントです。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-084",
+      "id": "Exterior drainage W_B-0084",
+      "display_id": "外構排水工事_初級-084",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "比較",
       "question": "給排水管並設時、建物側に配置するのはどちらか",
       "answer": "排水管",
-      "explanation": "メンテナンス性を考慮した標準的な配置 。"
+      "explanation": "メンテナンス性を考慮した標準的な配置 。",
+      "explanation2": "排水管を建物側に配置することで、万一の漏水時に配管メンテナンスが容易になります。並設配置時は配管間隔を確保し腐食防止も考慮、給水管への逆流を防ぐためバルブ設置も検討すべきです。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-085",
+      "id": "Exterior drainage W_B-0085",
+      "display_id": "外構排水工事_初級-085",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "用語",
       "question": "4tトラック等が通る中荷重用蓋の記号は",
       "answer": "MHA",
-      "explanation": "通行量や車両重量に応じた鉄蓋規格。"
+      "explanation": "通行量や車両重量に応じた鉄蓋規格。",
+      "explanation2": "中荷重用蓋の規格『MHA』は強度基準が厳しく、4tトラックの繰返し荷重に耐えられる設計です。設置場所に応じて規格品を選び、荷重超過時の破損や変形防止のため施工品質のチェックも重要です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-086",
+      "id": "Exterior drainage W_B-0086",
+      "display_id": "外構排水工事_初級-086",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "用語",
       "question": "乗用車のみの駐車場等に用いる軽荷重用蓋の記号は",
       "answer": "MHB",
-      "explanation": "一般的な住宅外構等で用いられる規格。"
+      "explanation": "一般的な住宅外構等で用いられる規格。",
+      "explanation2": "軽荷重用蓋「MHB」は乗用車荷重に適合し、住宅地の道路や駐車場でよく使用されます。耐久性確保のため蓋と枠の密合、周辺の路盤沈下防止にも注意して施工し、蓋の破損や異音発生を防ぎましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-087",
+      "id": "Exterior drainage W_B-0087",
+      "display_id": "外構排水工事_初級-087",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "用語",
       "question": "大型車両が通る場所に用いる重荷重用蓋の記号は",
       "answer": "MHD",
-      "explanation": "T-20以上の荷重に耐えうる規格。"
+      "explanation": "T-20以上の荷重に耐えうる規格。",
+      "explanation2": "重荷重用蓋『MHD』は大型車両が通る場所での安全確保が目的です。厚みや材質が強化されており、設置の際は周辺路盤の十分な補強と合わせて施工することが、長期的な破損防止に効果的です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-088",
+      "id": "Exterior drainage W_B-0088",
+      "display_id": "外構排水工事_初級-088",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "はみ出した接着剤は、乾燥前に拭き取る。",
       "answer": "○",
-      "explanation": "管の劣化・亀裂（ソルベントクラック）防止。"
+      "explanation": "管の劣化・亀裂（ソルベントクラック）防止。",
+      "explanation2": "接着剤のはみ出しはソルベントクラックなど管材劣化を招くため、速やかに乾燥前に拭き取ることが施工品質を左右します。拭き取り作業は配管接続部の強度確保にも影響するため、丁寧に行い、作業マニュアルを遵守しましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-089",
+      "id": "Exterior drainage W_B-0089",
+      "display_id": "外構排水工事_初級-089",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "掃流力確保のため、流速は最小でも（　）m/秒必要。",
       "answer": "0.6",
-      "explanation": "泥や有機物の沈殿・堆積を防止する下限値。"
+      "explanation": "泥や有機物の沈殿・堆積を防止する下限値。",
+      "explanation2": "流速0.6m/sは流体力学的に泥や異物の沈殿を防ぎ、排水管の閉塞を予防します。設計・施工時には勾配や管径を最適化し、流速不足によるメンテナンス頻度増加を防ぐことが品質維持のコツです。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-090",
+      "id": "Exterior drainage W_B-0090",
+      "display_id": "外構排水工事_初級-090",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "既設への連結時は既設に支障なく行い（　）を補修する。",
       "answer": "接合部",
-      "explanation": "標準仕様書に準拠した施工時の留意事項。"
+      "explanation": "標準仕様書に準拠した施工時の留意事項。",
+      "explanation2": "既設配管との接合部補修は漏水防止の要です。接合部の損傷や隙間があると配管劣化を招きやすいので、補修材の適性・工法選定を厳守し、養生期間も確保して施工後の耐久性を高めましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-091",
+      "id": "Exterior drainage W_B-0091",
+      "display_id": "外構排水工事_初級-091",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "器具に衝撃を与えた場合、使用前に必ず校正を行う。",
       "answer": "○",
-      "explanation": "測定誤差による施工不良を未然に防ぐため。"
+      "explanation": "測定誤差による施工不良を未然に防ぐため。",
+      "explanation2": "衝撃で器具の内部機構が微細にずれることがあるため、校正は必ず行います。特に温度・湿度の影響にも注意し、計測結果の信頼性確保が重要です。現場での素早い校正手順を習得し、施工ミス防止に繋げましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-092",
+      "id": "Exterior drainage W_B-0092",
+      "display_id": "外構排水工事_初級-092",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "リストアップ",
       "question": "排水経路設計の基本原則を2つ挙げよ。",
       "answer": "・直線的にする ・短くする",
-      "explanation": "水流の停滞や閉塞のリスクを最小化する。"
+      "explanation": "水流の停滞や閉塞のリスクを最小化する。",
+      "explanation2": "排水経路は流れの抵抗を減らす設計が重要で、急カーブや段差を避けることが施工のポイントです。直線的かつ短くすることで汚泥蓄積や異物滞留を防ぎ、維持管理も容易になります。現場では設計通りの勾配を確実にとることも不可欠です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-093",
+      "id": "Exterior drainage W_B-0093",
+      "display_id": "外構排水工事_初級-093",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "引渡し前、水たまりが長時間消えない場所がないか確認する。",
       "answer": "○",
-      "explanation": "勾配不良の有無を確認する最終チェック工程。"
+      "explanation": "勾配不良の有無を確認する最終チェック工程。",
+      "explanation2": "水たまりは勾配不足や施工誤差が原因で発生します。確認時には降雨などの自然環境も考慮し、該当箇所の排水不良を改善しましょう。勾配設計と施工管理を徹底し再発防止策として是正計画を立てることが重要です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-094",
+      "id": "Exterior drainage W_B-0094",
+      "display_id": "外構排水工事_初級-094",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "桝全体から浸透させるため（　）コンクリート桝を使う。",
       "answer": "ポーラス",
-      "explanation": "空隙を持つ材料による浸透能力の向上策 。"
+      "explanation": "空隙を持つ材料による浸透能力の向上策 。",
+      "explanation2": "ポーラスコンクリートは空隙率を制御して浸透性能を持たせていますが、施工時の材料配合や締固め不足が強度低下や割れの原因になるため注意が必要です。適切な養生や湿潤管理も重要で、浸透機能と耐久性のバランスを取ることがポイントです。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-095",
+      "id": "Exterior drainage W_B-0095",
+      "display_id": "外構排水工事_初級-095",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "器具トラップがある大便器接続管にはトラップ桝は不要。",
       "answer": "○",
-      "explanation": "二重トラップによる排水障害を避けるため。"
+      "explanation": "二重トラップによる排水障害を避けるため。",
+      "explanation2": "二重トラップは排水阻害や悪臭の原因となるため避けるべきです。施工時は大便器の器具トラップと管路の条件をよく確認し、トラップ桝の設置不要の判断を的確に行いましょう。トラップ内の水封保持も定期点検で確認が望ましいです。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-096",
+      "id": "Exterior drainage W_B-0096",
+      "display_id": "外構排水工事_初級-096",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "土かぶりが不足する場合、コンクリート等による（　）措置を行う。",
       "answer": "保護",
-      "explanation": "管の破損を物理的に防ぐための対策。"
+      "explanation": "管の破損を物理的に防ぐための対策。",
+      "explanation2": "土かぶりが不足すると外力による管破損リスクが高まります。コンクリート覆工や保護管の設置など物理的保護を施すことが大切です。施工時は土壌条件や荷重状況を見極め、保護設計を適切に行い管の長期耐久性を確保しましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-097",
+      "id": "Exterior drainage W_B-0097",
+      "display_id": "外構排水工事_初級-097",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "比較",
       "question": "境界にのり面がない場合、浸透施設の離隔は何cm以上か",
       "answer": "30cm",
-      "explanation": "周辺への影響を抑えるための最小離隔距離。"
+      "explanation": "周辺への影響を抑えるための最小離隔距離。",
+      "explanation2": "浸透施設周辺のり面が無い場合は水の流出や土砂流動を防ぐため最小30cmの離隔が必要です。設置時は周辺の地形や地下水位も考慮し安定性確保を優先します。距離不足は浸透不良や境界問題につながるため厳守が求められます。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-098",
+      "id": "Exterior drainage W_B-0098",
+      "display_id": "外構排水工事_初級-098",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "比較",
       "question": "塩ビ桝のコンクリート桝と比較した施工性は高いか低いか",
       "answer": "高い",
-      "explanation": "軽量かつ既製品のため、現場作業の効率が良い。"
+      "explanation": "軽量かつ既製品のため、現場作業の効率が良い。",
+      "explanation2": "塩ビ桝は軽量で人力搬入が容易なうえ、連結作業も単純で施工時間を短縮できます。ただし耐熱性や強度面の特性理解が必要で、施工環境に応じた固定方法や支持構造の設計もポイントとなります。施工ミス防止には取扱い注意も重要です。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-099",
+      "id": "Exterior drainage W_B-0099",
+      "display_id": "外構排水工事_初級-099",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "○×",
       "question": "合流地域では臭気対策としてトラップ桝を設ける。",
       "answer": "○",
-      "explanation": "公共下水道からの臭気の逆流を防ぐための配慮 。"
+      "explanation": "公共下水道からの臭気の逆流を防ぐための配慮 。",
+      "explanation2": "合流式管渠は高負荷のため臭気発生が多く、トラップ桝設置で臭気逆流を防止します。設置・点検には密閉性と水封保持の確認が重要で、不具合時は臭気問題や管路腐食が生じるリスクがあるため施工管理を徹底しましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     },
     {
-      "id": "外構排水工事_初級-100",
+      "id": "Exterior drainage W_B-0100",
+      "display_id": "外構排水工事_初級-100",
       "category": "外構排水工事",
       "grade": "初級",
+      "question_type": "用語",
       "question": "地面を整え、現場をきれいに仕上げる最終作業は",
       "answer": "仕上げ",
-      "explanation": "顧客満足度と品質を決定づける最終工程。"
+      "explanation": "顧客満足度と品質を決定づける最終工程。",
+      "explanation2": "仕上げ作業は単に見た目だけでなく、排水性能や耐久性にも影響します。平坦性や緩勾配を確保し不陸防止をすること、周辺環境に配慮した清掃と整理整頓も品質向上につながります。最終チェックを綿密に行い顧客満足度を最大化しましょう。",
+      "importance": 1,
+      "main_id_category": "外構排水工事",
+      "sub_id_category": "外構工事",
+      "past_exam_info": "",
+      "tags": [
+        "外構",
+        "排水"
+      ],
+      "remarks": ""
     }
   ]
 }

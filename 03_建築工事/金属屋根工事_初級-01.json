@@ -3,804 +3,2104 @@
   "count": 100,
   "questions": [
     {
-      "id": "金属屋根工事_初級-001",
+      "id": "Metal roofing W_B-0001",
+      "display_id": "金属屋根工事_初級-001",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "用語",
       "question": "金属板の端部を折り曲げて接合する工法は",
       "answer": "はぜ継ぎ",
-      "explanation": "防水性と強度を確保する基本手法。"
+      "explanation": "防水性と強度を確保する基本手法。",
+      "explanation2": "はぜ継ぎは金属板の端部を折り曲げて機械的にかみ合わせるため、雨水の侵入を防止しながら強度を保ちます。施工時は折り曲げ機の調整や折り目の均一性が重要で、不均一だと水密性不足や風による剥離が起こりやすくなるため注意が必要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-002",
+      "id": "Metal roofing W_B-0002",
+      "display_id": "金属屋根工事_初級-002",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "瓦棒葺は「吊子」を用いて固定する。",
       "answer": "○",
-      "explanation": "熱伸縮を逃がしながら下地に固定します。"
+      "explanation": "熱伸縮を逃がしながら下地に固定します。",
+      "explanation2": "吊子は金属屋根の熱膨張を吸収する役割があり、固定が硬すぎると板の変形や割れを招きます。適切な間隔で取り付け、ゆとりを持たせることが施工のコツです。設置時は下地の状態も確認しましょう。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-003",
+      "id": "Metal roofing W_B-0003",
+      "display_id": "金属屋根工事_初級-003",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "用語",
       "question": "両側の屋根面が交わる最上部を何というか",
       "answer": "棟（むね）",
-      "explanation": "棟包み（役物）で仕上げる重要部位。"
+      "explanation": "棟包み（役物）で仕上げる重要部位。",
+      "explanation2": "棟は屋根の集水ポイントであり、防水性能の最重要箇所です。棟包み取り付け時には下地の水平と通気性を確保し、通気不良による結露や腐食を防ぐ対策が求められます。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-004",
+      "id": "Metal roofing W_B-0004",
+      "display_id": "金属屋根工事_初級-004",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "下地に敷き込む防水シートを（　　）という。",
       "answer": "ルーフィング",
-      "explanation": "二次防水の要となる材料です。"
+      "explanation": "二次防水の要となる材料です。",
+      "explanation2": "ルーフィングは雨水侵入を二次防止するため、重ね幅や釘の打設位置が適正でなければ性能低下します。特に縦流れ方向の重ねは漏水リスクが高いため、指示寸法を厳守することが重要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-005",
+      "id": "Metal roofing W_B-0005",
+      "display_id": "金属屋根工事_初級-005",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "比較",
       "question": "大スパンの屋根に適しているのはどちらか",
       "answer": "折板葺",
-      "explanation": "断面剛性が高く、工場等に多用されます。"
+      "explanation": "断面剛性が高く、工場等に多用されます。",
+      "explanation2": "折板葺は断面形状により高い剛性を発揮し大スパンを支えますが、取付角度や支持間隔の設計が不適切だとたわみやきしみ音の発生原因となります。施工前の下地検査と正確な取り付けが不可欠です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-006",
+      "id": "Metal roofing W_B-0006",
+      "display_id": "金属屋根工事_初級-006",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "平葺は屋根面に段差がない形式である。",
       "answer": "○",
-      "explanation": "一文字葺などが代表例で意匠性が高い。"
+      "explanation": "一文字葺などが代表例で意匠性が高い。",
+      "explanation2": "段差のない平葺は風の影響を受けにくく、雨仕舞も良好ですが、板金の伸縮により継手の隙間が生じると漏水リスクが高まります。収縮を考慮した材料選定と留め具の配置がポイントです。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-007",
+      "id": "Metal roofing W_B-0007",
+      "display_id": "金属屋根工事_初級-007",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "Q&Ａ",
       "question": "異種金属を直接接触させてはいけない理由は",
       "answer": "電食が発生するため",
-      "explanation": "電位差により腐食が促進されます。"
+      "explanation": "電位差により腐食が促進されます。",
+      "explanation2": "異種金属接触による電食は微細な電気回路を形成し、一方の金属が犠牲的に腐食します。現場では絶縁材の挿入やコーティングが有効で、これを怠ると素材の耐久性が大幅に低下します。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-008",
+      "id": "Metal roofing W_B-0008",
+      "display_id": "金属屋根工事_初級-008",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "リストアップ",
       "question": "一般的な金属屋根材を2つ挙げよ。",
       "answer": "ガルバリウム鋼板、ステンレス等",
-      "explanation": "現在はガルバリウムが主流です。"
+      "explanation": "現在はガルバリウムが主流です。",
+      "explanation2": "ガルバリウム鋼板は耐候性と成形性に優れ、ステンレスは耐食性が高いですがコストがかかります。使用環境に応じた材質選定が重要で、間違うと局部腐食や変色が生じます。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-009",
+      "id": "Metal roofing W_B-0009",
+      "display_id": "金属屋根工事_初級-009",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "軒先に取り付ける役物を（　　）という。",
       "answer": "唐草（からくさ）",
-      "explanation": "雨水の回り込みを防ぎ下地を保護します。"
+      "explanation": "雨水の回り込みを防ぎ下地を保護します。",
+      "explanation2": "唐草は軒先からの水の浸入を防ぎ、本体下地の腐食を防止します。施工ではシーリングや釘留めの施工不良が雨漏りに直結するため、細部への注意が必要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-010",
+      "id": "Metal roofing W_B-0010",
+      "display_id": "金属屋根工事_初級-010",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "ルーフィングの重ねは縦方向より横方向が長い。",
       "answer": "×",
-      "explanation": "縦（流れ）方向の重ねを大きく取ります。"
+      "explanation": "縦（流れ）方向の重ねを大きく取ります。",
+      "explanation2": "ルーフィングの縦方向重ねを長くするのは降雨流れに逆らわず水密性確保のためです。なお横重ねを短縮すると雨水の逆流で漏水リスクが高まるので、施工の際は重ね幅の遵守が必須です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-011",
+      "id": "Metal roofing W_B-0011",
+      "display_id": "金属屋根工事_初級-011",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "比較",
       "question": "水密性が高いのは「ボルト締」と「嵌合」どっち",
       "answer": "嵌合工法",
-      "explanation": "屋根面に穴を開けないため漏水に強い。"
+      "explanation": "屋根面に穴を開けないため漏水に強い。",
+      "explanation2": "嵌合工法では釘やボルトで屋根材に穴を開けないため、穴からの漏水リスクがません。施工時は嵌合部分のかみ合わせを丁寧に確認し、適正な力で留めることが重要です。温度変化による金属の膨張収縮にも対応しやすく、長期的に高い水密性を保てます。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-012",
+      "id": "Metal roofing W_B-0012",
+      "display_id": "金属屋根工事_初級-012",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "折板固定用のボルトを（　　）という。",
       "answer": "剣先ボルト",
-      "explanation": "タイトフレームに溶接されています。"
+      "explanation": "タイトフレームに溶接されています。",
+      "explanation2": "剣先ボルトはタイトフレームに溶接固定されており、屋根金属板をしっかり押さえます。施工時はボルトの位置ズレや溶接不良がないか注意し、ボルト頭の腐食防止のため防錆処理も欠かせません。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-013",
+      "id": "Metal roofing W_B-0013",
+      "display_id": "金属屋根工事_初級-013",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "用語",
       "question": "屋根の流れが切り替わるV字の溝を何というか",
       "answer": "谷（たに）",
-      "explanation": "雨水が集中するため谷樋で処理します。"
+      "explanation": "雨水が集中するため谷樋で処理します。",
+      "explanation2": "谷部分は雨水が集中して流れるため、谷樋の設置とともに端部のシーリングや止水処理を確実に行う必要があります。また、ゴミ詰まりによる水溜りで腐食が発生しやすいので、定期的な清掃も重要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-014",
+      "id": "Metal roofing W_B-0014",
+      "display_id": "金属屋根工事_初級-014",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "ルーフィングは棟側から軒側へ重ねる。",
       "answer": "×",
-      "explanation": "軒側から棟側へ、水流に順じて重ねます。"
+      "explanation": "軒側から棟側へ、水流に順じて重ねます。",
+      "explanation2": "ルーフィングは軒先から棟方向に重ねることで水の逆流を防ぎます。施工時に逆に重ねると水が入り込みやすくなるため、順序を間違わないよう注意し、重ね幅も確保しましょう。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-015",
+      "id": "Metal roofing W_B-0015",
+      "display_id": "金属屋根工事_初級-015",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "Q&Ａ",
       "question": "瓦棒葺の溝板立ち上げに被せる部材は",
       "answer": "瓦棒包み（キャップ）",
-      "explanation": "心木や接合部を雨から守ります。"
+      "explanation": "心木や接合部を雨から守ります。",
+      "explanation2": "瓦棒包み（キャップ）は心木を保護し雨水侵入を防ぎます。施工の際は隙間なく被せ、密着させて固定することで雨漏りリスクを減らせます。また、材料の変形や劣化を考慮した納めもポイントです。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-016",
+      "id": "Metal roofing W_B-0016",
+      "display_id": "金属屋根工事_初級-016",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "リストアップ",
       "question": "「はぜ継ぎ」の種類を2つ挙げよ。",
       "answer": "立はぜ継ぎ、平はぜ継ぎ",
-      "explanation": "葺き方により使い分けます。"
+      "explanation": "葺き方により使い分けます。",
+      "explanation2": "立はぜ継ぎは屋根の勾配が急な場合、平はぜ継ぎは緩勾配に適します。施工時は継ぎ手の折り曲げやかしめを正確に行い、継目の防水処理もしっかり行うことで耐久性が向上します。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-017",
+      "id": "Metal roofing W_B-0017",
+      "display_id": "金属屋根工事_初級-017",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "縦葺は横葺より緩勾配に対応できる。",
       "answer": "○",
-      "explanation": "流れ方向に継ぎ目がないため排水が良い。"
+      "explanation": "流れ方向に継ぎ目がないため排水が良い。",
+      "explanation2": "縦葺きは勾配が緩くても水が流れやすいので施工の自由度が高いです。継ぎ目が水流方向に沿うため、排水性能を活かすには板材の折り曲げ精度や継目の均一性が求められます。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-018",
+      "id": "Metal roofing W_B-0018",
+      "display_id": "金属屋根工事_初級-018",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "継ぎ目に充填して止水する材料を（　　）という。",
       "answer": "シーリング材",
-      "explanation": "水密性確保に不可欠な副資材です。"
+      "explanation": "水密性確保に不可欠な副資材です。",
+      "explanation2": "シーリング材は継ぎ目の隙間から水が侵入するのを防ぎます。施工時には接着面の汚れ除去・乾燥を十分行い、適切な厚みで充填、硬化後に割れや剥離がないか確認することが重要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-019",
+      "id": "Metal roofing W_B-0019",
+      "display_id": "金属屋根工事_初級-019",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "用語",
       "question": "金属板の表面に施す保護・意匠処理は",
       "answer": "塗装（カラー鋼板）",
-      "explanation": "耐久性と美観を向上させます。"
+      "explanation": "耐久性と美観を向上させます。",
+      "explanation2": "塗装は金属の腐食防止に加え、建物の美観を保ちます。施工後は塗膜の厚さや均一性を検査し、雨や紫外線による劣化を考慮したメンテナンス計画も必要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-020",
+      "id": "Metal roofing W_B-0020",
+      "display_id": "金属屋根工事_初級-020",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "タイトフレームは梁に接着剤で固定する。",
       "answer": "×",
-      "explanation": "通常は溶接またはボルト締めで固定。"
+      "explanation": "通常は溶接またはボルト締めで固定。",
+      "explanation2": "タイトフレームは構造剛性が重要なため、接着剤では強度不十分です。通常は溶接またはボルト締めで確実に固定し、施工後は緩みや腐食の点検を定期的に行うことが望ましいです。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-021",
+      "id": "Metal roofing W_B-0021",
+      "display_id": "金属屋根工事_初級-021",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "金属屋根は気温変化で（　　）する。",
       "answer": "熱伸縮",
-      "explanation": "動きを逃がす遊びが必要です。"
+      "explanation": "動きを逃がす遊びが必要です。",
+      "explanation2": "金属屋根は温度変化により膨張・収縮を繰り返します。これを考慮せずに固定すると反りや割れの原因に。施工時は緩衝材や適切な留め具の選定で熱伸縮用の「遊び」を確保し、構造的なストレスを軽減するのが重要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-022",
+      "id": "Metal roofing W_B-0022",
+      "display_id": "金属屋根工事_初級-022",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "切断時の火花が付着しても冷めれば良い。",
       "answer": "×",
-      "explanation": "もらい錆の原因になるため厳禁です。"
+      "explanation": "もらい錆の原因になるため厳禁です。",
+      "explanation2": "切断火花が付着したまま放置すると、表面に微細な破損や塗装の剥離が生じ、そこから錆が発生。冷却後の目視確認だけでなく、清掃や防錆処理を確実に行わないと「もらい錆」が拡大し、屋根全体の耐久性低下につながります。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-023",
+      "id": "Metal roofing W_B-0023",
+      "display_id": "金属屋根工事_初級-023",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "用語",
       "question": "落雪を防ぐために取り付ける金具は",
       "answer": "雪止め",
-      "explanation": "隣家被害や樋の破損を防ぎます。"
+      "explanation": "隣家被害や樋の破損を防ぎます。",
+      "explanation2": "雪止め金具は落雪の力を受けるため、強固に母屋や下地に固定することが必須。取り付け位置の高さや間隔も計画的に設定しないと雪の塊が滑り落ち、隣地や樋への被害を招くため、設計基準に準じた施工を心掛けましょう。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-024",
+      "id": "Metal roofing W_B-0024",
+      "display_id": "金属屋根工事_初級-024",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "Q&Ａ",
       "question": "「はぜ」を締める電動工具の名前は",
       "answer": "シーマー",
-      "explanation": "自動で走行しながら接合部を締めます。"
+      "explanation": "自動で走行しながら接合部を締めます。",
+      "explanation2": "シーマーは均一な圧着を行うことで防水性能を確保しますが、速度や圧力調節が不適切だと接合不良に。操作中は機械の挙動を常に確認し、感覚だけに頼らず、接合部の外観と密着状態を施工ごとにチェックしましょう。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-025",
+      "id": "Metal roofing W_B-0025",
+      "display_id": "金属屋根工事_初級-025",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "野地板の隙間があっても施工して良い。",
       "answer": "×",
-      "explanation": "ルーフィング破断の原因になります。"
+      "explanation": "ルーフィング破断の原因になります。",
+      "explanation2": "野地板の隙間があるとルーフィングがたわみやすくなり、歩行時や風圧で破断するリスクが増大。ルーフィングの密着性を確保するためには、板の隙間を最小限にし、下地を均一に整えるなど下準備が重要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-026",
+      "id": "Metal roofing W_B-0026",
+      "display_id": "金属屋根工事_初級-026",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "リストアップ",
       "question": "屋根工事の必須安全装備を2つ挙げよ。",
       "answer": "ヘルメット、フルハーネス",
-      "explanation": "墜落制止用器具の着用が義務です。"
+      "explanation": "墜落制止用器具の着用が義務です。",
+      "explanation2": "ヘルメットとフルハーネスは墜落時の被害を軽減しますが、適正な装着と定期的な点検も重要です。各個人に合ったサイズ調整や、使い方の指導を徹底することが、安全確保につながり、災害の未然防止に役立ちます。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-027",
+      "id": "Metal roofing W_B-0027",
+      "display_id": "金属屋根工事_初級-027",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "比較",
       "question": "心木の有無で強風に強いのはどちらか",
       "answer": "心木があるタイプ",
-      "explanation": "下地に強固に固定しやすい構造です。"
+      "explanation": "下地に強固に固定しやすい構造です。",
+      "explanation2": "心木がある屋根は折板と下地の一体固定が可能で、横風や突風による揺れに強い構造です。心木の取り付け精度が低いと固定力が落ちるため、下地と心木の寸法・位置を厳守し施工精度を高めることが必要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-028",
+      "id": "Metal roofing W_B-0028",
+      "display_id": "金属屋根工事_初級-028",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "屋根端部（妻側）の役物を（　　）という。",
       "answer": "けらば包み",
-      "explanation": "雨水の浸入や風の吹き込みを防ぎます。"
+      "explanation": "雨水の浸入や風の吹き込みを防ぎます。",
+      "explanation2": "けらば包みは屋根端部の水切り役物で、適切な取り付けがされないと雨水の逆流が生じ内部腐食の原因に。取付の際は納まりを確認し、すき間なく張り付けることやシーリング材の活用が施工不良を防ぎます。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-029",
+      "id": "Metal roofing W_B-0029",
+      "display_id": "金属屋根工事_初級-029",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "強風時は作業中止し材料を養生する。",
       "answer": "○",
-      "explanation": "飛散防止は公衆災害防止に必須。"
+      "explanation": "飛散防止は公衆災害防止に必須。",
+      "explanation2": "強風時の作業中止は安全第一の判断ですが、材料の飛散防止も徹底しましょう。風速予測と現場環境の把握が重要で、養生ネットや重しを使うことで公衆災害や資材損傷を防止し、作業再開時のトラブルを減らせます。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-030",
+      "id": "Metal roofing W_B-0030",
+      "display_id": "金属屋根工事_初級-030",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "用語",
       "question": "荷揚げ時に製品を傷つけない保護具は",
       "answer": "吊り具（当てモノ）",
-      "explanation": "端部の変形を防ぐために使用します。"
+      "explanation": "端部の変形を防ぐために使用します。",
+      "explanation2": "吊り具に当てモノを使用し端部保護を行わないと、吊り上げ時に金属折板の端が変形し密着不良や防水性能低下を招きます。吊り上げ作業前に当てモノの適正配置を確認し、荷重が均等にかかるように注意してください。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-031",
+      "id": "Metal roofing W_B-0031",
+      "display_id": "金属屋根工事_初級-031",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "壁と屋根の接点に使うL字役物は",
       "answer": "雨押え",
-      "explanation": "壁際からの浸水を防ぐ重要部材。"
+      "explanation": "壁際からの浸水を防ぐ重要部材。",
+      "explanation2": "雨押えは壁と屋根の接点に必ずしっかり設置し、水の流れに逆らわないように取り付けることが重要です。接合部の隙間ができると浸水の原因になるため、シーリング材の適切な使用や釘打ち方法にも注意しましょう。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-032",
+      "id": "Metal roofing W_B-0032",
+      "display_id": "金属屋根工事_初級-032",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "産材は屋外で直置きせず枕木を使う。",
       "answer": "○",
-      "explanation": "湿気による錆や汚れを防止します。"
+      "explanation": "湿気による錆や汚れを防止します。",
+      "explanation2": "産材を直置きすると地面の水分が材に伝わり錆や腐食が進みやすくなります。枕木を使うことで通気が確保され、乾燥が促進されるため保管期間中の劣化を抑えられます。特に雨天時は速やかにビニールシートで覆うことも有効です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-033",
+      "id": "Metal roofing W_B-0033",
+      "display_id": "金属屋根工事_初級-033",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "用語",
       "question": "端部を上に折って水の溢れを防ぐ加工は",
       "answer": "立ち上げ（水返し）",
-      "explanation": "内部への浸水を物理的に遮断します。"
+      "explanation": "内部への浸水を物理的に遮断します。",
+      "explanation2": "立ち上げ（水返し）は端部からの浸水を防ぐだけでなく、風圧による雨水の吹き込みも抑制します。折り曲げの角度や高さが不足すると隙間ができやすいため、製品仕様を守り確実に加工・固定しましょう。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-034",
+      "id": "Metal roofing W_B-0034",
+      "display_id": "金属屋根工事_初級-034",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "Q&Ａ",
       "question": "屋根下に断熱材を入れる断熱以外の目的は",
       "answer": "遮音・結露防止",
-      "explanation": "雨音の軽減や裏面の結露を防ぎます。"
+      "explanation": "雨音の軽減や裏面の結露を防ぎます。",
+      "explanation2": "断熱材は熱遮断だけでなく、雨音の反響を防ぐ遮音効果や結露防止の役割も担います。施工時は断熱材の隙間を埋め、通気層を設けることで結露の発生を防ぎ、屋根裏の長期的な健全性を保つポイントとなります。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-035",
+      "id": "Metal roofing W_B-0035",
+      "display_id": "金属屋根工事_初級-035",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "飛び火認定屋根は隣家からの延焼を防ぐ。",
       "answer": "○",
-      "explanation": "防火性能が試験で証明されています。"
+      "explanation": "防火性能が試験で証明されています。",
+      "explanation2": "飛び火認定屋根は防火試験を経ており、適切に施工すれば隣家からの延焼リスクを大幅に低減できます。施工時には接合部の密閉や外壁との納まりを確実にし、火災時の煙の侵入も防ぐ工夫が求められます。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-036",
+      "id": "Metal roofing W_B-0036",
+      "display_id": "金属屋根工事_初級-036",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "リストアップ",
       "question": "屋根勾配を表す2つの単位は",
       "answer": "寸、分数（または％）",
-      "explanation": "3寸や1/10などの表記を使います。"
+      "explanation": "3寸や1/10などの表記を使います。",
+      "explanation2": "屋根勾配は寸（高さ/10）や分数、％で表しますが、実際の施工では勾配により排水性能や安全性が変わるため、設計値を厳守し施工誤差を少なくすることが肝要です。特殊な勾配の場合は適した材料選定も必要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-037",
+      "id": "Metal roofing W_B-0037",
+      "display_id": "金属屋根工事_初級-037",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "比較",
       "question": "ステンレスとガルバリウムで耐食性が高いのは",
       "answer": "ステンレス鋼板",
-      "explanation": "より過酷な環境に適しています。"
+      "explanation": "より過酷な環境に適しています。",
+      "explanation2": "ステンレス鋼板は耐食性に優れ、特に海岸部や工場排気の影響が大きい環境での使用に適しています。施工時には異種金属接触腐食に注意し、ガルバリウムとの接触部は絶縁措置を行うのが望ましいです。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-038",
+      "id": "Metal roofing W_B-0038",
+      "display_id": "金属屋根工事_初級-038",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "折板の山の間を塞ぐ部材を（　　）という。",
       "answer": "面戸（めんど）",
-      "explanation": "鳥の浸入や風の吹き込みを防ぎます。"
+      "explanation": "鳥の浸入や風の吹き込みを防ぎます。",
+      "explanation2": "面戸（めんど）は折板屋根の山間部に確実に施工しないと鳥の巣作りや風雨の吹き込みを許します。取り付け時は隙間をなくし、耐候性材料を使うことで長期間機能を維持させることが重要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-039",
+      "id": "Metal roofing W_B-0039",
+      "display_id": "金属屋根工事_初級-039",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "完了後は表面の泥や埃を清掃すべきである。",
       "answer": "○",
-      "explanation": "汚れは錆を誘発するため清掃します。"
+      "explanation": "汚れは錆を誘発するため清掃します。",
+      "explanation2": "完了後の泥・埃清掃は、素材の表面に付着した汚染物質が水分と結合し、錆びやすくするため必須です。特に接合部は錆発生の起点となりやすいので傷めずに丁寧に除去しておくと長寿命化につながります。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-040",
+      "id": "Metal roofing W_B-0040",
+      "display_id": "金属屋根工事_初級-040",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "用語",
       "question": "曲げ加工時にひび割れない最小の半径は",
       "answer": "最小曲げ半径",
-      "explanation": "無理な加工は塗膜剥離の原因。"
+      "explanation": "無理な加工は塗膜剥離の原因。",
+      "explanation2": "最小曲げ半径を守らないと塗膜が割れ塗装剥離が起きやすくなり、そこから錆が進行します。曲げ加工は板厚や材質によって変わるため、適切な段取り工具と加工速度で均一な曲げを行い、品質低下を防ぐことが重要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-041",
+      "id": "Metal roofing W_B-0041",
+      "display_id": "金属屋根工事_初級-041",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "吊子ピッチは屋根周辺部で細かくする。",
       "answer": "○",
-      "explanation": "風圧による引き抜きに対抗します。"
+      "explanation": "風圧による引き抜きに対抗します。",
+      "explanation2": "吊子ピッチを屋根周辺部で細かくすることで、風圧による局所的な引き抜き力を分散できます。特に強風が予想される箇所はピッチを狭くすることで部材の浮きや変形を防ぎ、長期的な耐久性を確保します。設計と施工時は風圧力の計算を基にピッチを調整しましょう。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-042",
+      "id": "Metal roofing W_B-0042",
+      "display_id": "金属屋根工事_初級-042",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "裏に断熱材を貼った材料を（　　）という。",
       "answer": "裏打ち材",
-      "explanation": "結露防止や遮音に有効です。"
+      "explanation": "結露防止や遮音に有効です。",
+      "explanation2": "裏打ち材は断熱材の機能に加え、施工時の取り扱いにも注意が必要です。断熱材の密着性や耐湿性を損なわないよう、防水層の施工順序を守ることが大切。施工環境の湿度管理や断熱材の種類選定も、結露防止効果に大きく影響します。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-043",
+      "id": "Metal roofing W_B-0043",
+      "display_id": "金属屋根工事_初級-043",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "用語",
       "question": "棟で通気と防水を両立する役物は",
       "answer": "換気棟",
-      "explanation": "小屋裏の湿気を逃がし結露を防ぎます。"
+      "explanation": "小屋裏の湿気を逃がし結露を防ぎます。",
+      "explanation2": "換気棟は通気性能を確保しながら、防水性能を損なわない設計が重要です。風圧や雨水の侵入を防ぐため、重ね部や取り合い部分のシール処理・防水テープ施工を入念に行いましょう。通気不良は小屋裏の結露を招くため定期点検も必要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-044",
+      "id": "Metal roofing W_B-0044",
+      "display_id": "金属屋根工事_初級-044",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "Q&Ａ",
       "question": "役物重なり部に貼る止水テープは",
       "answer": "防水テープ（ブチルテープ）",
-      "explanation": "シーリングと併用し止水性を強化。"
+      "explanation": "シーリングと併用し止水性を強化。",
+      "explanation2": "止水テープ（ブチルテープ）は粘着力が強く、長期的に変形しにくい特性を持ちます。しかし、施工時の貼り付け面の清掃不足や湿り気は接着不良の原因に。施工前に表面の油分・埃を確実に除去し、気温が低い場合は温めて貼ると効果的です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-045",
+      "id": "Metal roofing W_B-0045",
+      "display_id": "金属屋根工事_初級-045",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "小傷は市販スプレーで補修して良い。",
       "answer": "×",
-      "explanation": "専用のタッチアップ材を使用します。"
+      "explanation": "専用のタッチアップ材を使用します。",
+      "explanation2": "補修スプレーは簡便ですが、専用タッチアップ材は下地色や耐候性を考慮した化学的特性を持ちます。傷の深さ、金属の露出具合に応じて適切な材料を使い分けることが不具合防止のポイント。施工後は乾燥・硬化時間も守りましょう。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-046",
+      "id": "Metal roofing W_B-0046",
+      "display_id": "金属屋根工事_初級-046",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "リストアップ",
       "question": "自主検査での確認項目を2つ挙げよ。",
       "answer": "はぜの締まり、傷・汚れ、清掃等",
-      "explanation": "品質確保のための最終チェック。"
+      "explanation": "品質確保のための最終チェック。",
+      "explanation2": "自主検査では、はぜの締まり具合が十分でないと隙間から雨水が侵入し、内部腐食につながります。傷や汚れは錆びの原因となるため清掃も重要です。チェックリストを活用し標準検査手順を順守することで、品質のバラツキを防げます。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-047",
+      "id": "Metal roofing W_B-0047",
+      "display_id": "金属屋根工事_初級-047",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "比較",
       "question": "一文字葺と呼ばれるのは縦葺・横葺どっち",
       "answer": "横葺",
-      "explanation": "階段状に重ねる意匠性の高い葺き方。"
+      "explanation": "階段状に重ねる意匠性の高い葺き方。",
+      "explanation2": "一文字葺の横葺は、部材の重なり部分に水切り勾配を付けやすいため防水性に優れます。ただし、重なりの重なりピッチや固定方法の不備は水漏れリスクの要因となるため、丁寧な寸法管理とビス留めが求められます。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-048",
+      "id": "Metal roofing W_B-0048",
+      "display_id": "金属屋根工事_初級-048",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "軒先唐草に引っ掛ける折り返しを（　　）という。",
       "answer": "掴み（つかみ）",
-      "explanation": "強風によるめくれを防止します。"
+      "explanation": "強風によるめくれを防止します。",
+      "explanation2": "掴みは軒先唐草と屋根材をしっかり固定する役割があり、風によるめくれ防止に直結します。施工時は掴み部分の変形や損傷を避け、かつ固定強度を出すため適切な工具と締付けトルクを守ることが大切です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-049",
+      "id": "Metal roofing W_B-0049",
+      "display_id": "金属屋根工事_初級-049",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "タイトフレームの溶接後は防錆塗装を行う。",
       "answer": "○",
-      "explanation": "溶接箇所の腐食を防ぐ必須工程。"
+      "explanation": "溶接箇所の腐食を防ぐ必須工程。",
+      "explanation2": "溶接後の防錆塗装は、溶接ヒートアフェクト部の酸化膜や内部応力による腐食リスクを軽減します。塗膜の厚さ、密着性を確認し、塗料の仕様に沿った塗布回数を守ることが効果的。未処理は耐久性低下の大きな要因です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-050",
+      "id": "Metal roofing W_B-0050",
+      "display_id": "金属屋根工事_初級-050",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "用語",
       "question": "屋根の棟や軒先に使う特殊形状部品は",
       "answer": "役物（やくもの）",
-      "explanation": "棟包みや雨押えなどの総称。"
+      "explanation": "棟包みや雨押えなどの総称。",
+      "explanation2": "役物は美観だけでなく、屋根材の変形や接合部の動きを吸収し、水密性能を保つ機能も担います。取り付け時は部材間のクリアランスやシーリングの状態を確認し、熱膨張や収縮にも対応できる柔軟な設計が施工のコツです。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-051",
+      "id": "Metal roofing W_B-0051",
+      "display_id": "金属屋根工事_初級-051",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "屋根材の長手方向の寸法許容差は±5mm程度である。",
       "answer": "○",
-      "explanation": "精度の高い納まりのために厳守が必要です。"
+      "explanation": "精度の高い納まりのために厳守が必要です。",
+      "explanation2": "長手方向の寸法許容差を守らないと、継ぎ目のズレや隙間が生じやすく、雨漏りや風の侵入リスクが高まります。施工時は定規やレーザー測定器で正確に測り、温度変化による素材の伸縮も考慮して施工計画を立てることが重要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-052",
+      "id": "Metal roofing W_B-0052",
+      "display_id": "金属屋根工事_初級-052",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "現場で屋根材を成形することを（　　）成形という。",
       "answer": "現場（オンサイト）",
-      "explanation": "運搬困難な超長尺物で行う手法です。"
+      "explanation": "運搬困難な超長尺物で行う手法です。",
+      "explanation2": "現場での成形は輸送時の破損回避や取り扱いの利便性に優れますが、高い技術力と専用機械が必要です。施工前に成形手順を確認し、成形時のテンション管理に注意しないと、板の歪みや割れが発生しやすい点に注意が必要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-053",
+      "id": "Metal roofing W_B-0053",
+      "display_id": "金属屋根工事_初級-053",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "用語",
       "question": "棟部で雨水の吹き込みを防ぐ山形状の部材は",
       "answer": "面戸板（エンド面戸）",
-      "explanation": "棟包みの内側で隙間を塞ぐ重要部品。"
+      "explanation": "棟包みの内側で隙間を塞ぐ重要部品。",
+      "explanation2": "面戸板は棟部の隙間風を防ぐだけでなく、雨水の侵入経路を遮断するため耐久性に直結します。不適切な取付けは棟包みの変形を招き、防水層の劣化を早めるため、設置時の密着や固定の確実性に注意が必要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-054",
+      "id": "Metal roofing W_B-0054",
+      "display_id": "金属屋根工事_初級-054",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "Q&Ａ",
       "question": "ルーフィングをタッカーで留める間隔の標準は",
       "answer": "300mm程度",
-      "explanation": "風による浮きを防ぐため千鳥状に留めます。"
+      "explanation": "風による浮きを防ぐため千鳥状に留めます。",
+      "explanation2": "タッカー留めは間隔だけでなく、留め位置の均等性と千鳥留め（ジグザグ留め）により引張力分散を図る施工が重要です。均一に留めないとルーフィングが風で捲れ、下地の腐食や雨漏りに繋がるため、留め付け作業の均一性確認が必須です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-055",
+      "id": "Metal roofing W_B-0055",
+      "display_id": "金属屋根工事_初級-055",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "1/10以下の緩勾配には横葺が適している。",
       "answer": "×",
-      "explanation": "緩勾配には排水の良い縦葺が適します。"
+      "explanation": "緩勾配には排水の良い縦葺が適します。",
+      "explanation2": "緩勾配屋根では水の排水能力が不足するため横葺は不適切です。縦葺は水流を自然に促進し、はぜ部での水抜けが良いため防水性能が向上します。施工時は勾配を正確に評価して適切な葺き方を選定することが重要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-056",
+      "id": "Metal roofing W_B-0056",
+      "display_id": "金属屋根工事_初級-056",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "リストアップ",
       "question": "はぜ締め不十分で発生する不具合を2つ挙げよ。",
       "answer": "雨漏り、飛散、ガタツキ",
-      "explanation": "防水・耐風性能に直結する不具合です。"
+      "explanation": "防水・耐風性能に直結する不具合です。",
+      "explanation2": "はぜ締め不十分では風圧で板が外れやすくなるため飛散しやすく、隙間から雨水が浸入して雨漏りに繋がります。経験豊富な職人が専用工具で確実にはぜ部を固定し、施工後は目視確認や引張試験を行うことが不具合防止に効果的です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-057",
+      "id": "Metal roofing W_B-0057",
+      "display_id": "金属屋根工事_初級-057",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "比較",
       "question": "傷が目立ちにくいのは「つや消し」「つや有り」どっち",
       "answer": "つや消し",
-      "explanation": "光の反射が抑えられひずみも目立ちません。"
+      "explanation": "光の反射が抑えられひずみも目立ちません。",
+      "explanation2": "つや消し表面は光の拡散特性により、細かなキズが光らず目立ちにくい特徴があります。施工中の取扱いや搬入時の擦り傷発生リスクに配慮し、つや消し素材は特に慎重な養生が必要です。仕上がり美観向上に寄与します。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-058",
+      "id": "Metal roofing W_B-0058",
+      "display_id": "金属屋根工事_初級-058",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "固定ネジの頭には（　　）付きワッシャーを使用する。",
       "answer": "パッキン（ゴム）",
-      "explanation": "ネジ穴からの浸水を防ぐ必須部材です。"
+      "explanation": "ネジ穴からの浸水を防ぐ必須部材です。",
+      "explanation2": "パッキン付きワッシャーはボルト締結部分の水密性を保ち、錆の発生を抑制します。締め付け時は過度なトルクを避け、パッキンが潰れすぎないように均一な力で締めることが、不具合や漏水防止のポイントです。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-059",
+      "id": "Metal roofing W_B-0059",
+      "display_id": "金属屋根工事_初級-059",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "雪止め金具は「はぜ」を挟んで固定できる。",
       "answer": "○",
-      "explanation": "屋根に穴を開けないため防水上有利です。"
+      "explanation": "屋根に穴を開けないため防水上有利です。",
+      "explanation2": "はぜ間に雪止め金具を挟む固定は屋根面穿孔を避けるため防水性が良好です。ただし強風時の耐風性能を保つため、金具の取付け位置と締め付け強度の管理が重要です。不適切だと雪の滑落や金具の脱落が起こるため注意が必要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-060",
+      "id": "Metal roofing W_B-0060",
+      "display_id": "金属屋根工事_初級-060",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "用語",
       "question": "表面に微細な凹凸を付け意匠性を高める加工は",
       "answer": "エンボス加工",
-      "explanation": "反射抑制や板のひずみ抑制効果もあります。"
+      "explanation": "反射抑制や板のひずみ抑制効果もあります。",
+      "explanation2": "エンボス加工は表面の微細な凹凸で板材の剛性を高め、反射光を拡散させるため、特に日差しが強い環境での快適性が向上します。加工時の均一性が不足すると板の歪みや部分的な強度低下を引き起こすため、管理が重要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-061",
+      "id": "Metal roofing W_B-0061",
+      "display_id": "金属屋根工事_初級-061",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "銅板の腐食を防ぐため下地との間に（　　）を敷く。",
       "answer": "絶縁材（不織布）",
-      "explanation": "木材の酸性成分による腐食を防ぎます。"
+      "explanation": "木材の酸性成分による腐食を防ぎます。",
+      "explanation2": "銅板と木材の接触部分に絶縁材を敷くことで、木材の酸性成分が銅に直接作用するのを防ぎます。実務では絶縁材の破れや隙間がないように施工することが重要です。また、絶縁材の耐候性や耐久性も考慮し、長期的な腐食防止効果を確保しましょう。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-062",
+      "id": "Metal roofing W_B-0062",
+      "display_id": "金属屋根工事_初級-062",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "ルーフィングの横方向の重ね幅は100mm以上とする。",
       "answer": "○",
-      "explanation": "縦は200mm、横は100mmが標準です。"
+      "explanation": "縦は200mm、横は100mmが標準です。",
+      "explanation2": "ルーフィングの重ね幅は雨漏り防止の要で、縦方向200mm、横方向100mmが標準です。横方向の重ね幅が不足すると、水が毛細管現象で隙間から浸入するリスクが高まるため、幅を守りながらしっかり固定しましょう。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-063",
+      "id": "Metal roofing W_B-0063",
+      "display_id": "金属屋根工事_初級-063",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "用語",
       "question": "排水を促すために板を弓なりに加工することを何という",
       "answer": "むくり（起り）",
-      "explanation": "水たまりを防止するために施されます。"
+      "explanation": "水たまりを防止するために施されます。",
+      "explanation2": "むくりは板金を弓なりに加工して排水を良くする技術で、水たまり（プール現象）を防ぎます。施工時は曲げ過ぎず緩やかな弧をつけることが重要で、過度なむくりは逆に雨水の滞留や風圧でのダメージを招く恐れがあります。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-064",
+      "id": "Metal roofing W_B-0064",
+      "display_id": "金属屋根工事_初級-064",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "Q&Ａ",
       "question": "軒先のめくれを防ぐ補強部材を何というか",
       "answer": "補強吊子",
-      "explanation": "風の影響が強い端部を強化します。"
+      "explanation": "風の影響が強い端部を強化します。",
+      "explanation2": "補強吊子は軒先の固定強化に使用し、風によるめくれを防ぎます。施工時には風向きや強さを考慮して適切な間隔で設置し、屋根材の振動や応力を適切に分散することがポイントです。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-065",
+      "id": "Metal roofing W_B-0065",
+      "display_id": "金属屋根工事_初級-065",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "横葺の継ぎ目（はぜ）は垂直に一直線に揃える。",
       "answer": "×",
-      "explanation": "雨水の集中を防ぐため「千鳥」に並べます。"
+      "explanation": "雨水の集中を防ぐため「千鳥」に並べます。",
+      "explanation2": "横葺のはぜ部は雨水が集中しないよう「千鳥配置」で設置し、連続した一本線にならないようにします。これは一箇所に負荷が集中して雨漏りや材料の損傷を防ぐためです。施工時に配置を正確に確認することが重要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-066",
+      "id": "Metal roofing W_B-0066",
+      "display_id": "金属屋根工事_初級-066",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "リストアップ",
       "question": "雨押えと外壁の取り合い部の防水処置を2つ挙げよ。",
       "answer": "差し込み、シーリング、防水テープ",
-      "explanation": "壁からの水を屋根裏へ回さない工夫。"
+      "explanation": "壁からの水を屋根裏へ回さない工夫。",
+      "explanation2": "雨押えと外壁の取り合いの防水処理は、差し込みやシーリング、防水テープの三重防御が基本です。実務では接合部の清掃と乾燥を徹底し、防水テープやシーリング材の適切な充填・硬化を確認して漏水リスクを最小化しましょう。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-067",
+      "id": "Metal roofing W_B-0067",
+      "display_id": "金属屋根工事_初級-067",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "比較",
       "question": "住宅の立はぜ葺で多い鋼板厚は「0.35」か「0.5」か",
       "answer": "0.35mm",
-      "explanation": "住宅用縦葺では0.35〜0.4mmが一般的。"
+      "explanation": "住宅用縦葺では0.35〜0.4mmが一般的。",
+      "explanation2": "住宅用の立はぜ葺きは0.35〜0.4mmの鋼板厚が多いですが、厚みが薄いほど施工しやすい反面、耐久性に注意が必要です。現場では強風地域や降雪地域の場合は特に材料の厚みと補強の選定を慎重に行い、設計通りの性能を保持しましょう。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-068",
+      "id": "Metal roofing W_B-0068",
+      "display_id": "金属屋根工事_初級-068",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "屋根材先端は軒樋の中に（　　）mm程度出す。",
       "answer": "30〜50",
-      "explanation": "水の回り込みと雪害防止のバランス。"
+      "explanation": "水の回り込みと雪害防止のバランス。",
+      "explanation2": "屋根材の先端が軒樋に30〜50mm程度出るのは、雨水の回り込み防止と雪害対策のバランスからです。施工時はこの長さを守りつつ材端の加工精度を上げることで水切れを良くし、冬期の氷結によるトラブルを防ぎます。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-069",
+      "id": "Metal roofing W_B-0069",
+      "display_id": "金属屋根工事_初級-069",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "「はぜ」を掴む架台なら屋根に穴を開けず太陽光設置可。",
       "answer": "○",
-      "explanation": "キャッチ工法と呼ばれ防水上非常に有利。"
+      "explanation": "キャッチ工法と呼ばれ防水上非常に有利。",
+      "explanation2": "はぜを掴む架台（キャッチ工法）は屋根に穴を開けないため、防水層の損傷リスクが低減します。太陽光設置時は架台の強度や締結力を確認し、風圧に耐えるよう適切な設置を心がけることが施工のポイントです。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-070",
+      "id": "Metal roofing W_B-0070",
+      "display_id": "金属屋根工事_初級-070",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "用語",
       "question": "はぜを締め潰して一体化させる工法を何という",
       "answer": "圧着はぜ（嵌合式）",
-      "explanation": "毛細管現象を防ぎ高い水密性を得られます。"
+      "explanation": "毛細管現象を防ぎ高い水密性を得られます。",
+      "explanation2": "圧着はぜははぜ部分を強く締め付け密着させる工法で毛細管現象による浸水を防ぎます。施工時は圧着機の調整や締め付け強度を十分管理し、不十分だと水密性低下や脱落の原因となるため注意が必要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-071",
+      "id": "Metal roofing W_B-0071",
+      "display_id": "金属屋根工事_初級-071",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "折板屋根の上は「谷」の部分を歩くのが正しい。",
       "answer": "×",
-      "explanation": "下地がある「山」の部分を歩くのが基本。"
+      "explanation": "下地がある「山」の部分を歩くのが基本。",
+      "explanation2": "折板屋根の「山」の部分は下地があり荷重を受けやすいため、安全かつ屋根材を傷つけずに歩けます。谷は溝状で下地が薄く踏み抜きの危険があるため避けること。作業時は足場設置や専用靴での歩行が重要で、安全管理に繋がります。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-072",
+      "id": "Metal roofing W_B-0072",
+      "display_id": "金属屋根工事_初級-072",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "水が吸い上げられる（　　）現象を防ぐため止水する。",
       "answer": "毛細管",
-      "explanation": "わずかな隙間からの浸水を防ぐ処置。"
+      "explanation": "わずかな隙間からの浸水を防ぐ処置。",
+      "explanation2": "毛細管現象は隙間の微細な空間を水分が吸い上げてしまう現象で、水の侵入経路となります。施工でシール材や防水テープを隙間に確実に充填し、長時間の浸水を防ぐことが大切です。速乾性や耐候性も考慮しましょう。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-073",
+      "id": "Metal roofing W_B-0073",
+      "display_id": "金属屋根工事_初級-073",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "用語",
       "question": "屋根を傷つけず滑りにくい専用靴を何というか",
       "answer": "屋根靴（たび靴）",
-      "explanation": "安全確保と製品保護のために使用。"
+      "explanation": "安全確保と製品保護のために使用。",
+      "explanation2": "屋根靴は折板の山形状に合わせた滑り止め付き底面をもち、素材も屋根材を傷つけにくい柔軟材を使用します。これにより作業者の安全確保と屋根材の損傷防止が同時に実現でき、施工品質向上に直結します。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-074",
+      "id": "Metal roofing W_B-0074",
+      "display_id": "金属屋根工事_初級-074",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "Q&Ａ",
       "question": "軒先でルーフィングは唐草に対しどう納める",
       "answer": "唐草の立ち上がりに被せて折り下げる",
-      "explanation": "水が野地板に回らないように納めます。"
+      "explanation": "水が野地板に回らないように納めます。",
+      "explanation2": "ルーフィングは唐草の立ち上がりに被せて折り下げることで水が建物内へ染み込むのを防ぎます。この施工により毛細管現象も抑制。納めが不適切だと下地腐食や錆に繋がるため、重ね代や固定にも注意が必要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-075",
+      "id": "Metal roofing W_B-0075",
+      "display_id": "金属屋根工事_初級-075",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "屋根長10m超では熱伸縮対策（伸縮目地）が必要。",
       "answer": "○",
-      "explanation": "金属の膨張・収縮による不具合を防ぐ。"
+      "explanation": "金属の膨張・収縮による不具合を防ぐ。",
+      "explanation2": "10m超の屋根では金属の熱膨張・収縮が大きく、伸縮目地を設けてこれを吸収します。目地の適切な間隔や施工方法が不十分だと、ビスの緩みや折板の変形・破損が生じるため、設計指示通りに施工することが重要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-076",
+      "id": "Metal roofing W_B-0076",
+      "display_id": "金属屋根工事_初級-076",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "リストアップ",
       "question": "雨漏りが発生しやすい部位を2つ挙げよ。",
       "answer": "谷樋、棟、壁際、貫通部",
-      "explanation": "役物が交差する複雑な部位に注意。"
+      "explanation": "役物が交差する複雑な部位に注意。",
+      "explanation2": "谷樋や棟、壁際、貫通部は複雑な形状と役物との取り合いが多く、水の滞留や流路の乱れが発生しやすい場所です。防水層やシーリングの劣化検査、適切な勾配設定をすることで雨漏りリスクを低減できます。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-077",
+      "id": "Metal roofing W_B-0077",
+      "display_id": "金属屋根工事_初級-077",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "比較",
       "question": "吊子の固定で保持力が高いのは「釘」か「ネジ」か",
       "answer": "ネジ（ビス）留め",
-      "explanation": "台風対策として近年の主流です。"
+      "explanation": "台風対策として近年の主流です。",
+      "explanation2": "吊子の固定はネジ留めが保持力に優れ、強風による振動や引き抜きに対して耐久性があります。釘は施工が簡便だが緩みやすいため、近年はネジが主流で、事前の下穴あけもネジの保持力向上に寄与します。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-078",
+      "id": "Metal roofing W_B-0078",
+      "display_id": "金属屋根工事_初級-078",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "保管時はシート内の（　　）を確保する。",
       "answer": "通気性",
-      "explanation": "蒸れによる白錆の発生を防止します。"
+      "explanation": "蒸れによる白錆の発生を防止します。",
+      "explanation2": "保管時のシート内通気性確保は、湿気の滞留を防ぎ白錆を抑制します。密閉保管は水分がこもり錆発生の温床となるため、換気口や隙間を設けるなど湿気管理が品質維持に欠かせません。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-079",
+      "id": "Metal roofing W_B-0079",
+      "display_id": "金属屋根工事_初級-079",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "折板のボルトキャップは手で押し込めば完了。",
       "answer": "×",
-      "explanation": "工具で確実に叩き込み止水を確認。"
+      "explanation": "工具で確実に叩き込み止水を確認。",
+      "explanation2": "ボルトキャップの施工は手押しだけでは不十分で、専用工具で確実に叩き込み止水性能を確認する必要があります。不完全な施工は雨水の浸入を招き、錆・腐食・雨漏りの原因となるため、必ず検査を行いましょう。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-080",
+      "id": "Metal roofing W_B-0080",
+      "display_id": "金属屋根工事_初級-080",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "用語",
       "question": "屋根材の山形状に合わせて隙間を塞ぐ成形材は",
       "answer": "面戸（シール面戸）",
-      "explanation": "雨風や小鳥の浸入を防止します。"
+      "explanation": "雨風や小鳥の浸入を防止します。",
+      "explanation2": "面戸（シール面戸）は折板の山形に合わせて成形され、小鳥の侵入及び風雨の浸入を防ぐ重要部材です。成形・取付に不備が生じると隙間ができ、害虫の侵入や水の滞留が発生しやすいため、施工時のフィット感確認が重要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-081",
+      "id": "Metal roofing W_B-0081",
+      "display_id": "金属屋根工事_初級-081",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "用語",
       "question": "古い屋根の上に新しい屋根を被せる工法は",
       "answer": "カバー工法",
-      "explanation": "廃材抑制と工期短縮が可能な改修法。"
+      "explanation": "廃材抑制と工期短縮が可能な改修法。",
+      "explanation2": "カバー工法は既存屋根の劣化を抑えつつ新設できますが、既存下地の状態把握が不可欠です。劣化が激しい場合は下地補修や撤去が必要で、通気層確保も施工後の結露防止に重要です。施工時は雨水の排水経路を再確認し浸水リスクを回避しましょう。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-082",
+      "id": "Metal roofing W_B-0082",
+      "display_id": "金属屋根工事_初級-082",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "勾配が緩いほど、はぜからの浸水リスクは高い。",
       "answer": "○",
-      "explanation": "雨水が滞留しやすいため防水徹底が必要。"
+      "explanation": "雨水が滞留しやすいため防水徹底が必要。",
+      "explanation2": "勾配が緩い屋根は雨水が滞留しやすく、はぜ部分の隙間から浸水しやすいです。施工時は水の流れを妨げないように重ね幅や止水処理を丁寧にし、シーリング材の劣化にも注意しましょう。定期点検で早期発見することが重要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-083",
+      "id": "Metal roofing W_B-0083",
+      "display_id": "金属屋根工事_初級-083",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "雨水が軒樋を飛び越えてしまう現象を（　　）という。",
       "answer": "オーバーフロー",
-      "explanation": "出寸法と樋の位置の調整が重要。"
+      "explanation": "出寸法と樋の位置の調整が重要。",
+      "explanation2": "オーバーフローは軒樋の容量不足や位置不当が原因で発生します。施工では樋の断面積や出寸法を設計通り守り、軒樋の水平勾配を適正にすることが肝心です。雨水が集中する箇所には補助排水溝設置も検討しましょう。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-084",
+      "id": "Metal roofing W_B-0084",
+      "display_id": "金属屋根工事_初級-084",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "Q&Ａ",
       "question": "塗装が粉状になり手に付く現象を何というか",
       "answer": "チョーキング現象",
-      "explanation": "塗膜劣化のサインでメンテナンスの目安。"
+      "explanation": "塗膜劣化のサインでメンテナンスの目安。",
+      "explanation2": "チョーキングは塗膜の劣化末期に起き、紫外線や雨風で樹脂成分が分解され粉化します。早期発見し適切な塗装メンテを行わないと防錆能力が低下し金属腐食へ繋がります。施工前の下地処理と品質良い塗料選定が重要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-085",
+      "id": "Metal roofing W_B-0085",
+      "display_id": "金属屋根工事_初級-085",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "吊り荷の下にはヘルメットを被れば入ってよい。",
       "answer": "×",
-      "explanation": "荷の直下への立ち入りは原則禁止。"
+      "explanation": "荷の直下への立ち入りは原則禁止。",
+      "explanation2": "吊り荷下の立ち入り禁止は基本安全ルールです。ヘルメットは頭部保護であり、落下物からの断絶にはなりません。安全帯や警告掲示、誘導員の配置など現場ルールを徹底し、無理な作業は避けることが事故防止のコツです。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-086",
+      "id": "Metal roofing W_B-0086",
+      "display_id": "金属屋根工事_初級-086",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "リストアップ",
       "question": "雨仕舞を確実にする3つの基本要素を挙げよ。",
       "answer": "勾配、重ね、止水",
-      "explanation": "この3つのバランスで防水を保ちます。"
+      "explanation": "この3つのバランスで防水を保ちます。",
+      "explanation2": "勾配は排水力、重ねは水の侵入防止、止水は水気の侵入を遮断します。いずれかのバランスが崩れると漏水のリスクが増大。特に止水部のシーリングは経年劣化しやすいため、施工時の密着性確保と定期点検による早期補修が不可欠です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-087",
+      "id": "Metal roofing W_B-0087",
+      "display_id": "金属屋根工事_初級-087",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "比較",
       "question": "「心木」を使用しないのは立平葺か瓦棒葺か",
       "answer": "たてひら葺（立平葺）",
-      "explanation": "嵌合式のため心木の腐食リスクがない。"
+      "explanation": "嵌合式のため心木の腐食リスクがない。",
+      "explanation2": "立平葺は凹凸嵌合式で心木不要のため、腐食リスク低減と施工効率化が可能です。しかし、嵌合部の水密性確保には細心の注意が必要で、勾配や固定ピッチの管理が施工品質に直結します。心木使用型では腐食防止処理を忘れないことが重要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-088",
+      "id": "Metal roofing W_B-0088",
+      "display_id": "金属屋根工事_初級-088",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "屋根面が合わさる谷に置く樋状部材を（　　）という。",
       "answer": "谷樋",
-      "explanation": "排水の要。定期清掃が重要です。"
+      "explanation": "排水の要。定期清掃が重要です。",
+      "explanation2": "谷樋は雨水集中部の排水要所で詰まりやすい箇所です。施工時はゴミの堆積防止に勾配やフラッシュビードの適正化を行い、定期的な清掃と点検を欠かさないことが長持ちのコツです。防錆処理や劣化防止も念入りに実施しましょう。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-089",
+      "id": "Metal roofing W_B-0089",
+      "display_id": "金属屋根工事_初級-089",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "雪止め金具は軒先から数えて2〜3段目に付ける。",
       "answer": "○",
-      "explanation": "軒先の変形や樋の破損を防ぐため。"
+      "explanation": "軒先の変形や樋の破損を防ぐため。",
+      "explanation2": "雪止め金具は軒先付近に設置し、落雪による軒変形や樋破損を防ぎます。設置段数や間隔は屋根形状や積雪量により調整が必要で、取付強度確保には適切な固定ビス選定や下地補強も重要です。積雪時の安全管理にも注意が必要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-090",
+      "id": "Metal roofing W_B-0090",
+      "display_id": "金属屋根工事_初級-090",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "用語",
       "question": "加工した「はぜ」や「角」が一直線に通ることを",
       "answer": "通り（とおり）",
-      "explanation": "美観と正しい固定の指標となります。"
+      "explanation": "美観と正しい固定の指標となります。",
+      "explanation2": "通りは外観美と構造安定に直結するため、一つでもずれると見た目の乱れや固定強度低下を招きます。板金の加工精度と重ね合わせの確認、固定ビスの均一な締め付けが必要で、施工中は水平器や墨出しを活用して丁寧に調整しましょう。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-091",
+      "id": "Metal roofing W_B-0091",
+      "display_id": "金属屋根工事_初級-091",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "棟包みは真上から釘を打つのが防水上望ましい。",
       "answer": "×",
-      "explanation": "雨水侵入の原因。側面からの横打ちが基本。"
+      "explanation": "雨水侵入の原因。側面からの横打ちが基本。",
+      "explanation2": "棟包みへの釘打ちは側面から行うことで、釘穴からの雨水侵入を防ぎます。真上から打つと釘穴が直接水の経路になりやすく、防水性能が低下します。施工時は釘の打ち込み角度を一定に保ち、シーリングとの併用で二重防水を確保すると安心です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-092",
+      "id": "Metal roofing W_B-0092",
+      "display_id": "金属屋根工事_初級-092",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "品確法により屋根の（　　）は10年保証義務がある。",
       "answer": "雨水の浸入を防止する部分",
-      "explanation": "新築住宅における法定の瑕疵担保責任。"
+      "explanation": "新築住宅における法定の瑕疵担保責任。",
+      "explanation2": "品確法の屋根保証期間は10年ですが、この期間中に雨水の浸入が確認されると瑕疵と見なされます。施工では特に防水シートの施工精度や継手の密閉性を注意し、経年劣化も考慮したメンテナンス計画を立てることが重要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-093",
+      "id": "Metal roofing W_B-0093",
+      "display_id": "金属屋根工事_初級-093",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "用語",
       "question": "赤錆の前段階で見られる白い粉状の腐食は",
       "answer": "白錆（しろさび）",
-      "explanation": "めっき層の酸化。放置すると赤錆へ進行。"
+      "explanation": "めっき層の酸化。放置すると赤錆へ進行。",
+      "explanation2": "白錆は亜鉛めっきの酸化現象で初期段階の腐食兆候です。放置すると赤錆に進行し鉄板の強度低下につながるため、早期に表面処理や再塗装をして防止することが施工管理上必要です。特に塩害地域では速やかな対応が求められます。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-094",
+      "id": "Metal roofing W_B-0094",
+      "display_id": "金属屋根工事_初級-094",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "Q&Ａ",
       "question": "金属屋根の塗り替え改修の一般的な周期は",
       "answer": "10年〜15年程度",
-      "explanation": "塗膜寿命に合わせたメンテナンス目安。"
+      "explanation": "塗膜寿命に合わせたメンテナンス目安。",
+      "explanation2": "塗膜の耐用年数は10〜15年が目安で、紫外線や気象環境が劣化速度に大きく影響します。施工時は下地処理の丁寧さや塗料の適正選択が重要で、定期的に表面状態を点検し早めの補修を行って長寿命化を図ることがコツです。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-095",
+      "id": "Metal roofing W_B-0095",
+      "display_id": "金属屋根工事_初級-095",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "塩害地域ではステンレスやフッ素塗装品を選ぶべき。",
       "answer": "○",
-      "explanation": "腐食が速いため耐食性の高い材料が必要。"
+      "explanation": "腐食が速いため耐食性の高い材料が必要。",
+      "explanation2": "塩害地域では海風の塩分により腐食が促進されるため、普通鋼板は短期間で劣化します。ステンレスやフッ素樹脂塗装は耐食性が高いため、現地環境に適した材料選びが施工品質向上の鍵です。施工時には接合部の防錆処理も重要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-096",
+      "id": "Metal roofing W_B-0096",
+      "display_id": "金属屋根工事_初級-096",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "リストアップ",
       "question": "シーリング以外で物理的に水を防ぐ工夫を2つ。",
       "answer": "立ち上げ、重ね幅、勾配",
-      "explanation": "板金加工による防水が基本です。"
+      "explanation": "板金加工による防水が基本です。",
+      "explanation2": "立ち上げ、重ね幅、勾配の設計は、防水層として機能するための基本です。特に勾配が不足すると水が溜まりやすく、腐食や漏水リスクが増大します。板金加工は精度が求められ、施工時には適切なツール使用と検査を欠かさないことが重要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-097",
+      "id": "Metal roofing W_B-0097",
+      "display_id": "金属屋根工事_初級-097",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "比較",
       "question": "下地の状態まで確実に確認できるのはどっち",
       "answer": "葺き替え",
-      "explanation": "古い材を剥がすため下地補修が可能。"
+      "explanation": "古い材を剥がすため下地補修が可能。",
+      "explanation2": "葺き替えは既存屋根材を撤去し下地状態を直に確認・補修できるため、不具合の根本対策が可能です。若手施工者は既存下地の腐食や寸法不良を見落とさず、補修や補強を確実に行うことで仕上がりの品質向上につながる点を理解しておくべきです。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-098",
+      "id": "Metal roofing W_B-0098",
+      "display_id": "金属屋根工事_初級-098",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "穴埋め",
       "question": "太陽光パネル下のゴミ滞留は（　　）を腐食させる。",
       "answer": "屋根材（鋼板）",
-      "explanation": "湿気の滞留による局所的な腐食を誘発。"
+      "explanation": "湿気の滞留による局所的な腐食を誘発。",
+      "explanation2": "太陽光パネル下でのゴミ滞留は局所的な湿気環境を作り鋼板の腐食を促進します。通気確保や定期的な清掃が腐食予防に有効です。施工後もメンテナンス計画に含めることで、長期間の屋根材保護とパネル性能維持が可能となります。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-099",
+      "id": "Metal roofing W_B-0099",
+      "display_id": "金属屋根工事_初級-099",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "○×",
       "question": "完了後は磁石等を用いて切粉を徹底清掃する。",
       "answer": "○",
-      "explanation": "もらい錆を防ぐための必須作業。"
+      "explanation": "もらい錆を防ぐための必須作業。",
+      "explanation2": "切粉は鋼板の露出部分に残ると錆の起点になります。磁石などで徹底的に除去しないと、もらい錆が発生し屋根全体の防食性能が低下します。清掃は作業完了後の必須工程であり、若手は丁寧に実施する意識が必要です。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     },
     {
-      "id": "金属屋根工事_初級-100",
+      "id": "Metal roofing W_B-0100",
+      "display_id": "金属屋根工事_初級-100",
       "category": "金属屋根",
       "grade": "初級",
+      "question_type": "Q&Ａ",
       "question": "他の屋根材と比較して最も優れた重量の特徴は",
       "answer": "軽量である",
-      "explanation": "耐震性に有利で建物負担が少ない。"
+      "explanation": "耐震性に有利で建物負担が少ない。",
+      "explanation2": "金属屋根の軽量性は建物全体の耐震性向上に寄与します。重さが軽いと構造負担が減り、地震時の揺れも抑制しやすいです。ただし軽量性を活かすために、防水性や耐久性の確保もバランス良く行う施工技術が求められます。",
+      "importance": 1,
+      "main_id_category": "金属屋根",
+      "sub_id_category": "屋根",
+      "past_exam_info": "",
+      "tags": [
+        "仕上",
+        "屋根",
+        "金属屋根"
+      ],
+      "remarks": ""
     }
   ]
 }
