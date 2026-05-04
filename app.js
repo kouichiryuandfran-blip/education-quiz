@@ -180,9 +180,10 @@ function loadQuestion() {
     throw new Error("問題データが見つかりません。");
   }
 
-  const grade = q.grade || "";
-  const category = q.category || "";
-  const id = q.id || "";
+  const grade = getQuestionField(q, ["grade", "グレード"]);
+  const category = getQuestionField(q, ["category", "表示カテゴリー", "カテゴリー"]);
+  const id = getQuestionField(q, ["id", "ID", "表示管理番号", "問題番号"]);
+  const questionFormat = getQuestionField(q, ["question_format", "format", "type", "問題形式", "形式"]);
 
   let label = "";
   if (category && grade) {
@@ -198,18 +199,26 @@ function loadQuestion() {
   setText("counter", `${index + 1} / ${questions.length}`);
   setText("type", label);
   setText("questionId", id ? `問題番号: ${id}` : "");
-  setText("question", q.question || "");
+  setText("questionFormat", questionFormat ? `問題形式: ${questionFormat}` : "");
+  setText("question", getQuestionField(q, ["question", "問題", "問題文"]));
 
-  const answerText = q.answer || "";
-  const explanationText = q.explanation || "";
+  const answerText = getQuestionField(q, ["answer", "解答", "正解"]);
+  const explanationText = getQuestionField(q, ["explanation", "explanation1", "解説", "解説1"]);
+  const explanation2Text = getQuestionField(q, ["explanation2", "explanation_2", "解説2"]);
 
   const answerHtml =
     `<b>解答</b><br>${escapeHtml(answerText).replace(/\n/g, "<br>")}` +
-    `<br><br><b>解説</b><br>${escapeHtml(explanationText).replace(/\n/g, "<br>")}`;
+    `<br><br><b>解説1</b><br>${escapeHtml(explanationText).replace(/\n/g, "<br>")}`;
+
+  const explanation2Html =
+    `<b>解説2</b><br>${escapeHtml(explanation2Text).replace(/\n/g, "<br>")}`;
 
   setHTML("answer", answerHtml);
+  setHTML("explanation2", explanation2Html);
 
   document.getElementById("answer").classList.add("hidden");
+  document.getElementById("explanation2").classList.add("hidden");
+  document.getElementById("showExplanation2Btn").classList.add("hidden");
   document.getElementById("judge").classList.add("hidden");
   document.getElementById("nextBtn").classList.add("hidden");
   document.getElementById("reportArea").classList.remove("hidden");
@@ -217,9 +226,21 @@ function loadQuestion() {
 }
 
 function showAnswer() {
+  const q = questions[index];
+  const explanation2Text = q ? getQuestionField(q, ["explanation2", "explanation_2", "解説2"]) : "";
+
   document.getElementById("answer").classList.remove("hidden");
   document.getElementById("judge").classList.remove("hidden");
   document.getElementById("showAnswerBtn").classList.add("hidden");
+
+  if (explanation2Text) {
+    document.getElementById("showExplanation2Btn").classList.remove("hidden");
+  }
+}
+
+function showExplanation2() {
+  document.getElementById("explanation2").classList.remove("hidden");
+  document.getElementById("showExplanation2Btn").classList.add("hidden");
 }
 
 function mark(ok) {
@@ -277,13 +298,13 @@ function reportIssue() {
     `グレード: ${q.grade || ""}`,
     "",
     "問題文:",
-    q.question || "",
+    getQuestionField(q, ["question", "問題", "問題文"]),
     "",
     "解答:",
-    q.answer || "",
+    getQuestionField(q, ["answer", "解答", "正解"]),
     "",
     "解説:",
-    q.explanation || "",
+    getQuestionField(q, ["explanation", "explanation1", "解説", "解説1"]),
     "",
     "報告内容:",
     "（ここに入力してください）"
@@ -365,6 +386,18 @@ function shuffleArray(arr) {
     const j = Math.floor(Math.random() * (i + 1));
     [arr[i], arr[j]] = [arr[j], arr[i]];
   }
+}
+
+function getQuestionField(question, keys) {
+  if (!question || !Array.isArray(keys)) return "";
+
+  for (const key of keys) {
+    if (question[key] !== undefined && question[key] !== null && String(question[key]).trim() !== "") {
+      return String(question[key]);
+    }
+  }
+
+  return "";
 }
 
 function setText(id, text) {

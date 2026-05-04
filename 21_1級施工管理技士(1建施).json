@@ -1,34 +1,27 @@
 {
   "menu_name": "21_1級施工管理技士(1建施)",
-  "quiz_count": 20,
+  "quiz_count": 12,
   "quizzes": [
     {
-      "file_name": "一般構造_中級(1建施).json",
-      "file_stem": "一般構造_中級(1建施)",
-      "title": "一般構造_中級(1建施)",
-      "question_count": 140,
-      "relative_path": "21_1級施工管理技士(1建施)/一般構造_中級(1建施).json"
-    },
-    {
-      "file_name": "一般構造_中級(1建施過去問).json",
-      "file_stem": "一般構造_中級(1建施過去問)",
-      "title": "一般構造_中級(1建施過去問)",
+      "file_name": "一般構造_中級-01(1建施過去問).json",
+      "file_stem": "一般構造_中級-01(1建施過去問)",
+      "title": "一般構造_中級-01(1建施過去問)",
       "question_count": 80,
-      "relative_path": "21_1級施工管理技士(1建施)/一般構造_中級(1建施過去問).json"
+      "relative_path": "21_1級施工管理技士(1建施)/一般構造_中級-01(1建施過去問).json"
     },
     {
-      "file_name": "外構・植栽・舗装工事_中級(1建施).json",
-      "file_stem": "外構・植栽・舗装工事_中級(1建施)",
-      "title": "外構・植栽・舗装工事_中級(1建施)",
+      "file_name": "一般構造_中級-02(1建施).json",
+      "file_stem": "一般構造_中級-02(1建施)",
+      "title": "一般構造_中級-02(1建施)",
+      "question_count": 140,
+      "relative_path": "21_1級施工管理技士(1建施)/一般構造_中級-02(1建施).json"
+    },
+    {
+      "file_name": "外構・植栽・舗装工事_中級-02(1建施).json",
+      "file_stem": "外構・植栽・舗装工事_中級-02(1建施)",
+      "title": "外構・植栽・舗装工事_中級-02(1建施)",
       "question_count": 60,
-      "relative_path": "21_1級施工管理技士(1建施)/外構・植栽・舗装工事_中級(1建施).json"
-    },
-    {
-      "file_name": "外構・植栽・舗装工事_中級.json",
-      "file_stem": "外構・植栽・舗装工事_中級",
-      "title": "外構・植栽・舗装工事_中級",
-      "question_count": 100,
-      "relative_path": "21_1級施工管理技士(1建施)/外構・植栽・舗装工事_中級.json"
+      "relative_path": "21_1級施工管理技士(1建施)/外構・植栽・舗装工事_中級-02(1建施).json"
     },
     {
       "file_name": "工程管理_中級(1建施).json",
@@ -38,53 +31,25 @@
       "relative_path": "21_1級施工管理技士(1建施)/工程管理_中級(1建施).json"
     },
     {
-      "file_name": "建築材料_中級(1建施).json",
-      "file_stem": "建築材料_中級(1建施)",
-      "title": "建築材料_中級(1建施)",
-      "question_count": 20,
-      "relative_path": "21_1級施工管理技士(1建施)/建築材料_中級(1建施).json"
-    },
-    {
-      "file_name": "建築材料_中級.json",
-      "file_stem": "建築材料_中級",
-      "title": "建築材料_中級",
-      "question_count": 100,
-      "relative_path": "21_1級施工管理技士(1建施)/建築材料_中級.json"
-    },
-    {
-      "file_name": "建築法規_中級(1建施過去問).json",
-      "file_stem": "建築法規_中級(1建施過去問)",
-      "title": "建築法規_中級(1建施過去問)",
-      "question_count": 160,
-      "relative_path": "21_1級施工管理技士(1建施)/建築法規_中級(1建施過去問).json"
-    },
-    {
-      "file_name": "建築法規_中級.json",
-      "file_stem": "建築法規_中級",
-      "title": "建築法規_中級",
-      "question_count": 100,
-      "relative_path": "21_1級施工管理技士(1建施)/建築法規_中級.json"
-    },
-    {
-      "file_name": "建築設備_中級(1建施).json",
-      "file_stem": "建築設備_中級(1建施)",
-      "title": "建築設備_中級(1建施)",
+      "file_name": "建築材料_中級-01(1建施).json",
+      "file_stem": "建築材料_中級-01(1建施)",
+      "title": "建築材料_中級-01(1建施)",
       "question_count": 120,
-      "relative_path": "21_1級施工管理技士(1建施)/建築設備_中級(1建施).json"
+      "relative_path": "21_1級施工管理技士(1建施)/建築材料_中級-01(1建施).json"
     },
     {
-      "file_name": "建築設備_中級.json",
-      "file_stem": "建築設備_中級",
-      "title": "建築設備_中級",
-      "question_count": 100,
-      "relative_path": "21_1級施工管理技士(1建施)/建築設備_中級.json"
+      "file_name": "建築法規_中級-01(1建施過去問).json",
+      "file_stem": "建築法規_中級-01(1建施過去問)",
+      "title": "建築法規_中級-01(1建施過去問)",
+      "question_count": 160,
+      "relative_path": "21_1級施工管理技士(1建施)/建築法規_中級-01(1建施過去問).json"
     },
     {
-      "file_name": "改修・耐震改修工事_中級(1建施).json",
-      "file_stem": "改修・耐震改修工事_中級(1建施)",
-      "title": "改修・耐震改修工事_中級(1建施)",
-      "question_count": 60,
-      "relative_path": "21_1級施工管理技士(1建施)/改修・耐震改修工事_中級(1建施).json"
+      "file_name": "建築設備_中級-03(1建施).json",
+      "file_stem": "建築設備_中級-03(1建施)",
+      "title": "建築設備_中級-03(1建施)",
+      "question_count": 120,
+      "relative_path": "21_1級施工管理技士(1建施)/建築設備_中級-03(1建施).json"
     },
     {
       "file_name": "施工管理(工程•品質)_中級.json",
@@ -94,32 +59,25 @@
       "relative_path": "21_1級施工管理技士(1建施)/施工管理(工程•品質)_中級.json"
     },
     {
-      "file_name": "施工計画・施工管理_中級(1建施).json",
-      "file_stem": "施工計画・施工管理_中級(1建施)",
-      "title": "施工計画・施工管理_中級(1建施)",
+      "file_name": "施工計画・施工管理_中級-01(1建施).json",
+      "file_stem": "施工計画・施工管理_中級-01(1建施)",
+      "title": "施工計画・施工管理_中級-01(1建施)",
       "question_count": 120,
-      "relative_path": "21_1級施工管理技士(1建施)/施工計画・施工管理_中級(1建施).json"
+      "relative_path": "21_1級施工管理技士(1建施)/施工計画・施工管理_中級-01(1建施).json"
     },
     {
-      "file_name": "杭•土•山留工事_中級.json",
-      "file_stem": "杭•土•山留工事_中級",
-      "title": "杭•土•山留工事_中級",
+      "file_name": "測量_中級-01(1建施).json",
+      "file_stem": "測量_中級-01(1建施)",
+      "title": "測量_中級-01(1建施)",
       "question_count": 100,
-      "relative_path": "21_1級施工管理技士(1建施)/杭•土•山留工事_中級.json"
+      "relative_path": "21_1級施工管理技士(1建施)/測量_中級-01(1建施).json"
     },
     {
-      "file_name": "測量_中級(1建施).json",
-      "file_stem": "測量_中級(1建施)",
-      "title": "測量_中級(1建施)",
-      "question_count": 100,
-      "relative_path": "21_1級施工管理技士(1建施)/測量_中級(1建施).json"
-    },
-    {
-      "file_name": "環境工学_中級(1建施過去問).json",
-      "file_stem": "環境工学_中級(1建施過去問)",
-      "title": "環境工学_中級(1建施過去問)",
+      "file_name": "環境工学_中級-01(1建施過去問).json",
+      "file_stem": "環境工学_中級-01(1建施過去問)",
+      "title": "環境工学_中級-01(1建施過去問)",
       "question_count": 140,
-      "relative_path": "21_1級施工管理技士(1建施)/環境工学_中級(1建施過去問).json"
+      "relative_path": "21_1級施工管理技士(1建施)/環境工学_中級-01(1建施過去問).json"
     },
     {
       "file_name": "色彩_中級(1建施).json",
@@ -127,20 +85,6 @@
       "title": "色彩_中級(1建施)",
       "question_count": 60,
       "relative_path": "21_1級施工管理技士(1建施)/色彩_中級(1建施).json"
-    },
-    {
-      "file_name": "解体工事_中級(1建施).json",
-      "file_stem": "解体工事_中級(1建施)",
-      "title": "解体工事_中級(1建施)",
-      "question_count": 60,
-      "relative_path": "21_1級施工管理技士(1建施)/解体工事_中級(1建施).json"
-    },
-    {
-      "file_name": "設備配管(材料)_中級.json",
-      "file_stem": "設備配管(材料)_中級",
-      "title": "設備配管(材料)_中級",
-      "question_count": 110,
-      "relative_path": "21_1級施工管理技士(1建施)/設備配管(材料)_中級.json"
     }
   ]
 }

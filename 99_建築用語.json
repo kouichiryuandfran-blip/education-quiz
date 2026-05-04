@@ -3,137 +3,137 @@
   "quiz_count": 19,
   "quizzes": [
     {
-      "file_name": "仕上工事(用語)_上級.json",
-      "file_stem": "仕上工事(用語)_上級",
-      "title": "仕上工事(用語)_上級",
+      "file_name": "仕上工事_上級-01(用語).json",
+      "file_stem": "仕上工事_上級-01(用語)",
+      "title": "仕上工事_上級-01(用語)",
       "question_count": 100,
-      "relative_path": "99_建築用語/仕上工事(用語)_上級.json"
+      "relative_path": "99_建築用語/仕上工事_上級-01(用語).json"
     },
     {
-      "file_name": "仕上工事(用語)_中級.json",
-      "file_stem": "仕上工事(用語)_中級",
-      "title": "仕上工事(用語)_中級",
+      "file_name": "仕上工事_中級-01(用語).json",
+      "file_stem": "仕上工事_中級-01(用語)",
+      "title": "仕上工事_中級-01(用語)",
       "question_count": 100,
-      "relative_path": "99_建築用語/仕上工事(用語)_中級.json"
+      "relative_path": "99_建築用語/仕上工事_中級-01(用語).json"
     },
     {
-      "file_name": "仕上工事(用語)_初級.json",
-      "file_stem": "仕上工事(用語)_初級",
-      "title": "仕上工事(用語)_初級",
+      "file_name": "仕上工事_初級-01(用語).json",
+      "file_stem": "仕上工事_初級-01(用語)",
+      "title": "仕上工事_初級-01(用語)",
       "question_count": 100,
-      "relative_path": "99_建築用語/仕上工事(用語)_初級.json"
+      "relative_path": "99_建築用語/仕上工事_初級-01(用語).json"
     },
     {
-      "file_name": "外構・植栽・舗装工事(用語)_上級.json",
-      "file_stem": "外構・植栽・舗装工事(用語)_上級",
-      "title": "外構・植栽・舗装工事(用語)_上級",
+      "file_name": "外構・植栽・舗装工事_上級-01(用語).json",
+      "file_stem": "外構・植栽・舗装工事_上級-01(用語)",
+      "title": "外構・植栽・舗装工事_上級-01(用語)",
       "question_count": 100,
-      "relative_path": "99_建築用語/外構・植栽・舗装工事(用語)_上級.json"
+      "relative_path": "99_建築用語/外構・植栽・舗装工事_上級-01(用語).json"
     },
     {
-      "file_name": "外構・植栽・舗装工事(用語)_中級.json",
-      "file_stem": "外構・植栽・舗装工事(用語)_中級",
-      "title": "外構・植栽・舗装工事(用語)_中級",
+      "file_name": "外構・植栽・舗装工事_中級-01(用語).json",
+      "file_stem": "外構・植栽・舗装工事_中級-01(用語)",
+      "title": "外構・植栽・舗装工事_中級-01(用語)",
       "question_count": 100,
-      "relative_path": "99_建築用語/外構・植栽・舗装工事(用語)_中級.json"
+      "relative_path": "99_建築用語/外構・植栽・舗装工事_中級-01(用語).json"
     },
     {
-      "file_name": "外構・植栽・舗装工事(用語)_初級.json",
-      "file_stem": "外構・植栽・舗装工事(用語)_初級",
-      "title": "外構・植栽・舗装工事(用語)_初級",
+      "file_name": "外構・植栽・舗装工事_初級-01(用語).json",
+      "file_stem": "外構・植栽・舗装工事_初級-01(用語)",
+      "title": "外構・植栽・舗装工事_初級-01(用語)",
       "question_count": 100,
-      "relative_path": "99_建築用語/外構・植栽・舗装工事(用語)_初級.json"
+      "relative_path": "99_建築用語/外構・植栽・舗装工事_初級-01(用語).json"
     },
     {
-      "file_name": "建築用語_中級(1建施2次).json",
-      "file_stem": "建築用語_中級(1建施2次)",
-      "title": "建築用語_中級(1建施2次)",
-      "question_count": 110,
-      "relative_path": "99_建築用語/建築用語_中級(1建施2次).json"
+      "file_name": "建築用語_中級-01.json",
+      "file_stem": "建築用語_中級-01",
+      "title": "建築用語_中級-01",
+      "question_count": 100,
+      "relative_path": "99_建築用語/建築用語_中級-01.json"
     },
     {
-      "file_name": "建築用語_中級(1建施過去問).json",
-      "file_stem": "建築用語_中級(1建施過去問)",
-      "title": "建築用語_中級(1建施過去問)",
+      "file_name": "建築用語_中級-02(1建施過去問).json",
+      "file_stem": "建築用語_中級-02(1建施過去問)",
+      "title": "建築用語_中級-02(1建施過去問)",
       "question_count": 120,
-      "relative_path": "99_建築用語/建築用語_中級(1建施過去問).json"
+      "relative_path": "99_建築用語/建築用語_中級-02(1建施過去問).json"
     },
     {
-      "file_name": "建築用語_中級.json",
-      "file_stem": "建築用語_中級",
-      "title": "建築用語_中級",
+      "file_name": "建築用語_中級-03(1建施).json",
+      "file_stem": "建築用語_中級-03(1建施)",
+      "title": "建築用語_中級-03(1建施)",
+      "question_count": 110,
+      "relative_path": "99_建築用語/建築用語_中級-03(1建施).json"
+    },
+    {
+      "file_name": "建築用語_初級-01.json",
+      "file_stem": "建築用語_初級-01",
+      "title": "建築用語_初級-01",
       "question_count": 100,
-      "relative_path": "99_建築用語/建築用語_中級.json"
+      "relative_path": "99_建築用語/建築用語_初級-01.json"
     },
     {
-      "file_name": "建築用語_初級(2建施2次).json",
-      "file_stem": "建築用語_初級(2建施2次)",
-      "title": "建築用語_初級(2建施2次)",
-      "question_count": 117,
-      "relative_path": "99_建築用語/建築用語_初級(2建施2次).json"
-    },
-    {
-      "file_name": "建築用語_初級(2建施過去問).json",
-      "file_stem": "建築用語_初級(2建施過去問)",
-      "title": "建築用語_初級(2建施過去問)",
+      "file_name": "建築用語_初級-02(2建施過去問).json",
+      "file_stem": "建築用語_初級-02(2建施過去問)",
+      "title": "建築用語_初級-02(2建施過去問)",
       "question_count": 160,
-      "relative_path": "99_建築用語/建築用語_初級(2建施過去問).json"
+      "relative_path": "99_建築用語/建築用語_初級-02(2建施過去問).json"
     },
     {
-      "file_name": "建築用語_初級.json",
-      "file_stem": "建築用語_初級",
-      "title": "建築用語_初級",
-      "question_count": 100,
-      "relative_path": "99_建築用語/建築用語_初級.json"
+      "file_name": "建築用語_初級-03(2建施2次).json",
+      "file_stem": "建築用語_初級-03(2建施2次)",
+      "title": "建築用語_初級-03(2建施2次)",
+      "question_count": 103,
+      "relative_path": "99_建築用語/建築用語_初級-03(2建施2次).json"
     },
     {
-      "file_name": "建築設備(用語)_上級.json",
-      "file_stem": "建築設備(用語)_上級",
-      "title": "建築設備(用語)_上級",
+      "file_name": "建築設備_上級-01(用語).json",
+      "file_stem": "建築設備_上級-01(用語)",
+      "title": "建築設備_上級-01(用語)",
       "question_count": 100,
-      "relative_path": "99_建築用語/建築設備(用語)_上級.json"
+      "relative_path": "99_建築用語/建築設備_上級-01(用語).json"
     },
     {
-      "file_name": "建築設備(用語)_中級.json",
-      "file_stem": "建築設備(用語)_中級",
-      "title": "建築設備(用語)_中級",
+      "file_name": "建築設備_中級-01(用語).json",
+      "file_stem": "建築設備_中級-01(用語)",
+      "title": "建築設備_中級-01(用語)",
       "question_count": 100,
-      "relative_path": "99_建築用語/建築設備(用語)_中級.json"
+      "relative_path": "99_建築用語/建築設備_中級-01(用語).json"
     },
     {
-      "file_name": "建築設備(用語)_初級.json",
-      "file_stem": "建築設備(用語)_初級",
-      "title": "建築設備(用語)_初級",
+      "file_name": "建築設備_初級-01(用語).json",
+      "file_stem": "建築設備_初級-01(用語)",
+      "title": "建築設備_初級-01(用語)",
       "question_count": 100,
-      "relative_path": "99_建築用語/建築設備(用語)_初級.json"
+      "relative_path": "99_建築用語/建築設備_初級-01(用語).json"
     },
     {
-      "file_name": "環境工学(用語)_初級.json",
-      "file_stem": "環境工学(用語)_初級",
-      "title": "環境工学(用語)_初級",
+      "file_name": "環境工学_初級-01(用語).json",
+      "file_stem": "環境工学_初級-01(用語)",
+      "title": "環境工学_初級-01(用語)",
       "question_count": 100,
-      "relative_path": "99_建築用語/環境工学(用語)_初級.json"
+      "relative_path": "99_建築用語/環境工学_初級-01(用語).json"
     },
     {
-      "file_name": "躯体工事(用語)_上級.json",
-      "file_stem": "躯体工事(用語)_上級",
-      "title": "躯体工事(用語)_上級",
+      "file_name": "躯体工事_上級-01(用語).json",
+      "file_stem": "躯体工事_上級-01(用語)",
+      "title": "躯体工事_上級-01(用語)",
       "question_count": 100,
-      "relative_path": "99_建築用語/躯体工事(用語)_上級.json"
+      "relative_path": "99_建築用語/躯体工事_上級-01(用語).json"
     },
     {
-      "file_name": "躯体工事(用語)_中級.json",
-      "file_stem": "躯体工事(用語)_中級",
-      "title": "躯体工事(用語)_中級",
+      "file_name": "躯体工事_中級-01(用語).json",
+      "file_stem": "躯体工事_中級-01(用語)",
+      "title": "躯体工事_中級-01(用語)",
       "question_count": 100,
-      "relative_path": "99_建築用語/躯体工事(用語)_中級.json"
+      "relative_path": "99_建築用語/躯体工事_中級-01(用語).json"
     },
     {
-      "file_name": "躯体工事(用語)_初級.json",
-      "file_stem": "躯体工事(用語)_初級",
-      "title": "躯体工事(用語)_初級",
+      "file_name": "躯体工事_初級-01(用語).json",
+      "file_stem": "躯体工事_初級-01(用語)",
+      "title": "躯体工事_初級-01(用語)",
       "question_count": 100,
-      "relative_path": "99_建築用語/躯体工事(用語)_初級.json"
+      "relative_path": "99_建築用語/躯体工事_初級-01(用語).json"
     }
   ]
 }

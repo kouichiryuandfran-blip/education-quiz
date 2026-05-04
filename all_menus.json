@@ -1,44 +1,49 @@
 {
-  "menu_count": 9,
+  "menu_count": 10,
   "menus": [
     {
       "menu_name": "01_管理一般",
-      "quiz_count": 15,
+      "quiz_count": 23,
       "output_file": "01_管理一般.json"
     },
     {
       "menu_name": "02_建築学",
-      "quiz_count": 0,
+      "quiz_count": 12,
       "output_file": "02_建築学.json"
     },
     {
       "menu_name": "03_建築工事",
-      "quiz_count": 14,
+      "quiz_count": 39,
       "output_file": "03_建築工事.json"
     },
     {
-      "menu_name": "04_建築改修工事",
-      "quiz_count": 13,
-      "output_file": "04_建築改修工事.json"
+      "menu_name": "04_建築改修・解体工事",
+      "quiz_count": 12,
+      "output_file": "04_建築改修・解体工事.json"
     },
     {
-      "menu_name": "05_維持管理・点検・調査診断",
-      "quiz_count": 10,
-      "output_file": "05_維持管理・点検・調査診断.json"
+      "menu_name": "05_建築設備",
+      "quiz_count": 6,
+      "output_file": "05_建築設備.json"
     },
     {
-      "menu_name": "06_不具合・劣化事象・補修・補強",
-      "quiz_count": 24,
-      "output_file": "06_不具合・劣化事象・補修・補強.json"
+      "menu_name": "06_維持管理・点検・調査診断",
+      "quiz_count": 12,
+      "output_file": "06_維持管理・点検・調査診断.json"
+    },
+    {
+      "menu_name": "07_不具合・劣化事象・補修・補強",
+      "quiz_count": 42,
+      "output_file": "07_不具合・劣化事象・補修・補強.json"
     },
     {
       "menu_name": "21_1級施工管理技士(1建施)",
-      "quiz_count": 20,
+      "quiz_count": 12,
       "output_file": "21_1級施工管理技士(1建施).json"
     },
     {
       "menu_name": "22_2級施工管理技士(2建施)",
-      "quiz_count": 22,
+      "quiz_count": 16,
       "output_file": "22_2級施工管理技士(2建施).json"
     },
     {
