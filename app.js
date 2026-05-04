@@ -183,7 +183,7 @@ function loadQuestion() {
   const grade = getQuestionField(q, ["grade", "グレード"]);
   const category = getQuestionField(q, ["category", "表示カテゴリー", "カテゴリー"]);
   const id = getQuestionField(q, ["id", "ID", "表示管理番号", "問題番号"]);
-  const questionFormat = getQuestionField(q, ["question_format", "format", "type", "問題形式", "形式"]);
+  const questionFormat = getQuestionField(q, ["question_type", "question_format", "format", "type", "問題形式", "形式"]);
 
   let label = "";
   if (category && grade) {
