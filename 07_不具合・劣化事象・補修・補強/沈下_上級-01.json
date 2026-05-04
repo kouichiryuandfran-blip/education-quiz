@@ -3,804 +3,2304 @@
   "count": 100,
   "questions": [
     {
-      "id": "沈下_上級-001",
+      "id": "subsidence_A-0001",
+      "display_id": "沈下_上級-001",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "土粒子骨格のクリープ変形による沈下を（　）という。",
       "answer": "二次圧縮（二次的圧密）",
-      "explanation": "有機質土等で顕著。超長期的な沈下予測に重要。"
+      "explanation": "有機質土等で顕著。超長期的な沈下予測に重要。",
+      "explanation2": "有機質土などのクリープ変形では、土粒子間の微細な構造変化が長期間続くため、施工後も徐々に沈下が進行します。設計段階では時間依存性を考慮し、長期的な圧密沈下量を正確に予測することが重要です。適切な土質調査とモニタリングが必要で、施工管理では沈下速度の異常変化に注意してください。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-002",
+      "id": "subsidence_A-0002",
+      "display_id": "沈下_上級-002",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "孔隙水圧係数 B 値が1.0に近いほど、完全に飽和していると判断できる。",
       "answer": "○",
-      "explanation": "三軸試験等での飽和度判定。沈下解析の前提条件。"
+      "explanation": "三軸試験等での飽和度判定。沈下解析の前提条件。",
+      "explanation2": "孔隙水圧係数Bが1.0に近い場合、土壌の孔隙空間が完全に水で占められていることを示します。これは“三軸試験”での飽和度確認に重要で、飽和不十分だと試験結果が不正確に。施工時の締固めや排水処理で飽和状態を適正に保つことが沈下予測の精度向上に繋がります。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-003",
+      "id": "subsidence_A-0003",
+      "display_id": "沈下_上級-003",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "用語",
       "question": "現在の有効土被り圧に対する圧密降伏応力の比を何というか",
       "answer": "過圧密比（OCR）",
-      "explanation": "OCR=1なら正規圧密、OCR<1なら未圧密の危険な状態。"
+      "explanation": "OCR=1なら正規圧密、OCR<1なら未圧密の危険な状態。",
+      "explanation2": "OCRが1未満の場合は土が未圧密状態であり、圧密が進むと大きな沈下や地盤の不安定化が発生しやすいです。施工前にOCRを把握し、軟弱地盤では地盤改良を検討することが必要です。また、過圧密土でも過度の荷重で再圧密を起こすため、荷重管理を徹底しましょう。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-004",
+      "id": "subsidence_A-0004",
+      "display_id": "沈下_上級-004",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "Q&A",
       "question": "沈下量に対する側方変位量の比を用いる安定判定手法は",
       "answer": "富永・橋本の手法",
-      "explanation": "比が一定を超えると地盤崩壊の予兆と判断する。"
+      "explanation": "比が一定を超えると地盤崩壊の予兆と判断する。",
+      "explanation2": "富永・橋本手法は沈下と側方変位の関係を定量化し崩壊予兆を判断します。施工管理では側方変形の早期検出が重要で、地盤の安定性を維持するためには変位計を使ったリアルタイムモニタリングが推奨されます。変位増加が一定値を超えた場合に迅速な対策が求められます。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-005",
+      "id": "subsidence_A-0005",
+      "display_id": "沈下_上級-005",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "圧密係数 C_v は、圧密圧力の増加に伴って常に一定の値を保持する。",
       "answer": "×",
-      "explanation": "間隙比減少等に伴い変動するため圧力段階ごとの把握が必要。"
+      "explanation": "間隙比減少等に伴い変動するため圧力段階ごとの把握が必要。",
+      "explanation2": "圧密係数Cvは間隙比の減少や土粒子間の摩擦変化で変動し、単一値で解析すると誤差が生じます。実務では土圧力の段階的変化に応じたCvの取得が必要です。施工中は圧密進行を見ながらCvの適用範囲を再評価し、圧密速度と沈下量を正確に把握することが不可欠です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-006",
+      "id": "subsidence_A-0006",
+      "display_id": "沈下_上級-006",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "比較",
       "question": "集中荷重による地中応力分布を求める基本式はどれか",
       "answer": "ブシネスクの解",
-      "explanation": "半無限弾性体における応力伝播理論。基礎計算の基礎。"
+      "explanation": "半無限弾性体における応力伝播理論。基礎計算の基礎。",
+      "explanation2": "ブシネスクの解は基礎設計で荷重が地盤に伝わる範囲を計算し、過度な応力集中を避けるのに役立ちます。実務では基礎形状や地盤の非線形性も考慮し、実測データと照合しながら設計を補正しましょう。応力伝播の理解が施工段階での沈下や変形予測の精度を高めます。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-007",
+      "id": "subsidence_A-0007",
+      "display_id": "沈下_上級-007",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "不同沈下によるクラックが構造物の中性化を促進させることはない。",
       "answer": "×",
-      "explanation": "外部因子の侵入を容易にし、鉄筋腐食を加速させる。"
+      "explanation": "外部因子の侵入を容易にし、鉄筋腐食を加速させる。",
+      "explanation2": "不同沈下により発生したクラックは、水・CO2等の外部因子が鉄筋まで浸透しやすくなり中性化促進に直結します。施工管理時は均一な締固めや過剰な荷重回避で不同沈下抑制を心掛け、補修や防水処理を迅速に行うことが耐久性向上に不可欠です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-008",
+      "id": "subsidence_A-0008",
+      "display_id": "沈下_上級-008",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "リストアップ",
       "question": "人為的な沈下要因を2つ挙げよ。",
       "answer": "細粒土の流出、振動による側方流動",
-      "explanation": "応力変化以外の人為的リスクを多角的に検証する。"
+      "explanation": "応力変化以外の人為的リスクを多角的に検証する。",
+      "explanation2": "細粒土の流出は意外と見過ごされがちで、振動で側方流動が促進される場合もあります。工事現場周辺の環境管理や仮設排水路の設置で人的要因を減らし、振動管理も適切に実施して地盤の均質性と安定性を確保しましょう。事前リスク評価がトラブル防止の鍵です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-009",
+      "id": "subsidence_A-0009",
+      "display_id": "沈下_上級-009",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "真空圧密工法は、全応力を変えず（　）を減らして有効応力を増やす。",
       "answer": "間隙水圧（負圧）",
-      "explanation": "盛土荷重なしで圧密を進め、破壊リスクを抑える。"
+      "explanation": "盛土荷重なしで圧密を進め、破壊リスクを抑える。",
+      "explanation2": "真空圧密工法は間隙水圧を負圧に下げることで有効応力を増し、盛土荷重をかけずに圧密を促進します。施工では真空設備の密閉性と排水層の設置、均一な吸引力の確保が不可欠で、これらが不十分だと圧密効果のムラや局所破壊のリスクが高まるため注意が必要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-010",
+      "id": "subsidence_A-0010",
+      "display_id": "沈下_上級-010",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "3次元圧密理論は、1次元圧密理論よりも現実の沈下挙動に近い解析が可能。",
       "answer": "○",
-      "explanation": "側方変形と排水を考慮したビオーの理論。高度解析用。"
+      "explanation": "側方変形と排水を考慮したビオーの理論。高度解析用。",
+      "explanation2": "3次元圧密理論は側方変形や排水方向の影響を考慮し、より現実的な沈下解析を可能にします。施工管理では排水層の設置状況や周囲地盤との連続性を把握し、3D圧密の進行状態を正確に監視することで沈下の予測精度向上と安全対策に活用できます。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-011",
+      "id": "subsidence_A-0011",
+      "display_id": "沈下_上級-011",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "応力開放（除荷）を考慮すると、実際の沈下量は全応力計算値より小さい。",
       "answer": "○",
-      "explanation": "リバウンド後の再圧縮領域は沈下量が抑制されるため。"
+      "explanation": "リバウンド後の再圧縮領域は沈下量が抑制されるため。",
+      "explanation2": "応力開放により土中の間隙水圧が低下し、土粒子の再配列が進むため沈下量が減少します。実務では、除荷時の土の膨張反応や再圧縮特性を正確に把握することが重要で、設計時にはこれらを考慮した土質試験結果を活用しましょう。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-012",
+      "id": "subsidence_A-0012",
+      "display_id": "沈下_上級-012",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "ポアソン比が（　）に近づくほど、土を非圧縮性材料として扱う。",
       "answer": "0.5",
-      "explanation": "体積変化が生じない状態。非排水剪断時の設定。"
+      "explanation": "体積変化が生じない状態。非排水剪断時の設定。",
+      "explanation2": "ポアソン比が0.5に近いとき、土は体積変化せず、非排水状態での変形が主となります。若手は非圧縮性の仮定を過信せず、実際の工事条件に応じて排水条件を見極めることが必要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-013",
+      "id": "subsidence_A-0013",
+      "display_id": "沈下_上級-013",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "用語",
       "question": "時間とともに土の剛性が増大していく現象を何というか",
       "answer": "エイジング効果",
-      "explanation": "擬似過圧密状態。沈下予測の過小評価防止に重要。"
+      "explanation": "擬似過圧密状態。沈下予測の過小評価防止に重要。",
+      "explanation2": "エイジング効果は土粒子間の結合強化や微細構造の変化により剛性が増加する現象です。実務では地盤調査で経時変化を考慮し、設計沈下や耐震性評価に影響を及ぼすため加味することが求められます。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-014",
+      "id": "subsidence_A-0014",
+      "display_id": "沈下_上級-014",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "Q&A",
       "question": "側方流動圧を受ける杭の非線形解析手法は",
       "answer": "P-y 曲線法",
-      "explanation": "地盤の塑性化と沈下を精密にシミュレーションする。"
+      "explanation": "地盤の塑性化と沈下を精密にシミュレーションする。",
+      "explanation2": "P-y曲線法は杭周囲地盤の弾塑性挙動を段階的に解析し、側方流動圧による杭の水平変形や沈下を評価します。施工管理では土質データの精度向上と曲線パラメータの適切設定が成功の鍵です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-015",
+      "id": "subsidence_A-0015",
+      "display_id": "沈下_上級-015",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "沈下によるクラック深さ測定に超音波法を用いるのは有効か",
       "answer": "○",
-      "explanation": "断面貫通の有無を非破壊で判定するために必須。"
+      "explanation": "断面貫通の有無を非破壊で判定するために必須。",
+      "explanation2": "超音波法はコンクリート内のひび割れを非破壊で深さ・位置特定でき、早期検出に有効です。施工時は計測の繰り返しでひび割れ進展をモニタリングし、原因究明と補修計画の立案に役立てます。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-016",
+      "id": "subsidence_A-0016",
+      "display_id": "沈下_上級-016",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "比較",
       "question": "大変形を伴う圧密挙動を正確に記述できる理論は",
       "answer": "ミカサ（三笠）の圧密理論",
-      "explanation": "浚渫土等の間隙比変化の著しい現象に対応。"
+      "explanation": "浚渫土等の間隙比変化の著しい現象に対応。",
+      "explanation2": "ミカサの圧密理論は大変形時の間隙比変動を考慮し、浚渫土や軟弱地盤の変形解析に適します。若手は理論の適用範囲を理解し、過大変形が予想される現場で活用し、設計精度を高めましょう。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-017",
+      "id": "subsidence_A-0017",
+      "display_id": "沈下_上級-017",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "FEM解析でカムクレイモデルを用いると圧密と剪断の連成を表現できる。",
       "answer": "○",
-      "explanation": "臨界状態土質力学に基づく高度な非線形モデル。"
+      "explanation": "臨界状態土質力学に基づく高度な非線形モデル。",
+      "explanation2": "カムクレイモデルは地盤の塑性変形と圧密過程を連成解析可能で、高度地盤解析に不可欠です。実務ではパラメータ推定に注意し、土の履歴応力状態を正しく反映させ、解析結果の信頼性を確保してください。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-018",
+      "id": "subsidence_A-0018",
+      "display_id": "沈下_上級-018",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "リストアップ",
       "question": "トンネル工事での沈下予測に含めるべき応力変化要因は",
       "answer": "切羽圧、テールボイドへの土砂流入",
-      "explanation": "三次元的な緩みと応力再分配を考慮する。"
+      "explanation": "三次元的な緩みと応力再分配を考慮する。",
+      "explanation2": "トンネル掘削では切羽圧低下とテールボイド形成が地盤沈下の主要因です。実地調査と数値解析を連動し、三次元応力再分布を正確にモデル化することで、沈下リスクを適切に管理可能となります。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-019",
+      "id": "subsidence_A-0019",
+      "display_id": "沈下_上級-019",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "除荷・再載荷曲線の勾配を（　）指数という。",
       "answer": "膨張（再圧縮）",
-      "explanation": "C_s または C_r。正規圧密領域より沈下は小さい。"
+      "explanation": "C_s または C_r。正規圧密領域より沈下は小さい。",
+      "explanation2": "除荷・再載荷曲線の勾配（膨張指数C_sまたはC_r）は土の変形硬化特性を示します。施工時には土の履歴ストレス状態や圧密程度を考慮し、設計に反映させることで過剰な沈下予測を回避できます。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-020",
+      "id": "subsidence_A-0020",
+      "display_id": "沈下_上級-020",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "剛性が非常に高い構造物の方が、薬液注入で水平復元しやすい。",
       "answer": "×",
-      "explanation": "局所的な注入圧で大きな二次応力を生じ、破断しやすい。"
+      "explanation": "局所的な注入圧で大きな二次応力を生じ、破断しやすい。",
+      "explanation2": "剛性の高い構造物は注入圧を局所的に受けやすく、二次応力集中が生じ破断リスクを高めます。施工管理では圧力制御と注入点の分散配置を徹底し、構造物損傷防止に努めましょう。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-021",
+      "id": "subsidence_A-0021",
+      "display_id": "沈下_上級-021",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "正規圧密粘土を非排水剪断すると有効応力経路は全応力経路の左にシフトする。",
       "answer": "○",
-      "explanation": "収縮特性による間隙水圧上昇で有効応力が減少するため。"
+      "explanation": "収縮特性による間隙水圧上昇で有効応力が減少するため。",
+      "explanation2": "間隙水圧の上昇は非排水条件下で急激に発生し、有効応力が実質的に低下するため土の剪断抵抗は一時的に弱まります。施工時はこの現象を考慮し、一時的な安定性低下による沈下や変形のリスクを見逃さないことが重要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-022",
+      "id": "subsidence_A-0022",
+      "display_id": "沈下_上級-022",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "一次元理論に補正係数 mu を乗じる三次元的補正を（　）の手法という。",
       "answer": "スケンプトン・ビヨラム",
-      "explanation": "孔隙水圧係数 A を用いた実務的な三次元補正式。"
+      "explanation": "孔隙水圧係数 A を用いた実務的な三次元補正式。",
+      "explanation2": "スケンプトン・ビヨラム法は孔隙水圧係数Aを使い、一次元圧密理論では捉えきれない三次元的な応力緩和を補正します。施工時には地下水位や土層の均質性を踏まえた適用が施工精度向上の鍵です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-023",
+      "id": "subsidence_A-0023",
+      "display_id": "沈下_上級-023",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "用語",
       "question": "沈下ひび割れから水が入り鉄筋の被膜が壊れる現象は",
       "answer": "塩害（または中性化による腐食）",
-      "explanation": "物理的損傷が化学的劣化の引き金となる。"
+      "explanation": "物理的損傷が化学的劣化の引き金となる。",
+      "explanation2": "ひび割れによって水分が鉄筋の被膜を破壊し、塩素イオンなどが浸透すると腐食が進行します。施工後は適切な防錆措置やひび割れの早期補修が耐久性維持に欠かせません。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-024",
+      "id": "subsidence_A-0024",
+      "display_id": "沈下_上級-024",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "Q&A",
       "question": "トンネル沈下トラフを近似するガウス分布状の曲線は何と呼ばれるか",
       "answer": "ペック（Peck）の式",
-      "explanation": "横断方向の沈下分布を評価する標準的な式。"
+      "explanation": "横断方向の沈下分布を評価する標準的な式。",
+      "explanation2": "ペックの式は、トンネル掘削に伴う沈下をガウス分布で表現し、横断方向の沈下幅や最大沈下量を予測します。掘削計画時に影響範囲を正確に把握し、浸水や地盤変形対策に活用されます。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-025",
+      "id": "subsidence_A-0025",
+      "display_id": "沈下_上級-025",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "圧密降伏応力 p_c 付近で、圧密係数 C_v は極大値を示す。",
       "answer": "×",
-      "explanation": "土の構造破壊により圧縮性が急増するため極小値を示す。"
+      "explanation": "土の構造破壊により圧縮性が急増するため極小値を示す。",
+      "explanation2": "圧密降伏応力付近では土粒子構造が破壊され、大きな変形を示し圧密係数Cvは一時的に低下します。この挙動を理解しないと圧密期間や沈下量を誤評価するため、実務では注意深い試験データの解析が必要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-026",
+      "id": "subsidence_A-0026",
+      "display_id": "沈下_上級-026",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "比較",
       "question": "掘削のリバウンドと再圧密の履歴を正確に評価できる解析は",
       "answer": "弾塑性連結解析（FEM）",
-      "explanation": "除荷・再載荷のヒステリシスを再現可能。"
+      "explanation": "除荷・再載荷のヒステリシスを再現可能。",
+      "explanation2": "弾塑性連結解析では、掘削時の荷重除去と再載荷による地盤のヒステリシス挙動を考慮可能です。実務では材料特性を正確にモデル化し、非線形性を適切に拾うことが成功のカギです。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-027",
+      "id": "subsidence_A-0027",
+      "display_id": "沈下_上級-027",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "NFと荷重の合計が支持力を超えなければ、沈下検討は不要である。",
       "answer": "×",
-      "explanation": "NFは杭そのものの弾性縮みや支持層圧縮を誘発するため。"
+      "explanation": "NFは杭そのものの弾性縮みや支持層圧縮を誘発するため。",
+      "explanation2": "NF（杭力）だけで支承地盤の変形は評価できません。杭自体の弾性変形や支持層の圧縮による沈下もプロジェクトの長期安定性評価に含める必要があります。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-028",
+      "id": "subsidence_A-0028",
+      "display_id": "沈下_上級-028",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "リストアップ",
       "question": "割裂注入を用いた修正工事のリスクを2つ挙げよ。",
       "answer": "埋設管破損、想定外の方向への隆起",
-      "explanation": "リアルタイム動態観測による精密な圧管理が必要。"
+      "explanation": "リアルタイム動態観測による精密な圧管理が必要。",
+      "explanation2": "割裂注入では地盤に大きな圧力をかけるため埋設管損傷や予期しない隆起が生じやすいです。施工中はリアルタイムの変位監視や圧力管理が不可欠で、リスク軽減に繋がります。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-029",
+      "id": "subsidence_A-0029",
+      "display_id": "沈下_上級-029",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "沈下量 S と S/sqrtt をとる圧密特性把握手法を（　）法という。",
       "answer": "ルート t（sqrtt）",
-      "explanation": "テルツァーギ理論に基づき初期特性から予測を行う。"
+      "explanation": "テルツァーギ理論に基づき初期特性から予測を行う。",
+      "explanation2": "ルートt法は圧密時間依存性の評価に適し、初期透水特性から長期の圧密挙動を予測します。現場では試料採取の代表性や初期条件の正確な把握が信頼性向上に重要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-030",
+      "id": "subsidence_A-0030",
+      "display_id": "沈下_上級-030",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "ひび割れの拡大速度は、補修の緊急性を決める最重要指標である。",
       "answer": "○",
-      "explanation": "収束した静止ひび割れか、進行中かの判定が不可欠。"
+      "explanation": "収束した静止ひび割れか、進行中かの判定が不可欠。",
+      "explanation2": "ひび割れ拡大速度は構造健全性を見極める重要指標で、収束した状態と進展中を正しく区別することで補修時期と方法の適正化が可能です。定期的な計測と変状管理が実務の基本です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-031",
+      "id": "subsidence_A-0031",
+      "display_id": "沈下_上級-031",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "過圧密粘土で荷重が p_c を超えない範囲では沈下は極めて小さい。",
       "answer": "○",
-      "explanation": "安定した骨格内の再圧縮領域（C_s）で計算するため。"
+      "explanation": "安定した骨格内の再圧縮領域（C_s）で計算するため。",
+      "explanation2": "過圧密粘土の沈下が小さい理由は骨格土が既に高密度であり、圧密に伴う余剰間隙水圧の発生が少ないからです。実務ではp_cを超えない荷重管理が重要で、超過すると急激な圧密沈下や二次圧縮が発生するため、地盤調査と設計で安全余裕を持つことが必要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-032",
+      "id": "subsidence_A-0032",
+      "display_id": "沈下_上級-032",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "基礎の形状や剛性の影響を補正する係数を（　）係数という。",
       "answer": "影響（形状）",
-      "explanation": "剛な基礎と柔軟な基礎の接地圧分布の違いを考慮する。"
+      "explanation": "剛な基礎と柔軟な基礎の接地圧分布の違いを考慮する。",
+      "explanation2": "影響（形状）係数は基礎の剛性により接地圧の分布が変わるため補正されます。剛性が高い基礎は局所的な応力集中を避けづらく、柔軟基礎は応力が広がるため、適切な係数設定により沈下評価の精度を上げることが可能です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-033",
+      "id": "subsidence_A-0033",
+      "display_id": "沈下_上級-033",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "用語",
       "question": "コンピュータ制御で低圧繰り返し注入を行う高度な沈下修正技術は",
       "answer": "JOG工法",
-      "explanation": "二次応力を抑え、ミリ単位で水平復元を図る技術。"
+      "explanation": "二次応力を抑え、ミリ単位で水平復元を図る技術。",
+      "explanation2": "JOG工法では低圧繰り返し注入により、微小な土質変動を利用しながら地盤の二次変形を抑制し均等な沈下を促します。施工中の制御が重要で、過注入で地盤破壊や過度な変位を伴わないよう監視することが必要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-034",
+      "id": "subsidence_A-0034",
+      "display_id": "沈下_上級-034",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "Q&A",
       "question": "不同沈下ひび割れ判定で形状以外に重要な確認事項は",
       "answer": "貫通の有無、経時的（動的）な変動",
-      "explanation": "構造全断面への影響と進行性の有無が鍵となる。"
+      "explanation": "構造全断面への影響と進行性の有無が鍵となる。",
+      "explanation2": "不同沈下のひび割れは貫通状況や時系列変化を観察し、静的変形か動的進行かを判別して対策を計画します。進行性のひび割れは構造的問題となり耐久性低下を招くため、継続的な監視と早期補修が不可欠です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-035",
+      "id": "subsidence_A-0035",
+      "display_id": "沈下_上級-035",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "「log t法」は、一次圧密と二次圧縮の境界判別に適している。",
       "answer": "○",
-      "explanation": "時間を対数でとることでクリープ移行を視覚化する。"
+      "explanation": "時間を対数でとることでクリープ移行を視覚化する。",
+      "explanation2": "log t法は圧密の初期急速沈下とその後のゆっくりとした二次圧縮の境界を視覚的に捉えやすく、設計のクリープ影響評価に活用されます。時間軸を対数で扱うことで微細な変形傾向も把握しやすくなります。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-036",
+      "id": "subsidence_A-0036",
+      "display_id": "沈下_上級-036",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "比較",
       "question": "放射方向（水平）の排水を考慮した圧密理論はどれか",
       "answer": "バロンの理論",
-      "explanation": "バーチカルドレーン等の三次元排水を扱う理論。"
+      "explanation": "バーチカルドレーン等の三次元排水を扱う理論。",
+      "explanation2": "バロンの理論はバーチカルドレーン等を用いた三次元的な排水効果を考慮し、排水経路が複雑な場合に実用的です。施工段階での排水路設計や配布状況を正確に評価することが沈下抑制の鍵となります。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-037",
+      "id": "subsidence_A-0037",
+      "display_id": "沈下_上級-037",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "FEM解析で杭と土の間にジョイント要素を入れるとNFを評価できる。",
       "answer": "○",
-      "explanation": "杭と地盤の相対変位（滑り）をモデル化できるため。"
+      "explanation": "杭と地盤の相対変位（滑り）をモデル化できるため。",
+      "explanation2": "FEM解析でジョイント要素を用いることで、杭と土の接触面の滑りや剛性差を詳細にモデル化可能です。これにより、相互作用による応力集中や変位差を解析し、耐久性評価や設計の改善に活かせます。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-038",
+      "id": "subsidence_A-0038",
+      "display_id": "沈下_上級-038",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "リストアップ",
       "question": "沈下による耐震性影響評価で調査すべき脆弱部を2つ挙げよ。",
       "answer": "柱梁接合部のせん断ひび、防水層の破断",
-      "explanation": "初期応力が加わった部材の脆弱性を確認する。"
+      "explanation": "初期応力が加わった部材の脆弱性を確認する。",
+      "explanation2": "沈下による耐震影響の脆弱部は柱梁接合部のせん断耐力低下と防水層の断裂です。特に接合部は局部ひずみが集中しやすく、防水層の破断は水侵入などで劣化を促すため、点検と補強が必要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-039",
+      "id": "subsidence_A-0039",
+      "display_id": "沈下_上級-039",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "沈下量 S と側方変位 delta の比が（　）付近なら地盤は安定している。",
       "answer": "0.3～0.5",
-      "explanation": "これを超えて急増する場合は滑り破壊の危険信号。"
+      "explanation": "これを超えて急増する場合は滑り破壊の危険信号。",
+      "explanation2": "沈下量と側方変位の比が0.3～0.5以下であれば地盤は安定とされます。これを超えると土塊の剥離や滑動が始まりやすく、滑り破壊の兆候と判断されるため、数値観測と迅速な対策が求められます。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-040",
+      "id": "subsidence_A-0040",
+      "display_id": "沈下_上級-040",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "多層地盤の最終沈下量は、各層の沈下量を単純に合算できる。",
       "answer": "○",
-      "explanation": "最終沈下はひずみの積分。ただし速度計算は複雑になる。"
+      "explanation": "最終沈下はひずみの積分。ただし速度計算は複雑になる。",
+      "explanation2": "多層地盤の最終沈下は各層のひずみを合算して計算しますが、沈下速度は層間の排水条件や圧密過程の相互作用で複雑化します。現場では各層の土質特性と排水設備の設置状況に注意が必要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-041",
+      "id": "subsidence_A-0041",
+      "display_id": "沈下_上級-041",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "二次圧縮係数 C_α は、圧密圧力が増大しても一般に一定値として扱う。",
       "answer": "○",
-      "explanation": "対数時間に対する変化率。長期沈下予測の定数。"
+      "explanation": "対数時間に対する変化率。長期沈下予測の定数。",
+      "explanation2": "二次圧縮係数C_αは圧密圧力の増加に対して一定と見なすが、実務では地盤の状態や土質によって変動することもあるため、定期的な現場観測で確認しながら評価することが重要です。過度な沈下を防ぐため、設計段階で適切な安全係数を用いることが施工のコツとなります。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-042",
+      "id": "subsidence_A-0042",
+      "display_id": "沈下_上級-042",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "沈下した支点の反力は減少し、沈下していない支点の反力が（　）する。",
       "answer": "増加",
-      "explanation": "建物剛性による荷重移動。反力増加による破壊に注意。"
+      "explanation": "建物剛性による荷重移動。反力増加による破壊に注意。",
+      "explanation2": "支点沈下により反力移動が起きるため、沈下していない支点の反力増加が建物全体の局所的な過負荷を引き起こします。実務では反力の変化をモニタリングし、過大荷重による部材破損を未然に防止することが重要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-043",
+      "id": "subsidence_A-0043",
+      "display_id": "沈下_上級-043",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "用語",
       "question": "沈下によりドレーン材が折れ曲がり排水機能が低下する現象は",
       "answer": "ウェルレジスタンス",
-      "explanation": "大変形時の排水能力低下リスク。施工管理上の重要事項。"
+      "explanation": "大変形時の排水能力低下リスク。施工管理上の重要事項。",
+      "explanation2": "ウェルレジスタンス現象はドレーン材の曲がりや折損によって排水速度が低下し、長期的な圧密が遅延するため、施工時のドレーン保持と品質管理が重要です。曲がりに強い材料選定や設置時の過度な曲げに注意しましょう。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-044",
+      "id": "subsidence_A-0044",
+      "display_id": "沈下_上級-044",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "Q&A",
       "question": "沈下ひび割れ補修での「剛性付与」か「柔軟補修」かの判断基準は",
       "answer": "沈下が収束していれば剛性付与、進行中なら柔軟補修",
-      "explanation": "進行中に固着させると新たなひび割れを誘発するため。"
+      "explanation": "進行中に固着させると新たなひび割れを誘発するため。",
+      "explanation2": "沈下が収束していない状況で剛性の高い補修材を使用すると、新たな応力集中でひび割れが悪化するため、柔軟な補修材で変形に追従させることがポイントです。施工段階で沈下進行を十分に確認してから選定しましょう。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-045",
+      "id": "subsidence_A-0045",
+      "display_id": "沈下_上級-045",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "孔内水平載荷試験の数値は沈下計算にそのまま用いることができる。",
       "answer": "×",
-      "explanation": "水平方向の剛性であり、鉛直方向とは異方性があるため補正が必要。"
+      "explanation": "水平方向の剛性であり、鉛直方向とは異方性があるため補正が必要。",
+      "explanation2": "孔内水平載荷試験は地盤の水平方向剛性を測るため、このデータを鉛直沈下の評価に使う際は、鉛直剛性との異方性を考慮して補正が必須です。補正方法の理解と適用が施工計画の精度向上に繋がります。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-046",
+      "id": "subsidence_A-0046",
+      "display_id": "沈下_上級-046",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "比較",
       "question": "理論値と実測値の乖離が大きくなりやすいのは「単層」と「複層」どっち",
       "answer": "複層排水（互層地盤）",
-      "explanation": "薄層砂層等による排水経路の短絡（ショートカット）が生じるため。"
+      "explanation": "薄層砂層等による排水経路の短絡（ショートカット）が生じるため。",
+      "explanation2": "複層排水では薄層砂層が排水ルートをショートカットしてしまい、理論値計算との差が大きくなります。実務では詳細な地盤調査を行い、地盤構造の複雑さを考慮した解析とモニタリングが欠かせません。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-047",
+      "id": "subsidence_A-0047",
+      "display_id": "沈下_上級-047",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "水圧式沈下計は、大気圧の変動による影響をキャンセルする仕組みが必要。",
       "answer": "○",
-      "explanation": "数ミリの精密観測では気圧変化が誤差となるため。"
+      "explanation": "数ミリの精密観測では気圧変化が誤差となるため。",
+      "explanation2": "水圧式沈下計における大気圧変動の影響除去は、高精度観測での誤差低減に不可欠です。設置環境に応じた気圧補正装置や二重チャンバータイプの採用が実務上のポイントとなります。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-048",
+      "id": "subsidence_A-0048",
+      "display_id": "沈下_上級-048",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "リストアップ",
       "question": "修正工事後の空隙充填材に求められる特性を2つ挙げよ。",
       "answer": "無収縮性、早期の強度発現",
-      "explanation": "再沈下防止と地盤との一体化を確保するため。"
+      "explanation": "再沈下防止と地盤との一体化を確保するため。",
+      "explanation2": "無収縮性と早期強度発現特性は、空隙充填材が地盤との一体化を確保し再沈下を防ぐために重要です。施工時は充填材の配合管理と養生管理を徹底し、早期から適正荷重を支持できる状態にすることが肝要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-049",
+      "id": "subsidence_A-0049",
+      "display_id": "沈下_上級-049",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "圧密方程式の間隙水圧時間項の係数は C_v と（　）の積で表される。",
       "answer": "二階偏導関数",
-      "explanation": "物理的本質を示す微分方程式の構成要素。"
+      "explanation": "物理的本質を示す微分方程式の構成要素。",
+      "explanation2": "圧密の間隙水圧変動を表す時間項係数は土中の圧縮波や排水効率を反映する二階偏導関数に依存します。実務ではこの物理モデルを理解し、数値解析や現場観測と連携させて精度向上を図ることが求められます。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-050",
+      "id": "subsidence_A-0050",
+      "display_id": "沈下_上級-050",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "「直接基礎＋継続的沈下修正」という選択肢も、高度な経営判断で成立する。",
       "answer": "○",
-      "explanation": "LCC（ライフサイクルコスト）に基づく戦略的な維持管理手法。"
+      "explanation": "LCC（ライフサイクルコスト）に基づく戦略的な維持管理手法。",
+      "explanation2": "直接基礎に継続的沈下修正を組み合わせる方法は、LCCを考慮した戦略的な判断で、経済的メリットとリスク管理を両立します。施工と維持管理両面で詳細な計画検討と技術的裏付けが不可欠です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-051",
+      "id": "subsidence_A-0051",
+      "display_id": "沈下_上級-051",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "圧密に伴い地盤の非排水剪断強度 c_u も増加する。",
       "answer": "○",
-      "explanation": "「圧密強化」により土粒子骨格が密になり強度が向上する。"
+      "explanation": "「圧密強化」により土粒子骨格が密になり強度が向上する。",
+      "explanation2": "圧密での非排水剪断強度 c_u 増加は、土粒子間の有効応力上昇が骨格を強化することに起因します。施工中は圧密時間や排水条件の管理が重要で、不均一な圧密が局所的弱点を生むため注意が必要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-052",
+      "id": "subsidence_A-0052",
+      "display_id": "沈下_上級-052",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "水平変位速度を沈下速度で除した（　）比の監視は破壊予察に有効。",
       "answer": "変位速度",
-      "explanation": "比の急増を監視することでクリープ破断を早期検知できる。"
+      "explanation": "比の急増を監視することでクリープ破断を早期検知できる。",
+      "explanation2": "変位速度と沈下速度の比率を継続的に監視し急増を察知することで、地盤のクリープ破壊前兆を早期発見可能です。施工管理ではセンサー設置位置やデータ取得頻度も適切に設定することが求められます。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-053",
+      "id": "subsidence_A-0053",
+      "display_id": "沈下_上級-053",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "用語",
       "question": "不均質な薄層混在により理論値より圧密が早く進む現象は",
       "answer": "ハイドロリック・ショートカット",
-      "explanation": "水理的短絡。堆積構造の不均質性に起因する。"
+      "explanation": "水理的短絡。堆積構造の不均質性に起因する。",
+      "explanation2": "ハイドロリック・ショートカットは均質層間に存在する薄層の透水度差が引き起こす現象で、局所的排水促進により圧密が早まります。施工時は地層特性の詳細調査と施工後の圧密挙動観察が不可欠です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-054",
+      "id": "subsidence_A-0054",
+      "display_id": "沈下_上級-054",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "Q&A",
       "question": "エネルギー概念を用いた高度な圧密降伏応力 p_c の判定法は",
       "answer": "ln(1+e) - log p 法",
-      "explanation": "従来法より客観的に変曲点を特定できる高度な解析法。"
+      "explanation": "従来法より客観的に変曲点を特定できる高度な解析法。",
+      "explanation2": "ln(1+e) - log p 法は圧密曲線の変曲点をエネルギー面から判定し、主観的判断を減らします。設計段階で正確なp_c把握に役立ち、施工中は負荷管理に生かせる技術です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-055",
+      "id": "subsidence_A-0055",
+      "display_id": "沈下_上級-055",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "ビオーの理論では、中心部の水圧が一時的に全応力以上に上がる効果を表現できる。",
       "answer": "○",
-      "explanation": "マンデル・クライヤー効果。三次元圧密特有の現象。"
+      "explanation": "マンデル・クライヤー効果。三次元圧密特有の現象。",
+      "explanation2": "マンデル・クライヤー効果は三次元圧密で間隙水圧が全応力超過する現象で、一時的な強度低下を招くため注意。施工管理では地盤の三次元応力状態を理解し、圧密経過を綿密に追うことが重要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-056",
+      "id": "subsidence_A-0056",
+      "display_id": "沈下_上級-056",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "比較",
       "question": "クラック発生リスクをより直接的に評価できるのは「沈下量」と「傾斜量」どっち",
       "answer": "傾斜量",
-      "explanation": "相対変位によるせん断力が部材破壊の主因となるため。"
+      "explanation": "相対変位によるせん断力が部材破壊の主因となるため。",
+      "explanation2": "傾斜量は部材間の相対変形を示し、これが局所的せん断力となりひび割れ原因に。施工監理では偏沈下の均一化を図るため、基礎設計や施工方法に注力する必要があります。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-057",
+      "id": "subsidence_A-0057",
+      "display_id": "沈下_上級-057",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "地下水位の変動による微小な浮き沈みは「弾性変動」として整理できる。",
       "answer": "○",
-      "explanation": "不可逆な圧密沈下とは区別して評価する必要がある。"
+      "explanation": "不可逆な圧密沈下とは区別して評価する必要がある。",
+      "explanation2": "地下水繰り返し変動による弾性変動は可逆的な地盤挙動です。維持管理では圧密沈下との分離評価を実施して異常事象を早期発見することが施工後環境保全に繋がります。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-058",
+      "id": "subsidence_A-0058",
+      "display_id": "沈下_上級-058",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "リストアップ",
       "question": "杭のNFを引き起こす「地盤側の要因」を2つ挙げよ。",
       "answer": "地下水の過剰汲み上げ、打設後の再圧密",
-      "explanation": "杭周囲の環境変化が軸力分布に与える影響を予察する。"
+      "explanation": "杭周囲の環境変化が軸力分布に与える影響を予察する。",
+      "explanation2": "NF原因の地盤側要因として地下水の過剰汲み上げは圧密促進、再圧密は施工後の土圧変動を引き起こします。施工監理では汲み上げ量制限と地盤応力変化の把握・対策が重要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-059",
+      "id": "subsidence_A-0059",
+      "display_id": "沈下_上級-059",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "「関口・太田モデル」はカムクレイに（　）異方性や時間依存性を加えたもの。",
       "answer": "応力（堆積）",
-      "explanation": "実際の地盤の複雑な挙動を再現する日本発の高度なモデル。"
+      "explanation": "実際の地盤の複雑な挙動を再現する日本発の高度なモデル。",
+      "explanation2": "関口・太田モデルはカムクレイに堆積由来の応力異方性と時間依存性を組み込み、現地地盤の非線形かつ履歴依存的挙動を再現します。実務ではモデル適用時のパラメータ精査が欠かせません。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-060",
+      "id": "subsidence_A-0060",
+      "display_id": "沈下_上級-060",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "沈下によるせん断ひび割れは曲げひび割れより危険性が高い。",
       "answer": "○",
-      "explanation": "脆性破壊を招き、構造耐力低下に直結するため。"
+      "explanation": "脆性破壊を招き、構造耐力低下に直結するため。",
+      "explanation2": "せん断ひび割れは構造物内で応力集中を引き起こし脆性破壊の引き金となります。施工時は沈下勾配抑制策やひび割れ監視に注目し、安全性確保に努めることが肝要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-061",
+      "id": "subsidence_A-0061",
+      "display_id": "沈下_上級-061",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "有効応力経路が臨界状態線（CSL）に到達すると無限に剪断変形し続ける。",
       "answer": "○",
-      "explanation": "臨界状態土質力学の概念。地盤が塑性流動を起こした状態。"
+      "explanation": "臨界状態土質力学の概念。地盤が塑性流動を起こした状態。",
+      "explanation2": "臨界状態線に到達すると土は塑性流動し無限変形しますが、実務ではこの状態を避けることが重要です。基礎設計時は応力経路がCSLに近づかないよう、余裕を持った地耐力を設定し、過大な載荷を防止します。掘削や盛土作業の段階的な応力調整も効果的です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-062",
+      "id": "subsidence_A-0062",
+      "display_id": "沈下_上級-062",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "上部構造と地盤が互いに影響し合う現象を（　）相互作用という。",
       "answer": "地盤－構造物（SSI）",
-      "explanation": "建物剛性と沈下挙動の連成を考慮した解析が不可欠。"
+      "explanation": "建物剛性と沈下挙動の連成を考慮した解析が不可欠。",
+      "explanation2": "SSI解析では、地盤と構造物の相互影響を正確に評価するため、地盤剛性や構造剛性の非線形性を考慮したモデル化が必要です。単純な固定条件では誤差が大きくなるため、地盤反力係数の適切な設定や、動的相互作用も検討することが施工や耐震設計の鍵となります。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-063",
+      "id": "subsidence_A-0063",
+      "display_id": "沈下_上級-063",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "用語",
       "question": "「比容 v = 1 + e」を用い、ln v - ln p プロットで p_c を求める手法は",
       "answer": "バターフィールドの手法",
-      "explanation": "高圧密領域の解析精度を高めるために用いられる。"
+      "explanation": "高圧密領域の解析精度を高めるために用いられる。",
+      "explanation2": "バターフィールド手法は高圧密領域での有効応力変化を正確に捉えますが、試料の圧縮試験時は均質な締固めと排水条件を徹底することが重要。滑らかな ln v - ln p 線形関係を得るためには、試験データのバラツキを低減する工夫が必要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-064",
+      "id": "subsidence_A-0064",
+      "display_id": "沈下_上級-064",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "Q&A",
       "question": "不同沈下したRCラーメン構造で最もせん断ひび割れが出やすい部位は",
       "answer": "梁端部（接合部）および柱上下端",
-      "explanation": "支点変位による二次応力が集中しやすいため。"
+      "explanation": "支点変位による二次応力が集中しやすいため。",
+      "explanation2": "梁端部および柱上下端は剛接合部分で拘束力が強く、不同沈下時の曲げモーメントが集中します。施工段階でコンクリートの品質管理や適切なひび割れ管理を徹底し、補修方法も視野に入れた耐久設計が重要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-065",
+      "id": "subsidence_A-0065",
+      "display_id": "沈下_上級-065",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "テイラー法は一次圧密開始点が初期に放物線状になる性質を利用している。",
       "answer": "○",
-      "explanation": "時間の平方根プロットから幾何学的に t_90 を決定する。"
+      "explanation": "時間の平方根プロットから幾何学的に t_90 を決定する。",
+      "explanation2": "テイラー法によるt_90算定は、圧密挙動の初期挙動を正確に捉えますが、実務では試料の均一性や排水条件の再現性に注意が必要です。時間-沈下量プロットの誤差を最小化するため、適切な試験条件と判定方法を習得することが施工管理のポイントです。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-066",
+      "id": "subsidence_A-0066",
+      "display_id": "沈下_上級-066",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "比較",
       "question": "「直接基礎」と「杭基礎」が近接する場合、沈下が増大しやすいのはどっち",
       "answer": "直接基礎",
-      "explanation": "杭のストレスバルブ干渉により追加の圧縮を受けるため。"
+      "explanation": "杭のストレスバルブ干渉により追加の圧縮を受けるため。",
+      "explanation2": "直接基礎は杭基礎に比べて近接配置時に地盤中での応力集中が大きく、追加沈下が生じやすいです。設計段階で杭基礎のストレスバルブ効果を利用しつつ、近接する基礎間の影響を十分に評価し、沈下抑制策を検討することが重要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-067",
+      "id": "subsidence_A-0067",
+      "display_id": "沈下_上級-067",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "FEM解析での排水境界条件の設定ミスは沈下速度予測に重大な誤差を生む。",
       "answer": "○",
-      "explanation": "圧密方程式の解の収束速度に直結する最重要事項。"
+      "explanation": "圧密方程式の解の収束速度に直結する最重要事項。",
+      "explanation2": "FEM解析で排水境界条件を誤ると圧密速度が大幅に変わり、現場の沈下実測と乖離します。解析設定は地盤の透水性や層厚を踏まえ実情と整合させ、境界条件の妥当性を複数パターンで検証することが解析信頼性向上のコツです。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-068",
+      "id": "subsidence_A-0068",
+      "display_id": "沈下_上級-068",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "リストアップ",
       "question": "杭が支持層に到達した後に懸念される「二次的な沈下要因」を2つ挙げよ。",
       "answer": "支持層下の軟弱層の圧密、杭体の弾性縮み",
-      "explanation": "杭先端から下の地層構成や杭自身の変形も考慮する。"
+      "explanation": "杭先端から下の地層構成や杭自身の変形も考慮する。",
+      "explanation2": "二次沈下は支持層下の軟弱土層圧密と杭体の弾性変形が主因です。特に軟弱層の長期的な圧密と杭材料の疲労劣化も考慮が必要。施工中は荷重履歴の管理と材料品質試験、長期モニタリングを継続することが二次沈下対策の基盤です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-069",
+      "id": "subsidence_A-0069",
+      "display_id": "沈下_上級-069",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "プレローディングでドレーン打設間隔を（　）するほど沈下促進効果は高い。",
       "answer": "密（短く）",
-      "explanation": "排水距離の短縮が時間の2乗で圧密を加速させる。"
+      "explanation": "排水距離の短縮が時間の2乗で圧密を加速させる。",
+      "explanation2": "プレローディングにおけるドレーンの間隔を狭くすると排水距離が短縮し、圧密時間は理論上平方に比例して大幅短縮されます。しかし過密配置は施工コストと施工性低下のリスクも伴うため、地盤条件を踏まえ最適な間隔設定が重要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-070",
+      "id": "subsidence_A-0070",
+      "display_id": "沈下_上級-070",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "地下構造物の漏水補修より先に「沈下の収束確認」を優先すべきである。",
       "answer": "○",
-      "explanation": "進行中に止水しても地盤の動きで再破断するため。"
+      "explanation": "進行中に止水しても地盤の動きで再破断するため。",
+      "explanation2": "地下構造物の止水を先に行うと、沈下進行中の地盤変動により再びヒビ割れや漏水が発生しやすいです。したがって沈下が収束し安定確認後に止水処理を行い、補修工事の長期耐久性を確保する計画的施工が求められます。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-071",
+      "id": "subsidence_A-0071",
+      "display_id": "沈下_上級-071",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "二次圧縮係数 C_α は一次圧密完了時の間隙比が大きいほど値も大きい。",
       "answer": "○",
-      "explanation": "軟弱で高間隙比の土ほど長期クリープ沈下も増大する。"
+      "explanation": "軟弱で高間隙比の土ほど長期クリープ沈下も増大する。",
+      "explanation2": "一次圧密完了時の間隙比が大きい土は、土粒子間の空隙が多く、圧縮後も微細な再配置や粘性流動が続きやすいです。これが二次圧縮（クリープ）のメカニズムで、施工時には長期的な沈下を見越した補強や配慮が必要です。特に軟弱地盤では、現場管理で地盤状況を正確に把握し、過度な荷重増加を避けることが効果的です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-072",
+      "id": "subsidence_A-0072",
+      "display_id": "沈下_上級-072",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "修正工事の静的圧入は地盤の（　）圧力を超えない範囲で制御する。",
       "answer": "受動土（割裂）",
-      "explanation": "地盤破壊を防ぎミリ単位の修正を行うための限界管理。"
+      "explanation": "地盤破壊を防ぎミリ単位の修正を行うための限界管理。",
+      "explanation2": "修正工事の静的圧入では、地盤に過剰な受動土圧力をかけると割裂破壊が起こります。実務では圧入速度や圧力を慎重に制御し、地盤の健全性を監視することが必要です。特に改良前の地盤強度評価と圧入力限界の設定が重要で、失敗を防ぐためには現場での変位測定も欠かせません。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-073",
+      "id": "subsidence_A-0073",
+      "display_id": "沈下_上級-073",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "用語",
       "question": "土の透水性が方向によって異なる（k_v と k_h の差）性質を何というか",
       "answer": "透水の異方性",
-      "explanation": "堆積構造に起因し、ドレーン工法の設計に大きく影響する。"
+      "explanation": "堆積構造に起因し、ドレーン工法の設計に大きく影響する。",
+      "explanation2": "透水異方性は地層の堆積方位や圧密履歴により生じます。実務では縦方向k_vと水平k_hの違いを把握し、ドレーン挿入角度や配置を調整して排水効率を最大化する必要があります。誤った設計は排水遅延や過剰圧縮を招くため、土質試験で透水係数の方向性測定が必須です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-074",
+      "id": "subsidence_A-0074",
+      "display_id": "沈下_上級-074",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "Q&A",
       "question": "不同沈下が生じた既存部材の「残存耐力」評価での応力考慮法は",
       "answer": "沈下による二次応力を常時・地震時荷重に重畳する",
-      "explanation": "沈下ですでに耐力を消費しているリスクを正当に評価する。"
+      "explanation": "沈下ですでに耐力を消費しているリスクを正当に評価する。",
+      "explanation2": "不同沈下により部材には二次応力が発生し、これを常時・地震荷重に加算して評価します。これにより、残存耐力の過大評価を防ぎ安全性を確保できます。施工時には変形や応力分布を反復して解析し、局所的な応力集中やクラック発生の予兆を早期に発見することが重要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-075",
+      "id": "subsidence_A-0075",
+      "display_id": "沈下_上級-075",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "圧密係数決定の log t 法で U=50% の点を用いるのは理論的誤差が最小だから。",
       "answer": "○",
-      "explanation": "初期乱れや二次圧縮の影響を受けにくい指標点。"
+      "explanation": "初期乱れや二次圧縮の影響を受けにくい指標点。",
+      "explanation2": "log t 法のU=50%使用はデータの乱れや二次圧縮が少ない安定点を得やすいため信頼性が高いです。実務では試料採取の均一性や載荷条件を一定に保ち、測定精度を向上させることで、正確な圧密係数算定に繋がり、適切な沈下予測が可能になります。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-076",
+      "id": "subsidence_A-0076",
+      "display_id": "沈下_上級-076",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "比較",
       "question": "不同沈下に対する抵抗モーメントがより大きく発揮されるのはどっち",
       "answer": "箱型基礎（マットスラブ）",
-      "explanation": "基礎全体が剛体として働き、荷重を広範囲に再分配する。"
+      "explanation": "基礎全体が剛体として働き、荷重を広範囲に再分配する。",
+      "explanation2": "箱型基礎（マットスラブ）は面全体で荷重を受け止め、構造物の不均等沈下を緩和します。施工のポイントは均質なコンクリート打設と連続した配筋で全体剛性を高めることです。不具合としてひび割れが起きやすいため、養生やひび割れ管理を徹底します。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-077",
+      "id": "subsidence_A-0077",
+      "display_id": "沈下_上級-077",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "FEM解析の「除荷」変形係数 E_ur は初荷重時 E_50 より小さく設定する。",
       "answer": "×",
-      "explanation": "除荷・再載荷領域は骨格が安定しており数倍大きく（硬く）設定する。"
+      "explanation": "除荷・再載荷領域は骨格が安定しており数倍大きく（硬く）設定する。",
+      "explanation2": "E_urは除荷時の弾性回復領域の変形係数で、初期荷重のE_50より大きくなる特性があります。これを誤って小さく設定すると、解析結果が実地の硬さを反映しなくなり、不適切な設計判断に繋がるため注意が必要です。数値モデルに合わせた適切な材料パラメータの選定が重要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-078",
+      "id": "subsidence_A-0078",
+      "display_id": "沈下_上級-078",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "リストアップ",
       "question": "修正工事後の「二次的な不同沈下」を防止する対策を2つ挙げよ。",
       "answer": "グラウトの完全充填、薬液注入による地盤再安定化",
-      "explanation": "緩んだ地盤の再拘束が長期安定の鍵。"
+      "explanation": "緩んだ地盤の再拘束が長期安定の鍵。",
+      "explanation2": "二次的不同沈下防止には、グラウト完全充填で空隙を無くし、薬液注入が地盤の粒子間接着を強化します。現場では充填不良や薬液の均一浸透を避けるため、注入圧管理や漏洩監視が必須です。これにより、地盤の緩みを抑制し、長期の構造安定に寄与します。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-079",
+      "id": "subsidence_A-0079",
+      "display_id": "沈下_上級-079",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "三笠の理論では大変形を扱うため（　）座標を用いて数理的扱いを容易にしている。",
       "answer": "ラグランジュ",
-      "explanation": "土粒子の動きに追従する座標系で大変形圧密を厳密に定式化。"
+      "explanation": "土粒子の動きに追従する座標系で大変形圧密を厳密に定式化。",
+      "explanation2": "ラグランジュ座標は土粒子に追従して座標が変形し、非線形な大変形状態を正確に解析できます。施工管理では大変形圧密が懸念される軟弱地盤での挙動予測に有効であり、設計段階で適切に選択し、モデルの精度向上を図ります。これにより設計変更や施工計画の精度が上がります。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-080",
+      "id": "subsidence_A-0080",
+      "display_id": "沈下_上級-080",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "補修後に新たなヘアクラックが出ないことは沈下収束の信頼できる指標。",
       "answer": "○",
-      "explanation": "剛な建物において微細な動きも出ないことは平衡状態を示す。"
+      "explanation": "剛な建物において微細な動きも出ないことは平衡状態を示す。",
+      "explanation2": "補修後にヘアクラックが出ないことは、建物が微小変形まで安定し、沈下収束を示す重要指標です。施工後は環境変動や荷重変化を考慮し、継続的なひび割れ観察と変位計測を行うことで、長期的な安全性を担保できます。ひび割れ発生時は早期対応が必要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-081",
+      "id": "subsidence_A-0081",
+      "display_id": "沈下_上級-081",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "構造性が発達した土で p_c を超えると急激な「圧密崩壊」が生じる。",
       "answer": "○",
-      "explanation": "骨格構造の破壊により予測を大幅に超える沈下となる。"
+      "explanation": "骨格構造の破壊により予測を大幅に超える沈下となる。",
+      "explanation2": "骨格構造が急激に破壊される圧密崩壊では微細な土粒子間の結合力が失われ、瞬時に大きな体積減少が生じます。施工時はp_cを超えないよう荷重設計し、地盤改良や排水対策を徹底し、通常の圧密沈下と異なる非線形挙動を常に意識することが重要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-082",
+      "id": "subsidence_A-0082",
+      "display_id": "沈下_上級-082",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "時間経過とともにコンクリートのクリープで発生応力が減ることを（　）という。",
       "answer": "応力緩和（リラクゼーション）",
-      "explanation": "診断時に「緩和後の残存応力」を見極める視点が必要。"
+      "explanation": "診断時に「緩和後の残存応力」を見極める視点が必要。",
+      "explanation2": "クリープによる応力緩和は長期的な材料挙動の一部で、設計時は一定期間後の残存応力を適切に見積もる必要があります。経年変化を考慮しないと、過大な応力とひび割れリスクが高まるため、材料特性試験やモニタリングを併用することが推奨されます。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-083",
+      "id": "subsidence_A-0083",
+      "display_id": "沈下_上級-083",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "用語",
       "question": "粘土層の各深さにおける圧密進行度の平均値を何というか",
       "answer": "平均圧密度（U）",
-      "explanation": "実務上の収束判定等に用いられる積分値。"
+      "explanation": "実務上の収束判定等に用いられる積分値。",
+      "explanation2": "平均圧密度は層ごとの沈下進行を総合評価する指標で、実務では地盤の沈下収束判定や施工管理に活用されます。計測精度を上げるため深さ方向の細かいデータ取得と数値積分の正確な実施が重要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-084",
+      "id": "subsidence_A-0084",
+      "display_id": "沈下_上級-084",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "Q&A",
       "question": "沈下修正後のひび割れへの「低圧持続注入」の圧力設定基準は",
       "answer": "0.1～0.3N/mm²程度の低圧",
-      "explanation": "地盤やひび割れ拡大への悪影響を防ぎ、確実に充填する。"
+      "explanation": "地盤やひび割れ拡大への悪影響を防ぎ、確実に充填する。",
+      "explanation2": "ひび割れへの注入は低すぎる圧力では充填不足、過大な圧力ではひび割れ拡大や地盤損傷を招くため、0.1〜0.3N/mm²を守ることが肝要です。注入中は圧力と充填状況をリアルタイムに監視し、異常時は速やかに対応します。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-085",
+      "id": "subsidence_A-0085",
+      "display_id": "沈下_上級-085",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "3次放物線近似法は初期乱れや二次圧縮の影響を抑えた高精度解析が可能。",
       "answer": "○",
-      "explanation": "圧密初期の挙動を数理フィッティングさせ信頼性を高める。"
+      "explanation": "圧密初期の挙動を数理フィッティングさせ信頼性を高める。",
+      "explanation2": "3次放物線近似法は初期乱れ影響を除き、二次圧縮も加味した高精度の圧密予測を可能にします。データフィッティング時には観測値のノイズ除去が重要で、モデル適合性を確認しながら実務へ適用します。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-086",
+      "id": "subsidence_A-0086",
+      "display_id": "沈下_上級-086",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "比較",
       "question": "地盤の異方性や非線形性をより詳細に反映できる予測手法はどれか",
       "answer": "有限要素法（FEM）",
-      "explanation": "構成則を用いることで複雑な地盤挙動を再現可能。"
+      "explanation": "構成則を用いることで複雑な地盤挙動を再現可能。",
+      "explanation2": "有限要素法は地盤の非線形かつ異方性挙動を詳細に反映し、多様な境界条件や工法の影響評価が可能です。適用時は正確な物性値入力とメッシュ設計が重要で、過学習や過度単純化に注意しながら解析結果を活用します。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-087",
+      "id": "subsidence_A-0087",
+      "display_id": "沈下_上級-087",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "アンダーピニングでの新設杭の排土が既存建物の沈下を誘発する要因となる。",
       "answer": "○",
-      "explanation": "支持力を得るための施工自体が応力解放（緩み）を招くリスク。"
+      "explanation": "支持力を得るための施工自体が応力解放（緩み）を招くリスク。",
+      "explanation2": "アンダーピニングの排土による応力解放は、軟弱地盤に瞬間的なせん断応力や圧密の変動を引き起こし、既存建物の不均等沈下リスクを高めます。施工は段階的掘削と荷重管理を徹底し、既存構造物の変位観察を強化します。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-088",
+      "id": "subsidence_A-0088",
+      "display_id": "沈下_上級-088",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "リストアップ",
       "question": "沈下量予測の誤差を生じさせる主な要因を2つ挙げよ。",
       "answer": "試料のサンプリング時の乱れ、排水境界条件の把握不足",
-      "explanation": "モデル化の仮定と現実の乖離が誤差の主因。"
+      "explanation": "モデル化の仮定と現実の乖離が誤差の主因。",
+      "explanation2": "サンプル採取時の乱れは土の物理性質を実大環境から乖離させ、排水境界条件の誤把握は圧密速度や沈下予測に大きな影響を与えます。現場観察結果とのすり合わせや土質試験の精度向上が実務精度に繋がります。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-089",
+      "id": "subsidence_A-0089",
+      "display_id": "沈下_上級-089",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "載荷面から離れるに従って応力が減少する現象を「応力の（　）」という。",
       "answer": "分散（減衰）",
-      "explanation": "ベル型の分布形状（ストレスバルブ）を把握する基本スキル。"
+      "explanation": "ベル型の分布形状（ストレスバルブ）を把握する基本スキル。",
+      "explanation2": "応力の分散現象は載荷点から離れるに従い応力が指数関数的に減衰し、土中のストレスバルブ効果を形成します。これを正しく理解しないと、誤った支持力評価や沈下予測が生じるため、施工計画時に種類・層厚を考慮すべきです。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-090",
+      "id": "subsidence_A-0090",
+      "display_id": "沈下_上級-090",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "部材傾斜角が同一でも、スパンが短い部材ほど発生するせん断力は大きい。",
       "answer": "○",
-      "explanation": "スパンが短いほど剛性が高く、強制変位による負担が急増するため。"
+      "explanation": "スパンが短いほど剛性が高く、強制変位による負担が急増するため。",
+      "explanation2": "同一傾斜角でもスパン短縮は部材の剛性増加を意味し、せん断力の局所集中を招きやすいです。設計段階で詳細な力学解析を行い、必要に応じて補強や接合部強化を検討し施工時の変形監視も行います。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-091",
+      "id": "subsidence_A-0091",
+      "display_id": "沈下_上級-091",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "二次圧縮による長期沈下量が一次圧密沈下量を上回ることがある。",
       "answer": "○",
-      "explanation": "有機質土等では超長期のクリープ沈下が支配的になる。"
+      "explanation": "有機質土等では超長期のクリープ沈下が支配的になる。",
+      "explanation2": "有機質土は微細な成分が多く、一次圧密後も長期間にわたり細かな再配列が起きるため、その結果として二次圧縮が一次を超えることがあります。施工ではクリープ沈下を見越した設計や長期監視が重要で、実験室試験だけでなく現場でのモニタリングが不可欠です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-092",
+      "id": "subsidence_A-0092",
+      "display_id": "沈下_上級-092",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "ひび割れや傾斜を制限する設計上の状態を（　）限界状態という。",
       "answer": "使用性（Serviceability）",
-      "explanation": "構造崩壊（終局）に至らずとも、資産価値を損なう状態。"
+      "explanation": "構造崩壊（終局）に至らずとも、資産価値を損なう状態。",
+      "explanation2": "使用性限界状態は安全性を確保しつつも、ひび割れや変形などで機能低下や資産価値の損失を招くため、設計では設定した変形許容値内に収めることが重要です。施工後の剛性低下や外的要因を考慮し、適切な補修計画も必要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-093",
+      "id": "subsidence_A-0093",
+      "display_id": "沈下_上級-093",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "用語",
       "question": "光ファイバーで構造物全体のひずみ分布をリアルタイム計測する技術は",
       "answer": "分布型光ファイバーセンシング",
-      "explanation": "線計測により建物全体の歪みを一括管理できる次世代技術。"
+      "explanation": "線計測により建物全体の歪みを一括管理できる次世代技術。",
+      "explanation2": "分布型光ファイバーセンサーは微小な歪みも検出でき、構造全体の健全度をリアルタイムで把握可能です。施工時にはセンサーの埋設や保護に細心の注意が必要で、温度変化の影響も補正しながら解析することが重要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-094",
+      "id": "subsidence_A-0094",
+      "display_id": "沈下_上級-094",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "Q&A",
       "question": "不同沈下が生じた建物の耐震診断で「初期傾斜」が及ぼす最大影響は",
       "answer": "偏心モーメント（P-Δ 効果）による耐力低下",
-      "explanation": "自重の偏心が水平抵抗力を削ぐため数値的な減算が必要。"
+      "explanation": "自重の偏心が水平抵抗力を削ぐため数値的な減算が必要。",
+      "explanation2": "初期傾斜による偏心モーメントはP-Δ効果を増幅させ、構造物の耐力を著しく低下させます。耐震診断では偏心の大きさだけでなく、荷重条件や固定化条件の詳細な評価が不可欠で、補強設計もこれを考慮しなければなりません。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-095",
+      "id": "subsidence_A-0095",
+      "display_id": "沈下_上級-095",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "乱れを補正した後の圧縮指数 C_c は試験値より大きくなる。",
       "answer": "○",
-      "explanation": "シュマートマン補正等により本来の高い圧縮性を再現するため。"
+      "explanation": "シュマートマン補正等により本来の高い圧縮性を再現するため。",
+      "explanation2": "乱れ補正では試験中に起きる試料の不均一性やサンプリング時の乱れを除外し、真の土の圧縮指数を求めます。これにより実務では沈下予測の過小評価を避け、適切な基礎設計を実現できますので積極的な適用が求められます。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-096",
+      "id": "subsidence_A-0096",
+      "display_id": "沈下_上級-096",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "比較",
       "question": "より恒久的な沈下抑制効果が高い修正工法はどっち",
       "answer": "杭の先端支持力（アンダーピニング）",
-      "explanation": "地盤沈下そのものの影響を物理的に排除できるため。"
+      "explanation": "地盤沈下そのものの影響を物理的に排除できるため。",
+      "explanation2": "地下の土質変化や圧密を直接解消できる杭基礎の先端支持は、表層改良など修正工法より沈下抑制が長期的に安定します。ただし施工管理では杭の支持層認定や打設品質管理が重要で、設計通りの支持力を確保する必要があります。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-097",
+      "id": "subsidence_A-0097",
+      "display_id": "沈下_上級-097",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "FEM連成解析の載荷直後の即時沈下は水の移動を伴わない変形。",
       "answer": "○",
-      "explanation": "体積一定条件での剪断変形。圧密とは物理的に区別される。"
+      "explanation": "体積一定条件での剪断変形。圧密とは物理的に区別される。",
+      "explanation2": "FEM連成解析での即時沈下は土粒子の骨格変形のみで水の移動を伴わず、圧密理論の時間依存変形とは区別されます。実務ではこの即時変形と圧密沈下を分けて評価し、耐震性や変形性能の正確な予測を行う必要があります。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-098",
+      "id": "subsidence_A-0098",
+      "display_id": "沈下_上級-098",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "リストアップ",
       "question": "沈下による「コンクリートの劣化」を加速させる外部因子を2つ挙げよ。",
       "answer": "ひび割れからの雨水浸入、凍結融解作用（凍害）",
-      "explanation": "クラックが化学的・物理的劣化の入り口となる。"
+      "explanation": "クラックが化学的・物理的劣化の入り口となる。",
+      "explanation2": "ひび割れからの雨水浸入は内部鉄筋の腐食やアルカリ骨材反応を促進し、凍結融解作用はコンクリートの内部微細亀裂を拡大させます。これらの劣化要因を抑制するためにはひび割れ管理や防水対策、適切な混凝土配合設計が必要です。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-099",
+      "id": "subsidence_A-0099",
+      "display_id": "沈下_上級-099",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "地盤の異方性（k_h > k_v）を考慮すると（　）方向の排水が支配的になる。",
       "answer": "水平（放射）",
-      "explanation": "理論値より沈下速度が早まるハイドロリック・ショートカットの根拠。"
+      "explanation": "理論値より沈下速度が早まるハイドロリック・ショートカットの根拠。",
+      "explanation2": "地盤の透水係数が水平方向で大きい場合、排水は水平方向に速やかに流れやすく、圧密進行が早まります。実務ではこの異方性を考慮した排水計画や地下水位管理を行い、予想外の沈下リスクを防止します。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     },
     {
-      "id": "沈下_上級-100",
+      "id": "subsidence_A-0100",
+      "display_id": "沈下_上級-100",
       "category": "沈下",
       "grade": "上級",
+      "question_type": "○×",
       "question": "沈下リスク地盤では回避・低減・移転・保有を組み合わせてマネジメントする。",
       "answer": "○",
-      "explanation": "予測に基づき戦略的な維持管理計画を立てる高度な判断。"
+      "explanation": "予測に基づき戦略的な維持管理計画を立てる高度な判断。",
+      "explanation2": "沈下リスク管理では単一方策に頼らず、多角的な戦略を組み合わせることが鍵です。事前調査に基づき適切な工法選定や移転リスク評価を行い、長期的に維持管理できる体制構築が施工管理者に求められます。",
+      "importance": 1,
+      "main_id_category": "沈下",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "土",
+        "外構",
+        "地盤",
+        "沈下",
+        "不具合"
+      ],
+      "remarks": ""
     }
   ]
 }

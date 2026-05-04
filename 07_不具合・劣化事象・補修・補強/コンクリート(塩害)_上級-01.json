@@ -3,804 +3,2304 @@
   "count": 100,
   "questions": [
     {
-      "id": "コンクリート(塩害)_上級-001",
+      "id": "Concrete(salt damage)_A-0001",
+      "display_id": "コンクリート(塩害)_上級-001",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "○×",
       "question": "2022年制定のコンクリート標準示方書では、鋼材腐食発生限界塩化物イオン濃度（C_lim）を配合に関わらず一律 1.2 kg/m³ と規定している。",
       "answer": "×",
-      "explanation": "セメント種類とW/Cに応じた算出式に変更されました。"
+      "explanation": "セメント種類とW/Cに応じた算出式に変更されました。",
+      "explanation2": "2022年示方書では、C_lim（腐食発生限界濃度）は一律値ではなく、セメント種類・W/C・材齢などを考慮した算出式に変更されました。これは「材料特性によって腐食開始条件が大きく変わる」ことを反映した改訂で、耐久設計の精度が大幅に向上しています。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-002",
+      "id": "Concrete(salt damage)_A-0002",
+      "display_id": "コンクリート（塩害）_上級-002",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "2022年標準示方書では、離岸距離（ ）mおよび（ ）mの表面塩分濃度を補間して設定できる。",
       "answer": "10、20",
-      "explanation": "沿岸直近の精度向上のための改訂です。"
+      "explanation": "沿岸直近の精度向上のための改訂です。",
+      "explanation2": "離岸距離10m・20mの表面塩分濃度を補間できるようになったのは、沿岸直近の飛来塩分が急激に変化する領域をより正確に評価するためです。従来の50m刻みでは精度不足だったため、実務上の大きな改善点です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-003",
+      "id": "Concrete(salt damage)_A-0003",
+      "display_id": "コンクリート（塩害）_上級-003",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "用語",
       "question": "補修部と既設部の境界で、電位差により既設側の腐食が加速する現象は",
       "answer": "マクロセル腐食",
-      "explanation": "境界部での再劣化の主要因です。"
+      "explanation": "境界部での再劣化の主要因です。",
+      "explanation2": "マクロセル腐食は、補修部と既設部の電位差により、既設側がアノード化して腐食が加速する現象です。パッチ補修後に“周囲だけ急速に劣化する”典型例で、上級では電気化学的視点での対策が必須となります。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-004",
+      "id": "Concrete(salt damage)_A-0004",
+      "display_id": "コンクリート（塩害）_上級-004",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "リストアップ",
       "question": "2022年防食指針が対象とする4工法は",
       "answer": "電気防食、脱塩、再アルカリ化、電着",
-      "explanation": "全て電気化学的手法です。"
+      "explanation": "全て電気化学的手法です。",
+      "explanation2": "2022年防食指針が対象とする4工法（電気防食・脱塩・再アルカリ化・電着）は、いずれも電気化学的原理を利用した高度工法です。物理補修では限界がある重度塩害に対し、根本的な改善が可能になります。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-005",
+      "id": "Concrete(salt damage)_A-0005",
+      "display_id": "コンクリート（塩害）_上級-005",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&Ａ",
       "question": "高炉セメントB種の C_lim が普通ポルトランドより高い理由は",
       "answer": "フリーデル氏塩による固定化能力が高いため",
-      "explanation": "化学的に塩分を無害化します。"
+      "explanation": "化学的に塩分を無害化します。",
+      "explanation2": "高炉セメントB種のC_limが高いのは、フリーデル氏塩として塩化物イオンを固定化する能力が高いためです。化学的固定化により“遊離塩分が減る”ため、腐食開始までの余裕が大きくなります。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-006",
+      "id": "Concrete(salt damage)_A-0006",
+      "display_id": "コンクリート（塩害）_上級-006",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "JIS A 1154の試験において抽出液の pH を（ ）以下にする必要がある。",
       "answer": "3",
-      "explanation": "強酸性下で全塩分を抽出します。"
+      "explanation": "強酸性下で全塩分を抽出します。",
+      "explanation2": "JIS A 1154では、抽出液のpHを3以下にして煮沸することで、固定化塩分も含めた全塩化物イオンを完全抽出します。pH管理が不十分だと抽出量が低くなり、誤判定につながるため極めて重要です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-007",
+      "id": "Concrete(salt damage)_A-0007",
+      "display_id": "コンクリート（塩害）_上級-007",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "○×",
       "question": "普通ポルトランド使用時、C_lim は W/C が大きいほど高い値になる。",
       "answer": "×",
-      "explanation": "W/Cが大きい（組織が粗い）ほど C_lim は低くなります。"
+      "explanation": "W/Cが大きい（組織が粗い）ほど C_lim は低くなります。",
+      "explanation2": "普通ポルトランドセメントでは、W/Cが大きいほど組織が粗くなり、C_limは低下します。つまり“水が多いほど腐食しやすい”ということで、配合設計の重要性を示す代表的な知識です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-008",
+      "id": "Concrete(salt damage)_A-0008",
+      "display_id": "コンクリート（塩害）_上級-008",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "用語",
       "question": "目標とする防食効果を持続させなければならない期間を何というか",
       "answer": "設計防食期間",
-      "explanation": "LCCの観点から2022年に導入された概念です。"
+      "explanation": "LCCの観点から2022年に導入された概念です。",
+      "explanation2": "設計防食期間は、補修工法が所定の防食性能を維持し続けなければならない期間です。LCC（ライフサイクルコスト）を考慮した性能照査型設計の中核概念で、2022年指針の大きな特徴です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-009",
+      "id": "Concrete(salt damage)_A-0009",
+      "display_id": "コンクリート（塩害）_上級-009",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "比較",
       "question": "境界部に亜鉛等を設置して電流を流す手法を何というか",
       "answer": "犠牲陽極方式",
-      "explanation": "外部電源不要の手法です。"
+      "explanation": "外部電源不要の手法です。",
+      "explanation2": "犠牲陽極方式は、亜鉛など“鉄より卑な金属”をアノードとして接続し、外部電源なしで防食電流を供給する工法です。部分補修や小規模構造物で特に有効で、維持管理が容易なのが利点です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-010",
+      "id": "Concrete(salt damage)_A-0010",
+      "display_id": "コンクリート（塩害）_上級-010",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&Ａ",
       "question": "既設塗膜剥離時に留意すべき有害物質は",
       "answer": "鉛、クロム",
-      "explanation": "特別管理産業廃棄物としての処理が必要です。"
+      "explanation": "特別管理産業廃棄物としての処理が必要です。",
+      "explanation2": "既設塗膜の剥離時には、鉛・クロムなどの有害物質が含まれる可能性があり、特別管理産業廃棄物として扱う必要があります。飛散防止・作業員保護・適正処理が必須で、環境安全上の重要ポイントです。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-011",
+      "id": "Concrete(salt damage)_A-0011",
+      "display_id": "コンクリート（塩害）_上級-011",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "○×",
       "question": "2022年防食指針は「共通編」と「工法別標準」の二編構成である。",
       "answer": "○",
-      "explanation": "性能照査体系の整理が行われました。"
+      "explanation": "性能照査体系の整理が行われました。",
+      "explanation2": "2022年防食指針が「共通編＋工法別標準」の二編構成になったのは、性能照査の考え方を全工法で統一しつつ、各工法の特殊性を明確化するためです。従来よりも“設計→施工→維持管理”の一貫性が強化されました。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-012",
+      "id": "Concrete(salt damage)_A-0012",
+      "display_id": "コンクリート（塩害）_上級-012",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "I_corr が（ ）mu A/cm2 を超えると著しい腐食速度とされる。",
       "answer": "1",
-      "explanation": "腐食速度判定の閾値です。"
+      "explanation": "腐食速度判定の閾値です。",
+      "explanation2": "I_corr（腐食電流密度）が 1 μA/cm² を超えると「著しい腐食速度」と判定されます。これは断面欠損が急速に進む領域で、補修の緊急度が極めて高い状態です。分極抵抗法の判定基準として最重要の閾値です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-013",
+      "id": "Concrete(salt damage)_A-0013",
+      "display_id": "コンクリート（塩害）_上級-013",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&Ａ",
       "question": "亜硝酸リチウムの推奨される最低モル比 [NO_2^-]/[Cl^-] は",
       "answer": "0.6以上",
-      "explanation": "0.6以上で防錆効果が認められます。"
+      "explanation": "0.6以上で防錆効果が認められます。",
+      "explanation2": "亜硝酸リチウムの最低モル比 0.6 は“腐食抑制が成立する下限値”であり、これを下回ると不動態被膜の再形成が不十分になります。上級では、環境条件に応じて1.0以上を採用する判断力が求められます。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-014",
+      "id": "Concrete(salt damage)_A-0014",
+      "display_id": "コンクリート（塩害）_上級-014",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "硝酸銀噴霧法での白色呈色境界の閾値は約（ ）kg/m³である。",
       "answer": "0.6",
-      "explanation": "安全側（低濃度）で反応します。"
+      "explanation": "安全側（低濃度）で反応します。",
+      "explanation2": "硝酸銀噴霧法の白色呈色境界（約0.6 kg/m³）は“安全側の閾値”であり、実際の腐食限界濃度（1.2 kg/m³）より低く設定されています。これは初期スクリーニングで見落としを防ぐための保守的基準です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-015",
+      "id": "Concrete(salt damage)_A-0015",
+      "display_id": "コンクリート（塩害）_上級-015",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "○×",
       "question": "JIS A 1154では、加熱前に pH を7付近に調整する。",
       "answer": "×",
-      "explanation": "加熱前は pH 3以下に調整します。"
+      "explanation": "加熱前は pH 3以下に調整します。",
+      "explanation2": "JIS A 1154では、加熱前にpHを7付近に調整するのではなく、pH3以下の強酸性にしてから煮沸します。固定化塩分を完全に溶解除去するための必須条件で、抽出精度に直結します。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-016",
+      "id": "Concrete(salt damage)_A-0016",
+      "display_id": "コンクリート（塩害）_上級-016",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "用語",
       "question": "塩分が C_lim に達してから変状が顕在化するまでの期間は",
       "answer": "進展期",
-      "explanation": "腐食が進行している期間です。"
+      "explanation": "腐食が進行している期間です。",
+      "explanation2": "進展期は、C_lim到達後に腐食が進み、ひび割れ発生に至るまでの期間です。外観変状がまだ小さいため見逃されやすいものの、腐食速度はすでに加速しており、補修の最適タイミングとなります。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-017",
+      "id": "Concrete(salt damage)_A-0017",
+      "display_id": "コンクリート（塩害）_上級-017",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "比較",
       "question": "自然電位法で腐食確率50%以上とされる電位は",
       "answer": "-0.35V以下",
-      "explanation": "CSE電極使用時の基準です。"
+      "explanation": "CSE電極使用時の基準です。",
+      "explanation2": "自然電位法で −0.35V（vs.CSE）以下は腐食確率50%以上とされます。これはASTM C876の国際基準で、世界的に共通の判定指標です。電位が低いほど腐食の可能性が高まります。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-018",
+      "id": "Concrete(salt damage)_A-0018",
+      "display_id": "コンクリート（塩害）_上級-018",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "リストアップ",
       "question": "電気防食工法のメリットを3つ挙げよ。",
       "answer": "電源不要（犠牲陽極）、除塩不要、マクロセル抑制",
-      "explanation": "物理補修の限界を克服します。"
+      "explanation": "物理補修の限界を克服します。",
+      "explanation2": "電気防食工法のメリット（電源不要・除塩不要・マクロセル抑制）は、いずれも物理補修では解決できない“電気化学的問題”を直接制御できる点にあります。重度塩害に対する最も合理的なアプローチです。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-019",
+      "id": "Concrete(salt damage)_A-0019",
+      "display_id": "コンクリート（塩害）_上級-019",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&Ａ",
       "question": "脱塩工法で塩化物イオンはどの方向へ移動するか",
       "answer": "外部アノード方向",
-      "explanation": "電気的な移動を利用します。"
+      "explanation": "電気的な移動を利用します。",
+      "explanation2": "脱塩工法では、外部アノード側へ塩化物イオンが移動します。これは電気泳動（イオン移動）を利用した化学的除去であり、物理的には除去できない深部塩分に対して極めて有効です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-020",
+      "id": "Concrete(salt damage)_A-0020",
+      "display_id": "コンクリート（塩害）_上級-020",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "防食設計では（ ）照査を行うことが義務付けられた。",
       "answer": "性能",
-      "explanation": "期間中の効果持続を確認します。"
+      "explanation": "期間中の効果持続を確認します。",
+      "explanation2": "防食設計で性能照査が義務化されたのは、補修工法が“期間中に効果を維持できるか”を定量的に確認するためです。従来の仕様規定型から、性能保証型メンテナンス",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-021",
+      "id": "Concrete(salt damage)_A-0021",
+      "display_id": "コンクリート（塩害）_上級-021",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&Ａ",
       "question": "複合劣化で Cl^- が再溶解する直接的な原因は",
       "answer": "中性化による pH 低下でフリーデル氏塩が分解するため",
-      "explanation": "固定されていた塩分が解放されます。"
+      "explanation": "固定されていた塩分が解放されます。",
+      "explanation2": "中性化によりpHが低下すると、フリーデル氏塩が分解し、固定化されていたCl⁻が再溶解します。これが“複合劣化の本質”であり、中性化が塩害を加速させる直接原因です。固定化能力の喪失は、潜伏期の急激な短縮につながります。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-022",
+      "id": "Concrete(salt damage)_A-0022",
+      "display_id": "コンクリート（塩害）_上級-022",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "○×",
       "question": "高流動コンクリートの材料係数 gamma_c は 1.1 とできる。",
       "answer": "○",
-      "explanation": "自己充填性による緻密化が評価されました。"
+      "explanation": "自己充填性による緻密化が評価されました。",
+      "explanation2": "高流動コンクリートの材料係数γc＝1.1は、自己充填性による欠陥低減・緻密化が評価された結果です。施工信頼性が高いため、耐久照査で有利な係数が適用され、塩害・中性化の両面で性能が安定します。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-023",
+      "id": "Concrete(salt damage)_A-0023",
+      "display_id": "コンクリート（塩害）_上級-023",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&Ａ",
       "question": "屋外環境で望ましい [NO_2^-]/[Cl^-] モル比は",
       "answer": "1.0以上",
-      "explanation": "より高い信頼性を確保するためです。"
+      "explanation": "より高い信頼性を確保するためです。",
+      "explanation2": "屋外環境では NO₂⁻/Cl⁻ モル比 1.0以上が推奨されます。これは、雨水・温度変化・湿潤乾燥サイクルなどの厳しい条件下では、0.6では不十分となる可能性があるためです。上級では環境別のモル比設定が必須です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-024",
+      "id": "Concrete(salt damage)_A-0024",
+      "display_id": "コンクリート（塩害）_上級-024",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "JIS A 1154での煮沸時間は（ ）分間である。",
       "answer": "5",
-      "explanation": "規定時間を遵守する必要があります。"
+      "explanation": "規定時間を遵守する必要があります。",
+      "explanation2": "JIS A 1154の煮沸時間5分は、固定化塩分を完全に抽出するための最適時間として規定されています。短すぎると抽出不足、長すぎると分解物の影響が出るため、厳密な時間管理が求められます。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-025",
+      "id": "Concrete(salt damage)_A-0025",
+      "display_id": "コンクリート（塩害）_上級-025",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "リストアップ",
       "question": "濃縮現象の4ステップは",
       "answer": "生成、炭酸化、再溶解、拡散",
-      "explanation": "化学的なプロセスを辿ります。"
+      "explanation": "化学的なプロセスを辿ります。",
+      "explanation2": "濃縮現象の4ステップ（生成→炭酸化→再溶解→拡散）は、複合劣化の進行を理解するうえで最重要の化学プロセスです。特に“再溶解→内部拡散”は、未中性化部に塩分が集まる危険な現象で、腐食開始を早めます。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-026",
+      "id": "Concrete(salt damage)_A-0026",
+      "display_id": "コンクリート（塩害）_上級-026",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "用語",
       "question": "pH を回復させるためにアルカリ溶液を浸透させる工法は",
       "answer": "再アルカリ化工法",
-      "explanation": "中性化対策の電気化学的手法です。"
+      "explanation": "中性化対策の電気化学的手法です。",
+      "explanation2": "再アルカリ化工法は、電気化学的にアルカリ溶液を浸透させ、中性化したコンクリートのpHを回復させる工法です。塩害単独ではなく、中性化との複合劣化に対して特に有効です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-027",
+      "id": "Concrete(salt damage)_A-0027",
+      "display_id": "コンクリート（塩害）_上級-027",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "比較",
       "question": "分極抵抗法は自然電位法と何が違うか",
       "answer": "「腐食速度」を判定できる点",
-      "explanation": "定量的な評価が可能です。"
+      "explanation": "定量的な評価が可能です。",
+      "explanation2": "分極抵抗法は自然電位法と異なり、腐食速度（I_corr）を定量評価できます。腐食の“可能性”ではなく“進行度”を把握できるため、補修時期の判断に直結する高度診断法です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-028",
+      "id": "Concrete(salt damage)_A-0028",
+      "display_id": "コンクリート（塩害）_上級-028",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "○×",
       "question": "2022年示方書では中性化速度係数の予測式が削除された。",
       "answer": "○",
-      "explanation": "実環境との乖離を考慮した変更です。"
+      "explanation": "実環境との乖離を考慮した変更です。",
+      "explanation2": "中性化速度係数の予測式が削除されたのは、実環境との乖離が大きく、全国一律の式では精度が確保できないためです。今後は実測値・地域性・統計処理を重視する方向へ完全に移行しました。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-029",
+      "id": "Concrete(salt damage)_A-0029",
+      "display_id": "コンクリート（塩害）_上級-029",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&Ａ",
       "question": "再劣化抑制のための予防保全的アプローチは",
       "answer": "防錆ペースト塗布や犠牲陽極の設置",
-      "explanation": "境界部の保護が重要です。"
+      "explanation": "境界部の保護が重要です。",
+      "explanation2": "再劣化抑制の予防保全として、防錆ペーストや犠牲陽極の設置は極めて有効です。特にパッチ補修後の境界部では、電位差によるマクロセル腐食が起こりやすく、境界対策が長寿命化の鍵となります。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-030",
+      "id": "Concrete(salt damage)_A-0030",
+      "display_id": "コンクリート（塩害）_上級-030",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "2022年指針では複数の実測値を（ ）処理できる。",
       "answer": "統計的に",
-      "explanation": "バラツキを適切に評価します。"
+      "explanation": "バラツキを適切に評価します。",
+      "explanation2": "2022年指針で実測値を統計処理できるようになったのは、バラツキを適切に評価し、特性値として合理的に照査するため",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-031",
+      "id": "Concrete(salt damage)_A-0031",
+      "display_id": "コンクリート（塩害）_上級-031",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&Ａ",
       "question": "中性化フロントで Cl^- が濃縮する理由は",
       "answer": "フリーデル氏塩の分解による再溶解",
-      "explanation": "追い出し現象と呼ばれます。"
+      "explanation": "追い出し現象と呼ばれます。",
+      "explanation2": "中性化フロントでCl⁻が濃縮するのは、pH低下によりフリーデル氏塩が分解し、固定化されていた塩分が“追い出される”ためです。これは 複合劣化の核心現象 で、未中性化部に塩分が集まり腐食開始を早める危険なメカニズムです。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-032",
+      "id": "Concrete(salt damage)_A-0032",
+      "display_id": "コンクリート（塩害）_上級-032",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "○×",
       "question": "高流動コンクリートの gamma_c 低減は施工信頼性を評価したものか。",
       "answer": "○",
-      "explanation": "充填性が高く欠陥が少ないためです。"
+      "explanation": "充填性が高く欠陥が少ないためです。",
+      "explanation2": "高流動コンクリートのγc低減（1.1）は、自己充填性により 空隙・豆板・未充填のリスクが低い ことが科学的に評価された結果です。耐久照査で有利となり、塩害・中性化の両面で信頼性が高い材料です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-033",
+      "id": "Concrete(salt damage)_A-0033",
+      "display_id": "コンクリート（塩害）_上級-033",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "比較",
       "question": "ステンレス鉄筋の C_lim は一般的にいくらか",
       "answer": "3.0 kg/m³ 以上",
-      "explanation": "普通鉄筋の数倍の耐性があります。"
+      "explanation": "普通鉄筋の数倍の耐性があります。",
+      "explanation2": "ステンレス鉄筋のC_limが3.0kg/m³以上と高いのは、不動態被膜が極めて安定しており、塩化物イオンに対する耐性が普通鉄筋の数倍あるためです。海岸構造物の長寿命化における最強クラスの選択肢です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-034",
+      "id": "Concrete(salt damage)_A-0034",
+      "display_id": "コンクリート（塩害）_上級-034",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "JIS試験試料の粉砕径は（ ）mm以下である。",
       "answer": "0.15",
-      "explanation": "150mu mのふるい全通が規定です。"
+      "explanation": "150mu mのふるい全通が規定です。",
+      "explanation2": "JIS試験の粉砕径0.15mm以下は、塩分抽出の再現性を確保するための必須条件です。粒径が大きいと抽出効率が低下し、固定化塩分の抽出不足→過小評価につながるため、分析精度の根幹となります。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-035",
+      "id": "Concrete(salt damage)_A-0035",
+      "display_id": "コンクリート（塩害）_上級-035",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "用語",
       "question": "外観変状が顕著で構造性能低下が懸念される段階は",
       "answer": "加速期",
-      "explanation": "早急な対策が必要な時期です。"
+      "explanation": "早急な対策が必要な時期です。",
+      "explanation2": "加速期は外観変状が顕著となり、鉄筋腐食が構造性能に影響し始める段階です。ひび割れ・錆汁・剥離が見られるため、補修の緊急度が高い“危険領域” と判断されます。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-036",
+      "id": "Concrete(salt damage)_A-0036",
+      "display_id": "コンクリート（塩害）_上級-036",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&Ａ",
       "question": "「設計防食期間」の定義は",
       "answer": "目標とする防食効果を持続させる期間",
-      "explanation": "性能照査の基準期間です。"
+      "explanation": "性能照査の基準期間です。",
+      "explanation2": "設計防食期間は、防食工法が 所定の性能を維持し続けるべき期間 を明確化した概念です。2022年指針の性能照査型メンテナンスの中心で、LCC（ライフサイクルコスト）評価の基準にもなります。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-037",
+      "id": "Concrete(salt damage)_A-0037",
+      "display_id": "コンクリート（塩害）_上級-037",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "○×",
       "question": "I_corr が 0.1 mu A/cm2 なら著しい腐食速度か。",
       "answer": "×",
-      "explanation": "1.0超が著しい速度です。"
+      "explanation": "1.0超が著しい速度です。",
+      "explanation2": "I_corr＝0.1μA/cm²は「遅い腐食速度」であり、1.0μA/cm²超が“著しい腐食速度”です。上級では、腐食速度の定量評価＝補修時期の判断 に直結するため、I_corrの理解は必須です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-038",
+      "id": "Concrete(salt damage)_A-0038",
+      "display_id": "コンクリート（塩害）_上級-038",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "リストアップ",
       "question": "保存義務のある記録を3つ挙げよ。",
       "answer": "設計、維持管理計画、施工品質管理",
-      "explanation": "供用期間中保存が義務です。"
+      "explanation": "供用期間中保存が義務です。",
+      "explanation2": "保存義務のある記録（設計・維持管理計画・施工品質管理）は、性能照査型メンテナンスの根幹です。これらが揃っていないと、将来の補修判断・原因究明が不可能 になるため、発注者側の重要責務です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-039",
+      "id": "Concrete(salt damage)_A-0039",
+      "display_id": "コンクリート（塩害）_上級-039",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "用語",
       "question": "有害物質含有塗膜屑の廃棄物区分は",
       "answer": "特別管理産業廃棄物",
-      "explanation": "環境対策が必須です。"
+      "explanation": "環境対策が必須です。",
+      "explanation2": "有害物質を含む塗膜屑は「特別管理産業廃棄物」に分類されます。鉛・クロムを含む旧塗膜は、飛散防止・作業員保護・適正処理 が必須で、環境安全上の最重要ポイントです。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-040",
+      "id": "Concrete(salt damage)_A-0040",
+      "display_id": "コンクリート（塩害）_上級-040",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "初期塩化物イオン量 C_init の標準値は（ ）kg/m³。",
       "answer": "0.3",
-      "explanation": "配合計算の背景濃度として使われます。"
+      "explanation": "配合計算の背景濃度として使われます。",
+      "explanation2": "初期塩化物量 C_init＝0.3kg/m³は、配合計算における“背景塩分”として扱われます。これは材料由来の塩分で、潜伏期の長さを左右する重要パラメータ であり、耐久設計の基礎値です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-041",
+      "id": "Concrete(salt damage)_A-0041",
+      "display_id": "コンクリート（塩害）_上級-041",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "○×",
       "question": "2022年指針は「共通編」と「工法別標準」の構成か。",
       "answer": "○",
-      "explanation": "セクション2-011と同等の重要問題です。"
+      "explanation": "セクション2-011と同等の重要問題です。",
+      "explanation2": "2022年指針が「共通編＋工法別標準」の構成になったのは、性能照査の考え方を全工法で統一しつつ、各工法の特殊性を整理するためです。従来の“工法ごとにバラバラだった基準”が統合され、設計〜施工〜維持管理の一貫性が大幅に向上しました。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-042",
+      "id": "Concrete(salt damage)_A-0042",
+      "display_id": "コンクリート（塩害）_上級-042",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&Ａ",
       "question": "加速期のさらに後の、変状が深刻な段階は",
       "answer": "加速期後期",
-      "explanation": "構造耐力への影響が大です。"
+      "explanation": "構造耐力への影響が大です。",
+      "explanation2": "加速期後期は、腐食が構造性能に深刻な影響を与える段階で、ひび割れ拡大・剥落・鉄筋断面欠損の急進が特徴です。補修ではなく“補強・更新”レベルの対応が必要になるケースも多く、最も危険な劣化段階です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-043",
+      "id": "Concrete(salt damage)_A-0043",
+      "display_id": "コンクリート（塩害）_上級-043",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "コア試料粉砕時の通過ふるい径は",
       "answer": "0.15",
-      "explanation": "精度確保の基本です。"
+      "explanation": "精度確保の基本です。",
+      "explanation2": "コア粉砕試料のふるい径0.15mmは、JIS A 1154の分析精度を確保するための必須条件です。粒径が大きいと塩分抽出が不完全となり、固定化塩分の抽出不足→過小評価→誤診断につながるため、分析の根幹となる規定です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-044",
+      "id": "Concrete(salt damage)_A-0044",
+      "display_id": "コンクリート（塩害）_上級-044",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&Ａ",
       "question": "実測値を特性値とする際の処理方法は",
       "answer": "統計的処理",
-      "explanation": "2022年指針の大きな特徴です。"
+      "explanation": "2022年指針の大きな特徴です。",
+      "explanation2": "実測値を特性値として扱う際に統計処理を行うのは、バラツキを適切に評価し、過度に安全側・危険側に偏らない合理的照査を行うためです。2022年改訂の象徴であり、性能照査型メンテナンスの中核概念です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-045",
+      "id": "Concrete(salt damage)_A-0045",
+      "display_id": "コンクリート（塩害）_上級-045",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "比較",
       "question": "Cl^- が未中性化部に溜まる現象を何というか",
       "answer": "濃縮現象（追い出し現象）",
-      "explanation": "複合劣化の重要用語です。"
+      "explanation": "複合劣化の重要用語です。",
+      "explanation2": "濃縮現象（追い出し現象）は、中性化によりフリーデル氏塩が分解し、塩分が未中性化部へ移動・蓄積する現象です。これは複合劣化の最重要メカニズムで、潜伏期を大幅に短縮し、腐食開始を早める危険なプロセスです。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-046",
+      "id": "Concrete(salt damage)_A-0046",
+      "display_id": "コンクリート（塩害）_上級-046",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "硝酸銀噴霧法の呈色閾値は（ ）kg/m³。",
       "answer": "0.6",
-      "explanation": "初動調査の指標です。"
+      "explanation": "初動調査の指標です。",
+      "explanation2": "硝酸銀噴霧法の呈色閾値0.6kg/m³は、初期スクリーニングで見落としを防ぐための安全側設定です。実際の腐食限界（1.2kg/m³）より低いため、早期段階で“危険の可能性”を把握できる優れた現場試験です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-047",
+      "id": "Concrete(salt damage)_A-0047",
+      "display_id": "コンクリート（塩害）_上級-047",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "○×",
       "question": "高炉セメントB種は普通ポルトランドよりかぶりを薄くできるか。",
       "answer": "○",
-      "explanation": "拡散係数が小さいため照査上有利です。"
+      "explanation": "拡散係数が小さいため照査上有利です。",
+      "explanation2": "高炉セメントB種は拡散係数が小さく、塩分浸透が遅いため、かぶり厚さを薄くできる照査上のメリットがあります。材料選定によって耐久性を“設計段階で確保できる”代表的な例です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-048",
+      "id": "Concrete(salt damage)_A-0048",
+      "display_id": "コンクリート（塩害）_上級-048",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "用語",
       "question": "防食工法の施工管理を担当する義務がある者は",
       "answer": "専門技術者",
-      "explanation": "高度な知識が求められます。"
+      "explanation": "高度な知識が求められます。",
+      "explanation2": "防食工法の施工管理を担当する「専門技術者」は、電気化学・材料・施工の高度知識を持つ者で、性能照査型工法の品質を左右するキーパーソンです。2022年指針で明確に義務化されました。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-049",
+      "id": "Concrete(salt damage)_A-0049",
+      "display_id": "コンクリート（塩害）_上級-049",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "比較",
       "question": "著しい腐食速度の I_corr 閾値は",
       "answer": "1.0 mu A/cm2 超",
-      "explanation": "再確認問題です。"
+      "explanation": "再確認問題です。",
+      "explanation2": "I_corrが1.0μA/cm²超は「著しい腐食速度」で、断面欠損が急速に進行し、構造安全性に重大な影響を与える状態です。補修ではなく“緊急措置レベル”の対応が必要となる危険領域です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-050",
+      "id": "Concrete(salt damage)_A-0050",
+      "display_id": "コンクリート（塩害）_上級-050",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "防食工法の記録の保存期間は（ ）。",
       "answer": "供用期間中",
-      "explanation": "永続的な管理が求められます。"
+      "explanation": "永続的な管理が求められます。",
+      "explanation2": "防食工法の記録を供用期間中保存する義務は、性能照査型メンテナンスの根幹です。記録がなければ、効果検証・原因究明・次期補修判断が不可能となるため、発注者側の最重要責務として明記されています。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-051",
+      "id": "Concrete(salt damage)_A-0051",
+      "display_id": "コンクリート（塩害）_上級-051",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "○×",
       "question": "2022年電気化学的防食工法指針では、施工の品質を確保するため、専門技術者の管理下で実施することを義務付けている。",
       "answer": "○",
-      "explanation": "工法の特殊性と性能照査の重要性から、専門知識を有する技術者による管理が必須事項として明記されました 。"
+      "explanation": "工法の特殊性と性能照査の重要性から、専門知識を有する技術者による管理が必須事項として明記されました 。",
+      "explanation2": "電気化学的防食工法は、電流管理・電位管理・アノード配置など高度な判断が必要なため、専門技術者の管理下で施工することが義務化されています。誤った施工は“過防食”や“防食不足”を招き、逆効果となるため、専門性が不可欠です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-052",
+      "id": "Concrete(salt damage)_A-0052",
+      "display_id": "コンクリート（塩害）_上級-052",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&A",
       "question": "亜硝酸リチウムを用いた補修において、屋外環境などの厳しい条件下で推奨される亜硝酸イオンと塩化物イオンのモル比は",
       "answer": "1.0以上",
-      "explanation": "一般的には0.6以上で効果がありますが、信頼性が求められる屋外環境では1.0以上が設計目標値とされています。"
+      "explanation": "一般的には0.6以上で効果がありますが、信頼性が求められる屋外環境では1.0以上が設計目標値とされています。",
+      "explanation2": "亜硝酸リチウムのモル比は、一般環境では0.6以上で効果がありますが、屋外など厳しい環境では 1.0以上が推奨 されます。これは、雨水・温度変化・湿潤乾燥サイクルにより不動態被膜が破壊されやすいため、より高い化学的安定性が必要だからです。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-053",
+      "id": "Concrete(salt damage)_A-0053",
+      "display_id": "コンクリート（塩害）_上級-053",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "2022年制定の標準示方書では、離岸距離（ ）mおよび（ ）mの表面塩化物イオン濃度の値を補間して設定できるようになった。",
       "answer": "10、20",
-      "explanation": "飛来塩分が特に厳しい沿岸直近の構造物に対し、より現実に即した耐久性照査を可能にするための改訂です 。"
+      "explanation": "飛来塩分が特に厳しい沿岸直近の構造物に対し、より現実に即した耐久性照査を可能にするための改訂です 。",
+      "explanation2": "離岸距離10m・20mの表面塩分濃度を補間できるようになったのは、沿岸直近の飛来塩分が急激に変化する領域を精密に評価するためです。従来の50m刻みでは精度不足で、耐久設計の信頼性向上に直結する改訂です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-054",
+      "id": "Concrete(salt damage)_A-0054",
+      "display_id": "コンクリート（塩害）_上級-054",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "比較",
       "question": "パッチ修復部でマクロセル腐食が発生する場合、塩化物イオンを含まない新材部と含む既設部では、どちらがアノードとなるか",
       "answer": "既設部",
-      "explanation": "塩化物イオン濃度が高い既設側の鉄筋が不動態被膜を破壊され、アノード（腐食側）となります 。"
+      "explanation": "塩化物イオン濃度が高い既設側の鉄筋が不動態被膜を破壊され、アノード（腐食側）となります 。",
+      "explanation2": "パッチ補修部では、新材側がカソード、塩分を含む既設側がアノードとなり、既設部の腐食が加速するマクロセル腐食が発生します。これは境界部再劣化の最大要因で、犠牲陽極併用などの電気化学的対策が不可欠です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-055",
+      "id": "Concrete(salt damage)_A-0055",
+      "display_id": "コンクリート（塩害）_上級-055",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "○×",
       "question": "2022年制定のコンクリート標準示方書において、中性化速度係数の予測値（αp）を算出する式は削除された。",
       "answer": "○",
-      "explanation": "実環境との乖離を考慮し、一律の予測式ではなく実測値や地域性を重視する体系へ移行しました 。"
+      "explanation": "実環境との乖離を考慮し、一律の予測式ではなく実測値や地域性を重視する体系へ移行しました 。",
+      "explanation2": "中性化速度係数の予測式が削除されたのは、全国一律の式では実環境との乖離が大きく、地域性・実測値を重視した照査体系へ移行したためです。2022年改訂の象徴的な変更点です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-056",
+      "id": "Concrete(salt damage)_A-0056",
+      "display_id": "コンクリート（塩害）_上級-056",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "JIS A 1154に基づき塩化物イオンを抽出する際、試料に硝酸を加えてpHを3以下とした後、加熱して（ ）分間煮沸する。",
       "answer": "5",
-      "explanation": "塩化物イオンを十分に、かつ安定して抽出するために5分間の煮沸が規定されています。"
+      "explanation": "塩化物イオンを十分に、かつ安定して抽出するために5分間の煮沸が規定されています。",
+      "explanation2": "JIS A 1154の煮沸時間5分は、固定化塩分を完全に抽出するための最適条件です。短すぎると抽出不足、長すぎると副反応が起こるため、“pH3以下＋5分煮沸”が分析精度の核心となります。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-057",
+      "id": "Concrete(salt damage)_A-0057",
+      "display_id": "コンクリート（塩害）_上級-057",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&A",
       "question": "分極抵抗法において、腐食電流密度（Icorr）がいくらを超えると「著しい（激しい）」腐食速度と判定されるか",
       "answer": "1.0 uA/cm2超",
-      "explanation": "1.0 uA/cm2を超えると急速に断面欠損が進んでいる状態であり、早急な対策が必要です。"
+      "explanation": "1.0 uA/cm2を超えると急速に断面欠損が進んでいる状態であり、早急な対策が必要です。",
+      "explanation2": "I_corrが1.0 μA/cm²超は「著しい腐食速度」で、断面欠損が急速に進行し、構造安全性に重大な影響を与える状態です。補修ではなく“緊急措置レベル”の対応が必要となる危険領域です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-058",
+      "id": "Concrete(salt damage)_A-0058",
+      "display_id": "コンクリート（塩害）_上級-058",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "リストアップ",
       "question": "線状流電陽極方式（犠牲陽極工法）の主な特長を3つ挙げよ。",
       "answer": "外部電源不要、塩分除去不要、維持管理の省力化",
-      "explanation": "鉄筋より卑な電位を持つ亜鉛の腐食電流を利用するため、電源不要でマクロセル腐食を抑制できます。"
+      "explanation": "鉄筋より卑な電位を持つ亜鉛の腐食電流を利用するため、電源不要でマクロセル腐食を抑制できます。",
+      "explanation2": "線状流電陽極方式の特長（外部電源不要・除塩不要・維持管理が容易）は、電気化学的にマクロセル腐食を抑制できる点にあります。小規模〜中規模構造物で特に有効で、長期安定性に優れます。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-059",
+      "id": "Concrete(salt damage)_A-0059",
+      "display_id": "コンクリート（塩害）_上級-059",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "用語",
       "question": "2022年指針において、目標とする防食効果を持続させなければならないと規定した期間を何というか",
       "answer": "設計防食期間",
-      "explanation": "LCCの観点から、補修工法が機能を発揮すべき期間を設計段階で明示する概念です 。"
+      "explanation": "LCCの観点から、補修工法が機能を発揮すべき期間を設計段階で明示する概念です 。",
+      "explanation2": "設計防食期間は、防食工法が 所定の性能を維持し続けるべき期間 を明確化した概念で、2022年指針の中心思想です。LCC評価・補修計画・性能照査の基準となる最重要パラメータです。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-060",
+      "id": "Concrete(salt damage)_A-0060",
+      "display_id": "コンクリート（塩害）_上級-060",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&A",
       "question": "複合劣化において、中性化の進行によりフリーデル氏塩が分解されると、固定されていた塩化物イオンはどうなるか",
       "answer": "再溶解して細孔溶液中の塩化物イオン濃度を上昇させる",
-      "explanation": "pHの低下により塩分が未中性化部へと拡散・濃縮される「追い出し現象」を引き起こします。"
+      "explanation": "pHの低下により塩分が未中性化部へと拡散・濃縮される「追い出し現象」を引き起こします。",
+      "explanation2": "中性化によりフリーデル氏塩が分解すると、固定化されていたCl⁻が再溶解し、未中性化部へ移動・濃縮する“追い出し現象”が発生します。これは複合劣化の核心で、腐食開始を大幅に早める危険な化学プロセスです。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-061",
+      "id": "Concrete(salt damage)_A-0061",
+      "display_id": "コンクリート（塩害）_上級-061",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "○×",
       "question": "2022年制定の示方書では、沿岸直近の構造物の照査精度向上のため離岸距離10mおよび20mの数値を補間できる。",
       "answer": "○",
-      "explanation": "沿岸直近の厳しい飛来塩分環境をより正確に評価するために基準値が追加されました 。"
+      "explanation": "沿岸直近の厳しい飛来塩分環境をより正確に評価するために基準値が追加されました 。",
+      "explanation2": "離岸距離10m・20mの補間は、沿岸直近の飛来塩分が“急激に変化する領域”を正確に評価するための改訂です。従来の50m刻みでは精度不足で、海岸構造物の耐久設計の信頼性を大幅に向上させる重要ポイントです。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-062",
+      "id": "Concrete(salt damage)_A-0062",
+      "display_id": "コンクリート（塩害）_上級-062",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "JIS A 1154の試験において、試料に硝酸を加えて溶液のpHを（ ）以下とした後に加熱煮沸する。",
       "answer": "3",
-      "explanation": "塩化物イオンを安定して抽出するため、強酸性の状態を維持することが規定されています。"
+      "explanation": "塩化物イオンを安定して抽出するため、強酸性の状態を維持することが規定されています。",
+      "explanation2": "JIS A 1154でpHを3以下にするのは、固定化塩分を完全に溶解除去するためです。pHが高いとフリーデル氏塩が分解せず、“固定化塩分が抽出されない＝過小評価”という重大な誤差につながります。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-063",
+      "id": "Concrete(salt damage)_A-0063",
+      "display_id": "コンクリート（塩害）_上級-063",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "用語",
       "question": "2022年指針で、設計時に保持しなければならない劣化度や状態を何というか",
       "answer": "目標とする防食効果",
-      "explanation": "設計防食期間を通じて維持すべき性能指標の基準となります 。"
+      "explanation": "設計防食期間を通じて維持すべき性能指標の基準となります 。",
+      "explanation2": "「目標とする防食効果」は、設計防食期間中に維持すべき性能レベルを示す概念です。2022年指針の性能照査型体系の中心で、補修工法の“合否判定基準”となる極めて重要な指標です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-064",
+      "id": "Concrete(salt damage)_A-0064",
+      "display_id": "コンクリート（塩害）_上級-064",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "リストアップ",
       "question": "複合劣化における「濃縮現象」のプロセスを4つのステップで挙げよ。",
       "answer": "フリーデル氏塩生成、炭酸化、塩化物イオン再溶解、内部への拡散・濃縮",
-      "explanation": "中性化によるpH低下で固定されていた塩分が内部へ移動するプロセスです。"
+      "explanation": "中性化によるpH低下で固定されていた塩分が内部へ移動するプロセスです。",
+      "explanation2": "濃縮現象の4ステップ（生成→炭酸化→再溶解→拡散）は、複合劣化の化学的本質です。特に再溶解後の内部拡散は、未中性化部に塩分が集まり腐食開始を早める危険なプロセスで、潜伏期を大幅に短縮します。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-065",
+      "id": "Concrete(salt damage)_A-0065",
+      "display_id": "コンクリート（塩害）_上級-065",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&A",
       "question": "高炉セメントB種が普通ポルトランドセメントより高いClimを持つ化学的な理由は",
       "answer": "フリーデル氏塩として塩化物イオンを化学的に固定する能力が高いため",
-      "explanation": "物理的な遮断に加え、腐食因子を無害化する化学的固定化能力が寄与しています。"
+      "explanation": "物理的な遮断に加え、腐食因子を無害化する化学的固定化能力が寄与しています。",
+      "explanation2": "高炉セメントB種のC_limが高いのは、フリーデル氏塩として塩分を化学的に固定化する能力が高いためです。物理的緻密化＋化学的固定化の“二重の防御”により、塩害に極めて強い材料となります。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-066",
+      "id": "Concrete(salt damage)_A-0066",
+      "display_id": "コンクリート（塩害）_上級-066",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "比較",
       "question": "Icorrによる判定で、0.5から1.0 uA/cm2は「中〜高程度」だが、1.0 uA/cm2超は何と判定されるか",
       "answer": "著しい（激しい）腐食速度",
-      "explanation": "このレベルの腐食速度は構造耐力への影響が極めて高い状態を指します。"
+      "explanation": "このレベルの腐食速度は構造耐力への影響が極めて高い状態を指します。",
+      "explanation2": "I_corrが0.5〜1.0 μA/cm²は「中〜高程度」、1.0 μA/cm²超は“著しい腐食速度”です。腐食速度の定量評価は補修時期の判断に直結し、上級では最重要の診断スキルとなります。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-067",
+      "id": "Concrete(salt damage)_A-0067",
+      "display_id": "コンクリート（塩害）_上級-067",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "○×",
       "question": "自己充填性を有する高流動コンクリートの材料係数（gc）は、一般の1.3に対し1.1に設定できる。",
       "answer": "○",
-      "explanation": "施工信頼性が高い高流動コンクリートは、耐久性照査において有利な係数が適用されます。"
+      "explanation": "施工信頼性が高い高流動コンクリートは、耐久性照査において有利な係数が適用されます。",
+      "explanation2": "高流動コンクリートのγc＝1.1は、自己充填性により欠陥発生リスクが低い＝耐久性が高いことが科学的に評価された結果です。施工信頼性が高く、塩害・中性化の両面で有利な材料です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-068",
+      "id": "Concrete(salt damage)_A-0068",
+      "display_id": "コンクリート（塩害）_上級-068",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&A",
       "question": "既設橋梁の塗替時に古い塗膜から検出される可能性があり、環境対策が必要な有害物質を2つ挙げよ。",
       "answer": "鉛、クロム",
-      "explanation": "剥離時の飛散防止対策や特別管理産業廃棄物としての適切な処理が義務付けられています 。"
+      "explanation": "剥離時の飛散防止対策や特別管理産業廃棄物としての適切な処理が義務付けられています 。",
+      "explanation2": "既設塗膜の剥離時に問題となる鉛・クロムは、特別管理産業廃棄物に分類されます。飛散防止・作業員保護・適正処理が必須で、環境安全上の最重要ポイントです。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-069",
+      "id": "Concrete(salt damage)_A-0069",
+      "display_id": "コンクリート（塩害）_上級-069",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "亜硝酸リチウムによる補修で、より高い防錆効果が求められる場合のNO2/Clモル比の設計目標値は（ ）以上である。",
       "answer": "1",
-      "explanation": "信頼性を高めるため、一般的な基準（0.6）より高い数値が推奨されています。"
+      "explanation": "信頼性を高めるため、一般的な基準（0.6）より高い数値が推奨されています。",
+      "explanation2": "亜硝酸リチウムのモル比は、厳しい環境では1.0以上が推奨されます。これは、不動態被膜の再形成に必要なNO₂⁻量が環境条件で変動するためで、上級では環境別のモル比設定が必須です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-070",
+      "id": "Concrete(salt damage)_A-0070",
+      "display_id": "コンクリート（塩害）_上級-070",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "用語",
       "question": "防食工法の品質確保のため、施工管理を担当することが義務付けられている専門家を何というか",
       "answer": "専門技術者",
-      "explanation": "工法の特殊性と高度な判断を要するため、専門の知識を持つ技術者の管理が必須です 。"
+      "explanation": "工法の特殊性と高度な判断を要するため、専門の知識を持つ技術者の管理が必須です 。",
+      "explanation2": "防食工法の施工管理を担当する「専門技術者」は、電気化学・材料・施工の高度知識を持つ者で、防食性能の成否を左右するキーパーソンです。2022年指針で配置が義務化されました。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-071",
+      "id": "Concrete(salt damage)_A-0071",
+      "display_id": "コンクリート（塩害）_上級-071",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&A",
       "question": "2022年制定示方書で、温暖な地域等で初期凍害を防止するために必要な圧縮強度の目安はいくらか",
       "answer": "3〜5 N/mm2以上",
-      "explanation": "凍結融解作用がまれな場合でも、初期凍害を避けるための強度目安として明記されました 。"
+      "explanation": "凍結融解作用がまれな場合でも、初期凍害を避けるための強度目安として明記されました 。",
+      "explanation2": "初期凍害を防ぐための3〜5N/mm²という強度目安は、凍結融解がまれな地域でも最低限必要な“耐凍害の基礎強度”です。強度不足のまま凍結すると、表層剥離や空隙拡大が起こり、後の塩害・中性化を一気に加速させます。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-072",
+      "id": "Concrete(salt damage)_A-0072",
+      "display_id": "コンクリート（塩害）_上級-072",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "JIS A 1154に基づく塩化物イオン試験において、粉砕試料の通過ふるい径は原則として（ ）mm以下とする。",
       "answer": "0.15",
-      "explanation": "分析精度を担保するため、試料は150um以下に微粉砕することが規定されています。"
+      "explanation": "分析精度を担保するため、試料は150um以下に微粉砕することが規定されています。",
+      "explanation2": "JIS A 1154で粉砕試料を0.15mm以下にするのは、塩分抽出の再現性を確保するためです。粒径が大きいと抽出効率が低下し、固定化塩分が抽出されず“過小評価”となる重大リスクがあります。分析精度の根幹です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-073",
+      "id": "Concrete(salt damage)_A-0073",
+      "display_id": "コンクリート（塩害）_上級-073",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "○×",
       "question": "2022年指針では、複数の計測結果を統計的に処理することで特性値として照査に用いることができる。",
       "answer": "○",
-      "explanation": "測定値のバラツキを適切に評価するための性能照査体系が確立されました 。"
+      "explanation": "測定値のバラツキを適切に評価するための性能照査体系が確立されました 。",
+      "explanation2": "複数の計測結果を統計処理して特性値とするのは、2022年指針の大きな特徴です。これにより、バラツキを適切に評価し、過度に安全側・危険側に偏らない合理的な耐久照査が可能になりました。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-074",
+      "id": "Concrete(salt damage)_A-0074",
+      "display_id": "コンクリート（塩害）_上級-074",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "比較",
       "question": "普通鉄筋のClimが1.2 kg/m3程度に対し、ステンレス鉄筋（SUS304等）は一般にどの程度の範囲か",
       "answer": "3.0 kg/m3以上",
-      "explanation": "ステンレス鉄筋は不動態被膜が非常に強固なため、普通鋼材の数倍高い塩分耐性を持ちます。"
+      "explanation": "ステンレス鉄筋は不動態被膜が非常に強固なため、普通鋼材の数倍高い塩分耐性を持ちます。",
+      "explanation2": "ステンレス鉄筋（SUS304等）のC_limが3.0kg/m³以上と高いのは、不動態被膜が極めて安定し、塩化物イオンに対する耐性が普通鉄筋の数倍あるためです。海岸構造物の長寿命化における最強クラスの選択肢です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-075",
+      "id": "Concrete(salt damage)_A-0075",
+      "display_id": "コンクリート（塩害）_上級-075",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&A",
       "question": "中性化が進みpHが低下した際、固定されていたフリーデル氏塩はどう変化するか",
       "answer": "分解され、塩化物イオンを再溶解する",
-      "explanation": "固定されていた塩分が自由になり、未中性化部へ移動することで腐食を加速させます。"
+      "explanation": "固定されていた塩分が自由になり、未中性化部へ移動することで腐食を加速させます。",
+      "explanation2": "中性化によりpHが低下するとフリーデル氏塩が分解し、固定化されていたCl⁻が再溶解します。これは複合劣化の核心現象で、未中性化部への塩分移動（濃縮）を引き起こし、腐食開始を大幅に早めます。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-076",
+      "id": "Concrete(salt damage)_A-0076",
+      "display_id": "コンクリート（塩害）_上級-076",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "用語",
       "question": "マクロセル腐食において、塩分を含み電位が卑となった既設部側の鉄筋は何部となるか",
       "answer": "アノード（陽極）部",
-      "explanation": "境界部において、塩分を含む既設側が腐食側（アノード）となります 。"
+      "explanation": "境界部において、塩分を含む既設側が腐食側（アノード）となります 。",
+      "explanation2": "マクロセル腐食では、塩分を含む既設部がアノードとなり腐食が進行します。これはパッチ補修後の境界部再劣化の最大要因で、電気化学的対策（犠牲陽極など）が不可欠です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-077",
+      "id": "Concrete(salt damage)_A-0077",
+      "display_id": "コンクリート（塩害）_上級-077",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "○×",
       "question": "防食工法指針に基づき、発注者は施工や品質管理の記録を構造物の供用期間中保存しなければならない。",
       "answer": "○",
-      "explanation": "性能照査型メンテナンスを継続するために、記録の永続的な保存が義務付けられました 。"
+      "explanation": "性能照査型メンテナンスを継続するために、記録の永続的な保存が義務付けられました 。",
+      "explanation2": "発注者が記録（設計・維持管理計画・施工品質管理）を供用期間中保存する義務は、性能照査型メンテナンスの根幹です。記録がなければ、効果検証・原因究明・次期補修判断が不可能になります。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-078",
+      "id": "Concrete(salt damage)_A-0078",
+      "display_id": "コンクリート（塩害）_上級-078",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "比較",
       "question": "飽和硫酸銅電極（CSE）を用いた自然電位法で、腐食確率が50%以上と判定される電位は",
       "answer": "-350 mV以下",
-      "explanation": "電位が低いほど腐食の確率が高まると判定されます（ASTM C 876基準）。"
+      "explanation": "電位が低いほど腐食の確率が高まると判定されます（ASTM C 876基準）。",
+      "explanation2": "自然電位法で−350mV以下（vs.CSE）は腐食確率50%以上と判定されます。これは国際基準（ASTM C876）に基づく判定で、電位が低いほど腐食の可能性が高まることを示します。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-079",
+      "id": "Concrete(salt damage)_A-0079",
+      "display_id": "コンクリート（塩害）_上級-079",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&A",
       "question": "分極抵抗法において、Icorrが1.0 uA/cm2を超える状態の腐食速度の判定区分は何か",
       "answer": "著しい（激しい）腐食速度",
-      "explanation": "構造耐力への影響が急速に大きくなる危険な状態と判断されます。"
+      "explanation": "構造耐力への影響が急速に大きくなる危険な状態と判断されます。",
+      "explanation2": "I_corrが1.0μA/cm²超は「著しい腐食速度」で、断面欠損が急速に進行し構造安全性に重大な影響を与える状態です。補修ではなく“緊急措置レベル”の対応が必要となる危険領域です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-080",
+      "id": "Concrete(salt damage)_A-0080",
+      "display_id": "コンクリート（塩害）_上級-080",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "線状流電陽極方式（ナカロッド等）を用いた補修システムの期待耐用年数は一般に（ ）年以上である。",
       "answer": "30",
-      "explanation": "犠牲陽極材（亜鉛合金）の寿命に基づき、長期の防食効果が期待できます。"
+      "explanation": "犠牲陽極材（亜鉛合金）の寿命に基づき、長期の防食効果が期待できます。",
+      "explanation2": "線状流電陽極方式（ナカロッド等）の期待耐用年数30年以上は、亜鉛合金の腐食寿命に基づくものです。外部電源不要で長期安定性が高く、維持管理コストを抑えられるため、海岸構造物で特に有効です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-081",
+      "id": "Concrete(salt damage)_A-0081",
+      "display_id": "コンクリート（塩害）_上級-081",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&A",
       "question": "ステンレス鉄筋（SUS410等）のClimの実験値として、既往の研究で報告されている数値はいくらか",
       "answer": "3.7 kg/m3程度",
-      "explanation": "普通鉄筋の基準（1.2）に比べ、約3倍の塩化物イオン濃度下で発錆が確認された事例があります。"
+      "explanation": "普通鉄筋の基準（1.2）に比べ、約3倍の塩化物イオン濃度下で発錆が確認された事例があります。",
+      "explanation2": "ステンレス鉄筋（SUS410等）のC_lim＝3.7kg/m³は、普通鉄筋の約3倍で、不動態被膜の安定性が極めて高いことを示します。塩化物イオンに対する耐性が強く、海岸構造物の長寿命化における“最強クラスの選択肢”です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-082",
+      "id": "Concrete(salt damage)_A-0082",
+      "display_id": "コンクリート（塩害）_上級-082",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&A",
       "question": "春までの凍結融解作用がまれな構造物で、初期凍害を防止するために必要な最小強度の目安は",
       "answer": "3〜5 N/mm2",
-      "explanation": "比較的温暖な地域でも、冬期の施工ではこの強度を確保するまで養生が必要です 。"
+      "explanation": "比較的温暖な地域でも、冬期の施工ではこの強度を確保するまで養生が必要です 。",
+      "explanation2": "初期凍害を防ぐための3〜5N/mm²という強度目安は、凍結融解がまれな地域でも必要な“最低限の耐凍害性能”です。強度不足のまま凍結すると、表層剥離→空隙増加→塩害・中性化の加速という悪循環が起こります。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-083",
+      "id": "Concrete(salt damage)_A-0083",
+      "display_id": "コンクリート（塩害）_上級-083",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "厳しい屋外環境下における亜硝酸リチウムの設計目標モル比（NO2/Cl）は（ ）以上である。",
       "answer": "1",
-      "explanation": "防錆効果を確実に発揮させるための推奨基準値です。"
+      "explanation": "防錆効果を確実に発揮させるための推奨基準値です。",
+      "explanation2": "厳しい屋外環境では、亜硝酸リチウムのモル比NO₂⁻/Cl⁻は1.0以上が推奨されます。これは、湿潤乾燥サイクル・雨水・温度変動により不動態被膜が破壊されやすく、より高い化学的安定性が必要となるためです。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-084",
+      "id": "Concrete(salt damage)_A-0084",
+      "display_id": "コンクリート（塩害）_上級-084",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&A",
       "question": "JIS A 1154において、試料を全通させなければならないふるいの網目はいくらか",
       "answer": "0.15 mm",
-      "explanation": "分析用試料を均質かつ反応しやすくするための規定の細かさです。"
+      "explanation": "分析用試料を均質かつ反応しやすくするための規定の細かさです。",
+      "explanation2": "JIS A 1154で粉砕試料を0.15mm以下にするのは、塩分抽出の再現性を確保するためです。粒径が大きいと固定化塩分が抽出されず、“過小評価→誤診断”という重大リスクにつながるため、分析精度の根幹となる規定です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-085",
+      "id": "Concrete(salt damage)_A-0085",
+      "display_id": "コンクリート（塩害）_上級-085",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "用語",
       "question": "防食工法の設計時に設定される、機能を維持すべき特定の期間を何というか",
       "answer": "設計防食期間",
-      "explanation": "2022年指針の性能照査型体系を象徴する用語です 。"
+      "explanation": "2022年指針の性能照査型体系を象徴する用語です 。",
+      "explanation2": "設計防食期間は、防食工法が所定の性能を維持し続けるべき期間を明確化した概念で、2022年指針の中心思想です。LCC評価・補修計画・性能照査の基準となる最重要パラメータです。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-086",
+      "id": "Concrete(salt damage)_A-0086",
+      "display_id": "コンクリート（塩害）_上級-086",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "○×",
       "question": "中性化によるpHの低下は、フリーデル氏塩を安定化させ塩化物イオンを固定しやすくする。",
       "answer": "×",
-      "explanation": "pH低下によりフリーデル氏塩は分解され、塩分を放出（再溶解）させます。"
+      "explanation": "pH低下によりフリーデル氏塩は分解され、塩分を放出（再溶解）させます。",
+      "explanation2": "中性化によるpH低下はフリーデル氏塩を分解し、固定化されていたCl⁻を再溶解させます。これは複合劣化の核心現象で、未中性化部への塩分移動（濃縮）を引き起こし、腐食開始を大幅に早めます。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-087",
+      "id": "Concrete(salt damage)_A-0087",
+      "display_id": "コンクリート（塩害）_上級-087",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "比較",
       "question": "腐食電流密度が0.2 uA/cm2未満の状態は「極めて遅い」だが、1.0 uA/cm2超は何というか",
       "answer": "著しい腐食速度",
-      "explanation": "構造安全性に重大な影響を及ぼす速度区分です。"
+      "explanation": "構造安全性に重大な影響を及ぼす速度区分です。",
+      "explanation2": "I_corrが1.0μA/cm²超は「著しい腐食速度」で、断面欠損が急速に進行し構造安全性に重大な影響を与える状態です。補修ではなく“緊急措置レベル”の対応が必要となる危険領域です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-088",
+      "id": "Concrete(salt damage)_A-0088",
+      "display_id": "コンクリート（塩害）_上級-088",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "2022年示方書で追加された表面塩分濃度の補間距離は、離岸（ ）mおよび（ ）mである。",
       "answer": "10、20",
-      "explanation": "沿岸直近部の厳しい環境をきめ細かく評価するための改訂点です 。"
+      "explanation": "沿岸直近部の厳しい環境をきめ細かく評価するための改訂点です 。",
+      "explanation2": "離岸距離10m・20mの補間は、沿岸直近の飛来塩分が急激に変化する領域を正確に評価するための改訂です。海岸構造物の耐久設計の信頼性を大幅に向上させる重要ポイントです。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-089",
+      "id": "Concrete(salt damage)_A-0089",
+      "display_id": "コンクリート（塩害）_上級-089",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "用語",
       "question": "電気化学的防食指針において、施工管理責任者として配置されるべき高い知識をもつ者を何というか",
       "answer": "専門技術者",
-      "explanation": "性能を担保するために指針で明記された役割です 。"
+      "explanation": "性能を担保するために指針で明記された役割です 。",
+      "explanation2": "電気化学的防食指針で定義される「専門技術者」は、防食工法の設計・施工・維持管理を統括する高度専門職です。電位管理・電流分布・アノード配置など高度判断が必要な工法の品質を左右する存在です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-090",
+      "id": "Concrete(salt damage)_A-0090",
+      "display_id": "コンクリート（塩害）_上級-090",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&A",
       "question": "鉛やクロムを含む塗膜屑を処分する場合の廃棄物区分は何か",
       "answer": "特別管理産業廃棄物",
-      "explanation": "有害特性を有するため、厳格な処置が義務付けられています 。"
+      "explanation": "有害特性を有するため、厳格な処置が義務付けられています 。",
+      "explanation2": "鉛・クロムを含む塗膜屑は「特別管理産業廃棄物」に分類されます。飛散防止・作業員保護・適正処理が必須で、環境安全上の最重要ポイントです。橋梁塗替えなどで特に注意が必要です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-091",
+      "id": "Concrete(salt damage)_A-0091",
+      "display_id": "コンクリート（塩害）_上級-091",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&A",
       "question": "中性化と塩害の複合劣化で、未中性化部へと塩分が移動・濃縮する化学的背景を説明せよ。",
       "answer": "中性化によりアルカリ性を失いフリーデル氏塩が分解され、塩分が移動するため",
-      "explanation": "固定化能力の喪失が濃縮の直接原因です。"
+      "explanation": "固定化能力の喪失が濃縮の直接原因です。",
+      "explanation2": "中性化によりpHが低下するとフリーデル氏塩が分解し、固定化されていたCl⁻が再溶解します。これが “追い出し現象（濃縮現象）”の化学的核心 で、未中性化部に塩分が移動・蓄積し、腐食開始を大幅に早めます。複合劣化の最重要メカニズムです。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-092",
+      "id": "Concrete(salt damage)_A-0092",
+      "display_id": "コンクリート（塩害）_上級-092",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "JIS A 1154の塩化物イオン抽出操作において、溶液を加熱して煮沸する時間は（ ）分間である。",
       "answer": "5",
-      "explanation": "試験の標準化のため、煮沸時間が厳格に定められています。"
+      "explanation": "試験の標準化のため、煮沸時間が厳格に定められています。",
+      "explanation2": "JIS A 1154の煮沸時間5分は、固定化塩分を完全に抽出するための最適条件です。短すぎると抽出不足、長すぎると副反応が起こるため、“pH3以下＋5分煮沸”が分析精度の核心となります。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-093",
+      "id": "Concrete(salt damage)_A-0093",
+      "display_id": "コンクリート（塩害）_上級-093",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "○×",
       "question": "2022年防食指針において、個別の測定値のバラツキを統計処理して特性値とすることが認められた。",
       "answer": "○",
-      "explanation": "現場の実態に即した精緻な性能照査を可能にするための改訂です 。"
+      "explanation": "現場の実態に即した精緻な性能照査を可能にするための改訂です 。",
+      "explanation2": "2022年防食指針で統計処理が認められたのは、実測値のバラツキを適切に評価し、過度に安全側・危険側に偏らない合理的な特性値を設定するためです。性能照査型メンテナンスの象徴的改訂です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-094",
+      "id": "Concrete(salt damage)_A-0094",
+      "display_id": "コンクリート（塩害）_上級-094",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "Q&A",
       "question": "線状流電陽極ユニットを用いたシステムの期待耐用年数は",
       "answer": "30年以上",
-      "explanation": "維持管理コストを抑えつつ長期防食を実現する工法です。"
+      "explanation": "維持管理コストを抑えつつ長期防食を実現する工法です。",
+      "explanation2": "線状流電陽極ユニットの期待耐用年数30年以上は、亜鉛合金の腐食寿命に基づくものです。外部電源不要で長期安定性が高く、維持管理コストを抑えつつ長寿命化を実現できる優れた工法です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-095",
+      "id": "Concrete(salt damage)_A-0095",
+      "display_id": "コンクリート（塩害）_上級-095",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "穴埋め",
       "question": "高い防錆性能を求める場合の亜硝酸イオンと塩化物イオンの推奨モル比は（ ）以上である。",
       "answer": "1",
-      "explanation": "補修後の再劣化を防ぐための高度な設計水準です。"
+      "explanation": "補修後の再劣化を防ぐための高度な設計水準です。",
+      "explanation2": "厳しい環境での亜硝酸リチウムのモル比1.0以上は、不動態被膜の再形成に必要なNO₂⁻量を確保するためです。環境条件に応じてモル比を調整する“設計判断力”が上級レベルの必須スキルです。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-096",
+      "id": "Concrete(salt damage)_A-0096",
+      "display_id": "コンクリート（塩害）_上級-096",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "用語",
       "question": "鋼材腐食が深刻化し、外観変状や錆汁が見られ耐力低下が懸念される劣化過程の名称は",
       "answer": "加速期後期",
-      "explanation": "早急な対策が必要な最末期の段階を指します。"
+      "explanation": "早急な対策が必要な最末期の段階を指します。",
+      "explanation2": "加速期後期は、腐食が構造性能に深刻な影響を与える最終段階で、鉄筋断面欠損・剥落・広範囲のひび割れが顕在化します。補修ではなく“補強・更新レベル”の対応が必要となる危険領域です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-097",
+      "id": "Concrete(salt damage)_A-0097",
+      "display_id": "コンクリート（塩害）_上級-097",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "比較",
       "question": "2022年示方書のC0算出において、離岸距離何mの値を補間できるようになったか",
       "answer": "10m、20m",
-      "explanation": "セクション6-053の再確認です。重要改訂ポイントです 。"
+      "explanation": "セクション6-053の再確認です。重要改訂ポイントです 。",
+      "explanation2": "離岸距離10m・20mの補間は、沿岸直近の飛来塩分が急激に変化する領域を正確に評価するための改訂です。海岸構造物の耐久設計の信頼性を大幅に向上させる重要ポイントです。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-098",
+      "id": "Concrete(salt damage)_A-0098",
+      "display_id": "コンクリート（塩害）_上級-098",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "リストアップ",
       "question": "2022年防食指針で、発注者が保存を義務付けられている記録を3つ挙げよ。",
       "answer": "設計、維持管理計画、施工品質管理",
-      "explanation": "将来の補修判断や原因究明のために供用期間中保存します 。"
+      "explanation": "将来の補修判断や原因究明のために供用期間中保存します 。",
+      "explanation2": "発注者が保存すべき記録（設計・維持管理計画・施工品質管理）は、性能照査型メンテナンスの根幹です。記録がなければ、効果検証・原因究明・次期補修判断が不可能となるため、供用期間中の保存が義務化されています。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-099",
+      "id": "Concrete(salt damage)_A-0099",
+      "display_id": "コンクリート（塩害）_上級-099",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "比較",
       "question": "腐食電流密度が1.0 uA/cm2を超える場合の判定名称は何か",
       "answer": "著しい（激しい）腐食速度",
-      "explanation": "定量的評価における最上位の劣化速度判定です。"
+      "explanation": "定量的評価における最上位の劣化速度判定です。",
+      "explanation2": "I_corrが1.0μA/cm²超は「著しい腐食速度」で、断面欠損が急速に進行し構造安全性に重大な影響を与える状態です。緊急措置レベルの対応が必要となる危険領域です。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     },
     {
-      "id": "コンクリート（塩害）_上級-100",
+      "id": "Concrete(salt damage)_A-0100",
+      "display_id": "コンクリート（塩害）_上級-100",
       "category": "コンクリート（塩害）",
       "grade": "上級",
+      "question_type": "用語",
       "question": "防食工法の施工を管理する高い知識をもつ者を指す指針上の呼称は",
       "answer": "専門技術者",
-      "explanation": "技術的な信頼性を保証するキーパーソンです 。"
+      "explanation": "技術的な信頼性を保証するキーパーソンです 。",
+      "explanation2": "防食工法の施工管理を行う「専門技術者」は、電気化学・材料・施工の高度知識を持つ者で、防食性能の成否を左右するキーパーソンです。2022年指針で配置が義務化され、品質確保の中心的役割を担います。",
+      "importance": 1,
+      "main_id_category": "コンクリート(塩害)",
+      "sub_id_category": "コンクリート",
+      "past_exam_info": "",
+      "tags": [
+        "躯体",
+        "コンクリート",
+        "劣化",
+        "不具合",
+        "塩害"
+      ],
+      "remarks": ""
     }
   ]
 }
