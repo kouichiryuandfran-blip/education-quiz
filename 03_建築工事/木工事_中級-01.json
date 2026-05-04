@@ -1,0 +1,806 @@
+{
+  "title": "木工事_中級-01",
+  "count": 100,
+  "questions": [
+    {
+      "id": "木工事_中級-001",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "ラミナを繊維方向を並行にして集成接着した材料は",
+      "answer": "構造用集成材",
+      "explanation": "JAS規格に基づく強度担保材料。"
+    },
+    {
+      "id": "木工事_中級-002",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "構造用集成材の含水率は特記がなければ15％以下。",
+      "answer": "○",
+      "explanation": "営繕仕様12.2.2。寸法安定性確保のため。"
+    },
+    {
+      "id": "木工事_中級-003",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "燃えしろ設計で計算から差し引く断面寸法は",
+      "answer": "燃えしろ寸法",
+      "explanation": "炭化速度を考慮し残存断面で計算。"
+    },
+    {
+      "id": "木工事_中級-004",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "柱の建入れ管理許容差（10m未満）はpm何mm",
+      "answer": "pm 3mm",
+      "explanation": "施工目標値。限界許容差はpm 5mm。"
+    },
+    {
+      "id": "木工事_中級-005",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "CLTパネル用のシーリング材はJIS A 5758適合品とする。",
+      "answer": "○",
+      "explanation": "接合部の気密・防水性確保のため。"
+    },
+    {
+      "id": "木工事_中級-006",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "先孔に鋼製ピンを打ち込み緊結する接合方法は",
+      "answer": "ドリフトピン接合",
+      "explanation": "剛性が高く大規模木造で多用。"
+    },
+    {
+      "id": "木工事_中級-007",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "防腐剤塗布の2回目は1回目を（　）させてから行う。",
+      "answer": "十分に乾燥",
+      "explanation": "営繕仕様。薬剤定着のため。"
+    },
+    {
+      "id": "木工事_中級-008",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "集成材等の現場保管時の留意点は",
+      "answer": "通風を確保し結露を防ぐ。",
+      "explanation": "密閉によるカビや変形を防止。"
+    },
+    {
+      "id": "木工事_中級-009",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "F☆☆☆☆以外の材料は使用面積制限を受ける。",
+      "answer": "○",
+      "explanation": "建築基準法シックハウス対策。"
+    },
+    {
+      "id": "木工事_中級-010",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "防火処理の標準は現場塗装か工場注入材か",
+      "answer": "工場での薬剤注入",
+      "explanation": "品質安定性の高い認定材が標準。"
+    },
+    {
+      "id": "木工事_中級-011",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "CLT保管時にシート密閉を避ける理由は",
+      "answer": "結露やカビを防止するため。",
+      "explanation": "木材の呼吸による湿気を逃がす。"
+    },
+    {
+      "id": "木工事_中級-012",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "営繕仕様で構造用集成材の含水率は15％以下。",
+      "answer": "○",
+      "explanation": "製材（20％）より厳格。"
+    },
+    {
+      "id": "木工事_中級-013",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "通常の腐朽条件下で高度な耐久性の区分は",
+      "answer": "Ｋ3",
+      "explanation": "土台・柱等に適用される標準。"
+    },
+    {
+      "id": "木工事_中級-014",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "ドリフトピンの先孔径はピン径と（　）させる。",
+      "answer": "一致",
+      "explanation": "初期変形（ガタ）を防止。"
+    },
+    {
+      "id": "木工事_中級-015",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "炭化しても有効断面が耐力を支える設計手法は",
+      "answer": "燃えしろ設計",
+      "explanation": "防火被覆なしでの現しを可能にする。"
+    },
+    {
+      "id": "木工事_中級-016",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "単板をすべて平行に積層接着した軸材料は",
+      "answer": "ＬＶＬ",
+      "explanation": "特定方向の強度を高めた材料。"
+    },
+    {
+      "id": "木工事_中級-017",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "CLTパネルのシーリング材はJIS規格品とする。",
+      "answer": "○",
+      "explanation": "気密・水密性の担保。"
+    },
+    {
+      "id": "木工事_中級-018",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "防腐剤の塗布回数は、特記がなければ計（　）回。",
+      "answer": "2",
+      "explanation": "乾燥を挟んで2回処理。"
+    },
+    {
+      "id": "木工事_中級-019",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "構造用合板の釘径は板厚の1/6以下。",
+      "answer": "○",
+      "explanation": "材料の割れを防止。"
+    },
+    {
+      "id": "木工事_中級-020",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "10m超の足場を60日以上置く場合の届出期限は",
+      "answer": "30日前",
+      "explanation": "労基署長への設置届。"
+    },
+    {
+      "id": "木工事_中級-021",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "高度な耐久性を期待する保存処理区分は",
+      "answer": "Ｋ3",
+      "explanation": "営繕仕様12.2.4。"
+    },
+    {
+      "id": "木工事_中級-022",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "柱建入れの管理許容差（10m未満）は（　）mm。",
+      "answer": "pm 3",
+      "explanation": "精度管理の目標値。"
+    },
+    {
+      "id": "木工事_中級-023",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "せっこうボード壁の周辺部ねじ間隔は（　）mm。",
+      "answer": "200",
+      "explanation": "営繕仕様19.7.2。"
+    },
+    {
+      "id": "木工事_中級-024",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "10m超の足場の届出先は",
+      "answer": "労働基準監督署長",
+      "explanation": "30日前までの届出。"
+    },
+    {
+      "id": "木工事_中級-025",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "ドリフトピンの先孔径はピン径とどうすべきか",
+      "answer": "一致させる",
+      "explanation": "変形防止のため。"
+    },
+    {
+      "id": "木工事_中級-026",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "木材の標準的な炭化速度（分あたり）は",
+      "answer": "0.6mm～0.8mm程度",
+      "explanation": "設計計算の基礎数値。"
+    },
+    {
+      "id": "木工事_中級-027",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "CLT受注者は工場の品質管理記録を提出する。",
+      "answer": "○",
+      "explanation": "営繕仕様。工場側からの品質保証。"
+    },
+    {
+      "id": "木工事_中級-028",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "木材繊維方向の許容応力、引張と圧縮どっちが大",
+      "answer": "圧縮",
+      "explanation": "曲げ＞圧縮＞引張＞せん断の順。"
+    },
+    {
+      "id": "木工事_中級-029",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "F☆☆☆☆材は居室面積制限を受けない。",
+      "answer": "○",
+      "explanation": "最高等級の安全性。"
+    },
+    {
+      "id": "木工事_中級-030",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "集成材保管時にシート端部を開放する理由は",
+      "answer": "通風確保と結露防止。",
+      "explanation": "品質劣化を防ぐ。"
+    },
+    {
+      "id": "木工事_中級-031",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "2019年改正法で75分・90分準耐火が追加された。",
+      "answer": "○",
+      "explanation": "都市部の大規模木造促進のため。"
+    },
+    {
+      "id": "木工事_中級-032",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "CLT耐力壁の最小長さは（　）cm。",
+      "answer": "90",
+      "explanation": "告示第611号。"
+    },
+    {
+      "id": "木工事_中級-033",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "天井吊りボルトの周辺部端部離れは（　）mm内。",
+      "answer": "150",
+      "explanation": "端部のたわみ防止。"
+    },
+    {
+      "id": "木工事_中級-034",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "天井ボード周辺部のねじ間隔、壁より広いか狭いか",
+      "answer": "狭い（150mm程度）",
+      "explanation": "脱落リスクを考慮。"
+    },
+    {
+      "id": "木工事_中級-035",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "CLT（フェノール樹脂系）壁の燃えしろ深さは",
+      "answer": "4.5cm",
+      "explanation": "告示第195号。"
+    },
+    {
+      "id": "木工事_中級-036",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "CLT受注者は加工工場の資料を出し承諾を得る。",
+      "answer": "○",
+      "explanation": "営繕仕様。源流管理。"
+    },
+    {
+      "id": "木工事_中級-037",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "ラグスクリュー木口打ちの耐力は側面打ちの何倍",
+      "answer": "46056",
+      "explanation": "保持力低下の低減係数。"
+    },
+    {
+      "id": "木工事_中級-038",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "営繕仕様の造作用製材の含水率は",
+      "answer": "10％以下",
+      "explanation": "施工後の変形抑制。"
+    },
+    {
+      "id": "木工事_中級-039",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "CLT接合金物の施工許容差は（　）mm以下。",
+      "answer": "1.5",
+      "explanation": "高精度な応力伝達のため。"
+    },
+    {
+      "id": "木工事_中級-040",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "CLTパネル接合部のシーリング材はJIS規格品。",
+      "answer": "○",
+      "explanation": "防水性能の担保。"
+    },
+    {
+      "id": "木工事_中級-041",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "地面から1m以内の主要部には防腐防蟻措置が必要。",
+      "answer": "○",
+      "explanation": "建築基準法施行令第49条。"
+    },
+    {
+      "id": "木工事_中級-042",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "天井吊りボルト周辺部は端から（　）mm以内。",
+      "answer": "150",
+      "explanation": "営繕仕様14.4.3。"
+    },
+    {
+      "id": "木工事_中級-043",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "足場設置届の提出期限は",
+      "answer": "30日前",
+      "explanation": "労安法第88条。"
+    },
+    {
+      "id": "木工事_中級-044",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "営繕仕様集成材の含水率は15％、20％どっち",
+      "answer": "0.15",
+      "explanation": "製材（20％）より厳しい。"
+    },
+    {
+      "id": "木工事_中級-045",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "繊維方向を直交積層した大判木質パネルは",
+      "answer": "CLT（直交集成板）",
+      "explanation": "中大規模木造の主要部材。"
+    },
+    {
+      "id": "木工事_中級-046",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "ドリフトピン先孔径はピン径と一致させる。",
+      "answer": "○",
+      "explanation": "ガタつき防止。"
+    },
+    {
+      "id": "木工事_中級-047",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "75分準耐火CLT（フェノール系）の燃えしろは",
+      "answer": "4.5cm",
+      "explanation": "告示第195号数値。"
+    },
+    {
+      "id": "木工事_中級-048",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "通常の腐朽環境下での保存処理区分は",
+      "answer": "Ｋ3",
+      "explanation": "標準的な土台・柱の仕様。"
+    },
+    {
+      "id": "木工事_中級-049",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "天井ねじ間隔は壁より密か粗か",
+      "answer": "密（天井200、壁300mm）",
+      "explanation": "脱落防止のため。"
+    },
+    {
+      "id": "木工事_中級-050",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "加工工場の資料提出・承諾の目的は",
+      "answer": "源流管理のため。",
+      "explanation": "品質を工場段階から保証。"
+    },
+    {
+      "id": "木工事_中級-051",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "足場設置届の提出先と期限は",
+      "answer": "労基署長へ30日前。",
+      "explanation": "工程管理の必須業務。"
+    },
+    {
+      "id": "木工事_中級-052",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "天井ボード周辺部ねじ間隔は壁より狭いか",
+      "answer": "狭い（150mm程度）",
+      "explanation": "自重対策。"
+    },
+    {
+      "id": "木工事_中級-053",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "CLT金物施工誤差は（　）mm以下。",
+      "answer": "1.5",
+      "explanation": "応力伝達の精度確保。"
+    },
+    {
+      "id": "木工事_中級-054",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "75分準耐火CLT壁の燃えしろは（　）cm。",
+      "answer": "4.5",
+      "explanation": "フェノール系・ラミナ12mm以上。"
+    },
+    {
+      "id": "木工事_中級-055",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "高度耐久性にはＫ2とＫ3どちらを適用",
+      "answer": "Ｋ3",
+      "explanation": "通常腐朽環境下。"
+    },
+    {
+      "id": "木工事_中級-056",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "構造材・下張材の含水率は20％以下。",
+      "answer": "○",
+      "explanation": "営繕仕様12.2.1。"
+    },
+    {
+      "id": "木工事_中級-057",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "CLT耐力壁の最小長さは（　）cm。",
+      "answer": "90",
+      "explanation": "構造性能の安定。"
+    },
+    {
+      "id": "木工事_中級-058",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "天井吊りボルト周辺部は端から（　）mm。",
+      "answer": "150",
+      "explanation": "不陸防止。"
+    },
+    {
+      "id": "木工事_中級-059",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "構造用集成材の含水率基準は15％、20％",
+      "answer": "0.15",
+      "explanation": "寸法安定性向上のため。"
+    },
+    {
+      "id": "木工事_中級-060",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "CLT受注者は工場の能力資料を提出し承諾を得る。",
+      "answer": "○",
+      "explanation": "品質マネジメント。"
+    },
+    {
+      "id": "木工事_中級-061",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "CLT垂壁・腰壁の最小高さは（　）cm。",
+      "answer": "50",
+      "explanation": "構造上有効とする条件。"
+    },
+    {
+      "id": "木工事_中級-062",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "CLTボルト間隔ずれ許容差は（　）mm。",
+      "answer": "1.5",
+      "explanation": "設計耐力の確保。"
+    },
+    {
+      "id": "木工事_中級-063",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "燃えしろ設計における柱・はりの燃えしろ深さは",
+      "answer": "7.5cm",
+      "explanation": "多方向加熱を考慮。"
+    },
+    {
+      "id": "木工事_中級-064",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "天井吊りボルト周辺部は端から（　）mm。",
+      "answer": "150",
+      "explanation": "再掲・重要数値。"
+    },
+    {
+      "id": "木工事_中級-065",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "加工工場の承諾を得る必要がある。",
+      "answer": "○",
+      "explanation": "再掲・品質管理体制の確認。"
+    },
+    {
+      "id": "木工事_中級-066",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "営繕仕様造作用製材の含水率は",
+      "answer": "10％以下",
+      "explanation": "内装の隙間防止。"
+    },
+    {
+      "id": "木工事_中級-067",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "CLT接合部シーリングはJIS適合品。",
+      "answer": "○",
+      "explanation": "水密性確保。"
+    },
+    {
+      "id": "木工事_中級-068",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "高耐久性期待の保存処理区分は",
+      "answer": "Ｋ3",
+      "explanation": "防腐・防蟻の標準。"
+    },
+    {
+      "id": "木工事_中級-069",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "足場設置届は設置期間（　）日以上で必要。",
+      "answer": "60",
+      "explanation": "かつ高さ10m以上。"
+    },
+    {
+      "id": "木工事_中級-070",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "天井ねじ中間部間隔は壁より密か",
+      "answer": "密（天井200、壁300mm）",
+      "explanation": "脱落防止。"
+    },
+    {
+      "id": "木工事_中級-071",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "CLT耐力壁最小長さは（　）cm。",
+      "answer": "90",
+      "explanation": "再掲・告示第611号。"
+    },
+    {
+      "id": "木工事_中級-072",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "柱・はりの燃えしろ深さは",
+      "answer": "7.5cm",
+      "explanation": "告示第195号。"
+    },
+    {
+      "id": "木工事_中級-073",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "10m超の足場の届出期限は",
+      "answer": "30日前",
+      "explanation": "管理実務。"
+    },
+    {
+      "id": "木工事_中級-074",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "天井吊りボルト周辺部は端から（　）mm。",
+      "answer": "150",
+      "explanation": "営繕仕様標準。"
+    },
+    {
+      "id": "木工事_中級-075",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "リサイクル法義務の解体床面積は何m2以上",
+      "answer": "80m2以上",
+      "explanation": "特定建設資材対象。"
+    },
+    {
+      "id": "木工事_中級-076",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "造作用製材の含水率は",
+      "answer": "10％以下",
+      "explanation": "仕上げ品質の安定。"
+    },
+    {
+      "id": "木工事_中級-077",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "CLT接合金物施工誤差は（　）mm以下。",
+      "answer": "1.5",
+      "explanation": "強度低下防止。"
+    },
+    {
+      "id": "木工事_中級-078",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "75分準耐火壁は強化ボード2枚張り仕様がある。",
+      "answer": "○",
+      "explanation": "大臣認定仕様等。"
+    },
+    {
+      "id": "木工事_中級-079",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "天井ボード周辺部ねじ間隔は",
+      "answer": "150mm程度",
+      "explanation": "壁より密。"
+    },
+    {
+      "id": "木工事_中級-080",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "CLT垂壁・腰壁最小高さは（　）cm。",
+      "answer": "50",
+      "explanation": "有効断面条件。"
+    },
+    {
+      "id": "木工事_中級-081",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "耐熱性が低い接着剤の柱燃えしろ深さは",
+      "answer": "9cm",
+      "explanation": "接着剤の種類による区分。"
+    },
+    {
+      "id": "木工事_中級-082",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "分別解体義務の解体面積は何m2以上",
+      "answer": "80m2以上",
+      "explanation": "リサイクル法。"
+    },
+    {
+      "id": "木工事_中級-083",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "特殊車両申請が必要なパネル幅は",
+      "answer": "2.5m超",
+      "explanation": "運搬管理のポイント。"
+    },
+    {
+      "id": "木工事_中級-084",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "準耐火建築物は延焼部開口に防火設備が必要。",
+      "answer": "○",
+      "explanation": "建築基準法第2条。"
+    },
+    {
+      "id": "木工事_中級-085",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "天井吊りボルトの標準ねじ呼びは",
+      "answer": "W3/8",
+      "explanation": "営繕仕様14.4.2。"
+    },
+    {
+      "id": "木工事_中級-086",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "10m超足場の届出期限は",
+      "answer": "30日前",
+      "explanation": "現場管理の基本。"
+    },
+    {
+      "id": "木工事_中級-087",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "CLT接合金物施工誤差は（　）mm以下。",
+      "answer": "1.5",
+      "explanation": "全数精度の確保。"
+    },
+    {
+      "id": "木工事_中級-088",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "防腐剤2回目は1回目が濡れた状態で塗る。",
+      "answer": "×",
+      "explanation": "乾燥させてから塗布。"
+    },
+    {
+      "id": "木工事_中級-089",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "75分準耐火壁の強化ボード厚さは",
+      "answer": "15mm以上",
+      "explanation": "2枚張りが標準的。"
+    },
+    {
+      "id": "木工事_中級-090",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "天井ボードの長手は野縁に対し平行か直角か",
+      "answer": "直角",
+      "explanation": "たわみ抑制のため。"
+    },
+    {
+      "id": "木工事_中級-091",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "CLTの穴あけは原則工場で行う。",
+      "answer": "○",
+      "explanation": "高精度プレカット。"
+    },
+    {
+      "id": "木工事_中級-092",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "燃えしろ設計CLT壁床の深さは（　）cm。",
+      "answer": "4.5",
+      "explanation": "フェノール系等。"
+    },
+    {
+      "id": "木工事_中級-093",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "75分準耐火壁ボードは何枚張りが標準",
+      "answer": "2枚張り",
+      "explanation": "認定仕様の基本。"
+    },
+    {
+      "id": "木工事_中級-094",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "解体リサイクル義務面積は何m2以上",
+      "answer": "80m2以上",
+      "explanation": "分別解体の基準。"
+    },
+    {
+      "id": "木工事_中級-095",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "CLT金物施工誤差は（　）mm。",
+      "answer": "1.5",
+      "explanation": "構造耐力の維持。"
+    },
+    {
+      "id": "木工事_中級-096",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "天井ボルト周辺部端部離れは何mm以内",
+      "answer": "150mm以内",
+      "explanation": "営繕仕様14.4.3。"
+    },
+    {
+      "id": "木工事_中級-097",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "特車両申請が必要なパネル幅は",
+      "answer": "2.5m超",
+      "explanation": "道路交通法制限。"
+    },
+    {
+      "id": "木工事_中級-098",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "防腐剤塗布2回目は乾燥させてから。",
+      "answer": "○",
+      "explanation": "薬剤付着の確実性。"
+    },
+    {
+      "id": "木工事_中級-099",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "CLT耐力壁最小長さは（　）cm。",
+      "answer": "90",
+      "explanation": "再掲・告示第611号。"
+    },
+    {
+      "id": "木工事_中級-100",
+      "category": "木工事",
+      "grade": "中級",
+      "question": "構造用集成材の含水率標準値は",
+      "answer": "15％以下",
+      "explanation": "営繕仕様12.2.2。"
+    }
+  ]
+}
