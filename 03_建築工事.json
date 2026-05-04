@@ -157,11 +157,11 @@
       "relative_path": "03_建築工事/外構排水工事_初級-01.json"
     },
     {
-      "file_name": "建具工事_中級.json",
-      "file_stem": "建具工事_中級",
-      "title": "建具工事_中級",
+      "file_name": "建具工事_中級-01.json",
+      "file_stem": "建具工事_中級-01",
+      "title": "建具工事_中級-01",
       "question_count": 100,
-      "relative_path": "03_建築工事/建具工事_中級.json"
+      "relative_path": "03_建築工事/建具工事_中級-01.json"
     },
     {
       "file_name": "建具工事_初級-01.json",
