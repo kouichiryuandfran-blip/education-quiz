@@ -3,804 +3,2001 @@
   "count": 100,
   "questions": [
     {
-      "id": "地盤工学_中級-001",
+      "id": "Geotechnical E_I-0001",
+      "display_id": "地盤工学_中級-001",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "粘性土の「塑性指数 (I_P)」の算出式と、この値が大きい土の性質を答えよ。",
       "answer": "I_P = w_L - w_P。値が大きいほど粘性が強く、塑性的な性質が強い。",
-      "explanation": "液性限界 w_L と塑性限界 w_P の差。細粒分が多い土ほど大きくなる傾向がある。"
+      "explanation": "液性限界 w_L と塑性限界 w_P の差。細粒分が多い土ほど大きくなる傾向がある。",
+      "explanation2": "塑性指数が大きい土は細粒分が多く、水分変化により体積変化が大きいことから、施工時には水分管理が重要です。特に掘削や盛土の際に土の流動化や亀裂発生を防ぐため、湿潤状態の把握と適切な透水・排水対策が必要となります。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-002(1建施-R05-18)",
+      "id": "Geotechnical E_I-0002",
+      "display_id": "地盤工学_中級-002(1建施-R05-18)",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "標準貫入試験において、質量 63.5 pm 0.5 , mathrmkg のハンマーを 76 pm 1 , mathrmcm 自由落下させる。",
       "answer": "○",
-      "explanation": "JIS A 1219および公共建築工事標準仕様書による規定。"
+      "explanation": "JIS A 1219および公共建築工事標準仕様書による規定。",
+      "explanation2": "標準貫入試験はハンマーの質量や落下高さが規格で定められているため、正確な地盤診断には重機の調整と試験手順の厳守が不可欠です。過剰なエネルギー投入は試験結果を不正確にし、地盤評価を誤らせる可能性があります。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-003",
+      "id": "Geotechnical E_I-0003",
+      "display_id": "地盤工学_中級-003",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "用語",
       "question": "砂質地盤の掘削において、水位差により底面から砂が水とともに湧き上がる現象を何というか",
       "answer": "ボイリング",
-      "explanation": "砂質土で発生。対策として土留め壁の根入れ深化や地下水位低下を行う。"
+      "explanation": "砂質土で発生。対策として土留め壁の根入れ深化や地下水位低下を行う。",
+      "explanation2": "ボイリング現象は地下水圧が地盤の有効応力を低減するため発生し、施工中の安定性を大きく損ないます。事前の地下水位低下や基礎の根入れ深度拡大により、有効応力を維持し不安定化を防ぐことが重要です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-004",
+      "id": "Geotechnical E_I-0004",
+      "display_id": "地盤工学_中級-004",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "安衛則に基づき、砂からなる地山を手掘りで掘削する場合の勾配と高さの制限は",
       "answer": "勾配 35 度以下、高さ 5 m 未満",
-      "explanation": "覚え方は「サンド（3）へGOGO（5）」。崩壊しやすい地盤のための基準。"
+      "explanation": "覚え方は「サンド（3）へGOGO（5）」。崩壊しやすい地盤のための基準。",
+      "explanation2": "砂質地山の掘削では崩壊防止のため、勾配設定と高さ制限を守ることが必須です。さらに、現場では土質状況や降雨による土壌水分変動を監視し、変化に応じた仮設支保工等の追加措置を検討することが安全確保のポイントです。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-005",
+      "id": "Geotechnical E_I-0005",
+      "display_id": "地盤工学_中級-005",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "締固め試験（JIS A 1210）の最大乾燥密度を基準とする場合、締固め度は 95% 以上を確保する。",
       "answer": "○",
-      "explanation": "公共建築工事標準仕様書による盛土・路床の品質管理基準。"
+      "explanation": "公共建築工事標準仕様書による盛土・路床の品質管理基準。",
+      "explanation2": "締固め度95%以上を確保することで安定した地盤支持力が得られます。施工時は土粒度と含水比の管理を徹底し、転圧回数や機械の選定を最適化して地盤の締まり具合を均一にすることがポイントです。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-006",
+      "id": "Geotechnical E_I-0006",
+      "display_id": "地盤工学_中級-006",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "腹起こしに継手を設ける場合の構造上の留意点を述べよ。",
       "answer": "切ばりや火打ちの支点に近い位置に設け、ジョイントプレート等で補強する。",
-      "explanation": "継手は構造上の弱点になりやすいため、モーメントの小さい支点付近に設ける。"
+      "explanation": "継手は構造上の弱点になりやすいため、モーメントの小さい支点付近に設ける。",
+      "explanation2": "腹起こしの継手はモーメントの少ない支点付近に配置し、補強プレートで耐力を確保します。施工時には継手位置の精度を高め、接合部の締結状態や材料の一体性を確認して局所的な応力集中を防ぐ工夫が必要です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-007",
+      "id": "Geotechnical E_I-0007",
+      "display_id": "地盤工学_中級-007",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "粘性土地盤の掘削において、背面土の重量により掘削底面が隆起する現象を何というか",
       "answer": "ヒービング",
-      "explanation": "軟弱な粘性土特有の現象。根入れ深化や地盤改良が有効。"
+      "explanation": "軟弱な粘性土特有の現象。根入れ深化や地盤改良が有効。",
+      "explanation2": "ヒービングは軟弱粘性土の掘削底面が背面土の圧力で押し上げられる現象です。対策として掘削深さの調整や支持地盤への根入れ、あるいは低減工法の地盤改良を行うことで、掘削の安全性を保つことが求められます。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-008",
+      "id": "Geotechnical E_I-0008",
+      "display_id": "地盤工学_中級-008",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "直接基礎の床付け面が岩盤の場合は、均しコンクリートとかみ合うように不陸を残して仕上げる。",
       "answer": "○",
-      "explanation": "平滑に仕上げると付着力が低下するため不適である。"
+      "explanation": "平滑に仕上げると付着力が低下するため不適である。",
+      "explanation2": "岩盤上での床付け面は均しコンクリートと岩盤がしっかり噛み合うように不陸を残すことで摩擦抵抗と付着性が向上し、基礎の安定性が確保されます。仕上げ時は鏡面仕上げを避け粗面化することが施工ポイントです。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-009",
+      "id": "Geotechnical E_I-0009",
+      "display_id": "地盤工学_中級-009",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "穴埋め",
       "question": "第3種建設発生土の判定基準となるコーン指数 q_c は、（　） mathrmkN/m2 以上である。",
       "answer": "400",
-      "explanation": "第2種は 800 以上、第4種は 200 以上。"
+      "explanation": "第2種は 800 以上、第4種は 200 以上。",
+      "explanation2": "コーン指数q_cの判定は地盤の支持力評価に不可欠です。400kN/m²以上の範囲を適切に分類し、試験誤差や地層の均一性を考慮しながら、設計に用いる地盤支持力の判断基準として適用することが重要です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-010",
+      "id": "Geotechnical E_I-0010",
+      "display_id": "地盤工学_中級-010",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "山砂を埋戻しに用いる場合、1層の締固め厚さは仕上がり厚さで 300 mm 程度以下とする。",
       "answer": "○",
-      "explanation": "公共建築工事標準仕様書の具体的数値。"
+      "explanation": "公共建築工事標準仕様書の具体的数値。",
+      "explanation2": "山砂の埋戻しは1層の締固め厚さ300mm以下を遵守することで均一な締固め効果が得られ、空隙や締固め不足を防止します。施工時は含水比の管理と転圧機械の選定を工夫して、密実な地盤形成を心がけることが重要です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-011",
+      "id": "Geotechnical E_I-0011",
+      "display_id": "地盤工学_中級-011",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "30 cm の載荷板を用いる平板載荷試験において、中心からどの範囲を水平に整地するか",
       "answer": "1.2 m までの範囲",
-      "explanation": "周辺地盤の不陸による影響を排除するための規定。"
+      "explanation": "周辺地盤の不陸による影響を排除するための規定。",
+      "explanation2": "水平整地は載荷板の影響範囲を正確に評価するため重要です。不陸があると荷重が均等に伝わらず試験結果がばらつくため、1.2m範囲内の均一な面を確保します。整地作業では細かな凹凸除去や地盤締固めを徹底し、土質変化を防ぐことがポイントです。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-012",
+      "id": "Geotechnical E_I-0012",
+      "display_id": "地盤工学_中級-012",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "10 mm 以上の礫が多く混入している場合、標準貫入試験のN値は過大に出ることがある。",
       "answer": "○",
-      "explanation": "ハンマーの打撃が礫に直接伝わるため、締まり具合を正確に反映しない。"
+      "explanation": "ハンマーの打撃が礫に直接伝わるため、締まり具合を正確に反映しない。",
+      "explanation2": "礫の多い土層では、打撃エネルギーが礫に直接伝わるため、実際の締まり状態より硬く計測される傾向があります。掘削深度や周辺土質の特性を考慮し、補正や他の試験結果と照合することが重要です。過大評価を避けるため、試料採取時の観察も必須です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-013",
+      "id": "Geotechnical E_I-0013",
+      "display_id": "地盤工学_中級-013",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "比較",
       "question": "真空ポンプにより強制的に吸水し、透水係数が小さい土層にも適用可能な工法は",
       "answer": "ウェルポイント工法",
-      "explanation": "真空圧を利用するため。ディープウェルは重力排水。"
+      "explanation": "真空圧を利用するため。ディープウェルは重力排水。",
+      "explanation2": "ウェルポイント工法は天候や土質に左右されやすく、真空吸水量の管理が施工安定性の鍵です。透水係数が小さい土層では真空度の調整と連結井戸の設置間隔にも注意し、排水不良を防ぐことが必要です。施工前の地質調査が成功に直結します。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-014",
+      "id": "Geotechnical E_I-0014",
+      "display_id": "地盤工学_中級-014",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "支保工の腹起こしの継手は、どの部材の支点付近に設けるべきか",
       "answer": "切ばり材や火打ち材",
-      "explanation": "応力的に余裕のある位置を選定する。"
+      "explanation": "応力的に余裕のある位置を選定する。",
+      "explanation2": "支保工の腹起こしは力の集中が少ない支点付近に継手を設けることで応力集中を避け、部材の耐久性を確保します。継手位置の誤りは破断リスクを高めるため、設計図通りの正確な取り付けと定期点検が不可欠です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-015",
+      "id": "Geotechnical E_I-0015",
+      "display_id": "地盤工学_中級-015",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "用語",
       "question": "ボイリングが砂質土の弱い部分を通ってパイプ状に発生する現象を何というか",
       "answer": "パイピング",
-      "explanation": "進行すると地盤内に空洞ができ、崩壊の原因となる。"
+      "explanation": "進行すると地盤内に空洞ができ、崩壊の原因となる。",
+      "explanation2": "パイピングは地下水流による土粒子の浸透移動で発生、地盤内に亀裂や空洞を作り地盤沈下・崩落につながります。施工中は地下水位の管理、水抜き計画、地盤強度の継続的な把握が必要で、不具合が疑われたら即時補強対策を施します。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-016",
+      "id": "Geotechnical E_I-0016",
+      "display_id": "地盤工学_中級-016",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "q_c が 200 kN/m2 未満でダンプに山積みできない土を何と呼ぶか",
       "answer": "泥土",
-      "explanation": "建設汚泥として廃棄物処理法の対象となる場合がある。"
+      "explanation": "建設汚泥として廃棄物処理法の対象となる場合がある。",
+      "explanation2": "泥土はq_c値が低く締まりが悪いため、荷重をかけても崩れやすく現場での搬送や仮置きに注意が必要です。旧工法や処理不良な地盤改良は環境負荷を増大させるため、事前の土質確認と適切な処理計画が不可欠です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-017",
+      "id": "Geotechnical E_I-0017",
+      "display_id": "地盤工学_中級-017",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "再掘削を予定する流動化処理土の28日強度は 0.5〜1.0 MPa 程度に抑える。",
       "answer": "○",
-      "explanation": "強すぎると将来の人力・小型機械による掘削が困難になる。"
+      "explanation": "強すぎると将来の人力・小型機械による掘削が困難になる。",
+      "explanation2": "流動化処理土の強度を抑えることで、後続掘削が容易になり工期短縮と安全施工が可能です。過度の硬化は掘削作業を困難にし、作業員の負担増加や機材損傷の原因となるため、設計段階で強度コントロールの調整を綿密に行います。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-018",
+      "id": "Geotechnical E_I-0018",
+      "display_id": "地盤工学_中級-018",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "標準貫入試験の本打ちで累計貫入量が 30 cm に達しない場合、何回で打ち切るか",
       "answer": "60 回",
-      "explanation": "60回に達した時点の累計貫入量を測定する。"
+      "explanation": "60回に達した時点の累計貫入量を測定する。",
+      "explanation2": "標準貫入試験で60打で30cm未達の場合、粘性土や極端な締まり具合の可能性があるため、それ以上の打撃は試験結果の信頼性低下につながります。打ち切り判断を速やかに行い、他試験による補完も視野に入れましょう。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-019",
+      "id": "Geotechnical E_I-0019",
+      "display_id": "地盤工学_中級-019",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "孔内水平載荷試験は、支持杭の支持層となるような硬い地盤で行う試験である。",
       "answer": "×",
-      "explanation": "N値が 0 や 1 といった非常に柔らかい地盤で行う。"
+      "explanation": "N値が 0 や 1 といった非常に柔らかい地盤で行う。",
+      "explanation2": "孔内水平載荷試験は軟弱地盤の挙動評価に優れ、硬い支持層では正確な変位が得られにくい点を踏まえます。柔らかい地盤で試験を行うことで、杭支持力の限界を把握し、設計に反映できます。試験場所の適切な選定が重要です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-020",
+      "id": "Geotechnical E_I-0020",
+      "display_id": "地盤工学_中級-020",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "安衛則に基づき、「その他の地山」を手掘りし、高さ 2 m 以上 5 m 未満の時の勾配は",
       "answer": "75 度以下",
-      "explanation": "地質と高さに応じた安全勾配。"
+      "explanation": "地質と高さに応じた安全勾配。",
+      "explanation2": "安全勾配設定は落石や崩落防止の基本で、特に高さ2m以上では75度以下に抑えることで安定性が保たれます。掘削時の地山状態を常時観察し、変形や割れ目の現れた場合は即時対策を講じることが重要です。若手は施工前に法規と現地確認を徹底してください。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-021",
+      "id": "Geotechnical E_I-0021",
+      "display_id": "地盤工学_中級-021",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "薬液注入中、速度が一定なのに圧力が急変した場合の対応は",
       "answer": "直ちに注入を中止し、監督職員と協議する。",
-      "explanation": "リークや地層変化、閉塞の可能性がある。"
+      "explanation": "リークや地層変化、閉塞の可能性がある。",
+      "explanation2": "薬液注入時の圧力急変は漏洩だけでなく、地層の連続性が壊れた可能性もあります。圧力・注入量のデータ記録を細かく行い、施工中の地質変化を即時把握することが重要。安全管理面では、想定外の地層破壊や薬液の拡散による環境影響を防ぐため、注入停止後の原因調査を徹底してください。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-022",
+      "id": "Geotechnical E_I-0022",
+      "display_id": "地盤工学_中級-022",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "比較",
       "question": "排水量が多い砂礫層の地下水位を広範囲に低下させるのに適した工法は",
       "answer": "ディープウェル工法",
-      "explanation": "重力排水により広範囲の揚水が可能。"
+      "explanation": "重力排水により広範囲の揚水が可能。",
+      "explanation2": "ディープウェル工法は、砂礫層の広範囲地下水低下に効果的ですが揚水量と設備選定が施工のポイントです。過度の揚水は地盤沈下や周辺水位低下を招くため、揚水管理と周辺地盤調査を十分に行い、長期的な影響評価も併せて行うことが求められます。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-023",
+      "id": "Geotechnical E_I-0023",
+      "display_id": "地盤工学_中級-023",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "床付け面が岩盤の場合、割栗石は用いず不陸を残した状態で仕上げる。",
       "answer": "○",
-      "explanation": "1級施工管理の重要ポイント。"
+      "explanation": "1級施工管理の重要ポイント。",
+      "explanation2": "岩盤上の床付けは割栗石を使わず不陸を残すのが1級施工管理の要件です。不陸が大きいと上部構造への影響が懸念されますが、割栗石を敷くと不整合応力が生じるため避けます。施工では岩盤の状態を詳細に観察し、不陸部は必要に応じて表面調整することがポイントです。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-024",
+      "id": "Geotechnical E_I-0024",
+      "display_id": "地盤工学_中級-024",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "流動化処理土の環境面および近隣対策上のメリットを2つ挙げよ。",
       "answer": "リサイクル、騒音・振動の抑制",
-      "explanation": "発生土の有効利用と締固め不要によるメリット。"
+      "explanation": "発生土の有効利用と締固め不要によるメリット。",
+      "explanation2": "流動化処理土の騒音・振動抑制は掘削や運搬時に周辺環境負荷を軽減します。施工時は発生土の混合比率や水分調整を適切に管理し、リサイクル材の品質を確保することが重要。品質不良は硬化不良や耐久性低下につながるため、材料調達・管理を徹底してください。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-025",
+      "id": "Geotechnical E_I-0025",
+      "display_id": "地盤工学_中級-025",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "穴埋め",
       "question": "標準貫入試験で径（　）mm 以上の礫が混入すると、N値が過大になる傾向がある。",
       "answer": "10",
-      "explanation": "礫の存在による誤差の考慮が必要。"
+      "explanation": "礫の存在による誤差の考慮が必要。",
+      "explanation2": "標準貫入試験のN値誤差を防ぐためには礫径の評価が必須です。礫が10mm以上混入すると貫入抵抗が増加し、実際の支持力とずれます。試験前に地盤調査で礫の分布を把握し、必要に応じて試験深度の選定や補正を行うことで適切な評価が可能です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-026",
+      "id": "Geotechnical E_I-0026",
+      "display_id": "地盤工学_中級-026",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "「一次スライム処理」はいつ行うか",
       "answer": "掘削完了直後",
-      "explanation": "底ざらいバケット等を用いて沈殿物を除く。"
+      "explanation": "底ざらいバケット等を用いて沈殿物を除く。",
+      "explanation2": "一次スライム処理は掘削完了直後に行い、沈殿物の除去で後続工事の精度と安定性を高めます。処理を遅延させると沈殿物が固着し除去困難になるため、工期管理上の優先課題。底ざらいバケットの選定や施工速度の調整も重要です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-027",
+      "id": "Geotechnical E_I-0027",
+      "display_id": "地盤工学_中級-027",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "穴埋め",
       "question": "第2種建設発生土の判定基準となるコーン指数は（　）mathrmkN/m2 以上である。",
       "answer": "800",
-      "explanation": "最も品質の良い第1種に次ぐ区分。"
+      "explanation": "最も品質の良い第1種に次ぐ区分。",
+      "explanation2": "コーン指数800kN/m2以上の第2種建設発生土は高品質で安定した土質ですが、管理基準に則って活用することが大切です。混入物や含水率の変動に注意し、再利用の安全性や土質特性評価を必ず行って施工計画に反映してください。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-028",
+      "id": "Geotechnical E_I-0028",
+      "display_id": "地盤工学_中級-028",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "架設通路の勾配が 30 度を超える場合は階段を設けなければならない。",
       "answer": "○",
-      "explanation": "安衛則第552条による。"
+      "explanation": "安衛則第552条による。",
+      "explanation2": "架設通路の30度超の勾配は安全確保のため階段設置が法律で義務化されています。急勾配の通路では滑落・転倒事故のリスクが増大するため、階段の段差・幅・手すり設置等の詳細仕様にも留意し、事故防止対策を確実に実施してください。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-029",
+      "id": "Geotechnical E_I-0029",
+      "display_id": "地盤工学_中級-029",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "薬液注入工法で周辺環境へ最も留意すべき点は何か",
       "answer": "水質汚染の防止",
-      "explanation": "地下水や河川への薬液流出を常時監視する。"
+      "explanation": "地下水や河川への薬液流出を常時監視する。",
+      "explanation2": "薬液注入工法での水質汚染防止は最大の留意点で、事前の土壌・地下水調査と薬液の選定が肝要です。施工中は薬液の拡散範囲を監視し、万一の漏洩時は速やかに封じ込め対応を行う手順を整備しておくことで環境トラブルを防止できます。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-030",
+      "id": "Geotechnical E_I-0030",
+      "display_id": "地盤工学_中級-030",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "塑性指数 I_P が大きい土は、含水比変化に対して状態が変わりにくい安定した塑性を持つ。",
       "answer": "○",
-      "explanation": "粘着力に富む土質であることを示す。"
+      "explanation": "粘着力に富む土質であることを示す。",
+      "explanation2": "塑性指数IPが大きい土は含水比の変化に対し体積変化が小さく安定していますが、過剰な含水は膨張や収縮を引き起こし施工不良を招きます。施工時には含水比管理と撹拌を十分行い、締固め条件の最適化を図り、不具合を防止してください。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-031",
+      "id": "Geotechnical E_I-0031",
+      "display_id": "地盤工学_中級-031",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "R6.6施行の改正法により、建設発生土搬出時に元請が義務付けられた確認は",
       "answer": "最終搬出先まで確認すること",
-      "explanation": "受領書の写しを5年保存し、計画との一致を確認する。"
+      "explanation": "受領書の写しを5年保存し、計画との一致を確認する。",
+      "explanation2": "建設発生土の搬出管理では、受領書の保存だけでなく、搬出先の環境保護状況も確認が必要です。元請としては、適切な処理施設の選定や違法な不法投棄防止のための事前調査を徹底し、搬出計画の遵守状況を定期的に点検することが重要です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-032",
+      "id": "Geotechnical E_I-0032",
+      "display_id": "地盤工学_中級-032",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "腹起こしの継手を設ける適切な位置はどこか",
       "answer": "切ばりや火打ちの支点に近い位置",
-      "explanation": "連続梁の曲げモーメントが最小となる箇所。"
+      "explanation": "連続梁の曲げモーメントが最小となる箇所。",
+      "explanation2": "腹起こし継手は曲げモーメントの低い位置に設けるため、構造の応力分布を把握することが不可欠です。支点近くに設置することで応力集中を避け施工性も向上しますが、溶接やボルト接合の強度確認は必ず実施し、不具合を防止してください。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-033",
+      "id": "Geotechnical E_I-0033",
+      "display_id": "地盤工学_中級-033",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "切ばりの継手を設ける場合に一般的な位置は",
       "answer": "中間杭の付近",
-      "explanation": "ジョイントプレート等で補強し、中間杭で支持する。"
+      "explanation": "ジョイントプレート等で補強し、中間杭で支持する。",
+      "explanation2": "切ばり継手は中間杭で支持するため、その箇所の荷重伝達と杭径・材質を考慮した設計が必要です。ジョイントプレートの溶接状態やボルトの締結管理を徹底し、打設中の歪みや位置ずれにも注意を払って施工することが品質確保のコツです。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-034",
+      "id": "Geotechnical E_I-0034",
+      "display_id": "地盤工学_中級-034",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "用語",
       "question": "液性限界と塑性限界の差を何というか",
       "answer": "塑性指数 (I_P)",
-      "explanation": "粘性土の状態変化の範囲を示す。"
+      "explanation": "粘性土の状態変化の範囲を示す。",
+      "explanation2": "塑性指数（I_P）は粘土の変形特性や耐力に大きく影響します。現場ではこの値を基に土質区分や改良方法の選定を行い、設計パラメータとして応力-ひずみ関係の検討に活用します。特に軟弱地盤での挙動予測に重要な指標です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-035",
+      "id": "Geotechnical E_I-0035",
+      "display_id": "地盤工学_中級-035",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "真空深井戸工法が通常の深井戸より優れている点は",
       "answer": "透水係数が小さい土層でも強制揚水できる点",
-      "explanation": "真空圧の付加による脱水効果。"
+      "explanation": "真空圧の付加による脱水効果。",
+      "explanation2": "真空深井戸工法は透水性の低い粘土層でも地下水を効率的に除去可能ですが、真空圧制御や機器の維持管理が難しい点に注意が必要です。施工中は揚水速度と真空圧のバランスを調整し、地盤沈下などの二次被害防止に配慮しましょう。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-036",
+      "id": "Geotechnical E_I-0036",
+      "display_id": "地盤工学_中級-036",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "平板載荷試験（30 cm）で水平に整地すべき範囲は",
       "answer": "中心から 1.2 m まで",
-      "explanation": "載荷板の4倍の範囲を整地する。"
+      "explanation": "載荷板の4倍の範囲を整地する。",
+      "explanation2": "平板載荷試験の整地範囲は載荷板径の約4倍とされ、広範囲な水平面の形成が求められます。整地不良は支持力評価の誤差を招くため、突起や傾斜をなくし、均一な圧力分布が得られるよう仕上げることが重要です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-037",
+      "id": "Geotechnical E_I-0037",
+      "display_id": "地盤工学_中級-037",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "鋼管杭の現場溶接を中止すべき気象条件は",
       "answer": "気温 5 度以下、または風速 10 m/s 以上",
-      "explanation": "ただし、所定の予熱を行えば施工可能。"
+      "explanation": "ただし、所定の予熱を行えば施工可能。",
+      "explanation2": "低温や強風下での鋼管杭溶接は溶接不良や亀裂発生リスクが高まるため、予熱や防風措置を徹底してください。特に低温では溶接金属の靭性確保が課題で、気象条件の記録と併せて適切な施工計画を立てることが求められます。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-038",
+      "id": "Geotechnical E_I-0038",
+      "display_id": "地盤工学_中級-038",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "薬液注入圧が急変した場合の現場対応は",
       "answer": "直ちに中止し、監督職員と協議する",
-      "explanation": "安全と品質確保のための基本動作。"
+      "explanation": "安全と品質確保のための基本動作。",
+      "explanation2": "薬液注入圧の急変は地盤変位や薬液逆流の原因となるため即時中止し、圧力履歴や注入量を記録しながら詳細な原因調査を行います。監督職員との連携で対策を協議し、安全第一で施工方法や薬液量の見直しを図ることが大切です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-039",
+      "id": "Geotechnical E_I-0039",
+      "display_id": "地盤工学_中級-039",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "床付け面が岩盤の場合、割栗石を敷き込み平滑に仕上げる。",
       "answer": "×",
-      "explanation": "割栗石は敷かず、不陸を残す。"
+      "explanation": "割栗石は敷かず、不陸を残す。",
+      "explanation2": "岩盤の床付け面に割栗石を敷くと不均一な支持力になり接触不良を招きます。岩盤の不陸はそのまま活かし、化粧砂やモルタルで調整するなど平滑化の方法を選択すべきです。誤った処理は杭の偏荷重や変形の原因になります。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-040",
+      "id": "Geotechnical E_I-0040",
+      "display_id": "地盤工学_中級-040",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "深層混合処理で有機質土を改良する際の配慮は",
       "answer": "多量の固化材を必要とするため慎重に決定する",
-      "explanation": "固化阻害への対応。"
+      "explanation": "固化阻害への対応。",
+      "explanation2": "有機質土の深層混合処理では固化剤が有機物と反応し施工効果を阻害するため、土質調査を重ね配合設計を慎重に行います。試験施工で硬化状況を確認し、固化剤の種類や添加量に工夫を重ねることが品質確保のポイントです。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-041",
+      "id": "Geotechnical E_I-0041",
+      "display_id": "地盤工学_中級-041",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "山砂の埋戻し締固めは厚さ 600 mm 程度ごとに行う。",
       "answer": "×",
-      "explanation": "厚さ 300 mm 程度ごとに行う。"
+      "explanation": "厚さ 300 mm 程度ごとに行う。",
+      "explanation2": "山砂は粒度や含水比が安定しにくいため、厚さ600mmでの締固めでは内部に空隙が残りやすいです。300mm毎に分割して締固めることで重機の転圧が均一に伝わり、密度不足や沈下のリスクを低減します。施工時は含水比管理も重要です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-042",
+      "id": "Geotechnical E_I-0042",
+      "display_id": "地盤工学_中級-042",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "岩盤の床付け面には割栗石を敷き込む。",
       "answer": "×",
-      "explanation": "割栗石は敷かない。"
+      "explanation": "割栗石は敷かない。",
+      "explanation2": "岩盤の床付け面に割栗石を敷くと、杭やコンクリート基礎直下の接触状態が不均一になり、局部的な応力集中や沈下不均一を生じやすいです。岩盤直下は平坦に仕上げ、直接支持を確保することが施工品質向上につながります。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-043",
+      "id": "Geotechnical E_I-0043",
+      "display_id": "地盤工学_中級-043",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "標準貫入試験の本打ちでの打撃回数限度は",
       "answer": "60 回",
-      "explanation": "累計貫入量が 30 cm に達しない場合の限度。"
+      "explanation": "累計貫入量が 30 cm に達しない場合の限度。",
+      "explanation2": "標準貫入試験で60回で30cm貫入しない場合、土の硬さや硬度が高いことを示します。過度の打撃は試験器具の損傷やデータの信頼性低下を招くので、適切な回数制限内での判定が必要です。実務では異常値は地盤調査報告に明記しましょう。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-044",
+      "id": "Geotechnical E_I-0044",
+      "display_id": "地盤工学_中級-044",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "穴埋め",
       "question": "孔内に水がない場合の既製杭杭頭余盛りは（　）cm 以上。",
       "answer": "50",
-      "explanation": "水がある場合は 80〜100 cm。"
+      "explanation": "水がある場合は 80〜100 cm。",
+      "explanation2": "既製杭の杭頭余盛りは、孔内の水の有無で変わり、水位の影響でコンクリート品質が劣化しやすいためです。水がある場合は80～100cmとし、コンクリートの洗掘・圧力分散を防ぎます。施工前の水管理と確認が重要です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-045",
+      "id": "Geotechnical E_I-0045",
+      "display_id": "地盤工学_中級-045",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "飽和度、間隙比、含水比、比重の公式を答えよ。",
       "answer": "S_r e = w G_s",
-      "explanation": "土の三相関係の基本公式。"
+      "explanation": "土の三相関係の基本公式。",
+      "explanation2": "飽和度（S_r）、間隙比（e）、含水比（w）、比重（G_s）の関係式は土の三相状態を表し、土質の評価や施工管理に必須です。現場では正確な含水比測定や密度試験と合わせて適用し、空隙率や透水性の変化を把握することが施工品質安定に役立ちます。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-046",
+      "id": "Geotechnical E_I-0046",
+      "display_id": "地盤工学_中級-046",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "リストアップ",
       "question": "ヒービングの防止策を2つ挙げよ。",
       "answer": "根入れ深化、地盤改良",
-      "explanation": "他にすき取り、地下水位低下など。"
+      "explanation": "他にすき取り、地下水位低下など。",
+      "explanation2": "ヒービング対策では根入れ深化や地盤改良に加え、すき取りや地下水位低下（排水工）を適切に組み合わせます。施工時は地下水動態を把握し、施工順序を守ることで施工時の地盤変形や土砂流出リスクを低減できます。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-047",
+      "id": "Geotechnical E_I-0047",
+      "display_id": "地盤工学_中級-047",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "用語",
       "question": "液性限界と塑性限界の差は何というか",
       "answer": "塑性指数",
-      "explanation": "粘性の度合いを示す指標。"
+      "explanation": "粘性の度合いを示す指標。",
+      "explanation2": "塑性指数は液性限界と塑性限界の差で表され、土の粘性・可塑性の度合いを示します。高塑性指数は変形性や収縮膨潤性が大きく、施工時には締固めや含水比管理の厳格さが求められるため、土質判定に加え現場管理への活用が重要です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-048",
+      "id": "Geotechnical E_I-0048",
+      "display_id": "地盤工学_中級-048",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "標準貫入試験の測定間隔は、原則 1.5 m 間隔である。",
       "answer": "×",
-      "explanation": "原則 1 m 間隔で行う。"
+      "explanation": "原則 1 m 間隔で行う。",
+      "explanation2": "標準貫入試験は1m間隔で測定し、連続的な地盤状態を把握します。1.5m間隔では地盤の不連続面や異層が見逃されやすく、設計や施工計画に影響を及ぼします。測定時は孔壁の状態や機械の状態も確認し、正確な試験実施を心がけましょう。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-049",
+      "id": "Geotechnical E_I-0049",
+      "display_id": "地盤工学_中級-049",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "地山 500 m3、C=0.8 の盛土完了後の体積は",
       "answer": "400 m3",
-      "explanation": "締固めによる減少。"
+      "explanation": "締固めによる減少。",
+      "explanation2": "地山の盛土では体積が減少し、締固めにより空隙が減って密度が上がります。C=0.8は減少率を示し、実務では施工中の含水比・転圧回数を管理し、設計に合致した締固めができているかを常に確認することが不具合防止に繋がります。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-050",
+      "id": "Geotechnical E_I-0050",
+      "display_id": "地盤工学_中級-050",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "薬液注入で圧力が急上昇したら、直ちに中止し協議する。",
       "answer": "○",
-      "explanation": "トラブル防止の鉄則。"
+      "explanation": "トラブル防止の鉄則。",
+      "explanation2": "薬液注入時の急激な圧力上昇は地盤の閉塞や亀裂拡大、注入ポンプの過負荷を引き起こすため、直ちに中止し原因調査と対策協議を実施します。安全確保と品質維持のため当日の注入計画・監視体制の徹底が必要です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-051",
+      "id": "Geotechnical E_I-0051",
+      "display_id": "地盤工学_中級-051",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "改正法により発生土受領書の写しは何年保存か",
       "answer": "5年間",
-      "explanation": "R6.6施行。元請業者の義務。"
+      "explanation": "R6.6施行。元請業者の義務。",
+      "explanation2": "発生土受領書の保存は、現場管理だけでなく将来のトラブル対応や廃棄物管理のためにも重要です。特に改正法施行後は元請業者が確実に保存義務を履行し、定期的に資料の所在確認や紛失防止策を実施してください。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-052",
+      "id": "Geotechnical E_I-0052",
+      "display_id": "地盤工学_中級-052",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "高含水比土の管理では空気間隙率 10% 以下を指標とする。",
       "answer": "○",
-      "explanation": "乾燥密度管理が困難な場合の代替指標。"
+      "explanation": "乾燥密度管理が困難な場合の代替指標。",
+      "explanation2": "空気間隙率10%以下の管理指標は、高含水比土の締固め時に間隙水排出が不十分な場合の品質管理に有効です。現地では締固め重機の種類や打設速度も影響するため、繰り返し測定して安定した空気間隙率を維持することが施工品質向上の鍵となります。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-053",
+      "id": "Geotechnical E_I-0053",
+      "display_id": "地盤工学_中級-053",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "水がない場合の杭頭余盛り高さは",
       "answer": "50 cm 以上",
-      "explanation": "公共建築工事標準仕様書による。"
+      "explanation": "公共建築工事標準仕様書による。",
+      "explanation2": "杭頭余盛りの高さが50cm以上と規定されるのは、施工後の地盤沈下や杭頭損傷を防ぐためです。水なし現場では特に転圧や養生に注意し、余盛り量を不足させないことが、杭基礎の長期的な耐久性確保に直結します。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-054",
+      "id": "Geotechnical E_I-0054",
+      "display_id": "地盤工学_中級-054",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "穴埋め",
       "question": "鋼管杭溶接の予熱温度は（　）度以上。",
       "answer": "36",
-      "explanation": "低温時の特例措置。"
+      "explanation": "低温時の特例措置。",
+      "explanation2": "鋼管杭の溶接予熱温度36度以上は、低温時に急激な冷却を防ぎ溶接部の割れや欠陥を抑制します。施工現場では温度管理計測器を活用し、環境温度や鋼材温度を正確に把握してから溶接作業を開始することが重要です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-055",
+      "id": "Geotechnical E_I-0055",
+      "display_id": "地盤工学_中級-055",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "比較",
       "question": "第3種建設発生土の q_c 基準値は",
       "answer": "400 kN/m2 以上",
-      "explanation": "通常の施工性が確保される粘性土。"
+      "explanation": "通常の施工性が確保される粘性土。",
+      "explanation2": "",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-056",
+      "id": "Geotechnical E_I-0056",
+      "display_id": "地盤工学_中級-056",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "真空深井戸工法は細粒土地盤にも適用できる。",
       "answer": "○",
-      "explanation": "強制吸水による効果。"
+      "explanation": "強制吸水による効果。",
+      "explanation2": "真空深井戸工法は細粒土地盤での排水促進に効果的ですが、土質によっては真空が充分に伝わらず効果薄の場合もあります。施工前に現地土質調査を十分に行い、適切な真空圧設定と施工継続期間設定を行うことが成功のポイントです。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-057",
+      "id": "Geotechnical E_I-0057",
+      "display_id": "地盤工学_中級-057",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "用語",
       "question": "切ばりの継手を設ける一般的な位置は",
       "answer": "中間杭の付近",
-      "explanation": "支持点での補強が有効。"
+      "explanation": "支持点での補強が有効。",
+      "explanation2": "切ばり継手を中間杭付近に設けるのは、杭の曲げモーメントが大きくなる箇所で補強効果が高いためです。継手強度や溶接品質も重要で、施工時には継手の位置や向き、施工手順を適切に管理しましょう。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-058",
+      "id": "Geotechnical E_I-0058",
+      "display_id": "地盤工学_中級-058",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "I_P が大きい土の意味するところは",
       "answer": "塑性（粘性）が強く安定している",
-      "explanation": "含水比変化への耐性が高い。"
+      "explanation": "含水比変化への耐性が高い。",
+      "explanation2": "大きなIP値は土の塑性が強く、形状保持性能が高い一方で過度の粘着性による施工の難しさもあります。施工時は水分管理を厳密に行い、適切な締固めを施すことでひび割れや変形を抑え、安定した仕上がりを実現します。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-059",
+      "id": "Geotechnical E_I-0059",
+      "display_id": "地盤工学_中級-059",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "その他の地山（2-5m）の掘削勾配は 75 度以下。",
       "answer": "○",
-      "explanation": "安衛則の安全基準。"
+      "explanation": "安衛則の安全基準。",
+      "explanation2": "掘削勾配75度以下は安全衛生上の基準で、不安定な地山崩壊や土砂崩れを防止します。現場では地質状況や降雨状況も考慮し、一時的な支保工の設置や適切な排水対策を併用して掘削作業時の安全を確保してください。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-060",
+      "id": "Geotechnical E_I-0060",
+      "display_id": "地盤工学_中級-060",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "用語",
       "question": "乾燥密度の算出式を答えよ。",
       "answer": "rho_d = rho_t / (1 + w/100)",
-      "explanation": "締固め管理の基本式。"
+      "explanation": "締固め管理の基本式。",
+      "explanation2": "乾燥密度算出式は締固めの基本ですが、含水比wの変動が密度に大きく影響します。現場では適正な含水比管理とサンプリングタイミングに注意し、複数地点での測定値を平均化することで、品質のばらつきを抑えた施工管理を行うことが重要です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-061",
+      "id": "Geotechnical E_I-0061",
+      "display_id": "地盤工学_中級-061",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "R6.6法改正で保存すべき書類と期間は",
       "answer": "受領書の写し、5年間",
-      "explanation": "最終搬出先の確認義務。"
+      "explanation": "最終搬出先の確認義務。",
+      "explanation2": "受領書の写し保存は法令遵守だけでなく、トラブル時の証拠資料としても重要です。施工管理では最終搬出先の登録漏れや内容変更を見落とさないよう、受領書の内容と現場実態を丁寧に照合してください。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-062",
+      "id": "Geotechnical E_I-0062",
+      "display_id": "地盤工学_中級-062",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "岩盤の床付け面は割栗石を敷き転圧する。",
       "answer": "×",
-      "explanation": "割栗石は不要。不陸を残す。"
+      "explanation": "割栗石は不要。不陸を残す。",
+      "explanation2": "岩盤面への割栗石敷設は不必要で、床付け面に不陸があえて残ることで、後のコンクリート打設時に接着・締め固め効果が高まります。施工時は岩盤の凹凸を正確に把握し、転圧作業で均一な不陸を維持しましょう。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-063",
+      "id": "Geotechnical E_I-0063",
+      "display_id": "地盤工学_中級-063",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "穴埋め",
       "question": "高含水比土の管理で用いる（　）率は 10% 以下。",
       "answer": "空気間隙",
-      "explanation": "盛土の安定性指標。"
+      "explanation": "盛土の安定性指標。",
+      "explanation2": "空気間隙率は土内部の空気層を示し、高含水比土の透水性や圧密挙動の判断に用います。10%以下の管理は盛土の沈下防止に不可欠で、施工中の含水比測定や適切な排水処理がポイントです。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-064",
+      "id": "Geotechnical E_I-0064",
+      "display_id": "地盤工学_中級-064",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "水がない場合の杭頭余盛りは何 cm 以上か",
       "answer": "50 cm 以上",
-      "explanation": "公共建築工事標準仕様書の規定。"
+      "explanation": "公共建築工事標準仕様書の規定。",
+      "explanation2": "杭頭余盛りは地盤沈下や締固め不良に備える余裕量で、50cm以上確保すると施工後の変形を吸収できます。特に水のない環境では施工精度確保が難しいため、段階的な高さ管理と検査を徹底してください。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-065",
+      "id": "Geotechnical E_I-0065",
+      "display_id": "地盤工学_中級-065",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "薬液注入では水質汚染のモニタリングが必須。",
       "answer": "○",
-      "explanation": "環境保護のための義務。"
+      "explanation": "環境保護のための義務。",
+      "explanation2": "薬液注入時は有害物質の漏出防止と監視体制構築が不可欠です。注入孔周辺の水質定期検査を実施し、異常時の迅速な対応策を準備することが現場での環境事故回避の鍵です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-066",
+      "id": "Geotechnical E_I-0066",
+      "display_id": "地盤工学_中級-066",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "その他の地山（5m以上）の掘削勾配は",
       "answer": "60 度以下",
-      "explanation": "深くなるほどなだらかにする。"
+      "explanation": "深くなるほどなだらかにする。",
+      "explanation2": "掘削勾配は土質や地形に応じて設定され、深く掘るほど勾配を緩くすることで崩壊リスクを軽減します。施工計画段階から歩掛けや安全管理も検討し、掘削作業時は逐次変形状況を監視しましょう。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-067",
+      "id": "Geotechnical E_I-0067",
+      "display_id": "地盤工学_中級-067",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "比較",
       "question": "砂礫層の広範囲地下水低下に適した工法は",
       "answer": "ディープウェル工法",
-      "explanation": "揚水量が多い地盤に適す。"
+      "explanation": "揚水量が多い地盤に適す。",
+      "explanation2": "ディープウェル工法は大量揚水に適し、砂礫層の安定化に効果的です。ただし地下水位の急激な低下は周辺土壌の地盤沈下を招くため、揚水速度調整や周辺調査を実施し、安全管理を徹底する必要があります。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-068",
+      "id": "Geotechnical E_I-0068",
+      "display_id": "地盤工学_中級-068",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "RI法は非破壊で短時間に結果が得られる。",
       "answer": "○",
-      "explanation": "現場密度の迅速な管理に有効。"
+      "explanation": "現場密度の迅速な管理に有効。",
+      "explanation2": "RI法は非破壊で迅速に土の密度を測定できるため、適切なタイミングで頻繁に実施することが大事です。測定値のばらつきは施工不良の原因になるため、複数箇所での測定と平均化を心掛けましょう。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-069",
+      "id": "Geotechnical E_I-0069",
+      "display_id": "地盤工学_中級-069",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "用語",
       "question": "杭底スライム除去用バケットを何というか",
       "answer": "底ざらいバケット",
-      "explanation": "アースドリル工法の一次処理。"
+      "explanation": "アースドリル工法の一次処理。",
+      "explanation2": "底ざらいバケットは杭底のスライムや泥土除去に使われ、掘削底面の清掃により杭の支持力確保が可能です。施工時は掘削深度とバケットの操作性を考慮し、残土が残らないよう丁寧に掘削してください。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-070",
+      "id": "Geotechnical E_I-0070",
+      "display_id": "地盤工学_中級-070",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "標準貫入試験の測定間隔は",
       "answer": "1 m の深さから 1 m 間隔",
-      "explanation": "特記なき場合の標準仕様。"
+      "explanation": "特記なき場合の標準仕様。",
+      "explanation2": "標準貫入試験は1m間隔で実施し、各深度の土質変化を把握します。若手は打撃回数の測定と記録を正確に行い、同一深度でのバラツキを減らす工夫が施工管理の精度向上につながります。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-071",
+      "id": "Geotechnical E_I-0071",
+      "display_id": "地盤工学_中級-071",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "第4種建設発生土に分類される土は",
       "answer": "コーン指数 200 以上の粘性土",
-      "explanation": "河川堤防や道路盛土に利用。"
+      "explanation": "河川堤防や道路盛土に利用。",
+      "explanation2": "コーン指数200以上の粘性土は強度や圧縮性が高く、盛土材料としての安定性がありますが、含水比や有機物の影響で性状が変わることがあります。使用前に十分な現場試験を行い、粒径分布や含水比を確認することが重要です。施工時は締固めを丁寧に行い、沈下や軟弱化を防ぎましょう。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-072",
+      "id": "Geotechnical E_I-0072",
+      "display_id": "地盤工学_中級-072",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "薬液注入中は地下水等のモニタリングが必要。",
       "answer": "○",
-      "explanation": "環境汚染防止のため。"
+      "explanation": "環境汚染防止のため。",
+      "explanation2": "薬液注入中の地下水モニタリングは、薬液の拡散範囲や濃度変化を即時に把握し環境汚染を未然に防ぐため不可欠です。漏洩や薬液の過剰注入を避け、周辺地下水を適切に保護するため、現場で定期的かつ詳細な測定を怠らないことがポイントです。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-073",
+      "id": "Geotechnical E_I-0073",
+      "display_id": "地盤工学_中級-073",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "腹起こしの継手を設ける適切な位置は",
       "answer": "切ばり等の支点に近い位置",
-      "explanation": "曲げモーメント最小箇所。"
+      "explanation": "曲げモーメント最小箇所。",
+      "explanation2": "腹起こし継手は支点に近く曲げモーメントが小さい部分に設けることで、接合部に過大な応力が集中するのを防ぎます。施工の際は正確な位置決めと溶接・締結の品質管理を徹底して、継手の耐久性確保に努めましょう。不適切な位置は破壊リスクを高める点に注意が必要です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-074",
+      "id": "Geotechnical E_I-0074",
+      "display_id": "地盤工学_中級-074",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "標準貫入試験の試料は色やにおい等を記録する。",
       "answer": "○",
-      "explanation": "土質概要の記録規定。"
+      "explanation": "土質概要の記録規定。",
+      "explanation2": "標準貫入試験の試料色や臭いの記録は土質の有機物含有や汚染の有無を見極める重要な情報です。若手は試料採取後の迅速な異常確認が実務上の品質管理に直結するため、正確な観察・記録と報告を心掛けましょう。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-075",
+      "id": "Geotechnical E_I-0075",
+      "display_id": "地盤工学_中級-075",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "二次スライム処理はいつ行うか",
       "answer": "鉄筋かご挿入後、コンクリート直前",
-      "explanation": "最終的な孔底清掃。"
+      "explanation": "最終的な孔底清掃。",
+      "explanation2": "二次スライム処理は鉄筋かご挿入後、コンクリート打設直前に行い、孔底の泥膜やスライムを完全に取り除くことで、コンクリートの接着性と強度が向上します。施工中は孔内環境を適切に管理し、処理後は水や余分なスライムを十分に排除することが施工のコツです。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-076",
+      "id": "Geotechnical E_I-0076",
+      "display_id": "地盤工学_中級-076",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "有機質土改良での固化材添加量の配慮は",
       "answer": "多量の固化材を必要とする",
-      "explanation": "室内試験による決定が必須。"
+      "explanation": "室内試験による決定が必須。",
+      "explanation2": "有機質土は化学的特性が複雑であり、多量の固化材が必要となりますが、過剰添加は経済性低下や施工困難を招きます。室内試験で最適配合を見極め、その結果を現場で厳守することが固化効果と施工効率向上に繋がります。不適切な添加は耐久性問題を引き起こすため注意が必要です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-077",
+      "id": "Geotechnical E_I-0077",
+      "display_id": "地盤工学_中級-077",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "ウェルポイント工法は細粒分を含む地盤にも適す。",
       "answer": "○",
-      "explanation": "真空圧吸水によるメリット。"
+      "explanation": "真空圧吸水によるメリット。",
+      "explanation2": "ウェルポイント工法は真空圧で地下水を吸引し細粒分に強い吸水能力があり、軟弱地盤でも安定した低下が得られます。施工時はウェルポイントの間距離や真空圧の管理が肝心で、不均一な吸引は局所的な崩壊の原因になります。細粒分の多い地盤特性を理解し調整しましょう。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-078",
+      "id": "Geotechnical E_I-0078",
+      "display_id": "地盤工学_中級-078",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "穴埋め",
       "question": "砂地盤の手掘り掘削勾配は（　）度以下。",
       "answer": "35",
-      "explanation": "安衛則の安全基準。"
+      "explanation": "安衛則の安全基準。",
+      "explanation2": "砂地盤の手掘り掘削勾配は35度以下と法令で規定され、これを守ることで掘削面の崩壊リスクを低減します。実務では地盤の粒径や水分条件を確認し、状況に応じて支保工設置や排水対策を検討し、安全な掘削環境を維持することが重要です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-079",
+      "id": "Geotechnical E_I-0079",
+      "display_id": "地盤工学_中級-079",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "穴埋め",
       "question": "高含水比土の管理指標とする（　）率は 10% 以下。",
       "answer": "空気間隙",
-      "explanation": "土中の空隙管理。"
+      "explanation": "土中の空隙管理。",
+      "explanation2": "含水比の高い土壌は空気間隙率を10%以下に管理することで、過剰な圧縮や沈下を防止できます。施工では含水比の変動を把握し、排水や締固めの適切な実施が不可欠です。土中空隙のバランスが崩れると強度低下や地盤変形の原因となるため慎重な管理が求められます。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-080",
+      "id": "Geotechnical E_I-0080",
+      "display_id": "地盤工学_中級-080",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "発生土受領書の写しは何年保存か",
       "answer": "5年間",
-      "explanation": "改正法 R6.6 施行分。"
+      "explanation": "改正法 R6.6 施行分。",
+      "explanation2": "発生土受領書は法令に基づき5年間保管を義務づけており、トレーサビリティ確保とトラブル対応のため重要です。実務では電子データ化も推奨され管理の効率化を図り、非遵守が法令違反とならないよう定期的な書類整理と保存状況の確認を行いましょう。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-081",
+      "id": "Geotechnical E_I-0081",
+      "display_id": "地盤工学_中級-081",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "雨雪時は養生をしても溶接を中止すべきである。",
       "answer": "×",
-      "explanation": "適切な養生で品質確保できれば可能。"
+      "explanation": "適切な養生で品質確保できれば可能。",
+      "explanation2": "溶接の養生は重要ですが、雨や雪による水分が溶接部に入り込むと内部欠陥やひび割れを引き起こす可能性があります。実務では、天候変化を厳密に監視し、湿度や水滴の影響を最小限に抑えるために屋根付きの作業場やシート養生を徹底しましょう。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-082",
+      "id": "Geotechnical E_I-0082",
+      "display_id": "地盤工学_中級-082",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "-10〜+5度での鋼管杭溶接予熱条件は",
       "answer": "100mm以内を36度以上に予熱",
-      "explanation": "急冷割れ防止の基準。"
+      "explanation": "急冷割れ防止の基準。",
+      "explanation2": "鋼管杭の溶接予熱は急冷割れ防止に不可欠です。特に低温環境下では予熱が不十分だと炭素鋼部で硬化層が形成されやすく、割れリスクが増すため、周囲温度と溶接厚さに応じた適正な予熱温度と保持時間を守ることが施工品質向上に繋がります。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-083",
+      "id": "Geotechnical E_I-0083",
+      "display_id": "地盤工学_中級-083",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "穴埋め",
       "question": "改正法による受領書保存期間は（　）年。",
       "answer": "5",
-      "explanation": "工事完成後の義務。"
+      "explanation": "工事完成後の義務。",
+      "explanation2": "受領書の保存は工事履歴の証明であり、問題発生時の重要資料となります。デジタル管理とともに紙媒体のバックアップも推奨し、期限を過ぎても法令変更に注意して適切に保管管理することがトラブル防止のコツです。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-084",
+      "id": "Geotechnical E_I-0084",
+      "display_id": "地盤工学_中級-084",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "登録ストックヤード搬出時は最終搬出先確認不要。",
       "answer": "○",
-      "explanation": "法改正による確認免除の特例。"
+      "explanation": "法改正による確認免除の特例。",
+      "explanation2": "登録ストックヤードからの搬出では最終搬出先確認が不要でも、搬送経路の管理は依然重要です。特に危険物や環境負荷物質の取り扱いでは流出防止策を確実に実施し、安全管理規定を徹底してください。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-085",
+      "id": "Geotechnical E_I-0085",
+      "display_id": "地盤工学_中級-085",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "有機質土改良での固化材添加量の配慮は",
       "answer": "多量の固化材を添加する",
-      "explanation": "反応阻害を考慮した配合。"
+      "explanation": "反応阻害を考慮した配合。",
+      "explanation2": "有機質土改良では固化材が有機物に吸着され反応が阻害されやすいため、多量に添加し過ぎると経済性や強度確保に問題が出ます。実務では土質試験を基に最適配合を検討し、適切な施工管理と養生で均一な固化を目指しましょう。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-086",
+      "id": "Geotechnical E_I-0086",
+      "display_id": "地盤工学_中級-086",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "用語",
       "question": "切ばりの継手を設ける一般的な位置は",
       "answer": "中間杭の付近",
-      "explanation": "構造的な弱点を補強する位置。"
+      "explanation": "構造的な弱点を補強する位置。",
+      "explanation2": "切ばり継手の位置設定は力の集中や変形の発生しやすい中間杭付近が一般的です。設計段階で応力分布を詳細解析し、施工時には継手の固定精度や溶接不良防止を徹底するのが重要です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-087",
+      "id": "Geotechnical E_I-0087",
+      "display_id": "地盤工学_中級-087",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "標準貫入試験の本打ち打撃回数限度は",
       "answer": "60 回",
-      "explanation": "硬い地盤での打ち切り基準。"
+      "explanation": "硬い地盤での打ち切り基準。",
+      "explanation2": "標準貫入試験で硬い地盤の場合60回打撃で打ち切るのは、過大な打撃によるサンプル破損防止のためです。実測値として評価する際は、その制限を超えた場合の土質推定法を理解し、慎重に判定してください。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-088",
+      "id": "Geotechnical E_I-0088",
+      "display_id": "地盤工学_中級-088",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "比較",
       "question": "再掘削用流動化処理土の強さの範囲は",
       "answer": "0.5〜1.0 MPa 程度",
-      "explanation": "将来の掘削性を確保。"
+      "explanation": "将来の掘削性を確保。",
+      "explanation2": "再掘削用の流動化処理土は掘削時の容易さと強度確保のバランスが重要です。0.5〜1.0 MPa の範囲に設計することで施工後も流動性を保持しつつ、地盤としての安定性を確保します。混合比率の管理と施工時の均一攪拌がポイントです。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-089",
+      "id": "Geotechnical E_I-0089",
+      "display_id": "地盤工学_中級-089",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "穴埋め",
       "question": "高含水比土の空気間隙率は（　）% 以下。",
       "answer": "10",
-      "explanation": "品質管理の目標値。"
+      "explanation": "品質管理の目標値。",
+      "explanation2": "高含水比土の空気間隙率10%以下は強度発現に重要な指標です。空気孔が多いと乾燥収縮や凍結によるひび割れが発生しやすくなるため、施工時の締固め管理や含水比調整を入念に行い、適切な締固め度を確保することが大切です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-090",
+      "id": "Geotechnical E_I-0090",
+      "display_id": "地盤工学_中級-090",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "腹起こしと壁の隙間には裏込め材を充填する。",
       "answer": "○",
-      "explanation": "側圧伝達を確実にするため。"
+      "explanation": "側圧伝達を確実にするため。",
+      "explanation2": "腹起こしと壁の隙間に裏込め材を充填することで、壁体と土圧の力が均等に伝わり構造の安定性が向上します。裏込め材は密実に充填し空洞を無くすことが重要で、充填後の確認や締め固めも施工品質管理のポイントです。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-091",
+      "id": "Geotechnical E_I-0091",
+      "display_id": "地盤工学_中級-091",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "改正法で搬出先確認が免除される場所は",
       "answer": "登録ストックヤード、他の現場",
-      "explanation": "R6.6施行。"
+      "explanation": "R6.6施行。",
+      "explanation2": "改正法による搬出先確認免除は登録ストックヤードや他現場で、これは過去の実績や管理体制が整った場所に限定されるためです。施工現場での搬出記録管理を省略できる反面、証拠書類の保存や適正な管理が求められるので、現場担当者は書類保管や報告体制を徹底しましょう。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-092",
+      "id": "Geotechnical E_I-0092",
+      "display_id": "地盤工学_中級-092",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "岩盤の床付け面は割栗石を敷かず不陸を残す。",
       "answer": "○",
-      "explanation": "コンクリートの一体性確保。"
+      "explanation": "コンクリートの一体性確保。",
+      "explanation2": "岩盤の床付け面で割栗石を敷かない理由は、割栗石の間に隙間ができるとコンクリートと岩盤の密着性が損なわれるためです。不陸を残すことでコンクリートが岩盤に直接密着し、荷重伝達が滑らかに行われます。施工時は不陸の程度を適切に評価することが重要です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-093",
+      "id": "Geotechnical E_I-0093",
+      "display_id": "地盤工学_中級-093",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "穴埋め",
       "question": "鋼管杭溶接の低温時予熱温度は（　）度以上。",
       "answer": "36",
-      "explanation": "割れ防止の管理。"
+      "explanation": "割れ防止の管理。",
+      "explanation2": "鋼管杭の溶接において低温時の予熱は割れ防止のため重要で、36度以上を推奨します。予熱が不十分だと急激な冷却で応力集中が起こり、溶接割れが発生しやすいです。実務では気温、鋼材の厚みを考慮し、温度管理を厳格に行うことが肝要です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-094",
+      "id": "Geotechnical E_I-0094",
+      "display_id": "地盤工学_中級-094",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "高含水比土の締固め管理指標を2つ答えよ。",
       "answer": "空気間隙率、飽和度",
-      "explanation": "数値管理の基準。"
+      "explanation": "数値管理の基準。",
+      "explanation2": "高含水比土の締固め管理に空気間隙率と飽和度を用いるのは、これらが土の安定性や強度に直結するためです。施工では目標値の設定が必要であり、現地での試験データを基に締固め機械の選定や転圧回数を調整することが、品質確保につながります。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-095",
+      "id": "Geotechnical E_I-0095",
+      "display_id": "地盤工学_中級-095",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "有機質土改良での固化材添加量の配慮は",
       "answer": "多量の固化材を要し慎重に決定",
-      "explanation": "室内試験が必須。"
+      "explanation": "室内試験が必須。",
+      "explanation2": "有機質土改良では固化材添加量が多くなるため、その配合は慎重に決める必要があります。過剰な量は逆に強度低下や割裂を招き、室内試験で必ず素材ごとの適正添加量を確認し、現場施工でも試験をもとに調整することが施工のポイントです。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-096",
+      "id": "Geotechnical E_I-0096",
+      "display_id": "地盤工学_中級-096",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "二次スライム処理のタイミングはいつか",
       "answer": "鉄筋かご挿入後コンクリート直前",
-      "explanation": "最終清掃の時期。"
+      "explanation": "最終清掃の時期。",
+      "explanation2": "二次スライム処理は鉄筋かご挿入後、コンクリート打設直前に行います。このタイミングだと最終的な清掃が完了し、コンクリートの接着性が高まるため不具合を防止できます。施工管理では処理の遅延を防ぐため、段取りを明確にすることが重要です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-097",
+      "id": "Geotechnical E_I-0097",
+      "display_id": "地盤工学_中級-097",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "比較",
       "question": "浅い範囲の地下水位低下に適した工法は",
       "answer": "ウェルポイント工法",
-      "explanation": "真空強制吸水による。"
+      "explanation": "真空強制吸水による。",
+      "explanation2": "浅い範囲の地下水位低下にはウェルポイント工法が適し、真空ポンプで強制的に水位を引き下げます。この工法は地盤安定に有効ですが、真空の漏れや配管の詰まりに注意が必要で、施工中は圧力計や水位計でしっかり監視することがコツです。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-098",
+      "id": "Geotechnical E_I-0098",
+      "display_id": "地盤工学_中級-098",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "用語",
       "question": "ダンプに積めず人が歩けない土を何というか",
       "answer": "泥土",
-      "explanation": "強度 200 未満の状態。"
+      "explanation": "強度 200 未満の状態。",
+      "explanation2": "ダンプに積めず人が歩けないほどの土は「泥土」と呼ばれ、強度が200kN/m2未満で流動的です。施工では重機での掘削や運搬が困難なので、厚みや乾燥度を管理し、安定化や排水対策を含む適切な地盤改良計画を立てる必要があります。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-099",
+      "id": "Geotechnical E_I-0099",
+      "display_id": "地盤工学_中級-099",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "Q&A",
       "question": "水がある場合の杭頭余盛り高さは",
       "answer": "80〜100 cm 程度",
-      "explanation": "スライム混入を考慮。"
+      "explanation": "スライム混入を考慮。",
+      "explanation2": "水がある状況での杭頭余盛りは80〜100cm程度とし、これは施工後のスライム混入を防ぐためです。余盛りが不足すると、コンクリートの品質低下や耐久性の問題を招くため、現場では常に水位や余盛り高さの計測を正確に行うことが重要です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [
+        "地盤工学",
+        "地盤"
+      ],
+      "remarks": ""
     },
     {
-      "id": "地盤工学_中級-100",
+      "id": "Geotechnical E_I-0100",
+      "display_id": "地盤工学_中級-100",
       "category": "地盤工学",
       "grade": "中級",
+      "question_type": "○×",
       "question": "流動化処理土は液状化リスクが低く不透水性。",
       "answer": "○",
-      "explanation": "材料特性のまとめ。"
+      "explanation": "材料特性のまとめ。",
+      "explanation2": "流動化処理土は液状化のリスクを低減し、不透水性を持つ特徴があります。材料の粒度調整や水分管理が重要で、施工時に均一な混合と締固めを確実に行えば、地盤改良の信頼性が上がり、液状化対策として非常に有効です。",
+      "importance": 1,
+      "main_id_category": "地盤工学",
+      "sub_id_category": "地盤",
+      "past_exam_info": "",
+      "tags": [],
+      "remarks": ""
     }
   ]
 }
