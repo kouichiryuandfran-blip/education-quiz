@@ -11,7 +11,7 @@ let currentMode = "normal"; // normal / weak
 const WEAK_KEY = "education_quiz_weak_questions_v1";
 const REPORT_EMAIL = "kouichi.ryuandfran@gmail.com"; // ← 必ず変更してください
 
-const GAS_LOG_URL = "https://script.google.com/macros/s/AKfycbyMAYuBKg6FFm1SgNYcY3HLw9A8lW-SURU1zHx8UKLkTFj1igaIEZ9kTc2DXyEcucItXw/exec";
+const GAS_LOG_URL = "https://script.google.com/macros/library/d/1NNy2LR2hLvXP3SO79JKWeD7xsjr4y-MVonQMJe7RnNMCQcEYKHk4tn1t/1";
 const USER_NAME_KEY = "education_quiz_user_name_v1";
 
 const params = new URLSearchParams(location.search);
