@@ -9,7 +9,10 @@ let currentQuizTitle = "";
 let currentMode = "normal"; // normal / weak
 
 const WEAK_KEY = "education_quiz_weak_questions_v1";
-const REPORT_EMAIL = "yourmail@example.com"; // ← 必ず変更してください
+const REPORT_EMAIL = "kouichi.ryuandfran@gmail.com"; // ← 必ず変更してください
+
+const GAS_LOG_URL = "https://script.google.com/macros/s/AKfycbyMAYuBKg6FFm1SgNYcY3HLw9A8lW-SURU1zHx8UKLkTFj1igaIEZ9kTc2DXyEcucItXw/exec";
+const USER_NAME_KEY = "education_quiz_user_name_v1";
 
 const params = new URLSearchParams(location.search);
 const group = params.get("group");
@@ -150,6 +153,8 @@ function loadQuizFile(quiz, mode = "normal") {
       if (menuEl) menuEl.classList.add("hidden");
       if (quizEl) quizEl.classList.remove("hidden");
 
+      restoreUserName();
+     
       const titleEl = document.getElementById("groupTitle");
       if (titleEl) {
         const modeLabel = mode === "weak" ? "苦手問題復習" : "通常学習";
@@ -256,6 +261,25 @@ function mark(ok) {
 
   const rate = Math.round((correct / total) * 100);
   setText("stats", `今回の成績: ${rate}% (${correct}/${total})`);
+
+  const questionType = getQuestionField(q, ["question_type", "question_format", "format", "type", "問題形式", "形式"]);
+  const category = getQuestionField(q, ["category", "表示カテゴリー", "カテゴリー"]);
+  const grade = getQuestionField(q, ["grade", "グレード"]);
+  const questionId = getQuestionField(q, ["id", "ID", "表示管理番号", "問題番号"]);
+
+  sendLearningLog({
+    userName: getUserName(),
+    groupName: menuData.menu_name || currentGroup,
+    quizTitle: currentQuizTitle,
+    questionId: questionId,
+    questionType: questionType,
+    category: category,
+    grade: grade,
+    isCorrect: ok,
+    correctCount: correct,
+    totalCount: total,
+    rate: rate
+});
 
   document.getElementById("judge").classList.add("hidden");
   document.getElementById("nextBtn").classList.remove("hidden");
@@ -420,3 +444,42 @@ function escapeHtml(str) {
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#39;");
 }
+
+
+function getUserName() {
+  const el = document.getElementById("userName");
+  if (!el) return localStorage.getItem(USER_NAME_KEY) || "";
+
+  const name = el.value.trim();
+  if (name) {
+    localStorage.setItem(USER_NAME_KEY, name);
+    return name;
+  }
+
+  return localStorage.getItem(USER_NAME_KEY) || "";
+}
+
+function restoreUserName() {
+  const el = document.getElementById("userName");
+  if (!el) return;
+
+  const saved = localStorage.getItem(USER_NAME_KEY) || "";
+  if (saved) {
+    el.value = saved;
+  }
+
+  el.addEventListener("change", () => {
+    localStorage.setItem(USER_NAME_KEY, el.value.trim());
+  });
+}
+
+function sendLearningLog(data) {
+  if (!GAS_LOG_URL) return;
+
+  fetch(GAS_LOG_URL, {
+    method: "POST",
+    mode: "no-cors",
+    body: JSON.stringify(data)
+  }).catch(() => {});
+}
+
