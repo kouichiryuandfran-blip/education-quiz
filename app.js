@@ -9,7 +9,7 @@ let currentQuizTitle = "";
 let currentMode = "normal"; // normal / weak
 
 const WEAK_KEY = "education_quiz_weak_questions_v1";
-const REPORT_EMAIL = "kouichi.ryuandfran@gmail.com"; // ← 必ず変更してください
+const REPORT_EMAIL = "kouichi.ryuandfran@gmail.com";
 
 const GAS_LOG_URL = "https://script.google.com/macros/s/AKfycbwwnR4tW_bL90GRpTVu3jq_4EzJePLcqVqMRTW37KC8ZBArcsSH1kmxNVQWwJz4PgjTew/exec";
 const USER_NAME_KEY = "education_quiz_user_name_v1";
@@ -154,7 +154,7 @@ function loadQuizFile(quiz, mode = "normal") {
       if (quizEl) quizEl.classList.remove("hidden");
 
       restoreUserName();
-     
+
       const titleEl = document.getElementById("groupTitle");
       if (titleEl) {
         const modeLabel = mode === "weak" ? "苦手問題復習" : "通常学習";
@@ -187,7 +187,7 @@ function loadQuestion() {
 
   const grade = getQuestionField(q, ["grade", "グレード"]);
   const category = getQuestionField(q, ["category", "表示カテゴリー", "カテゴリー"]);
-  const id = getQuestionField(q, ["id", "ID", "表示管理番号", "問題番号"]);
+  const displayId = getQuestionDisplayId(q);
   const questionFormat = getQuestionField(q, ["question_type", "question_format", "format", "type", "問題形式", "形式"]);
 
   let label = "";
@@ -203,7 +203,7 @@ function loadQuestion() {
 
   setText("counter", `${index + 1} / ${questions.length}`);
   setText("type", label);
-  setText("questionId", id ? `問題番号: ${id}` : "");
+  setText("questionId", displayId ? `問題番号: ${displayId}` : "");
   setText("questionFormat", questionFormat ? `問題形式: ${questionFormat}` : "");
   setText("question", getQuestionField(q, ["question", "問題", "問題文"]));
 
@@ -265,7 +265,7 @@ function mark(ok) {
   const questionType = getQuestionField(q, ["question_type", "question_format", "format", "type", "問題形式", "形式"]);
   const category = getQuestionField(q, ["category", "表示カテゴリー", "カテゴリー"]);
   const grade = getQuestionField(q, ["grade", "グレード"]);
-  const questionId = getQuestionField(q, ["id", "ID", "表示管理番号", "問題番号"]);
+  const questionId = getQuestionDisplayId(q);
 
   sendLearningLog({
     userName: getUserName(),
@@ -279,7 +279,7 @@ function mark(ok) {
     correctCount: correct,
     totalCount: total,
     rate: rate
-});
+  });
 
   document.getElementById("judge").classList.add("hidden");
   document.getElementById("nextBtn").classList.remove("hidden");
@@ -311,15 +311,17 @@ function reportIssue() {
   const q = questions[index];
   if (!q) return;
 
-  const subject = `[教育クイズ 誤り報告] ${q.id || currentQuizTitle}`;
+  const displayId = getQuestionDisplayId(q);
+
+  const subject = `[教育クイズ 誤り報告] ${displayId || currentQuizTitle}`;
   const body = [
     "下記問題について確認をお願いします。",
     "",
     `分類: ${menuData.menu_name || currentGroup}`,
     `テーマ: ${currentQuizTitle}`,
-    `問題番号: ${q.id || ""}`,
-    `カテゴリー: ${q.category || ""}`,
-    `グレード: ${q.grade || ""}`,
+    `問題番号: ${displayId || ""}`,
+    `カテゴリー: ${getQuestionField(q, ["category", "表示カテゴリー", "カテゴリー"])}`,
+    `グレード: ${getQuestionField(q, ["grade", "グレード"])}`,
     "",
     "問題文:",
     getQuestionField(q, ["question", "問題", "問題文"]),
@@ -351,8 +353,8 @@ function setWeakStorage(data) {
 }
 
 function makeWeakKey(quizPath, question) {
-  const id = question.id || "";
-  const text = question.question || "";
+  const id = getQuestionDisplayId(question);
+  const text = getQuestionField(question, ["question", "問題", "問題文"]);
   return `${quizPath}__${id}__${text}`;
 }
 
@@ -362,8 +364,8 @@ function saveWeakQuestion(question, quizPath) {
 
   storage[key] = {
     quizPath: quizPath,
-    id: question.id || "",
-    question: question.question || ""
+    id: getQuestionDisplayId(question),
+    question: getQuestionField(question, ["question", "問題", "問題文"])
   };
 
   setWeakStorage(storage);
@@ -412,6 +414,17 @@ function shuffleArray(arr) {
   }
 }
 
+function getQuestionDisplayId(question) {
+  return getQuestionField(question, [
+    "display_id",
+    "displayId",
+    "表示管理番号",
+    "id",
+    "ID",
+    "問題番号"
+  ]);
+}
+
 function getQuestionField(question, keys) {
   if (!question || !Array.isArray(keys)) return "";
 
@@ -444,7 +457,6 @@ function escapeHtml(str) {
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#39;");
 }
-
 
 function getUserName() {
   const el = document.getElementById("userName");
@@ -482,4 +494,3 @@ function sendLearningLog(data) {
     body: JSON.stringify(data)
   }).catch(() => {});
 }
-
